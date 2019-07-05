@@ -10,7 +10,7 @@ const typescriptLoaderConfig = require("./webpack.typescript-loader");
 const PRODUCTION_ENV = process.env.NODE_ENV === "production";
 
 const config = {
-  entry: "./src/index.jsx",
+  entry: "./src/index.ts",
   module: {
     rules: [
       {
@@ -25,7 +25,7 @@ const config = {
     ]
   },
   resolve: {
-    extensions: ["*", ".js", ".jsx"]
+    extensions: ["*", ".js"]
   },
   output: {
     path: __dirname + "/public",

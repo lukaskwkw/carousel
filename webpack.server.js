@@ -25,7 +25,7 @@ const config = {
   // We don't serve bundle.js for server, so we can use dynamic external imports
   externals: [webpackNodeExternals()],
   resolve: {
-    extensions: ["*", ".js", ".jsx"]
+    extensions: ["*", ".js"]
   },
   // Tell webpack where to put the output file
   // that is generated

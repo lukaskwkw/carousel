@@ -2,15 +2,11 @@ const argv = require("yargs").argv;
 
 const glob = argv["_"] && argv["_"][0];
 
-const isJsTsxFiles = glob && /.{js,jsx,tsx}/.test(glob);
+const isJsTsxFiles = glob && /.{js,ts,tsx}/.test(glob);
 
 if (isJsTsxFiles) {
   module.exports = {
-    extends: [
-      "stylelint-config-recommended",
-      "stylelint-config-styled-components"
-    ],
-    processors: ["stylelint-processor-styled-components"]
+    extends: ["stylelint-config-recommended"]
   };
 }
 

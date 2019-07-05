@@ -1,6 +1,6 @@
 # Wrepp
 
-Simple boilerplate that include all good stuff - webpack, react, eslint, prettier and pre-hooks
+Simple boilerplate that include all good stuff - webpack, eslint, prettier and pre-hooks
 
 ## Prerequisites:
 

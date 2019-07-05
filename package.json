@@ -30,16 +30,12 @@
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
-    "@babel/preset-react": "^7.0.0",
     "@typescript-eslint/eslint-plugin": "^1.11.0",
     "@typescript-eslint/parser": "^1.11.0",
     "babel-loader": "^8.0.6",
     "babel-plugin-styled-components": "^1.10.6",
-    "babel-plugin-transform-react-pug": "^7.0.1",
     "css-loader": "^3.0.0",
     "eslint": "^6.0.1",
-    "eslint-plugin-react": "^7.14.2",
-    "eslint-plugin-react-pug": "^0.7.1",
     "html-webpack-plugin": "^3.2.0",
     "husky": "^3.0.0",
     "lint-staged": "^9.0.2",
@@ -65,12 +61,7 @@
     "webpack-node-externals": "^1.7.2"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.1",
-    "styled-components": "^4.3.2"
+    "express": "^4.17.1"
   },
   "husky": {
     "hooks": {
@@ -78,11 +69,11 @@
     }
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
+    "*.{js,ts}": [
       "eslint --fix",
       "git add"
     ],
-    "*.{js,jsx,tsx}": [
+    "*.{js}": [
       "stylelint --fix --config stylelint.config.js",
       "git add"
     ],
@@ -90,7 +81,7 @@
       "stylelint --fix --config stylelint.config.js",
       "git add"
     ],
-    "*.{js,jsx,tsx,css,scss,md}": [
+    "*.{js,css,scss,md}": [
       "prettier --write",
       "git add"
     ]
