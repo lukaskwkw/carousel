@@ -1,18 +1,12 @@
 const templateTodoInput = document.createElement("template");
 templateTodoInput.innerHTML = /* template */ `
     <style>
-        #new-todo-form {
-            position: relative;
-            font-size: 24px;
-            border-bottom: 1px solid #ededed;
-        }
-
         #new-todo {
             padding: 16px 16px 16px 60px;
             border: none;
-            background: rgba(0, 0, 0, 0.003);
+            background: white;
             position: relative;
-            margin: 0;
+            margin: 0 auto;
             width: 100%;
             font-size: 24px;
             font-family: inherit;
@@ -28,7 +22,7 @@ templateTodoInput.innerHTML = /* template */ `
         }
     </style>
     <form id="new-todo-form">
-        <input id="new-todo" type="text" placeholder="What needs to be done?" />
+        <input id="new-todo" type="text" placeholder="Say search for..." />
     </form>
 `;
 
@@ -42,7 +36,6 @@ export default class TodoInput extends HTMLElement {
   }
 
   connectedCallback() {
-    console.log("TodoInput ADDED TO THE DOM");
     this._root.appendChild(templateTodoInput.content.cloneNode(true));
     this.$form = this._root.querySelector("form");
     this.$input = this._root.querySelector("input");
@@ -56,7 +49,5 @@ export default class TodoInput extends HTMLElement {
     });
   }
 
-  disconnectedCallback() {
-    console.log("TodoInput REMOVED TO THE DOM");
-  }
+  disconnectedCallback() {}
 }

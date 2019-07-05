@@ -1,31 +1,42 @@
 import CarouselItem from "./carousel-item";
-import { css } from "../utils/helpers";
+import breakpoints from "../breakpoints";
+import * as _throttle from "lodash/throttle";
 
 const scaleRatio = 0.05;
 const templateTodo = document.createElement("template");
 
-const style = css`
+const style = `
   h1 {
-    font-size: 100px;
+    font-size: 96px;
     font-weight: 100;
     text-align: center;
     color: rgba(175, 47, 47, 0.15);
   }
+  
+  @media screen and (max-width: ${breakpoints.medium}px) {
+    h1 {
+      font-size: 64px;
+    }
+  }
+
+  @media screen and (max-width: ${breakpoints.small}px) {
+    h1 {
+      font-size: 32px;
+    }
+  }
 
   section {
-    background: #fff;
     margin: 30px 0 40px 0;
     position: relative;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   #list-container {
-    margin: 0;
+    margin-top: 32px;
+    position: relative;
     padding: 0;
-    list-style: none;
-    border: 1px solid #e6e6e6;
-    display: flex;
-    height: 200px;
   }
 `;
 
@@ -44,20 +55,49 @@ export default class MyTodo extends HTMLElement {
   _root;
   _list: any[];
   $input;
-  $listContainer;
+  $listContainer: HTMLElement;
   selectedIndex: number;
+  itemOffset: number;
+  itemSize: number;
 
   constructor() {
     super();
     this._root = this.attachShadow({ mode: "open" });
-    // initial state
     this._list = [
       { text: "my initial todo", selected: false },
-      { text: "Learn about Web Components", selected: true }
+      { text: "Learn about Web Components", selected: false },
+      { text: "Learn about Web Components", selected: true },
+      { text: "Learn about Web Components", selected: false },
+      { text: "Learn about Web Components", selected: false }
     ];
-    this.selectedIndex = 1;
+    this.selectedIndex = 2;
     this.toggleItem = this.toggleItem.bind(this);
     this.onCoverSelect = this.onCoverSelect.bind(this);
+    this.checkBreakpoints = this.checkBreakpoints.bind(this);
+    this.onResize = this.onResize.bind(this);
+  }
+
+  checkBreakpoints() {
+    const windowWidth = document.body.clientWidth;
+    if (windowWidth < breakpoints.small) {
+      this.itemOffset = 25;
+      this.itemSize = 200;
+      return;
+    }
+    if (windowWidth < breakpoints.medium) {
+      this.itemOffset = 50;
+      this.itemSize = 300;
+      return;
+    }
+    this.itemOffset = 100;
+    this.itemSize = 400;
+  }
+
+  onResize() {
+    _throttle(() => {
+      this.checkBreakpoints();
+      this._render();
+    }, 1500);
   }
 
   connectedCallback() {
@@ -65,6 +105,9 @@ export default class MyTodo extends HTMLElement {
     this.$input = this._root.querySelector("todo-input");
     this.$listContainer = this._root.querySelector("#list-container");
     this.$input.addEventListener("onSubmit", this.addItem.bind(this));
+    this.checkBreakpoints();
+    window.addEventListener("resize", this.onResize);
+
     this._render();
   }
 
@@ -92,16 +135,22 @@ export default class MyTodo extends HTMLElement {
     this._render();
   }
 
-  disconnectedCallback() {}
+  disconnectedCallback() {
+    window.removeEventListener("resize", this.onResize);
+  }
 
   _render() {
     if (!this.$listContainer) return;
-    // empty the list
     this.$listContainer.innerHTML = "";
+    const { length } = this._list;
+
     this._list.forEach((item, index) => {
       let $item = document.createElement("todo-item") as CarouselItem;
       $item.setAttribute("text", item.text);
+      $item.setAttribute("width", `${this.itemSize}px`);
+      $item.setAttribute("height", `${this.itemSize}px`);
 
+      //TODO: Clean-up render
       let forScale = 0;
       let zIndex = 0;
       if (index <= this.selectedIndex) {
@@ -114,23 +163,27 @@ export default class MyTodo extends HTMLElement {
       }
 
       $item.style["z-index"] = zIndex;
-      let scale = 1 - (this.selectedIndex - forScale) * scaleRatio;
+      const scale = 1 - (this.selectedIndex - forScale) * scaleRatio;
 
       if (item.scale) {
         $item.style["transform"] = `scale(${item.scale})`;
+      } else {
+        $item.style["transform"] = `scale(0.5)`;
       }
 
-      item.scale = scale;
       setTimeout(() => {
+        const opacityDowngrade = scale * 0.9;
+        const timeyDowngrade = 1000 * scale * 0.5;
         $item.style["transform"] = `scale(${scale})`;
-        $item.style["transition"] = `all ease-in-out ${1000 * scale * 0.5}ms`;
-      });
+        $item.style["opacity"] = `${opacityDowngrade}`;
+        $item.style["transition"] = `all ease-in-out ${timeyDowngrade}ms`;
+        item.scale = scale;
+      }, 100);
 
-      // setTimeout(() => {
-      //   $item.style["transform"] = `scale(${scale}) translate(-200px,0px)`;
-      // }, 2000);
+      this.$listContainer.style["width"] = `${(length - 1) * this.itemOffset +
+        this.itemSize}px`;
 
-      $item.style["left"] = `${index * 100}px`;
+      $item.style["left"] = `${index * this.itemOffset}px`;
       $item.selected = item.selected;
       $item.index = index;
       $item.addEventListener("onCoverSelect", this.onCoverSelect);
