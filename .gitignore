@@ -1,0 +1,10 @@
+node_modules/
+public/
+certs/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.log
+*.map
+todo.md
+bundle.js
