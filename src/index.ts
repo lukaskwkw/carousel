@@ -1,8 +1,8 @@
 import "./index.scss";
-import MyTodo from "./components/my-todo";
-import TodoInput from "./components/todo-input";
-import TodoItem from "./components/todo-item";
+import Carousel from "./components/carousel";
+import Searchbar from "./components/searchbar";
+import CarouselItem from "./components/carousel-item";
 
-window.customElements.define("my-todo", MyTodo);
-window.customElements.define("todo-input", TodoInput);
-window.customElements.define("todo-item", TodoItem);
+window.customElements.define("my-todo", Carousel);
+window.customElements.define("todo-input", Searchbar);
+window.customElements.define("todo-item", CarouselItem);

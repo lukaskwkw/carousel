@@ -15,12 +15,7 @@ const config = {
     rules: [
       {
         test: /\.s?css$/,
-        use: [
-          //todo: check this is it obsolete
-          !PRODUCTION_ENV ? "style-loader" : MiniCssExtractPlugin.loader,
-          "css-loader",
-          "sass-loader"
-        ]
+        use: ["style-loader", "css-loader", "sass-loader"]
       }
     ]
   },
@@ -41,14 +36,7 @@ const config = {
       ? [new TerserPlugin({}), new OptimizeCSSAssetsPlugin({})]
       : []
   },
-  plugins: [
-    new MiniCssExtractPlugin({
-      // Options similar to the same options in webpackOptions.output
-      // both options are optional
-      filename: "[name].css",
-      chunkFilename: "[id].css"
-    })
-  ]
+  plugins: []
 };
 
 // make separate webpack config just for webpack dev server
