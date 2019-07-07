@@ -1,3 +1,27 @@
+$breakpoint-small: 600px;
+$breakpoint-medium: 968px;
+$breakpoint-large: 1296px;
+
+@media screen and (max-width: $breakpoint-medium) {
+  :root {
+    --header-size: 64px;
+  }
+}
+
+@media screen and (max-width: $breakpoint-small) {
+  :root {
+    --header-size: 32px;
+  }
+}
+
+:root {
+  --perspective-distance: 700px;
+  --carousel-size: 300px;
+  --cricle-radius: -1759px;
+  // --cricle-radius: -559px;
+  // --cricle-radius: -259px;
+}
+
 body {
   background-color: #eee;
 }

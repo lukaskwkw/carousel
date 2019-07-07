@@ -1,7 +1,7 @@
 const templateTodoInput = document.createElement("template");
 templateTodoInput.innerHTML = /* template */ `
     <style>
-        #new-todo {
+        .searchbox {
             padding: 16px 16px 16px 60px;
             border: none;
             background: white;
@@ -21,8 +21,8 @@ templateTodoInput.innerHTML = /* template */ `
             box-sizing: border-box;
         }
     </style>
-    <form id="new-todo-form">
-        <input id="new-todo" type="text" placeholder="Say search for..." />
+    <form>
+        <input class="searchbox" type="text" placeholder="Say search for..." />
     </form>
 `;
 

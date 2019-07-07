@@ -8,11 +8,15 @@ const style = css`
     display: block;
     transition: all ease-in-out 1s;
     cursor: pointer;
+    width: var(--carousel-size);
+    height: var(--carousel-size);
+    transform-origin: 50% 50% var(--cricle-radius);
+    /* padding: 0 60px; */
+    /* top: 0;
+    left: 0; */
   }
 
   li.item {
-    width: inherit;
-    height: inherit;
     top: 0px;
     font-size: 24px;
     transition: all ease-in-out 0.5s;
@@ -23,6 +27,10 @@ const style = css`
     height: inherit;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
     overflow: hidden;
+  }
+
+  li.item.selected {
+    background: #f6f6f6;
   }
 
   li.item:not(.selected):hover {
@@ -37,10 +45,6 @@ const style = css`
     display: block;
     line-height: 1.2;
     transition: color 0.4s;
-  }
-
-  li.item.selected {
-    background: #f0f0f0;
   }
 `;
 
@@ -86,7 +90,7 @@ export default class CarouselItem extends HTMLElement {
   }
 
   static get observedAttributes() {
-    return ["text", "width", "height"];
+    return ["text"];
   }
 
   attributeChangedCallback(name, oldValue, newValue) {
@@ -99,14 +103,6 @@ export default class CarouselItem extends HTMLElement {
 
   get index() {
     return this._index;
-  }
-
-  set height(value) {
-    this.style["height"] = value;
-  }
-
-  set width(value) {
-    this.style["width"] = value;
   }
 
   set selected(value) {
