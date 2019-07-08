@@ -1,4 +1,5 @@
 import { css } from "../utils/helpers";
+import { Book, coverI } from "../model";
 
 const templateTodoItem = document.createElement("template");
 
@@ -30,7 +31,7 @@ const style = css`
   }
 
   li.item.selected {
-    background: #f6f6f6;
+    /* background: #f6f6f6; */
   }
 
   li.item:not(.selected):hover {
@@ -54,30 +55,44 @@ templateTodoItem.innerHTML = /* template */ `
     </style>
     <li class="item">
         <label></label>
+        <img />
     </li>
 `;
+
+enum ImageSize {
+  SMALL = "S",
+  MEDIUM = "M",
+  LARGE = "L"
+}
+
+interface CrreateImageUrl {
+  (id: coverI, size: ImageSize): string;
+}
+
+const createImageUrl: CrreateImageUrl = (id: coverI, size: ImageSize) =>
+  `https://covers.openlibrary.org/b/id/${id}-${size}.jpg`;
 
 export default class CarouselItem extends HTMLElement {
   _selected: boolean;
   _root: ShadowRoot;
-  _index: any;
-  text: string;
-  $item: any;
-  $text: any;
-  $checkbox: any;
+  _index: number;
+  _book: Book;
+  title: string;
+  src: string;
+  $item: HTMLElement;
+  $title: HTMLElement;
+  $img: HTMLElement;
 
   constructor() {
     super();
     this._root = this.attachShadow({ mode: "open" });
-    this._selected = this.selected;
-    this._index = this.index;
-    this.text = "";
   }
 
   connectedCallback() {
     this._root.appendChild(templateTodoItem.content.cloneNode(true));
     this.$item = this._root.querySelector(".item");
-    this.$text = this._root.querySelector("label");
+    this.$title = this._root.querySelector("label");
+    this.$img = this._root.querySelector("img");
 
     this.$item.addEventListener("click", e => {
       e.preventDefault();
@@ -90,7 +105,7 @@ export default class CarouselItem extends HTMLElement {
   }
 
   static get observedAttributes() {
-    return ["text"];
+    return ["book"];
   }
 
   attributeChangedCallback(name, oldValue, newValue) {
@@ -99,6 +114,17 @@ export default class CarouselItem extends HTMLElement {
 
   set index(value) {
     this._index = value;
+  }
+
+  set book(bookString: string) {
+    const book: Book = JSON.parse(bookString);
+    if (book.title) {
+      this.title = book.title;
+    }
+    if (book.cover_i) {
+      this.src = createImageUrl(book.cover_i, ImageSize.LARGE);
+    }
+    this._book = book;
   }
 
   get index() {
@@ -115,7 +141,13 @@ export default class CarouselItem extends HTMLElement {
 
   _render() {
     if (!this.$item) return;
-    this.$text.textContent = this.text;
+
+    this.$title.textContent = this.title;
+
+    if (this.src) {
+      this.$img.setAttribute("src", this.src);
+    }
+
     if (this._selected) {
       this.$item.classList.add("selected");
     } else {

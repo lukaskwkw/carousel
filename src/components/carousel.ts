@@ -1,12 +1,14 @@
 import CarouselItem from "./carousel-item";
-import breakpoints from "../breakpoints";
 import * as _throttle from "lodash/throttle";
+// import * as _debounce from "lodash/debounce";
 import { css } from "../utils/helpers";
 import { animateItem } from "../animation";
+import { Book } from "../model";
+import { getContent } from "../generator";
 
 const scaleRatio = 0.05;
 const templateTodo = document.createElement("template");
-const throttleClickTime = 1000;
+const throttleClickTime = 500;
 
 const style = css`
   h1 {
@@ -24,6 +26,10 @@ const style = css`
     align-items: center;
   }
 
+  .title {
+    font-size: 24px;
+  }
+
   .carousel {
     display: flex;
     perspective: var(--perspective-distance);
@@ -38,7 +44,7 @@ const style = css`
     position: relative;
     padding: 0;
     transform-style: preserve-3d;
-    padding: 0 300px;
+    padding: 0 var(--buttons-padding);
     transition: all ease-in-out 1s;
 
     width: var(--carousel-size);
@@ -54,6 +60,7 @@ templateTodo.innerHTML = /* template */ `
     <h1>Carousel of Books</h1>
     <section>
         <carousel-searchbox></carousel-searchbox>
+        <p class="title"></p>
         <div class="carousel">
           <button id="left"><<</button>
           <ul class="carousel-container"></ul>
@@ -62,11 +69,20 @@ templateTodo.innerHTML = /* template */ `
     </section>
 `;
 
+export interface ListItem extends Partial<Book> {
+  selected?: boolean;
+  transform?: string;
+  delayedImage?: Promise<any>;
+}
+
 export default class MyTodo extends HTMLElement {
   _root: ShadowRoot;
-  _list: any[];
+  _list: ListItem[] = [];
+  _bufferedList: ListItem[] = [];
+  _content: AsyncIterableIterator<any>;
   $input;
   $carouselContainer: HTMLElement;
+  $bookTitle: HTMLElement;
   selectedIndex: number;
   itemOffset: number;
   itemSize: number;
@@ -76,46 +92,20 @@ export default class MyTodo extends HTMLElement {
     super();
     this._root = this.attachShadow({ mode: "open" });
     this._list = [
-      { text: "1", selected: false, url: "http://placekitten.com/200/300" },
-      { text: "2", selected: false, url: "http://placekitten.com/200/300" },
-      { text: "3", selected: false, url: "http://placekitten.com/200/300" },
-      { text: "4", selected: false, url: "http://placekitten.com/200/300" },
-      { text: "5", selected: false, url: "http://placekitten.com/200/300" },
-      { text: "6", selected: false, url: "http://placekitten.com/200/300" }
+      { selected: false, title: "Pomarancze" },
+      { selected: false },
+      { selected: false },
+      { selected: false },
+      { selected: false },
+      { selected: false }
     ];
     this.selectedIndex = 2;
     this._list[this.selectedIndex]["selected"] = true;
 
     this.toggleItem = this.toggleItem.bind(this);
     this.onCoverSelect = this.onCoverSelect.bind(this);
-    this.checkBreakpoints = this.checkBreakpoints.bind(this);
-    this.onResize = this.onResize.bind(this);
+    this.search = this.search.bind(this);
     this.theta = (2 * Math.PI) / 82;
-    // const apothem = 300 / (2 * Math.tan(Math.PI / this._list.length));
-    // console.info({ apothem });
-  }
-
-  checkBreakpoints() {
-    const windowWidth = document.body.clientWidth;
-    if (windowWidth < breakpoints.small) {
-      this.itemOffset = 25;
-      this.itemSize = 200;
-      return;
-    }
-    if (windowWidth < breakpoints.medium) {
-      this.itemOffset = 50;
-      this.itemSize = 300;
-      return;
-    }
-    this.itemOffset = 100;
-    this.itemSize = 400;
-  }
-
-  onResize() {
-    _throttle(() => {
-      this.checkBreakpoints();
-      this._render();
-    }, 1500);
   }
 
   connectedCallback() {
@@ -124,6 +114,8 @@ export default class MyTodo extends HTMLElement {
     this.$carouselContainer = this._root.querySelector(".carousel-container");
     const buttonLeft = this._root.querySelector("#left");
     const buttonRight = this._root.querySelector("#right");
+    this.$bookTitle = this._root.querySelector(".title");
+
     buttonLeft.addEventListener(
       "click",
       _throttle(() => {
@@ -133,6 +125,7 @@ export default class MyTodo extends HTMLElement {
         }
       }, throttleClickTime)
     );
+
     buttonRight.addEventListener(
       "click",
       _throttle(() => {
@@ -143,16 +136,30 @@ export default class MyTodo extends HTMLElement {
       }, throttleClickTime)
     );
 
-    this.$input.addEventListener("onSubmit", this.addItem.bind(this));
-    this.checkBreakpoints();
-    // window.addEventListener("resize", this.onResize);
-
+    this.$input.addEventListener("onSubmit", this.search);
     this._render();
   }
 
-  addItem(event) {
-    this._list.push({ text: event.detail, selected: false });
-    this._render();
+  // addItem(event: CustomEvent) {
+  //   // this._list.push({ selected: false });
+  //   this._render();
+  // }
+
+  async search(event: CustomEvent) {
+    this._content = getContent(event.detail);
+
+    this._list = (await this._content.next()).value;
+
+    if (this._list && this._list.length > 0) {
+      this.selectedIndex = 0;
+      const renderAccumulated = _throttle(() => this._render(), 250);
+
+      for (let i = 0; i < this._list.length; i++) {
+        await this._list[i].delayedImage;
+
+        renderAccumulated();
+      }
+    }
   }
 
   toggleItem(itemIndex: number) {
@@ -169,30 +176,36 @@ export default class MyTodo extends HTMLElement {
     this.selectedIndex = newSelectedIndex;
   }
 
-  onCoverSelect(event: CustomEvent) {
+  async onCoverSelect(event: CustomEvent) {
     this.toggleItem(event.detail);
+    if (this._content) {
+      this._list = (await this._content.next(this.selectedIndex)).value;
+    }
     this._render();
   }
 
-  disconnectedCallback() {
-    window.removeEventListener("resize", this.onResize);
-  }
+  disconnectedCallback() {}
 
   _render() {
     if (!this.$carouselContainer) return;
     this.$carouselContainer.innerHTML = "";
-    const { length } = this._list;
-    // const theta = (2 * Math.PI) / length;
+    const { _list, selectedIndex } = this;
+    const { length } = _list;
 
-    this.$carouselContainer.style["transform"] = `rotateY(${this.selectedIndex *
+    this.$carouselContainer.style["transform"] = `rotateY(${selectedIndex *
       -this.theta}rad)`;
-    this._list.forEach((item, index) => {
+
+    //only book with image
+
+    this.$bookTitle.textContent = `${_list[selectedIndex].title} i: ${selectedIndex} am: ${length}`;
+
+    _list.forEach((item, index) => {
       let $item = document.createElement("carousel-item") as CarouselItem;
-      $item.setAttribute("text", item.text);
+      $item.setAttribute("book", JSON.stringify(item));
 
       animateItem(
         index,
-        this.selectedIndex,
+        selectedIndex,
         length,
         item,
         $item,

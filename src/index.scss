@@ -2,6 +2,15 @@ $breakpoint-small: 600px;
 $breakpoint-medium: 968px;
 $breakpoint-large: 1296px;
 
+:root {
+  --perspective-distance: 700px;
+  --carousel-size: 500px;
+  --cricle-radius: -1759px;
+  --buttons-padding: 500px;
+  // --cricle-radius: -559px;
+  // --cricle-radius: -259px;
+}
+
 @media screen and (max-width: $breakpoint-medium) {
   :root {
     --header-size: 64px;
@@ -14,12 +23,13 @@ $breakpoint-large: 1296px;
   }
 }
 
-:root {
-  --perspective-distance: 700px;
-  --carousel-size: 300px;
-  --cricle-radius: -1759px;
-  // --cricle-radius: -559px;
-  // --cricle-radius: -259px;
+@media screen and (max-width: $breakpoint-large) {
+  :root {
+    --header-size: 32px;
+    --carousel-size: 400px;
+    --cricle-radius: -1559px;
+    --buttons-padding: 300px;
+  }
 }
 
 body {

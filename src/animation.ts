@@ -28,11 +28,12 @@ export const animateItem = (
   if (item.transform) {
     $item.style["transform"] = item.transform;
   } else {
-    $item.style["transform"] = newTransform;
+    $item.style["transform"] = `rotateY(${2}rad) translateZ(${(1 - scale) *
+      -500}px)`;
   }
 
   setTimeout(() => {
-    const opacityDowngrade = scale * 0.9;
+    const opacityDowngrade = scale * 0.99;
     const timeDowngrade = 1000 * scale * 0.5;
 
     $item.style["transform"] = newTransform;
