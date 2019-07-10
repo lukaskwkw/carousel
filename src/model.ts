@@ -1,6 +1,6 @@
 //jscmd === 'details'
 
-export type coverI = string;
+export type coverI = number | string;
 type bibkeys = string;
 
 // const imageUrl = "https://covers.openlibrary.org/b/id/8314541-M.jpg";
@@ -24,8 +24,9 @@ interface FetchBooks {
 
 export interface Book {
   title: string;
-  author_name: string;
+  author_name: string[];
   cover_i: coverI;
   language?: string[];
+  last_modified_i?: number;
   // publisher?: string[];
 }

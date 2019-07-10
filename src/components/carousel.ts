@@ -1,10 +1,9 @@
 import CarouselItem from "./carousel-item";
 import * as _throttle from "lodash/throttle";
-// import * as _debounce from "lodash/debounce";
 import { css } from "../utils/helpers";
 import { animateItem } from "../animation";
 import { Book } from "../model";
-import { getContent } from "../generator";
+import { getContent, createSearchUrl } from "../generator/generator";
 
 const scaleRatio = 0.05;
 const templateTodo = document.createElement("template");
@@ -73,6 +72,7 @@ export interface ListItem extends Partial<Book> {
   selected?: boolean;
   transform?: string;
   delayedImage?: Promise<any>;
+  index: number;
 }
 
 export default class MyTodo extends HTMLElement {
@@ -84,22 +84,21 @@ export default class MyTodo extends HTMLElement {
   $carouselContainer: HTMLElement;
   $bookTitle: HTMLElement;
   selectedIndex: number;
-  itemOffset: number;
-  itemSize: number;
+  itemOffset: number = 6;
   theta: number;
 
   constructor() {
     super();
     this._root = this.attachShadow({ mode: "open" });
     this._list = [
-      { selected: false, title: "Pomarancze" },
-      { selected: false },
-      { selected: false },
-      { selected: false },
-      { selected: false },
-      { selected: false }
+      { index: 0, selected: false, title: "Pomarancze" },
+      { index: 1, selected: false },
+      { index: 2, selected: false },
+      { index: 3, selected: false },
+      { index: 4, selected: false },
+      { index: 5, selected: false }
     ];
-    this.selectedIndex = 2;
+    this.selectedIndex = 0;
     this._list[this.selectedIndex]["selected"] = true;
 
     this.toggleItem = this.toggleItem.bind(this);
@@ -118,9 +117,13 @@ export default class MyTodo extends HTMLElement {
 
     buttonLeft.addEventListener(
       "click",
-      _throttle(() => {
+      _throttle(async () => {
         if (this.selectedIndex > 0) {
-          this.toggleItem(--this.selectedIndex);
+          this.selectedIndex--;
+          this.toggleItem(this.selectedIndex);
+          if (this._content) {
+            this._list = (await this._content.next(this.selectedIndex)).value;
+          }
           this._render();
         }
       }, throttleClickTime)
@@ -128,9 +131,13 @@ export default class MyTodo extends HTMLElement {
 
     buttonRight.addEventListener(
       "click",
-      _throttle(() => {
+      _throttle(async () => {
         if (this.selectedIndex < this._list.length - 1) {
-          this.toggleItem(++this.selectedIndex);
+          this.selectedIndex++;
+          this.toggleItem(this.selectedIndex);
+          if (this._content) {
+            this._list = (await this._content.next(this.selectedIndex)).value;
+          }
           this._render();
         }
       }, throttleClickTime)
@@ -140,13 +147,9 @@ export default class MyTodo extends HTMLElement {
     this._render();
   }
 
-  // addItem(event: CustomEvent) {
-  //   // this._list.push({ selected: false });
-  //   this._render();
-  // }
-
   async search(event: CustomEvent) {
-    this._content = getContent(event.detail);
+    const searchUrl = createSearchUrl(event.detail);
+    this._content = getContent(searchUrl);
 
     this._list = (await this._content.next()).value;
 
@@ -189,17 +192,18 @@ export default class MyTodo extends HTMLElement {
   _render() {
     if (!this.$carouselContainer) return;
     this.$carouselContainer.innerHTML = "";
-    const { _list, selectedIndex } = this;
+    let { _list, selectedIndex } = this;
     const { length } = _list;
 
     this.$carouselContainer.style["transform"] = `rotateY(${selectedIndex *
       -this.theta}rad)`;
 
-    //only book with image
+    this.$bookTitle.textContent = `${
+      _list.find(item => item.index === selectedIndex).title
+    } index: ${selectedIndex}`;
 
-    this.$bookTitle.textContent = `${_list[selectedIndex].title} i: ${selectedIndex} am: ${length}`;
-
-    _list.forEach((item, index) => {
+    _list.forEach(item => {
+      const { index } = item;
       let $item = document.createElement("carousel-item") as CarouselItem;
       $item.setAttribute("book", JSON.stringify(item));
 
