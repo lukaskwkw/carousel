@@ -24,20 +24,26 @@ const createImageUrl: CrreateImageUrl = (id: coverI, size: ImageSize) =>
   `https://covers.openlibrary.org/b/id/${id}-${size}.jpg`;
 
 //TO-DO maybe clean cache after some MB?
-const ImageCache = [];
+const ImageCache: Set<any> = new Set();
 
 const preloadImage = (url: string) => {
   return new Promise(resolve => {
     const img = new Image();
     img.onload = () => resolve(url);
     img.src = url;
-    ImageCache.push(img);
+    ImageCache.add(img);
   });
+};
+
+const createDelayedImage = (url: coverI, size: ImageSize) => {
+  const src = createImageUrl(url, size);
+  return preloadImage(src);
 };
 
 export async function* getContent(url: string) {
   let nextUrl = "";
   let cache: ListItem[] = [];
+  let delayedImageCache: Promise<any>[] = [];
   let page = 1;
   let currentIndex = 0;
   let lastPage = false;
@@ -87,19 +93,33 @@ export async function* getContent(url: string) {
       nextUrl = `${url}&page=${++page}`;
     }
 
-    const ratio = Math.floor(currentIndex / offsetItems);
-    let sliceStart = 0;
-    if (ratio > 0) {
-      sliceStart = currentIndex - offsetItems;
+    const promisesSum = currentIndex + offsetItems * 2;
+    const promisesEnd =
+      promisesSum >= docsInBatch.length ? docsInBatch.length : promisesSum;
+
+    for (let i = delayedImageCache.length; i < promisesEnd; i++) {
+      const delayedImage = createDelayedImage(
+        docsInBatch[i].cover_i,
+        ImageSize.LARGE
+      );
+      delayedImageCache.push(delayedImage);
     }
 
     const sum = currentIndex + offsetItems;
     const end = sum >= docsInBatch.length ? docsInBatch.length : sum;
 
     for (let i = cache.length; i < end; i++) {
-      const src = createImageUrl(docsInBatch[i].cover_i, ImageSize.LARGE);
-      const delayedImage = preloadImage(src);
-      cache.push({ ...docsInBatch[i], index: i, delayedImage });
+      cache.push({
+        ...docsInBatch[i],
+        index: i,
+        delayedImage: delayedImageCache[i]
+      });
+    }
+
+    const ratio = Math.floor(currentIndex / offsetItems);
+    let sliceStart = 0;
+    if (ratio > 0) {
+      sliceStart = currentIndex - offsetItems;
     }
 
     currentIndex = yield cache.slice(sliceStart, end);

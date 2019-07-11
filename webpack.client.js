@@ -28,6 +28,7 @@ const config = {
     filename: "bundle.js"
   },
   devServer: {
+    host: "0.0.0.0",
     contentBase: "./public",
     historyApiFallback: true
   },

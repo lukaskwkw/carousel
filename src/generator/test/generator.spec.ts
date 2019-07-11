@@ -8,9 +8,11 @@ import response_page2 from "./response_page2";
 import { Book } from "../../model";
 import { ListItem } from "../../components/carousel";
 
+let imageCount = 0;
 //Image mock
 global["Image"] = function() {
   this.onload = function() {};
+  imageCount++;
 
   return {
     onload: this.onload,
@@ -152,5 +154,19 @@ describe("Testing generator with multiple documents", () => {
 
       expect(batchMapped).to.deep.equal(lastBooks);
     }
+  });
+});
+
+describe("Testing generator delayed images", () => {
+  beforeEach(() => {
+    imageCount = 0;
+    content = getContent(initialUrl);
+  });
+
+  it(`For the first iteration should start preloading ${batchLength *
+    2} images`, async () => {
+    const batch: ListItem[] = (await content.next(0)).value;
+
+    expect(imageCount).to.equal(batchLength * 2);
   });
 });

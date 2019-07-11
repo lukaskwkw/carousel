@@ -86,6 +86,7 @@ export default class MyTodo extends HTMLElement {
   selectedIndex: number;
   itemOffset: number = 6;
   theta: number;
+  throttledRender: Function;
 
   constructor() {
     super();
@@ -105,6 +106,8 @@ export default class MyTodo extends HTMLElement {
     this.onCoverSelect = this.onCoverSelect.bind(this);
     this.search = this.search.bind(this);
     this.theta = (2 * Math.PI) / 82;
+    this.throttledRender = _throttle(() => this._render(), 250);
+    this.throttledRender = this.throttledRender.bind(this);
   }
 
   connectedCallback() {
@@ -121,23 +124,16 @@ export default class MyTodo extends HTMLElement {
         if (this.selectedIndex > 0) {
           this.selectedIndex--;
           this.toggleItem(this.selectedIndex);
-          if (this._content) {
-            this._list = (await this._content.next(this.selectedIndex)).value;
-          }
-          this._render();
         }
       }, throttleClickTime)
     );
 
+    //TO-DO: Prevent move to next item when there is no more item
     buttonRight.addEventListener(
       "click",
       _throttle(async () => {
         this.selectedIndex++;
         this.toggleItem(this.selectedIndex);
-        if (this._content) {
-          this._list = (await this._content.next(this.selectedIndex)).value;
-        }
-        this._render();
       }, throttleClickTime)
     );
 
@@ -153,12 +149,9 @@ export default class MyTodo extends HTMLElement {
 
     if (this._list && this._list.length > 0) {
       this.selectedIndex = 0;
-      const renderAccumulated = _throttle(() => this._render(), 250);
 
       for (let i = 0; i < this._list.length; i++) {
-        await this._list[i].delayedImage;
-
-        renderAccumulated();
+        this._list[i].delayedImage.then(() => this.throttledRender());
       }
     }
   }
@@ -175,14 +168,18 @@ export default class MyTodo extends HTMLElement {
     this._list[newSelectedIndex] = { ...item, selected: true };
 
     this.selectedIndex = newSelectedIndex;
+
+    if (this._content) {
+      this._content.next(this.selectedIndex).then(iterator => {
+        this._list = iterator.value;
+        this.throttledRender();
+      });
+    }
+    this.throttledRender();
   }
 
-  async onCoverSelect(event: CustomEvent) {
+  onCoverSelect(event: CustomEvent) {
     this.toggleItem(event.detail);
-    if (this._content) {
-      this._list = (await this._content.next(this.selectedIndex)).value;
-    }
-    this._render();
   }
 
   disconnectedCallback() {}
