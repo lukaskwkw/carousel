@@ -1,13 +1,13 @@
 import CarouselItem from "./carousel-item";
 import * as _throttle from "lodash/throttle";
-import { css } from "../utils/helpers";
+import { css, delay } from "../utils/helpers";
 import { animateItem } from "../animation";
 import { Book } from "../model";
 import { getContent, createSearchUrl } from "../generator/generator";
 
 const scaleRatio = 0.05;
 const templateTodo = document.createElement("template");
-const throttleClickTime = 500;
+const minimalSwipeTime = 500;
 
 const style = css`
   h1 {
@@ -87,6 +87,8 @@ export default class MyTodo extends HTMLElement {
   itemOffset: number = 6;
   theta: number;
   throttledRender: Function;
+  carouselRun: boolean = false;
+  carouselPromise: Promise<any>;
 
   constructor() {
     super();
@@ -108,6 +110,9 @@ export default class MyTodo extends HTMLElement {
     this.theta = (2 * Math.PI) / 82;
     this.throttledRender = _throttle(() => this._render(), 250);
     this.throttledRender = this.throttledRender.bind(this);
+    this.startCarousel = this.startCarousel.bind(this);
+    this.swipeLeft = this.swipeLeft.bind(this);
+    this.swipeRight = this.swipeRight.bind(this);
   }
 
   connectedCallback() {
@@ -118,33 +123,56 @@ export default class MyTodo extends HTMLElement {
     const buttonRight = this._root.querySelector("#right");
     this.$bookTitle = this._root.querySelector(".title");
 
-    buttonLeft.addEventListener(
-      "click",
-      _throttle(async () => {
-        if (this.selectedIndex > 0) {
-          this.selectedIndex--;
-          this.toggleItem(this.selectedIndex);
-        }
-      }, throttleClickTime)
-    );
-
-    //TO-DO: Prevent move to next item when there is no more item
-    buttonRight.addEventListener(
-      "click",
-      _throttle(async () => {
-        this.selectedIndex++;
-        this.toggleItem(this.selectedIndex);
-      }, throttleClickTime)
-    );
+    buttonLeft.addEventListener("click", this.swipeLeft());
+    buttonRight.addEventListener("click", this.swipeRight());
 
     this.$input.addEventListener("onSubmit", this.search);
     this._render();
   }
 
+  swipeLeft(time: number = minimalSwipeTime) {
+    return _throttle(async () => {
+      if (this.selectedIndex > 0) {
+        this.selectedIndex--;
+        this.toggleItem(this.selectedIndex);
+      }
+    }, time);
+  }
+
+  swipeRight(time: number = minimalSwipeTime) {
+    return _throttle(async () => {
+      if (!this._list) {
+        return;
+      }
+
+      const item = this._list.find(
+        item => item.index === this.selectedIndex + 1
+      );
+      if (item) {
+        this.selectedIndex++;
+        this.toggleItem(this.selectedIndex);
+      }
+    }, time);
+  }
+
+  startCarousel() {
+    return new Promise(async resolve => {
+      const swipe = this.swipeRight();
+      this.carouselRun = true;
+
+      while (this.carouselRun) {
+        await delay(2000);
+        swipe();
+      }
+      resolve();
+    });
+  }
+
+  //TO-DO Sometime When second search is performed carousel is rotated wrong way
   async search(event: CustomEvent) {
+    this.carouselRun = false;
     const searchUrl = createSearchUrl(event.detail);
     this._content = getContent(searchUrl);
-
     this._list = (await this._content.next()).value;
 
     if (this._list && this._list.length > 0) {
@@ -153,6 +181,11 @@ export default class MyTodo extends HTMLElement {
       for (let i = 0; i < this._list.length; i++) {
         this._list[i].delayedImage.then(() => this.throttledRender());
       }
+
+      if (this.carouselPromise) {
+        await this.carouselPromise;
+      }
+      this.carouselPromise = this.startCarousel();
     }
   }
 
@@ -193,9 +226,11 @@ export default class MyTodo extends HTMLElement {
     this.$carouselContainer.style["transform"] = `rotateY(${selectedIndex *
       -this.theta}rad)`;
 
-    this.$bookTitle.textContent = `${
-      _list.find(item => item.index === selectedIndex).title
-    } index: ${selectedIndex}`;
+    const item = _list.find(item => item.index === selectedIndex);
+
+    if (item) {
+      this.$bookTitle.textContent = item.title;
+    }
 
     _list.forEach(item => {
       const { index } = item;
