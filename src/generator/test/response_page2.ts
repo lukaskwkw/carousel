@@ -1,4269 +1,6319 @@
 const response_page2 = {
-  start: 100,
-  num_found: 549,
-  numFound: 549,
-  docs: [
+  "start": 100,
+  "num_found": 174,
+  "numFound": 174,
+  "docs": [
     {
-      title_suggest: "The Lord of the Rings",
-      cover_i: 980436,
-      has_fulltext: false,
-      title: "The Lord of the Rings",
-      last_modified_i: 1526747392,
-      edition_count: 0,
-      author_alternative_name: [
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
+      "title_suggest": "Vor-Ort-Analytik f\u00fcr die Erkundung von kontaminierten Standorten",
+      "publisher": [
+        "Schmidt, Berlin"
       ],
-      seed: ["/works/OL14933493W", "/authors/OL26320A"],
-      author_name: ["J. R. R. Tolkien"],
-      key: "/works/OL14933493W",
-      text: [
-        "J. R. R. Tolkien",
-        "OL26320A",
-        "The Lord of the Rings",
-        "/works/OL14933493W",
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
+      "isbn": [
+        "3503074503",
+        "9783503074501"
       ],
-      author_key: ["OL26320A"],
-      type: "work",
-      ebook_count_i: 0
+      "has_fulltext": false,
+      "edition_count": 1,
+      "edition_key": [
+        "OL12746338M"
+      ],
+      "last_modified_i": 1419575672,
+      "title": "Vor-Ort-Analytik f\u00fcr die Erkundung von kontaminierten Standorten",
+      "author_name": [
+        "Baldur Barczewski",
+        "Katrin Batereau",
+        "Johannes Flachowsky"
+      ],
+      "cover_edition_key": "OL12746338M",
+      "seed": [
+        "/books/OL12746338M",
+        "/works/OL12746338M",
+        "/authors/OL4021663A",
+        "/authors/OL4021664A",
+        "/authors/OL4021665A"
+      ],
+      "first_publish_year": 2003,
+      "publish_year": [
+        2003
+      ],
+      "key": "/works/OL12746338M",
+      "text": [
+        "OL12746338M",
+        "3503074503",
+        "9783503074501",
+        "Baldur Barczewski",
+        "Katrin Batereau",
+        "Johannes Flachowsky",
+        "OL4021663A",
+        "OL4021664A",
+        "OL4021665A",
+        "Vor-Ort-Analytik f\u00fcr die Erkundung von kontaminierten Standorten",
+        "/works/OL12746338M",
+        "Schmidt, Berlin"
+      ],
+      "id_goodreads": [
+        "5236454"
+      ],
+      "publish_date": [
+        "January 1, 2003"
+      ],
+      "author_key": [
+        "OL4021663A",
+        "OL4021664A",
+        "OL4021665A"
+      ],
+      "type": "work",
+      "ebook_count_i": 0
     },
     {
-      title_suggest: "The Lord of the Rings",
-      cover_i: 510582,
-      subtitle: "The Fellowship of the Ring",
-      has_fulltext: false,
-      title: "The Lord of the Rings",
-      last_modified_i: 1525329011,
-      edition_count: 0,
-      author_name: ["Mark Cohen"],
-      seed: ["/works/OL8456213W", "/authors/OL2821360A"],
-      key: "/works/OL8456213W",
-      text: [
-        "The Fellowship of the Ring",
-        "Mark Cohen",
-        "OL2821360A",
-        "The Lord of the Rings",
-        "/works/OL8456213W"
+      "title_suggest": "Pharmazeutische Gesetzeskunde. Textsammlung f\u00fcr Studium und Praxis.",
+      "publisher": [
+        "Deutscher Apotheker Verlag"
       ],
-      author_key: ["OL2821360A"],
-      type: "work",
-      ebook_count_i: 0
+      "isbn": [
+        "9783769227901",
+        "3769227905"
+      ],
+      "has_fulltext": false,
+      "language": [
+        "ger"
+      ],
+      "edition_count": 1,
+      "edition_key": [
+        "OL9333144M"
+      ],
+      "last_modified_i": 1419575347,
+      "title": "Pharmazeutische Gesetzeskunde. Textsammlung f\u00fcr Studium und Praxis.",
+      "author_name": [
+        "J\u00fcrgen Fischer",
+        "Baldur Kohm",
+        "Herbert H\u00fcgel"
+      ],
+      "cover_edition_key": "OL9333144M",
+      "seed": [
+        "/books/OL9333144M",
+        "/works/OL9333144M",
+        "/authors/OL3238211A",
+        "/authors/OL3238212A",
+        "/authors/OL3238213A"
+      ],
+      "first_publish_year": 2001,
+      "publish_year": [
+        2001
+      ],
+      "key": "/works/OL9333144M",
+      "text": [
+        "OL9333144M",
+        "9783769227901",
+        "3769227905",
+        "J\u00fcrgen Fischer",
+        "Baldur Kohm",
+        "Herbert H\u00fcgel",
+        "OL3238211A",
+        "OL3238212A",
+        "OL3238213A",
+        "Pharmazeutische Gesetzeskunde. Textsammlung f\u00fcr Studium und Praxis.",
+        "/works/OL9333144M",
+        "Deutscher Apotheker Verlag"
+      ],
+      "id_goodreads": [
+        "6176625"
+      ],
+      "publish_date": [
+        "January 1, 2001"
+      ],
+      "author_key": [
+        "OL3238211A",
+        "OL3238212A",
+        "OL3238213A"
+      ],
+      "type": "work",
+      "ebook_count_i": 0
     },
     {
-      title_suggest: "The Lord of the Rings",
-      has_fulltext: false,
-      edition_count: 0,
-      last_modified_i: 1547622693,
-      title: "The Lord of the Rings",
-      author_alternative_name: [
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
+      "title_suggest": "Pharmazeutische Gesetzeskunde",
+      "edition_key": [
+        "OL3052965M"
       ],
-      seed: ["/works/OL16245357W", "/authors/OL26320A"],
-      author_name: ["J. R. R. Tolkien"],
-      key: "/works/OL16245357W",
-      text: [
-        "J. R. R. Tolkien",
-        "OL26320A",
-        "The Lord of the Rings",
-        "/works/OL16245357W",
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
+      "isbn": [
+        "3769205847",
+        "9783769205848"
       ],
-      author_key: ["OL26320A"],
-      type: "work",
-      ebook_count_i: 0
+      "has_fulltext": false,
+      "text": [
+        "OL3052965M",
+        "3769205847",
+        "9783769205848",
+        "Herbert H\u00fcgel",
+        "Fischer, J\u00fcrgen Rechtsanwalt",
+        "Baldur Kohm",
+        "Fischer, J\u00fcrgen, Rechtsanwalt.",
+        "Kohm, Baldur.",
+        "H\u00fcgel, Herbert, 1905-",
+        "OL6997442A",
+        "OL6999253A",
+        "OL3238212A",
+        "Law and legislation",
+        "Pharmacy",
+        "Einf\u00fchrung in die Rechtsgebiete und Textsammlung f\u00fcr Studium und Praxis",
+        "Pharmazeutische Gesetzeskunde",
+        "/works/OL18839824W",
+        "herausgegeben von Herbert H\u00fcgel, unter Mitarbeit von J\u00fcrgen Fischer und Baldur Kohm.",
+        "Deutscher Apothekar Verlag",
+        "82147330",
+        "Germany (West)"
+      ],
+      "author_name": [
+        "Herbert H\u00fcgel",
+        "Fischer, J\u00fcrgen Rechtsanwalt",
+        "Baldur Kohm"
+      ],
+      "seed": [
+        "/books/OL3052965M",
+        "/works/OL18839824W",
+        "/subjects/law_and_legislation",
+        "/subjects/pharmacy",
+        "/subjects/place:germany_(west)",
+        "/authors/OL6997442A",
+        "/authors/OL6999253A",
+        "/authors/OL3238212A"
+      ],
+      "contributor": [
+        "Fischer, J\u00fcrgen, Rechtsanwalt.",
+        "Kohm, Baldur.",
+        "H\u00fcgel, Herbert, 1905-"
+      ],
+      "author_key": [
+        "OL6997442A",
+        "OL6999253A",
+        "OL3238212A"
+      ],
+      "subject": [
+        "Law and legislation",
+        "Pharmacy"
+      ],
+      "title": "Pharmazeutische Gesetzeskunde",
+      "first_publish_year": 1981,
+      "type": "work",
+      "ebook_count_i": 0,
+      "publish_place": [
+        "Stuttgart"
+      ],
+      "edition_count": 1,
+      "key": "/works/OL18839824W",
+      "publish_date": [
+        "1981"
+      ],
+      "language": [
+        "ger"
+      ],
+      "lccn": [
+        "82147330"
+      ],
+      "last_modified_i": 1550400857,
+      "publisher": [
+        "Deutscher Apothekar Verlag"
+      ],
+      "publish_year": [
+        1981
+      ],
+      "place": [
+        "Germany (West)"
+      ]
     },
     {
-      title_suggest: "The Lord of the Rings",
-      cover_i: -1,
-      has_fulltext: false,
-      title: "The Lord of the Rings",
-      last_modified_i: 1547728707,
-      edition_count: 0,
-      author_alternative_name: [
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
+      "title_suggest": "Pharmazeutische Gesetzeskunde",
+      "edition_key": [
+        "OL1165997M"
       ],
-      seed: ["/works/OL14933426W", "/authors/OL26320A"],
-      author_name: ["J. R. R. Tolkien"],
-      key: "/works/OL14933426W",
-      text: [
-        "J. R. R. Tolkien",
-        "OL26320A",
-        "The Lord of the Rings",
-        "/works/OL14933426W",
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
+      "isbn": [
+        "3769215494",
+        "9783769215496"
       ],
-      author_key: ["OL26320A"],
-      type: "work",
-      ebook_count_i: 0
+      "has_fulltext": false,
+      "text": [
+        "OL1165997M",
+        "3769215494",
+        "9783769215496",
+        "Herbert H\u00fcgel",
+        "Fischer, J\u00fcrgen Rechtsanwalt",
+        "Baldur Kohm",
+        "Fischer, J\u00fcrgen, Rechtsanwalt.",
+        "Kohm, Baldur.",
+        "H\u00fcgel, Herbert, 1905-",
+        "OL6997442A",
+        "OL6999253A",
+        "OL3238212A",
+        "Drugs",
+        "Law and legislation",
+        "Pharmacy",
+        "Einf\u00fchrung in die Rechtsgebiete und Textsammlung f\u00fcr Studium und Praxis",
+        "Pharmazeutische Gesetzeskunde",
+        "/works/OL18920638W",
+        "begr\u00fcndet von Herbert H\u00fcgel ; herausgegeben von J\u00fcrgen Fischer, Baldur Kohm.",
+        "Deutscher Apotheker Verlag",
+        "94146915",
+        "Germany"
+      ],
+      "author_name": [
+        "Herbert H\u00fcgel",
+        "Fischer, J\u00fcrgen Rechtsanwalt",
+        "Baldur Kohm"
+      ],
+      "seed": [
+        "/books/OL1165997M",
+        "/works/OL18920638W",
+        "/subjects/drugs",
+        "/subjects/law_and_legislation",
+        "/subjects/pharmacy",
+        "/subjects/place:germany",
+        "/authors/OL6997442A",
+        "/authors/OL6999253A",
+        "/authors/OL3238212A"
+      ],
+      "contributor": [
+        "Fischer, J\u00fcrgen, Rechtsanwalt.",
+        "Kohm, Baldur.",
+        "H\u00fcgel, Herbert, 1905-"
+      ],
+      "author_key": [
+        "OL6997442A",
+        "OL6999253A",
+        "OL3238212A"
+      ],
+      "subject": [
+        "Drugs",
+        "Law and legislation",
+        "Pharmacy"
+      ],
+      "title": "Pharmazeutische Gesetzeskunde",
+      "first_publish_year": 1992,
+      "type": "work",
+      "ebook_count_i": 0,
+      "publish_place": [
+        "Stuttgart"
+      ],
+      "edition_count": 1,
+      "key": "/works/OL18920638W",
+      "publish_date": [
+        "1992"
+      ],
+      "language": [
+        "ger"
+      ],
+      "lccn": [
+        "94146915"
+      ],
+      "last_modified_i": 1550454050,
+      "publisher": [
+        "Deutscher Apotheker Verlag"
+      ],
+      "publish_year": [
+        1992
+      ],
+      "place": [
+        "Germany"
+      ]
     },
     {
-      title_suggest: "The Lord of the Rings",
-      has_fulltext: false,
-      edition_count: 0,
-      last_modified_i: 1547728545,
-      title: "The Lord of the Rings",
-      author_alternative_name: [
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
+      "title_suggest": "Gesprochene Sprache--transdisziplin\u00e4r",
+      "edition_key": [
+        "OL12828125M"
       ],
-      seed: ["/works/OL14926030W", "/authors/OL26320A"],
-      author_name: ["J. R. R. Tolkien"],
-      key: "/works/OL14926030W",
-      text: [
-        "J. R. R. Tolkien",
-        "OL26320A",
-        "The Lord of the Rings",
-        "/works/OL14926030W",
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
+      "isbn": [
+        "3631377304",
+        "9783631377307"
       ],
-      author_key: ["OL26320A"],
-      type: "work",
-      ebook_count_i: 0
+      "has_fulltext": false,
+      "text": [
+        "OL12828125M",
+        "3631377304",
+        "9783631377307",
+        "Gottfried Meinhold",
+        "Baldur Neuber",
+        "Beate Rues",
+        "Margret Braunlich (Editor)",
+        "Beate Rues (Editor)",
+        "Baldur Neuber (Editor)",
+        "OL1092097A",
+        "OL58935A",
+        "OL482911A",
+        "Speech",
+        "Transdisziplinar (Hallesche Schriften Zur Sprechwissenschaft Und Phonetik)",
+        "Gesprochene Sprache--transdisziplin\u00e4r",
+        "/works/OL19386350W",
+        "Peter Lang Publishing",
+        "Gesprochen Sprache"
+      ],
+      "author_name": [
+        "Gottfried Meinhold",
+        "Baldur Neuber",
+        "Beate Rues"
+      ],
+      "seed": [
+        "/books/OL12828125M",
+        "/works/OL19386350W",
+        "/subjects/speech",
+        "/authors/OL1092097A",
+        "/authors/OL58935A",
+        "/authors/OL482911A"
+      ],
+      "contributor": [
+        "Margret Braunlich (Editor)",
+        "Beate Rues (Editor)",
+        "Baldur Neuber (Editor)"
+      ],
+      "author_key": [
+        "OL1092097A",
+        "OL58935A",
+        "OL482911A"
+      ],
+      "subject": [
+        "Speech"
+      ],
+      "title": "Gesprochene Sprache--transdisziplin\u00e4r",
+      "publish_date": [
+        "August 2001"
+      ],
+      "type": "work",
+      "ebook_count_i": 0,
+      "edition_count": 1,
+      "key": "/works/OL19386350W",
+      "id_goodreads": [
+        "4363551"
+      ],
+      "publisher": [
+        "Peter Lang Publishing"
+      ],
+      "language": [
+        "ger"
+      ],
+      "last_modified_i": 1554190400,
+      "publish_year": [
+        2001
+      ],
+      "first_publish_year": 2001
     },
     {
-      title_suggest: "The Lord of the Rings",
-      has_fulltext: false,
-      edition_count: 0,
-      last_modified_i: 1547728744,
-      title: "The Lord of the Rings",
-      author_alternative_name: [
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
+      "title_suggest": "An den Grenzen der Machbarkeit",
+      "edition_key": [
+        "OL2275048M"
       ],
-      seed: ["/works/OL14933435W", "/authors/OL26320A"],
-      author_name: ["J. R. R. Tolkien"],
-      key: "/works/OL14933435W",
-      text: [
-        "J. R. R. Tolkien",
-        "OL26320A",
-        "The Lord of the Rings",
-        "/works/OL14933435W",
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
+      "isbn": [
+        "3700545967",
+        "9783700545965"
       ],
-      author_key: ["OL26320A"],
-      type: "work",
-      ebook_count_i: 0
+      "has_fulltext": false,
+      "text": [
+        "OL2275048M",
+        "3700545967",
+        "9783700545965",
+        "Herbert Franz",
+        "Gerolf Fritsch",
+        "Baldur Kozdon",
+        "Fritsch, Gerolf.",
+        "Kozdon, Baldur, 1938-",
+        "Franz, Herbert, 1908-",
+        "OL1061365A",
+        "OL1732085A",
+        "OL633408A",
+        "An den Grenzen der Machbarkeit",
+        "/works/OL19470136W",
+        "herausgegeben von Herbert Franz, Gerolf Fritsch, Baldur Kozdon.",
+        "Deuticke",
+        "89164828"
+      ],
+      "author_name": [
+        "Herbert Franz",
+        "Gerolf Fritsch",
+        "Baldur Kozdon"
+      ],
+      "seed": [
+        "/books/OL2275048M",
+        "/works/OL19470136W",
+        "/authors/OL1061365A",
+        "/authors/OL1732085A",
+        "/authors/OL633408A"
+      ],
+      "contributor": [
+        "Fritsch, Gerolf.",
+        "Kozdon, Baldur, 1938-",
+        "Franz, Herbert, 1908-"
+      ],
+      "author_key": [
+        "OL1061365A",
+        "OL1732085A",
+        "OL633408A"
+      ],
+      "title": "An den Grenzen der Machbarkeit",
+      "publish_date": [
+        "1988"
+      ],
+      "type": "work",
+      "ebook_count_i": 0,
+      "publish_place": [
+        "Wien"
+      ],
+      "edition_count": 1,
+      "key": "/works/OL19470136W",
+      "publisher": [
+        "Deuticke"
+      ],
+      "language": [
+        "ger"
+      ],
+      "lccn": [
+        "89164828"
+      ],
+      "last_modified_i": 1554279379,
+      "publish_year": [
+        1988
+      ],
+      "first_publish_year": 1988
     },
     {
-      title_suggest: "The Lord of the Rings",
-      has_fulltext: false,
-      edition_count: 0,
-      last_modified_i: 1547728489,
-      title: "The Lord of the Rings",
-      author_alternative_name: [
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
+      "title_suggest": "HAKON JARL HIIN RIGE ; BALDUR HIIN GODE ; PALNATOKE",
+      "publish_place": [
+        "COPENHAGEN"
       ],
-      seed: ["/works/OL14926051W", "/authors/OL26320A"],
-      author_name: ["J. R. R. Tolkien"],
-      key: "/works/OL14926051W",
-      text: [
-        "J. R. R. Tolkien",
-        "OL26320A",
-        "The Lord of the Rings",
-        "/works/OL14926051W",
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
+      "has_fulltext": false,
+      "edition_count": 1,
+      "edition_key": [
+        "OL21946754M"
       ],
-      author_key: ["OL26320A"],
-      type: "work",
-      ebook_count_i: 0
+      "last_modified_i": 1260862584,
+      "title": "HAKON JARL HIIN RIGE ; BALDUR HIIN GODE ; PALNATOKE",
+      "publisher": [
+        "DET NORDISKE FORLAG"
+      ],
+      "author_name": [
+        "Adam Gottlob Oehlenschl\u00e4ger"
+      ],
+      "seed": [
+        "/books/OL21946754M",
+        "/works/OL4525365W",
+        "/authors/OL909371A"
+      ],
+      "key": "/works/OL4525365W",
+      "text": [
+        "OL21946754M",
+        "Adam Gottlob Oehlenschl\u00e4ger",
+        "OL909371A",
+        "HAKON JARL HIIN RIGE ; BALDUR HIIN GODE ; PALNATOKE",
+        "/works/OL4525365W",
+        "DET NORDISKE FORLAG",
+        "HAKON JARL HIIN RIGE ; BALDUR HIIN GODE ; PALNATOKE."
+      ],
+      "author_key": [
+        "OL909371A"
+      ],
+      "type": "work",
+      "ebook_count_i": 0
     },
     {
-      title_suggest: "The Lord Of The Rings",
-      cover_i: -1,
-      has_fulltext: false,
-      title: "The Lord Of The Rings",
-      last_modified_i: 1547729673,
-      edition_count: 0,
-      author_alternative_name: [
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
-      ],
-      seed: ["/works/OL17504415W", "/authors/OL26320A"],
-      author_name: ["J. R. R. Tolkien"],
-      key: "/works/OL17504415W",
-      text: [
-        "J. R. R. Tolkien",
-        "OL26320A",
-        "The Lord Of The Rings",
-        "/works/OL17504415W",
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
-      ],
-      author_key: ["OL26320A"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "The Lord of the Rings",
-      has_fulltext: false,
-      edition_count: 0,
-      last_modified_i: 1547729394,
-      title: "The Lord of the Rings",
-      author_alternative_name: [
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
-      ],
-      seed: ["/works/OL9469205W", "/authors/OL26320A"],
-      author_name: ["J. R. R. Tolkien"],
-      key: "/works/OL9469205W",
-      text: [
-        "J. R. R. Tolkien",
-        "OL26320A",
-        "The Lord of the Rings",
-        "/works/OL9469205W",
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
-      ],
-      author_key: ["OL26320A"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "The Lord of the Rings",
-      cover_i: -1,
-      has_fulltext: false,
-      title: "The Lord of the Rings",
-      last_modified_i: 1547729472,
-      edition_count: 0,
-      author_alternative_name: [
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
-      ],
-      seed: ["/works/OL14933529W", "/authors/OL26320A"],
-      author_name: ["J. R. R. Tolkien"],
-      key: "/works/OL14933529W",
-      text: [
-        "J. R. R. Tolkien",
-        "OL26320A",
-        "The Lord of the Rings",
-        "/works/OL14933529W",
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
-      ],
-      author_key: ["OL26320A"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "The Lord of the Rings",
-      cover_i: -1,
-      has_fulltext: false,
-      title: "The Lord of the Rings",
-      last_modified_i: 1547728258,
-      edition_count: 0,
-      author_alternative_name: [
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
-      ],
-      seed: ["/works/OL14933439W", "/authors/OL26320A"],
-      author_name: ["J. R. R. Tolkien"],
-      key: "/works/OL14933439W",
-      text: [
-        "J. R. R. Tolkien",
-        "OL26320A",
-        "The Lord of the Rings",
-        "/works/OL14933439W",
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
-      ],
-      author_key: ["OL26320A"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "The Lord of the Rings",
-      has_fulltext: false,
-      edition_count: 0,
-      last_modified_i: 1547728136,
-      title: "The Lord of the Rings",
-      author_alternative_name: [
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
-      ],
-      seed: ["/works/OL27447W", "/authors/OL26320A"],
-      author_name: ["J. R. R. Tolkien"],
-      key: "/works/OL27447W",
-      text: [
-        "J. R. R. Tolkien",
-        "OL26320A",
-        "The Lord of the Rings",
-        "/works/OL27447W",
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
-      ],
-      author_key: ["OL26320A"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "The Lord of the Rings",
-      cover_i: -1,
-      has_fulltext: false,
-      title: "The Lord of the Rings",
-      last_modified_i: 1547728345,
-      edition_count: 0,
-      author_alternative_name: [
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
-      ],
-      seed: ["/works/OL265321W", "/authors/OL26320A"],
-      author_name: ["J. R. R. Tolkien"],
-      key: "/works/OL265321W",
-      text: [
-        "J. R. R. Tolkien",
-        "OL26320A",
-        "The Lord of the Rings",
-        "/works/OL265321W",
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
-      ],
-      author_key: ["OL26320A"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "The Lord of the Rings",
-      cover_i: -1,
-      has_fulltext: false,
-      title: "The Lord of the Rings",
-      last_modified_i: 1558470667,
-      edition_count: 0,
-      author_alternative_name: [
-        "J R R Tolkien",
-        "J. R. R. Tolkin",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein",
-        "J. R. R. Tolkein",
-        "Dzhon R. R. Tolkin",
-        "J.R.R.Tolkien",
-        "J.R.R. Tolkien"
-      ],
-      seed: ["/works/OL14926032W", "/authors/OL26320A"],
-      author_name: ["J. R. R. Tolkien"],
-      key: "/works/OL14926032W",
-      text: [
-        "J. R. R. Tolkien",
-        "OL26320A",
-        "The Lord of the Rings",
-        "/works/OL14926032W",
-        "J R R Tolkien",
-        "J. R. R. Tolkin",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein",
-        "J. R. R. Tolkein",
-        "Dzhon R. R. Tolkin",
-        "J.R.R.Tolkien",
-        "J.R.R. Tolkien"
-      ],
-      author_key: ["OL26320A"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "Realm of the Ring Lord",
-      edition_key: ["OL74386M", "OL12268325M"],
-      cover_i: 3045951,
-      isbn: ["1903773075", "9781903773079"],
-      has_fulltext: false,
-      text: [
-        "OL74386M",
-        "OL12268325M",
-        "1903773075",
-        "9781903773079",
-        "Laurence Gardner",
-        "40482380",
-        "OL50039A",
-        "Lecture",
-        "lettura junghiana di alcuni film d'autore",
-        "Realm of the Ring Lord",
-        "Andrea Enrile.",
-        "Motion pictures",
-        "Psychological aspects of Motion pictures",
-        "Psychological aspects",
-        "/works/OL646325W",
-        "MediaQuest",
-        "Minotauro",
-        "Interiors",
-        "99175960"
-      ],
-      author_name: ["Laurence Gardner"],
-      seed: [
-        "/books/OL74386M",
-        "/books/OL12268325M",
-        "/works/OL646325W",
-        "/subjects/motion_pictures",
-        "/subjects/psychological_aspects",
-        "/subjects/psychological_aspects_of_motion_pictures",
-        "/authors/OL50039A"
-      ],
-      oclc: ["40482380"],
-      author_key: ["OL50039A"],
-      subject: [
-        "Motion pictures",
-        "Psychological aspects of Motion pictures",
-        "Psychological aspects"
-      ],
-      title: "Realm of the Ring Lord",
-      publish_date: ["1998", "October 2001"],
-      type: "work",
-      ebook_count_i: 0,
-      publish_place: ["Roma"],
-      edition_count: 2,
-      key: "/works/OL646325W",
-      id_goodreads: ["489110"],
-      publisher: ["MediaQuest", "Minotauro"],
-      language: ["ita"],
-      lccn: ["99175960"],
-      last_modified_i: 1291450942,
-      cover_edition_key: "OL12268325M",
-      publish_year: [1998, 2001],
-      first_publish_year: 1998
-    },
-    {
-      title_suggest: 'Gollum ("Lord of the Rings")',
-      edition_key: ["OL9217767M", "OL7263052M"],
-      cover_i: 11903,
-      isbn: ["9780007170579", "0007170572"],
-      has_fulltext: false,
-      text: [
-        "OL9217767M",
-        "OL7263052M",
-        "9780007170579",
-        "0007170572",
-        "Andy Serkis",
-        "OL1400080A",
-        'Gollum ("Lord of the Rings")',
-        "/works/OL5754682W",
-        "Collins"
-      ],
-      author_name: ["Andy Serkis"],
-      seed: [
-        "/books/OL9217767M",
-        "/books/OL7263052M",
-        "/works/OL5754682W",
-        "/authors/OL1400080A"
-      ],
-      author_key: ["OL1400080A"],
-      title: 'Gollum ("Lord of the Rings")',
-      publish_date: ["December 1, 2003"],
-      type: "work",
-      ebook_count_i: 0,
-      edition_count: 2,
-      key: "/works/OL5754682W",
-      id_goodreads: ["477217"],
-      publisher: ["Collins"],
-      last_modified_i: 1281577706,
-      id_librarything: ["5792"],
-      cover_edition_key: "OL9217767M",
-      publish_year: [2003],
-      first_publish_year: 2003
-    },
-    {
-      title_suggest: "Realm of the Ring Lords",
-      publisher: ["MediaQuest"],
-      isbn: ["0953768694", "9780953768691"],
-      has_fulltext: false,
-      edition_count: 1,
-      edition_key: ["OL11620056M"],
-      last_modified_i: 1419577629,
-      title: "Realm of the Ring Lords",
-      author_name: ["Laurence Gardner", "Adrian Wagner"],
-      cover_edition_key: "OL11620056M",
-      seed: [
-        "/books/OL11620056M",
-        "/works/OL11620056M",
-        "/authors/OL50039A",
-        "/authors/OL3684075A"
-      ],
-      first_publish_year: 2001,
-      publish_year: [2001],
-      key: "/works/OL11620056M",
-      text: [
-        "OL11620056M",
-        "0953768694",
-        "9780953768691",
-        "Laurence Gardner",
-        "Adrian Wagner",
-        "OL50039A",
-        "OL3684075A",
-        "Beyond the Portal of the Twilight World",
-        "Realm of the Ring Lords",
-        "/works/OL11620056M",
-        "MediaQuest"
-      ],
-      id_goodreads: ["660939"],
-      publish_date: ["February 28, 2001"],
-      author_key: ["OL50039A", "OL3684075A"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "Lord of the Rings Enhanced",
-      edition_key: ["OL12579408M"],
-      isbn: ["5555630115", "9785555630117"],
-      has_fulltext: false,
-      edition_count: 1,
-      last_modified_i: 1272134736,
-      title: "Lord of the Rings Enhanced",
-      author_name: ["Interplay"],
-      seed: ["/books/OL12579408M", "/works/OL9870213W", "/authors/OL3853219A"],
-      key: "/works/OL9870213W",
-      text: [
-        "OL12579408M",
-        "5555630115",
-        "9785555630117",
-        "Interplay",
-        "OL3853219A",
-        "Lord of the Rings Enhanced",
-        "/works/OL9870213W"
-      ],
-      id_goodreads: ["6669620"],
-      author_key: ["OL3853219A"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "Lord of the Living Ring",
-      edition_key: ["OL8489393M"],
-      cover_i: 1811146,
-      isbn: ["142088526X", "9781420885262"],
-      has_fulltext: false,
-      text: [
-        "OL8489393M",
-        "142088526X",
-        "9781420885262",
-        "Beldeu Singh",
-        "OL2992550A",
-        "Lord of the Living Ring",
-        "/works/OL8781438W",
-        "Authorhouse"
-      ],
-      author_name: ["Beldeu Singh"],
-      seed: ["/books/OL8489393M", "/works/OL8781438W", "/authors/OL2992550A"],
-      author_key: ["OL2992550A"],
-      title: "Lord of the Living Ring",
-      publish_date: ["October 31, 2005"],
-      type: "work",
-      ebook_count_i: 0,
-      edition_count: 1,
-      key: "/works/OL8781438W",
-      id_goodreads: ["1788092"],
-      publisher: ["Authorhouse"],
-      language: ["eng"],
-      last_modified_i: 1272448156,
-      cover_edition_key: "OL8489393M",
-      publish_year: [2005],
-      first_publish_year: 2005
-    },
-    {
-      title_suggest: "Realm of the Ring Lords",
-      publisher: ["MediaQuest"],
-      edition_key: ["OL12268324M"],
-      isbn: ["1903773008", "9781903773000"],
-      has_fulltext: false,
-      edition_count: 1,
-      oclc: ["50427308"],
-      last_modified_i: 1419576406,
-      title: "Realm of the Ring Lords",
-      author_name: ["Laurence Gardner", "Adrian Wagner"],
-      cover_edition_key: "OL12268324M",
-      seed: [
-        "/books/OL12268324M",
-        "/works/OL12268324M",
-        "/authors/OL50039A",
-        "/authors/OL3684075A"
-      ],
-      first_publish_year: 2001,
-      publish_year: [2001],
-      key: "/works/OL12268324M",
-      text: [
-        "OL12268324M",
-        "1903773008",
-        "9781903773000",
-        "Laurence Gardner",
-        "Adrian Wagner",
-        "50427308",
-        "OL50039A",
-        "OL3684075A",
-        "Beyond the Portal of the Twilight World",
-        "Realm of the Ring Lords",
-        "/works/OL12268324M",
-        "MediaQuest"
-      ],
-      id_goodreads: ["2416127"],
-      publish_date: ["February 28, 2001"],
-      author_key: ["OL50039A", "OL3684075A"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "War lords of the ring.",
-      publish_place: ["London"],
-      has_fulltext: false,
-      language: ["eng"],
-      edition_count: 1,
-      edition_key: ["OL15476075M"],
-      last_modified_i: 1419577391,
-      title: "War lords of the ring.",
-      publisher: ["Gemini Vision"],
-      seed: [
-        "/books/OL15476075M",
-        "/works/OL15476075M",
-        "/subjects/wrestling."
-      ],
-      key: "/works/OL15476075M",
-      text: [
-        "OL15476075M",
-        "War lords of the ring.",
-        "Wrestling.",
-        "/works/OL15476075M",
-        "Gemini Vision"
-      ],
-      subject: ["Wrestling."],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "Lord of the gas rings.",
-      publisher: ["Bright books."],
-      has_fulltext: false,
-      language: ["eng"],
-      edition_count: 1,
-      edition_key: ["OL20505368M"],
-      last_modified_i: 1419575747,
-      title: "Lord of the gas rings.",
-      seed: ["/books/OL20505368M", "/works/OL20505368M"],
-      key: "/works/OL20505368M",
-      text: [
-        "OL20505368M",
-        "Lord of the gas rings.",
-        "/works/OL20505368M",
-        "Bright books."
-      ],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "Lord Gnome of the Rings",
-      publish_place: ["London"],
-      has_fulltext: false,
-      language: ["eng"],
-      edition_count: 1,
-      edition_key: ["OL19882552M"],
-      last_modified_i: 1264401896,
-      title: "Lord Gnome of the Rings",
-      publisher: ["A Deutsch/Private Eye"],
-      author_name: ["PRIVATE EYE."],
-      seed: ["/books/OL19882552M", "/works/OL12919947W", "/authors/OL5849386A"],
-      first_publish_year: 1976,
-      publish_year: [1976],
-      key: "/works/OL12919947W",
-      text: [
-        "OL19882552M",
-        "PRIVATE EYE.",
-        "OL5849386A",
-        'the best of "Private Eye".',
-        "Lord Gnome of the Rings",
-        "/works/OL12919947W",
-        "A Deutsch/Private Eye"
-      ],
-      publish_date: ["1976"],
-      author_key: ["OL5849386A"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "Lord Gnome of the rings",
-      publish_place: ["London"],
-      isbn: ["023396827X", "9780233968278"],
-      has_fulltext: false,
-      language: ["eng"],
-      edition_count: 1,
-      edition_key: ["OL20645257M"],
-      last_modified_i: 1550468819,
-      title: "Lord Gnome of the rings",
-      publisher: ["A. Deutsch", "Private Eye Productions"],
-      id_librarything: ["1995530"],
-      seed: [
-        "/books/OL20645257M",
-        "/works/OL18936389W",
-        "/subjects/english_wit_and_humor",
-        "/subjects/pictorial_english_wit_and_humor"
-      ],
-      first_publish_year: 1976,
-      publish_year: [1976],
-      key: "/works/OL18936389W",
-      text: [
-        "OL20645257M",
-        "023396827X",
-        "9780233968278",
-        "English wit and humor",
-        "Pictorial English wit and humor",
-        "the best of Private eye.",
-        "Lord Gnome of the rings",
-        "/works/OL18936389W",
-        "A. Deutsch",
-        "Private Eye Productions",
-        "Private eye."
-      ],
-      id_goodreads: ["3235505"],
-      publish_date: ["1976"],
-      subject: ["English wit and humor", "Pictorial English wit and humor"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "The Hobbit / The Lord of the Rings",
-      edition_key: [
-        "OL10236416M",
-        "OL7591516M",
-        "OL9619792M",
-        "OL7466533M",
-        "OL7603172M",
-        "OL8663980M",
-        "OL9216964M",
-        "OL7262249M",
-        "OL26768732M",
-        "OL26063706M"
-      ],
-      cover_i: 255844,
-      isbn: [
-        "0395489075",
-        "0618002251",
-        "0345538374",
-        "9780345538376",
-        "0261103563",
-        "0007355149",
-        "9780395489079",
-        "0345340426",
-        "1565117077",
-        "9780458923403",
-        "9780007144082",
-        "9781565117075",
-        "9780007355143",
-        "9780618002252",
-        "0458923400",
-        "9780261103566",
-        "9780345340429",
-        "0007144083"
-      ],
-      has_fulltext: false,
-      text: [
-        "OL10236416M",
-        "OL7591516M",
-        "OL9619792M",
-        "OL7466533M",
-        "OL7603172M",
-        "OL8663980M",
-        "OL9216964M",
-        "OL7262249M",
-        "OL26768732M",
-        "OL26063706M",
-        "0395489075",
-        "0618002251",
-        "0345538374",
-        "9780345538376",
-        "0261103563",
-        "0007355149",
-        "9780395489079",
-        "0345340426",
-        "1565117077",
-        "9780458923403",
-        "9780007144082",
-        "9781565117075",
-        "9780007355143",
-        "9780618002252",
-        "0458923400",
-        "9780261103566",
-        "9780345340429",
-        "0007144083",
-        "J. R. R. Tolkien",
-        "52751474",
-        "OL26320A",
-        "The Lord of the Rings",
-        "The Return of the King; with THE HOBBIT",
-        "The Hobbit / The Lord of the Rings",
-        "/works/OL15333194W",
-        "Del Rey",
-        "Unwin Paperbacks",
-        "HarperCollins Publishers Ltd",
-        "Del Rey Books",
-        "Houghton Mifflin",
-        "Harpercollins",
-        "Collins",
-        "Highbridge Audio",
-        "The Lord of the Rings & The Hobbit",
-        "J.R.R. Tolkien Boxed Set (The Hobbit and The Lord of the Rings)",
-        "The Lord of the Rings and The Hobbit",
-        "The Hobbit and The Lord of the Rings",
-        "THE LORD OF THE RINGS: Book (1) One: The Fellowship of the Ring; Book (2) Two: The Two Towers; Book (3) Three",
-        "The Hobbit And The Lord Of The Rings The Hobbit The Fellowship Of The Ring The Two Towers The Return Of The King",
-        "The Hobbit & The Lord of the Rings",
-        "J. R. R. Tolkein",
-        "Dzhon R. R. Tolkin",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein",
-        "J. R. R. Tolkin"
-      ],
-      author_name: ["J. R. R. Tolkien"],
-      seed: [
-        "/books/OL10236416M",
-        "/books/OL7591516M",
-        "/books/OL9619792M",
-        "/books/OL7466533M",
-        "/books/OL7603172M",
-        "/books/OL8663980M",
-        "/books/OL9216964M",
-        "/books/OL7262249M",
-        "/books/OL26768732M",
-        "/books/OL26063706M",
-        "/works/OL15333194W",
-        "/subjects/the_lord_of_the_rings",
-        "/authors/OL26320A"
-      ],
-      author_alternative_name: [
-        "J. R. R. Tolkein",
-        "Dzhon R. R. Tolkin",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein",
-        "J. R. R. Tolkin"
-      ],
-      author_key: ["OL26320A"],
-      subject: ["The Lord of the Rings"],
-      title: "The Hobbit / The Lord of the Rings",
-      publish_date: [
-        "1997 November 3",
-        "October 10, 2002",
-        "1982",
-        "September 15, 1999",
-        "October 7, 2002",
-        "Apr 01, 2010",
-        "October 2, 1988",
-        "September 12, 1986",
-        "2012"
-      ],
-      type: "work",
-      ebook_count_i: 0,
-      edition_count: 10,
-      key: "/works/OL15333194W",
-      id_goodreads: [
-        "598925",
-        "15752022",
-        "18509",
-        "837612",
-        "15382",
-        "899771",
-        "15336"
-      ],
-      publisher: [
-        "Del Rey",
-        "Unwin Paperbacks",
-        "HarperCollins Publishers Ltd",
-        "Del Rey Books",
-        "Houghton Mifflin",
-        "Harpercollins",
-        "Collins",
-        "Highbridge Audio"
-      ],
-      language: ["eng"],
-      last_modified_i: 1556816656,
-      id_librarything: ["4881", "1386651"],
-      cover_edition_key: "OL7466533M",
-      publish_year: [1986, 1982, 1999, 1988, 2002, 2010, 2012],
-      first_publish_year: 1982,
-      oclc: ["52751474"]
-    },
-    {
-      title_suggest: "The Lord of the Rings - The Fellowship of the Ring",
-      edition_key: ["OL10905390M"],
-      cover_i: 2605854,
-      isbn: ["0761540881", "9780761540885"],
-      has_fulltext: false,
-      text: [
-        "OL10905390M",
-        "0761540881",
-        "9780761540885",
-        "Scruffy Productions",
-        "OL2838674A",
-        "The Lord of the Rings - The Fellowship of the Ring",
-        "/works/OL8496085W",
-        "Prima Games"
-      ],
-      author_name: ["Scruffy Productions"],
-      seed: ["/books/OL10905390M", "/works/OL8496085W", "/authors/OL2838674A"],
-      author_key: ["OL2838674A"],
-      title: "The Lord of the Rings - The Fellowship of the Ring",
-      publish_date: ["October 2002"],
-      type: "work",
-      ebook_count_i: 0,
-      edition_count: 1,
-      key: "/works/OL8496085W",
-      id_goodreads: ["470270"],
-      publisher: ["Prima Games"],
-      language: ["eng"],
-      last_modified_i: 1293241488,
-      cover_edition_key: "OL10905390M",
-      publish_year: [2002],
-      first_publish_year: 2002
-    },
-    {
-      title_suggest: 'The "Lord of the Rings - The Fellowship of the Rings"',
-      publisher: ["Prima Games"],
-      isbn: ["9780761541769", "0761541764"],
-      has_fulltext: false,
-      edition_count: 1,
-      edition_key: ["OL10905393M"],
-      last_modified_i: 1272132630,
-      title: 'The "Lord of the Rings - The Fellowship of the Rings"',
-      author_name: ["Prima Development"],
-      seed: ["/books/OL10905393M", "/works/OL8495600W", "/authors/OL2838384A"],
-      first_publish_year: 2002,
-      publish_year: [2002],
-      key: "/works/OL8495600W",
-      text: [
-        "OL10905393M",
-        "9780761541769",
-        "0761541764",
-        "Prima Development",
-        "OL2838384A",
-        'The "Lord of the Rings - The Fellowship of the Rings"',
-        "/works/OL8495600W",
-        "Prima Games"
-      ],
-      id_goodreads: ["333289"],
-      publish_date: ["October 16, 2002"],
-      author_key: ["OL2838384A"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "The Lord of the Rings: The Fellowship of the Ring",
-      edition_key: ["OL8018275M"],
-      isbn: ["0761540873", "9780761540878"],
-      has_fulltext: false,
-      text: [
-        "OL8018275M",
-        "0761540873",
-        "9780761540878",
-        "Mark Cohen",
-        "51565698",
-        "OL2821360A",
-        "Games / Video & Electronic",
-        "Video & Electronic - Microsoft Xbox",
-        "Video & Electronic - Nintendo",
-        "Video & Electronic - General",
-        "Games",
-        "Computer Books: General",
-        "Lord of the Rings (Game)",
-        "Entertainment & Games - General",
-        "Video & Electronic - Sony PlayStation 2",
-        "Computer games",
-        "Games/Puzzles",
-        "Computers - Games",
-        "Prima's Official Strategy Guide",
-        "The Lord of the Rings: The Fellowship of the Ring",
-        "/works/OL8018275M",
-        "Prima Games"
-      ],
-      author_name: ["Mark Cohen"],
-      seed: [
-        "/books/OL8018275M",
-        "/works/OL8018275M",
-        "/subjects/video_&_electronic_-_nintendo",
-        "/subjects/video_&_electronic_-_general",
-        "/subjects/games",
-        "/subjects/computers_-_games",
-        "/subjects/computer_books:_general",
-        "/subjects/games/puzzles",
-        "/subjects/video_&_electronic_-_sony_playstation_2",
-        "/subjects/video_&_electronic_-_microsoft_xbox",
-        "/subjects/entertainment_&_games_-_general",
-        "/subjects/computer_games",
-        "/subjects/games_/_video_&_electronic",
-        "/subjects/lord_of_the_rings_(game)",
-        "/authors/OL2821360A"
-      ],
-      oclc: ["51565698"],
-      author_key: ["OL2821360A"],
-      subject: [
-        "Games / Video & Electronic",
-        "Video & Electronic - Microsoft Xbox",
-        "Video & Electronic - Nintendo",
-        "Video & Electronic - General",
-        "Games",
-        "Computer Books: General",
-        "Lord of the Rings (Game)",
-        "Entertainment & Games - General",
-        "Video & Electronic - Sony PlayStation 2",
-        "Computer games",
-        "Games/Puzzles",
-        "Computers - Games"
-      ],
-      title: "The Lord of the Rings: The Fellowship of the Ring",
-      publish_date: ["October 29, 2002"],
-      type: "work",
-      ebook_count_i: 0,
-      edition_count: 1,
-      key: "/works/OL8018275M",
-      id_goodreads: ["15257"],
-      publisher: ["Prima Games"],
-      language: ["eng"],
-      last_modified_i: 1525344405,
-      id_librarything: ["1198541"],
-      cover_edition_key: "OL8018275M",
-      publish_year: [2002],
-      first_publish_year: 2002
-    },
-    {
-      title_suggest: "The lord of the rings, the fellowship of the ring =",
-      edition_key: ["OL22244844M"],
-      isbn: ["078063893X", "9780780638938"],
-      has_fulltext: false,
-      text: [
-        "OL22244844M",
-        "078063893X",
-        "9780780638938",
-        "Lee, Christopher",
-        "Fran Walsh",
-        "Tolkien, J. R. R.  1892-1973",
-        "Tyler, Liv",
-        "Walsh, Fran,  1959-",
-        "Blanchett, Cate,  1969-",
-        "Lee, Christopher,  1922-",
-        "New Line Home Entertainment (Firme)",
-        "Osborne, Barrie",
-        "Wingnut Films (Firme)",
-        "Wood, Elijah,  1981-",
-        "Rhys-Davies, John",
-        "Mortensen, Viggo,  1958-",
-        "McKellen, Ian",
-        "Astin, Sean",
-        "New Line Cinema Corporation",
-        "Jackson, Peter,  1961-",
-        "OL35564A",
-        "OL6439810A",
-        "Le seigneur des anneaux, La communaut\u00e9 de l'anneau",
-        "The lord of the rings, the fellowship of the ring =",
-        "/works/OL19532403W",
-        "New Line Cinema presents a Wingnut Films production ; producers, Barrie M. Osborne ... [et al.] ; screenplay writers, Fran Walsh ... [et al.] ; director, Peter Jackson",
-        "New Line Home Entertainment",
-        "La communaut\u00e9 de l'anneau",
-        "Les seigneur des anneaux, La communaut\u00e9 de l'anneau",
-        "The fellowship of the ring"
-      ],
-      author_name: ["Lee, Christopher", "Fran Walsh"],
-      seed: [
-        "/books/OL22244844M",
-        "/works/OL19532403W",
-        "/authors/OL35564A",
-        "/authors/OL6439810A"
-      ],
-      contributor: [
-        "Tolkien, J. R. R.  1892-1973",
-        "Tyler, Liv",
-        "Walsh, Fran,  1959-",
-        "Blanchett, Cate,  1969-",
-        "Lee, Christopher,  1922-",
-        "New Line Home Entertainment (Firme)",
-        "Osborne, Barrie",
-        "Wingnut Films (Firme)",
-        "Wood, Elijah,  1981-",
-        "Rhys-Davies, John",
-        "Mortensen, Viggo,  1958-",
-        "McKellen, Ian",
-        "Astin, Sean",
-        "New Line Cinema Corporation",
-        "Jackson, Peter,  1961-"
-      ],
-      author_key: ["OL35564A", "OL6439810A"],
-      title: "The lord of the rings, the fellowship of the ring =",
-      publish_date: ["2002"],
-      type: "work",
-      ebook_count_i: 0,
-      publish_place: ["[\u00c9tats-Unis]"],
-      edition_count: 1,
-      key: "/works/OL19532403W",
-      id_goodreads: ["3025418"],
-      publisher: ["New Line Home Entertainment"],
-      language: ["eng"],
-      last_modified_i: 1554341379,
-      id_librarything: ["1354927"],
-      publish_year: [2002],
-      first_publish_year: 2002
-    },
-    {
-      title_suggest:
-        "The Lord of the Rings, Fellowship of the Ring 2003 Daily Calendar (Lord of the Rings)",
-      edition_key: ["OL8065489M"],
-      cover_i: 528861,
-      isbn: ["0768357616", "9780768357615"],
-      has_fulltext: false,
-      text: [
-        "OL8065489M",
-        "0768357616",
-        "9780768357615",
-        "Cedco Publishing",
-        "OL2853379A",
-        "The Lord of the Rings, Fellowship of the Ring 2003 Daily Calendar (Lord of the Rings)",
-        "/works/OL8527355W",
-        "Cedco Publishing Company"
-      ],
-      author_name: ["Cedco Publishing"],
-      seed: ["/books/OL8065489M", "/works/OL8527355W", "/authors/OL2853379A"],
-      author_key: ["OL2853379A"],
-      title:
-        "The Lord of the Rings, Fellowship of the Ring 2003 Daily Calendar (Lord of the Rings)",
-      publish_date: ["December 2002"],
-      type: "work",
-      ebook_count_i: 0,
-      edition_count: 1,
-      key: "/works/OL8527355W",
-      publisher: ["Cedco Publishing Company"],
-      language: ["eng"],
-      last_modified_i: 1281133349,
-      id_librarything: ["1807558"],
-      cover_edition_key: "OL8065489M",
-      publish_year: [2002],
-      first_publish_year: 2002
-    },
-    {
-      title_suggest: "The Lord of the Rings - War of the Ring",
-      edition_key: ["OL7953556M"],
-      cover_i: 481575,
-      isbn: ["9780744003499", "0744003490"],
-      has_fulltext: false,
-      text: [
-        "OL7953556M",
-        "9780744003499",
-        "0744003490",
-        "Mark Cohen",
-        "54982741",
-        "OL2821360A",
-        "The Lord of the Rings - War of the Ring",
-        "/works/OL8456214W",
-        "BRADY GAMES"
-      ],
-      author_name: ["Mark Cohen"],
-      seed: ["/books/OL7953556M", "/works/OL8456214W", "/authors/OL2821360A"],
-      oclc: ["54982741"],
-      author_key: ["OL2821360A"],
-      title: "The Lord of the Rings - War of the Ring",
-      publish_date: ["December 3, 2003"],
-      type: "work",
-      ebook_count_i: 0,
-      edition_count: 1,
-      key: "/works/OL8456214W",
-      id_goodreads: ["15285"],
-      publisher: ["BRADY GAMES"],
-      language: ["eng"],
-      last_modified_i: 1304018566,
-      id_librarything: ["1260796"],
-      cover_edition_key: "OL7953556M",
-      publish_year: [2003],
-      first_publish_year: 2003
-    },
-    {
-      title_suggest: "Art of the Lord of the Rings",
-      edition_key: ["OL9681472M", "OL9383739M"],
-      cover_i: 1380164,
-      isbn: ["0740751867", "9780740751875", "0740751875", "9780740751868"],
-      has_fulltext: false,
-      text: [
-        "OL9681472M",
-        "OL9383739M",
-        "0740751867",
-        "9780740751875",
-        "0740751875",
-        "9780740751868",
-        "Andrews McMeel Publishing",
-        "OL2812708A",
-        "2006 Wall Calendar",
-        "2006",
-        "Art of the Lord of the Rings",
-        "/works/OL8436036W",
-        "Andrews McMeel Publishing",
-        "Andrews McMeel Publishing LLC"
-      ],
-      author_name: ["Andrews McMeel Publishing"],
-      seed: [
-        "/books/OL9681472M",
-        "/books/OL9383739M",
-        "/works/OL8436036W",
-        "/authors/OL2812708A"
-      ],
-      author_alternative_name: ["Andrews McMeel Publishing LLC"],
-      author_key: ["OL2812708A"],
-      title: "Art of the Lord of the Rings",
-      publish_date: ["July 1, 2005"],
-      type: "work",
-      ebook_count_i: 0,
-      edition_count: 2,
-      key: "/works/OL8436036W",
-      id_goodreads: ["15365"],
-      publisher: ["Andrews McMeel Publishing"],
-      language: ["eng"],
-      last_modified_i: 1281609206,
-      id_librarything: ["3581486"],
-      cover_edition_key: "OL9681472M",
-      publish_year: [2005],
-      first_publish_year: 2005
-    },
-    {
-      title_suggest: "The Lord of the Rings / The Hobbit",
-      publish_place: ["Toronto"],
-      has_fulltext: false,
-      language: ["eng"],
-      edition_count: 1,
-      edition_key: ["OL20513187M"],
-      last_modified_i: 1546453879,
-      title: "The Lord of the Rings / The Hobbit",
-      subject: ["Tolkien, J. R. R. -- 1892-1973."],
-      author_alternative_name: [
-        "Coles Editorial Board.",
-        "COLES EDITORIAL BOARD.",
-        "Coles Ediorial Board.",
-        "Coles Notes Editorial Board",
-        "Coles editorial Board.",
-        "Coles Publishing Company Limited. Editorial Board.",
-        "Coles Editoral Board."
-      ],
-      publish_year: [1979],
-      seed: [
-        "/books/OL20513187M",
-        "/works/OL18146934W",
-        "/subjects/tolkien_j._r._r._--_1892-1973.",
-        "/authors/OL3519429A"
-      ],
-      first_publish_year: 1979,
-      author_name: ["Coles Editorial Board"],
-      key: "/works/OL18146934W",
-      text: [
-        "OL20513187M",
-        "Coles Editorial Board",
-        "OL3519429A",
-        "Tolkien, J. R. R. -- 1892-1973.",
-        "notes.",
-        "The Lord of the Rings / The Hobbit",
-        "/works/OL18146934W",
-        "Coles",
-        "The Lord of the Rings, The Hobbit",
-        "Coles Editorial Board.",
-        "COLES EDITORIAL BOARD.",
-        "Coles Ediorial Board.",
-        "Coles Notes Editorial Board",
-        "Coles editorial Board.",
-        "Coles Publishing Company Limited. Editorial Board.",
-        "Coles Editoral Board."
-      ],
-      publisher: ["Coles"],
-      publish_date: ["1979"],
-      author_key: ["OL3519429A"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "The Lord of the Rings / The Hobbit",
-      publisher: ["Coles"],
-      has_fulltext: false,
-      language: ["und"],
-      edition_count: 1,
-      edition_key: ["OL22572773M"],
-      last_modified_i: 1546453483,
-      title: "The Lord of the Rings / The Hobbit",
-      author_alternative_name: [
-        "Coles Editorial Board.",
-        "COLES EDITORIAL BOARD.",
-        "Coles Ediorial Board.",
-        "Coles Notes Editorial Board",
-        "Coles editorial Board.",
-        "Coles Publishing Company Limited. Editorial Board.",
-        "Coles Editoral Board."
-      ],
-      publish_year: [1979],
-      seed: ["/books/OL22572773M", "/works/OL18146929W", "/authors/OL3519429A"],
-      first_publish_year: 1979,
-      author_name: ["Coles Editorial Board"],
-      key: "/works/OL18146929W",
-      text: [
-        "OL22572773M",
-        "Coles Editorial Board",
-        "Tolkien, J. R. R. 1892-1973.",
-        "OL3519429A",
-        "notes",
-        "The Lord of the Rings / The Hobbit",
-        "/works/OL18146929W",
-        "Coles Editorial Board.",
-        "Coles",
-        "Coles Notes.",
-        "The Lord of the Rings, The hobbit",
-        "Coles Editorial Board.",
-        "COLES EDITORIAL BOARD.",
-        "Coles Ediorial Board.",
-        "Coles Notes Editorial Board",
-        "Coles editorial Board.",
-        "Coles Publishing Company Limited. Editorial Board.",
-        "Coles Editoral Board."
-      ],
-      contributor: ["Tolkien, J. R. R. 1892-1973."],
-      publish_date: ["1979"],
-      author_key: ["OL3519429A"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "The Lord of the Rings / The Hobbit",
-      publisher: ["Harpercollins Pub Ltd"],
-      cover_i: 8648933,
-      isbn: ["9780007105021", "0007105029"],
-      has_fulltext: false,
-      title: "The Lord of the Rings / The Hobbit",
-      edition_key: ["OL27038639M"],
-      last_modified_i: 1561892409,
-      edition_count: 1,
-      author_name: ["J.R.R. Tolkien"],
-      cover_edition_key: "OL27038639M",
-      seed: ["/books/OL27038639M", "/works/OL19849930W", "/authors/OL7510348A"],
-      first_publish_year: 2000,
-      publish_year: [2000],
-      key: "/works/OL19849930W",
-      text: [
-        "OL27038639M",
-        "9780007105021",
-        "0007105029",
-        "J.R.R. Tolkien",
-        "OL7510348A",
-        "The Lord of the Rings / The Hobbit",
-        "/works/OL19849930W",
-        "Harpercollins Pub Ltd"
-      ],
-      publish_date: ["Oct 31, 2000"],
-      author_key: ["OL7510348A"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "The Hobbit/The Lord of the Rings",
-      publisher: ["HarperCollins Publishers"],
-      isbn: ["9780007522934", "0007522932"],
-      has_fulltext: false,
-      edition_count: 1,
-      edition_key: ["OL27039284M"],
-      last_modified_i: 1561898762,
-      title: "The Hobbit/The Lord of the Rings",
-      author_name: ["J. R. R. Tolkien"],
-      seed: ["/books/OL27039284M", "/works/OL19850629W", "/authors/OL7554659A"],
-      first_publish_year: 2013,
-      publish_year: [2013],
-      key: "/works/OL19850629W",
-      text: [
-        "OL27039284M",
-        "9780007522934",
-        "0007522932",
-        "J. R. R. Tolkien",
-        "OL7554659A",
-        "The Hobbit/The Lord of the Rings",
-        "/works/OL19850629W",
-        "HarperCollins Publishers"
-      ],
-      publish_date: ["Jun 30, 2013"],
-      author_key: ["OL7554659A"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "Tolkien and the Lord of the rings",
-      edition_key: ["OL19304118M", "OL3972109M", "OL10859400M"],
-      cover_i: 855378,
-      isbn: [
-        "9781587680175",
-        "1902694228",
-        "1587680173",
-        "0756778883",
-        "9780756778880",
-        "9781902694221"
-      ],
-      has_fulltext: true,
-      text: [
-        "OL19304118M",
-        "OL3972109M",
-        "OL10859400M",
-        "9781587680175",
-        "1902694228",
-        "1587680173",
-        "0756778883",
-        "9780756778880",
-        "9781902694221",
-        "Colin Duriez",
-        "149222842",
-        "48555887",
-        "tolkienlordofrin00duri",
-        "OL31242A",
-        "English Fantasy fiction",
-        "Accessible book",
-        "History and criticism",
-        "Middle Earth (Imaginary place)",
-        "Protected DAISY",
-        "a guide to Middle-earth",
-        "A Guide To Middle-earth",
-        "a guide to Middle-Earth",
-        "Tolkien and the Lord of the rings",
-        "/works/OL56270W",
-        "Colin Duriez.",
-        "Azure",
-        "Diane Pub Co",
-        "HiddenSpring",
-        "Tolkien And The Lord Of The Rings",
-        "Tolkien and The Lord of the Rings",
-        "2001281095",
-        "J.R.R. Tolkien's most familiar creation, the hobbits of Middle-earth, belonged only to his private world until September 1937.",
-        "J. R. R. Tolkien (1892-1973)"
-      ],
-      author_name: ["Colin Duriez"],
-      seed: [
-        "/books/OL19304118M",
-        "/books/OL3972109M",
-        "/books/OL10859400M",
-        "/works/OL56270W",
-        "/subjects/english_fantasy_fiction",
-        "/subjects/history_and_criticism",
-        "/subjects/middle_earth_(imaginary_place)",
-        "/subjects/person:j._r._r._tolkien_(1892-1973)",
-        "/authors/OL31242A"
-      ],
-      oclc: ["149222842", "48555887"],
-      ia: ["tolkienlordofrin00duri"],
-      author_key: ["OL31242A"],
-      subject: [
-        "English Fantasy fiction",
-        "Accessible book",
-        "History and criticism",
-        "Middle Earth (Imaginary place)",
-        "Protected DAISY"
-      ],
-      title: "Tolkien and the Lord of the rings",
-      lending_identifier_s: "tolkienlordofrin00duri",
-      ia_collection_s:
-        "printdisabled;browserlending;china;inlibrary;internetarchivebooks",
-      printdisabled_s: "OL3972109M",
-      type: "work",
-      ebook_count_i: 1,
-      publish_place: ["Mahwah, N.J", "London"],
-      ia_box_id: ["IA1146920"],
-      edition_count: 3,
-      first_publish_year: 2001,
-      key: "/works/OL56270W",
-      id_goodreads: ["1796978", "92037", "1442207"],
-      public_scan_b: false,
-      publisher: ["Azure", "Diane Pub Co", "HiddenSpring"],
-      language: ["eng"],
-      lccn: ["2001281095"],
-      last_modified_i: 1493863630,
-      lending_edition_s: "OL3972109M",
-      id_librarything: ["314630"],
-      cover_edition_key: "OL3972109M",
-      first_sentence: [
-        "J.R.R. Tolkien's most familiar creation, the hobbits of Middle-earth, belonged only to his private world until September 1937."
-      ],
-      person: ["J. R. R. Tolkien (1892-1973)"],
-      publish_year: [2001, 2004],
-      publish_date: ["2001", "April 2004"]
-    },
-    {
-      title_suggest: "Lord of the Rings--War of the Ring - Expansion #1",
-      publisher: ["Prima Publishing"],
-      isbn: ["0761545697", "9780761545699"],
-      has_fulltext: false,
-      edition_count: 1,
-      edition_key: ["OL10905399M"],
-      last_modified_i: 1272132630,
-      title: "Lord of the Rings--War of the Ring - Expansion #1",
-      author_name: ["Suzette Bell"],
-      seed: ["/books/OL10905399M", "/works/OL9499103W", "/authors/OL3512059A"],
-      first_publish_year: 2004,
-      publish_year: [2004],
-      key: "/works/OL9499103W",
-      text: [
-        "OL10905399M",
-        "0761545697",
-        "9780761545699",
-        "Suzette Bell",
-        "OL3512059A",
-        "Prima's Official Strategy Guide",
-        "Lord of the Rings--War of the Ring - Expansion #1",
-        "/works/OL9499103W",
+      "title_suggest": "Baldur's Gate II Special Cover W/Poster Insert (UK)",
+      "publisher": [
         "Prima Publishing"
       ],
-      id_goodreads: ["15286"],
-      publish_date: ["January 2004"],
-      author_key: ["OL3512059A"],
-      type: "work",
-      ebook_count_i: 0
+      "isbn": [
+        "0761534008",
+        "9780761534006"
+      ],
+      "has_fulltext": false,
+      "language": [
+        "eng"
+      ],
+      "edition_count": 1,
+      "edition_key": [
+        "OL10905347M"
+      ],
+      "last_modified_i": 1293242287,
+      "title": "Baldur's Gate II Special Cover W/Poster Insert (UK)",
+      "author_name": [
+        "Prima"
+      ],
+      "seed": [
+        "/books/OL10905347M",
+        "/works/OL8495138W",
+        "/authors/OL2838355A"
+      ],
+      "first_publish_year": 2000,
+      "publish_year": [
+        2000
+      ],
+      "key": "/works/OL8495138W",
+      "text": [
+        "OL10905347M",
+        "0761534008",
+        "9780761534006",
+        "Prima",
+        "OL2838355A",
+        "Baldur's Gate II Special Cover W/Poster Insert (UK)",
+        "/works/OL8495138W",
+        "Prima Publishing"
+      ],
+      "id_goodreads": [
+        "6520822"
+      ],
+      "publish_date": [
+        "September 2000"
+      ],
+      "author_key": [
+        "OL2838355A"
+      ],
+      "type": "work",
+      "ebook_count_i": 0
     },
     {
-      title_suggest: "The Lord Of The Rings TCG",
-      edition_key: ["OL12284820M", "OL12284819M"],
-      cover_i: 2936468,
-      isbn: ["9781582366258", "158236625X", "1582366268", "9781582366265"],
-      has_fulltext: false,
-      text: [
-        "OL12284820M",
-        "OL12284819M",
-        "9781582366258",
-        "158236625X",
-        "1582366268",
-        "9781582366265",
-        "Various",
-        "OL2623771A",
-        "Reflections Booster Pack",
-        "Reflections Booster Pack Display",
-        "The Lord Of The Rings TCG",
-        "/works/OL264045W",
-        "Decipher",
-        "VARIOUS SPMG",
-        "VARIOUS",
-        "Various Various",
-        "various",
-        "Various.",
-        "various."
+      "title_suggest": "Volo's Guide to Baldur's Gate (AD&D/Forgotten Realms)",
+      "edition_key": [
+        "OL8144202M"
       ],
-      author_name: ["Various"],
-      seed: [
-        "/books/OL12284820M",
-        "/books/OL12284819M",
-        "/works/OL264045W",
-        "/authors/OL2623771A"
+      "cover_i": 546987,
+      "isbn": [
+        "0786916265",
+        "9780786916269"
       ],
-      author_key: ["OL2623771A"],
-      title: "The Lord Of The Rings TCG",
-      publish_date: ["October 1, 2004", "August 12, 2005"],
-      type: "work",
-      ebook_count_i: 0,
-      edition_count: 2,
-      key: "/works/OL264045W",
-      id_goodreads: ["3029327", "1081806"],
-      publisher: ["Decipher"],
-      language: ["eng"],
-      last_modified_i: 1272442724,
-      author_alternative_name: [
-        "VARIOUS SPMG",
-        "VARIOUS",
-        "Various Various",
-        "various",
-        "Various.",
-        "various."
-      ],
-      cover_edition_key: "OL12284819M",
-      publish_year: [2004, 2005],
-      first_publish_year: 2004
-    },
-    {
-      title_suggest: "Poems from The lord of the rings",
-      edition_key: ["OL9429879M", "OL19581879M"],
-      cover_i: 149269,
-      isbn: ["9780261103122", "0261103121"],
-      has_fulltext: false,
-      text: [
-        "OL9429879M",
-        "OL19581879M",
-        "9780261103122",
-        "0261103121",
-        "J. R. R. Tolkien",
-        "Alan Lee (Illustrator)",
-        "Tolkien, J. R. R. 1892-1973.",
-        "Lee, Alan, 1947-",
-        "OL26320A",
-        "Poems from The lord of the rings",
-        "illustrated by Alan Lee.",
-        "/works/OL27453W",
-        "HarperCollins Publishers Ltd",
-        "HarperCollins",
-        "The lord of the rings.",
-        'Poems from the "Lord of the Rings"',
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
-      ],
-      author_name: ["J. R. R. Tolkien"],
-      seed: [
-        "/books/OL9429879M",
-        "/books/OL19581879M",
-        "/works/OL27453W",
-        "/authors/OL26320A"
-      ],
-      id_librarything: ["364210"],
-      contributor: [
-        "Alan Lee (Illustrator)",
-        "Tolkien, J. R. R. 1892-1973.",
-        "Lee, Alan, 1947-"
-      ],
-      author_key: ["OL26320A"],
-      title: "Poems from The lord of the rings",
-      publish_date: ["2002", "October 20, 1994"],
-      type: "work",
-      ebook_count_i: 0,
-      publish_place: ["London"],
-      edition_count: 2,
-      key: "/works/OL27453W",
-      id_goodreads: ["15315"],
-      publisher: ["HarperCollins Publishers Ltd", "HarperCollins"],
-      language: ["eng"],
-      last_modified_i: 1321923903,
-      author_alternative_name: [
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
-      ],
-      cover_edition_key: "OL9429879M",
-      publish_year: [2002, 1994],
-      first_publish_year: 1994
-    },
-    {
-      title_suggest: "The Lord of the rings location guidebook",
-      edition_key: ["OL24849786M", "OL24779087M"],
-      cover_i: 6833127,
-      isbn: ["1869504917", "9781869504915"],
-      has_fulltext: true,
-      text: [
-        "OL24849786M",
-        "OL24779087M",
-        "1869504917",
-        "9781869504915",
-        "Ian Brodie",
-        "Tolkien, J. R. R. (John Ronald Reuel), 1892-1973",
-        "54087891",
-        "lordofringslocat00brod",
-        "OL1529345A",
-        "Guidebooks",
-        "Lord of the rings films",
-        "Lord of the rings, the fellowship of the ring (Motion picture)",
+      "has_fulltext": true,
+      "text": [
+        "OL8144202M",
+        "0786916265",
+        "9780786916269",
+        "Ed Greenwood",
+        "volosguidetobald00gree",
+        "OL39610A",
+        "Volo's Guide to Baldur's Gate (AD&D/Forgotten Realms)",
         "Accessible book",
-        "The lord of the rings",
-        "Lord of the rings, the two towers (Motion picture)",
-        "Drehort",
         "Protected DAISY",
-        "Motion picture locations",
-        "Lord of the rings, the return of the king (Motion picture)",
-        "The Lord of the rings location guidebook",
-        "/works/OL15870525W",
-        "Ian Brodie",
-        "HarperCollins",
-        "New Zealand"
+        "/works/OL14963036W",
+        "Wizards of the Coast"
       ],
-      author_name: ["Ian Brodie"],
-      contributor: ["Tolkien, J. R. R. (John Ronald Reuel), 1892-1973"],
-      seed: [
-        "/books/OL24849786M",
-        "/books/OL24779087M",
-        "/works/OL15870525W",
-        "/subjects/guidebooks",
-        "/subjects/lord_of_the_rings_films",
-        "/subjects/lord_of_the_rings_the_fellowship_of_the_ring_(motion_picture)",
-        "/subjects/the_lord_of_the_rings",
-        "/subjects/lord_of_the_rings_the_two_towers_(motion_picture)",
-        "/subjects/drehort",
-        "/subjects/motion_picture_locations",
-        "/subjects/lord_of_the_rings_the_return_of_the_king_(motion_picture)",
-        "/subjects/protected_daisy",
-        "/subjects/place:new_zealand",
-        "/authors/OL1529345A"
+      "author_name": [
+        "Ed Greenwood"
       ],
-      oclc: ["54087891"],
-      ia: ["lordofringslocat00brod"],
-      author_key: ["OL1529345A"],
-      subject: [
-        "Guidebooks",
-        "Lord of the rings films",
-        "Lord of the rings, the fellowship of the ring (Motion picture)",
+      "seed": [
+        "/books/OL8144202M",
+        "/works/OL14963036W",
+        "/authors/OL39610A"
+      ],
+      "ia": [
+        "volosguidetobald00gree"
+      ],
+      "author_key": [
+        "OL39610A"
+      ],
+      "subject": [
         "Accessible book",
-        "The lord of the rings",
-        "Lord of the rings, the two towers (Motion picture)",
-        "Drehort",
+        "Protected DAISY"
+      ],
+      "title": "Volo's Guide to Baldur's Gate (AD&D/Forgotten Realms)",
+      "ia_collection_s": "printdisabled;librarygenesis",
+      "first_publish_year": 2000,
+      "type": "work",
+      "ebook_count_i": 1,
+      "printdisabled_s": "OL8144202M",
+      "edition_count": 1,
+      "key": "/works/OL14963036W",
+      "id_goodreads": [
+        "713785"
+      ],
+      "public_scan_b": false,
+      "publisher": [
+        "Wizards of the Coast"
+      ],
+      "language": [
+        "eng"
+      ],
+      "last_modified_i": 1396773154,
+      "id_librarything": [
+        "2343301"
+      ],
+      "cover_edition_key": "OL8144202M",
+      "publish_year": [
+        2000
+      ],
+      "publish_date": [
+        "July 1, 2000"
+      ]
+    },
+    {
+      "title_suggest": "Ratgeber zum Behindertenrecht und sozialen Entsch\u00e4digungsrecht. KB- Helfer 2002/2003.",
+      "publisher": [
+        "Boorberg"
+      ],
+      "isbn": [
+        "9783415030572",
+        "3415030571"
+      ],
+      "has_fulltext": false,
+      "edition_count": 1,
+      "edition_key": [
+        "OL12697224M"
+      ],
+      "last_modified_i": 1419574947,
+      "title": "Ratgeber zum Behindertenrecht und sozialen Entsch\u00e4digungsrecht. KB- Helfer 2002/2003.",
+      "author_name": [
+        "Karl-Friedrich Ernst",
+        "Bernd Gro\u00df",
+        "Baldur Morr",
+        "Erich Schlageter"
+      ],
+      "cover_edition_key": "OL12697224M",
+      "seed": [
+        "/books/OL12697224M",
+        "/works/OL12697224M",
+        "/authors/OL3999232A",
+        "/authors/OL3999233A",
+        "/authors/OL3999234A",
+        "/authors/OL3999235A"
+      ],
+      "first_publish_year": 2002,
+      "publish_year": [
+        2002
+      ],
+      "key": "/works/OL12697224M",
+      "text": [
+        "OL12697224M",
+        "9783415030572",
+        "3415030571",
+        "Karl-Friedrich Ernst",
+        "Bernd Gro\u00df",
+        "Baldur Morr",
+        "Erich Schlageter",
+        "OL3999232A",
+        "OL3999233A",
+        "OL3999234A",
+        "OL3999235A",
+        "Ratgeber zum Behindertenrecht und sozialen Entsch\u00e4digungsrecht. KB- Helfer 2002/2003.",
+        "/works/OL12697224M",
+        "Boorberg"
+      ],
+      "id_goodreads": [
+        "4192683"
+      ],
+      "publish_date": [
+        "November 1, 2002"
+      ],
+      "author_key": [
+        "OL3999232A",
+        "OL3999233A",
+        "OL3999234A",
+        "OL3999235A"
+      ],
+      "type": "work",
+      "ebook_count_i": 0
+    },
+    {
+      "title_suggest": "Pharmazeutische Gesetzeskunde",
+      "edition_key": [
+        "OL25028880M"
+      ],
+      "isbn": [
+        "3804727581",
+        "9783804727588"
+      ],
+      "has_fulltext": false,
+      "text": [
+        "OL25028880M",
+        "3804727581",
+        "9783804727588",
+        "Herbert H\u00fcgel",
+        "Fischer, J\u00fcrgen Rechtsanwalt",
+        "Baldur Kohm",
+        "Bettina Mecking",
+        "OL6997442A",
+        "OL6999253A",
+        "OL3238212A",
+        "OL6999254A",
+        "Textsammlung mit Kommentaren f\u00fcr Studium und Praxis : mit 13 Tabellen",
+        "Pharmazeutische Gesetzeskunde",
+        "begr\u00fcndet von Herbert H\u00fcgel ; weitergef\u00fchrt von J\u00fcrgen Fischer, Baldur Kohm ; bearbeitet von Bettina Mecking",
+        "Drugs",
+        "Law and legislation",
+        "Pharmacy",
+        "/works/OL16146227W",
+        "Wiss. Verl.-Ges.",
+        "2011468260",
+        "Germany"
+      ],
+      "author_name": [
+        "Herbert H\u00fcgel",
+        "Fischer, J\u00fcrgen Rechtsanwalt",
+        "Baldur Kohm",
+        "Bettina Mecking"
+      ],
+      "seed": [
+        "/books/OL25028880M",
+        "/works/OL16146227W",
+        "/subjects/drugs",
+        "/subjects/law_and_legislation",
+        "/subjects/pharmacy",
+        "/subjects/place:germany",
+        "/authors/OL6997442A",
+        "/authors/OL6999253A",
+        "/authors/OL3238212A",
+        "/authors/OL6999254A"
+      ],
+      "author_key": [
+        "OL6997442A",
+        "OL6999253A",
+        "OL3238212A",
+        "OL6999254A"
+      ],
+      "subject": [
+        "Drugs",
+        "Law and legislation",
+        "Pharmacy"
+      ],
+      "title": "Pharmazeutische Gesetzeskunde",
+      "first_publish_year": 2011,
+      "type": "work",
+      "ebook_count_i": 0,
+      "publish_place": [
+        "Stuttgart"
+      ],
+      "edition_count": 1,
+      "key": "/works/OL16146227W",
+      "publisher": [
+        "Wiss. Verl.-Ges."
+      ],
+      "language": [
+        "ger"
+      ],
+      "lccn": [
+        "2011468260"
+      ],
+      "last_modified_i": 1319270948,
+      "publish_year": [
+        2011
+      ],
+      "place": [
+        "Germany"
+      ],
+      "publish_date": [
+        "2011"
+      ]
+    },
+    {
+      "title_suggest": "Geschichte - Gesellschaft - Gerechtigkeit. Festschrift f ur Baldur Edmund Pfeiffer zum 70. Geburtstag",
+      "publish_place": [
+        "Berlin"
+      ],
+      "isbn": [
+        "3865961495",
+        "9783865961495"
+      ],
+      "has_fulltext": false,
+      "language": [
+        "ger"
+      ],
+      "edition_count": 1,
+      "edition_key": [
+        "OL22769468M"
+      ],
+      "last_modified_i": 1419576196,
+      "title": "Geschichte - Gesellschaft - Gerechtigkeit. Festschrift f ur Baldur Edmund Pfeiffer zum 70. Geburtstag",
+      "publisher": [
+        "Frank & Timme GmbH"
+      ],
+      "seed": [
+        "/books/OL22769468M",
+        "/works/OL22769468M",
+        "/subjects/theology_christianity",
+        "/subjects/our_brockhaus_selection"
+      ],
+      "key": "/works/OL22769468M",
+      "text": [
+        "OL22769468M",
+        "3865961495",
+        "9783865961495",
+        "Hrsg.: Hartlapp, Johannes",
+        "Geschichte - Gesellschaft - Gerechtigkeit. Festschrift f ur Baldur Edmund Pfeiffer zum 70. Geburtstag",
+        "OUR Brockhaus selection",
+        "Theology, Christianity",
+        "/works/OL22769468M",
+        "Frank & Timme GmbH"
+      ],
+      "contributor": [
+        "Hrsg.: Hartlapp, Johannes"
+      ],
+      "subject": [
+        "OUR Brockhaus selection",
+        "Theology, Christianity"
+      ],
+      "type": "work",
+      "ebook_count_i": 0
+    },
+    {
+      "title_suggest": "Geschichte - Gesellschaft - Gerechtigkeit. Festschrift f ur Baldur Edmund Pfeiffer zum 70. Geburtstag",
+      "publish_place": [
+        "Berlin"
+      ],
+      "cover_i": 5424856,
+      "isbn": [
+        "3865961495",
+        "9783865961495"
+      ],
+      "has_fulltext": false,
+      "language": [
+        "ger"
+      ],
+      "title": "Geschichte - Gesellschaft - Gerechtigkeit. Festschrift f ur Baldur Edmund Pfeiffer zum 70. Geburtstag",
+      "edition_key": [
+        "OL18526674M"
+      ],
+      "last_modified_i": 1550501289,
+      "edition_count": 1,
+      "publisher": [
+        "Frank & Timme"
+      ],
+      "cover_edition_key": "OL18526674M",
+      "seed": [
+        "/books/OL18526674M",
+        "/works/OL18857180W",
+        "/subjects/our_brockhaus_selection",
+        "/subjects/christianity_theology"
+      ],
+      "first_publish_year": 2007,
+      "publish_year": [
+        2007
+      ],
+      "key": "/works/OL18857180W",
+      "text": [
+        "OL18526674M",
+        "3865961495",
+        "9783865961495",
+        "OUR Brockhaus selection",
+        "Christianity Theology",
+        "Festschrift f\u00fcr Baldur Edmund Pfeiffer zum 70. Geburtstag",
+        "Geschichte - Gesellschaft - Gerechtigkeit. Festschrift f ur Baldur Edmund Pfeiffer zum 70. Geburtstag",
+        "/works/OL18857180W",
+        "herausgegeben von Johannes Hartlapp und Stefan H\u00f6schele.",
+        "Frank & Timme",
+        "Geschichte - Gesellschaft - Gerechtigkeit"
+      ],
+      "publish_date": [
+        "2007"
+      ],
+      "subject": [
+        "OUR Brockhaus selection",
+        "Christianity Theology"
+      ],
+      "type": "work",
+      "ebook_count_i": 0
+    },
+    {
+      "title_suggest": "Baldur's Gate II: Shadows of Amn (Forgotten Realms: Computer Tie-In Novels)",
+      "edition_key": [
+        "OL8144180M"
+      ],
+      "cover_i": 546958,
+      "isbn": [
+        "0786915692",
+        "9780786915699"
+      ],
+      "has_fulltext": true,
+      "text": [
+        "OL8144180M",
+        "0786915692",
+        "9780786915699",
+        "Philip Athans",
+        "isbn_9780786915699",
+        "OL1395612A",
         "Protected DAISY",
-        "Motion picture locations",
-        "Lord of the rings, the return of the king (Motion picture)"
+        "Fantasy games",
+        "Forgotten realms (Imaginary place)",
+        "Accessible book",
+        "Fiction",
+        "Baldur's Gate II: Shadows of Amn (Forgotten Realms: Computer Tie-In Novels)",
+        "/works/OL5740499W",
+        "Wizards of the Coast",
+        "Late in the summer of the Year of the Banner, Abdel Adrian, son of the God of Murder, returned to Candle-keep a hero."
       ],
-      title: "The Lord of the rings location guidebook",
-      ia_collection_s: "printdisabled;china;internetarchivebooks",
-      printdisabled_s: "OL24849786M;OL24779087M",
-      type: "work",
-      ebook_count_i: 1,
-      publish_place: ["Auckland [N.Z.]"],
-      ia_box_id: ["IA131001"],
-      edition_count: 2,
-      key: "/works/OL15870525W",
-      public_scan_b: false,
-      publisher: ["HarperCollins"],
-      language: ["eng"],
-      last_modified_i: 1507453174,
-      first_publish_year: 2003,
-      cover_edition_key: "OL24779087M",
-      publish_year: [2003],
-      publish_date: ["2003"],
-      place: ["New Zealand"]
+      "author_name": [
+        "Philip Athans"
+      ],
+      "seed": [
+        "/books/OL8144180M",
+        "/works/OL5740499W",
+        "/subjects/fantasy_games",
+        "/subjects/fiction",
+        "/subjects/forgotten_realms_(imaginary_place)",
+        "/authors/OL1395612A"
+      ],
+      "ia": [
+        "isbn_9780786915699"
+      ],
+      "author_key": [
+        "OL1395612A"
+      ],
+      "subject": [
+        "Protected DAISY",
+        "Fantasy games",
+        "Forgotten realms (Imaginary place)",
+        "Accessible book",
+        "Fiction"
+      ],
+      "title": "Baldur's Gate II: Shadows of Amn (Forgotten Realms: Computer Tie-In Novels)",
+      "lending_identifier_s": "isbn_9780786915699",
+      "ia_collection_s": "printdisabled;inlibrary;china;internetarchivebooks",
+      "printdisabled_s": "OL8144180M",
+      "type": "work",
+      "ebook_count_i": 1,
+      "ia_box_id": [
+        "IA1157620"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2000,
+      "key": "/works/OL5740499W",
+      "id_goodreads": [
+        "291738"
+      ],
+      "public_scan_b": false,
+      "publisher": [
+        "Wizards of the Coast"
+      ],
+      "language": [
+        "eng"
+      ],
+      "last_modified_i": 1562024187,
+      "lending_edition_s": "OL8144180M",
+      "id_librarything": [
+        "450171"
+      ],
+      "cover_edition_key": "OL8144180M",
+      "first_sentence": [
+        "Late in the summer of the Year of the Banner, Abdel Adrian, son of the God of Murder, returned to Candle-keep a hero."
+      ],
+      "publish_year": [
+        2000
+      ],
+      "publish_date": [
+        "September 1, 2000"
+      ]
     },
     {
-      title_suggest: "The Hobbit / The Lord of the Rings",
-      cover_i: -1,
-      has_fulltext: false,
-      title: "The Hobbit / The Lord of the Rings",
-      last_modified_i: 1551911730,
-      edition_count: 0,
-      author_alternative_name: [
-        "J. R. R. Tolkein",
-        "Dzhon R. R. Tolkin",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
+      "title_suggest": "Kleine Katechismus",
+      "edition_key": [
+        "OL22871897M",
+        "OL3281407M",
+        "OL15327135M",
+        "OL15325650M",
+        "OL6968116M",
+        "OL6663085M",
+        "OL14592252M",
+        "OL17692396M",
+        "OL17158603M",
+        "OL17738676M",
+        "OL17197694M",
+        "OL17158606M",
+        "OL17738442M",
+        "OL17738383M",
+        "OL17158609M",
+        "OL301993M",
+        "OL16919685M",
+        "OL17738374M",
+        "OL17738384M",
+        "OL17158611M",
+        "OL17158613M",
+        "OL17738375M",
+        "OL17158622M",
+        "OL17738376M",
+        "OL17738377M",
+        "OL17738385M",
+        "OL289257M",
+        "OL17167175M",
+        "OL14592371M",
+        "OL17692406M",
+        "OL17167179M",
+        "OL17736829M",
+        "OL17738378M",
+        "OL17692407M",
+        "OL17167177M",
+        "OL6972660M",
+        "OL17167181M",
+        "OL17738379M",
+        "OL17694291M",
+        "OL14604296M",
+        "OL17737708M",
+        "OL17692470M",
+        "OL14592870M",
+        "OL17167184M",
+        "OL17694292M",
+        "OL17738380M",
+        "OL14592376M",
+        "OL17692408M",
+        "OL17738386M",
+        "OL17167187M",
+        "OL17197967M",
+        "OL17167189M",
+        "OL17738381M",
+        "OL17716028M",
+        "OL17713682M",
+        "OL15044987M",
+        "OL17711407M",
+        "OL15044869M",
+        "OL15052686M",
+        "OL24166469M",
+        "OL15045021M",
+        "OL17714188M",
+        "OL15094599M",
+        "OL17715226M",
+        "OL15046735M",
+        "OL16915638M",
+        "OL17712470M",
+        "OL17707983M",
+        "OL15046804M",
+        "OL17712299M",
+        "OL15046765M",
+        "OL17708655M",
+        "OL15083622M",
+        "OL17714751M",
+        "OL17710840M",
+        "OL15106031M",
+        "OL16900310M",
+        "OL17712967M",
+        "OL15083710M",
+        "OL17704927M",
+        "OL17707919M",
+        "OL16900302M",
+        "OL17711676M",
+        "OL17713200M",
+        "OL15073047M",
+        "OL15090309M",
+        "OL17707646M",
+        "OL15073086M",
+        "OL6457521M",
+        "OL17239594M",
+        "OL16910051M",
+        "OL6375314M",
+        "OL5532611M",
+        "OL23250596M",
+        "OL2117647M",
+        "OL7942373M",
+        "OL2979289M",
+        "OL22553121M",
+        "OL16237061M"
       ],
-      seed: ["/works/OL17477637W", "/authors/OL26320A"],
-      author_name: ["J. R. R. Tolkien"],
-      key: "/works/OL17477637W",
-      text: [
-        "J. R. R. Tolkien",
-        "OL26320A",
-        "The Hobbit / The Lord of the Rings",
-        "/works/OL17477637W",
-        "J. R. R. Tolkein",
-        "Dzhon R. R. Tolkin",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
+      "isbn": [
+        "9780806603247",
+        "9783631453780",
+        "9789171021397",
+        "0806603240",
+        "9171021396",
+        "3631453787"
       ],
-      author_key: ["OL26320A"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "The Hobbit / The Lord of the Rings",
-      cover_i: -1,
-      has_fulltext: false,
-      title: "The Hobbit / The Lord of the Rings",
-      last_modified_i: 1551911683,
-      edition_count: 0,
-      author_alternative_name: [
-        "J. R. R. Tolkein",
-        "Dzhon R. R. Tolkin",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
-      ],
-      seed: ["/works/OL14933440W", "/authors/OL26320A"],
-      author_name: ["J. R. R. Tolkien"],
-      key: "/works/OL14933440W",
-      text: [
-        "J. R. R. Tolkien",
-        "OL26320A",
-        "The Hobbit / The Lord of the Rings",
-        "/works/OL14933440W",
-        "J. R. R. Tolkein",
-        "Dzhon R. R. Tolkin",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
-      ],
-      author_key: ["OL26320A"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "The Hobbit / The Lord of the Rings",
-      cover_i: -1,
-      has_fulltext: false,
-      title: "The Hobbit / The Lord of the Rings",
-      last_modified_i: 1551911599,
-      edition_count: 0,
-      author_alternative_name: [
-        "J. R. R. Tolkein",
-        "Dzhon R. R. Tolkin",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
-      ],
-      seed: ["/works/OL14926019W", "/authors/OL26320A"],
-      author_name: ["J. R. R. Tolkien"],
-      key: "/works/OL14926019W",
-      text: [
-        "J. R. R. Tolkien",
-        "OL26320A",
-        "The Hobbit / The Lord of the Rings",
-        "/works/OL14926019W",
-        "J. R. R. Tolkein",
-        "Dzhon R. R. Tolkin",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
-      ],
-      author_key: ["OL26320A"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "The Hobbit / The Lord of the Rings",
-      cover_i: -1,
-      has_fulltext: false,
-      title: "The Hobbit / The Lord of the Rings",
-      last_modified_i: 1556816489,
-      edition_count: 0,
-      author_alternative_name: [
-        "J. R. R. Tolkein",
-        "Dzhon R. R. Tolkin",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein",
-        "J. R. R. Tolkin"
-      ],
-      seed: ["/works/OL19099690W", "/authors/OL26320A"],
-      author_name: ["J. R. R. Tolkien"],
-      key: "/works/OL19099690W",
-      text: [
-        "J. R. R. Tolkien",
-        "OL26320A",
-        "The Hobbit / The Lord of the Rings",
-        "/works/OL19099690W",
-        "J. R. R. Tolkein",
-        "Dzhon R. R. Tolkin",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein",
-        "J. R. R. Tolkin"
-      ],
-      author_key: ["OL26320A"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "The Brothers Hildebrand's Lord of the Rings",
-      edition_key: ["OL8033048M"],
-      cover_i: 513503,
-      isbn: ["9780762413836", "0762413832"],
-      has_fulltext: false,
-      text: [
-        "OL8033048M",
-        "9780762413836",
-        "0762413832",
-        "Brian Simmons",
-        "63270573",
-        "OL494974A",
-        "A Pocket Companion (Running Press Miniatures)",
-        "The Brothers Hildebrand's Lord of the Rings",
-        "/works/OL3130523W",
-        "Running Press Book Publishers"
-      ],
-      author_name: ["Brian Simmons"],
-      seed: ["/books/OL8033048M", "/works/OL3130523W", "/authors/OL494974A"],
-      oclc: ["63270573"],
-      author_key: ["OL494974A"],
-      title: "The Brothers Hildebrand's Lord of the Rings",
-      publish_date: ["September 2002"],
-      type: "work",
-      ebook_count_i: 0,
-      edition_count: 1,
-      key: "/works/OL3130523W",
-      id_goodreads: ["998542"],
-      publisher: ["Running Press Book Publishers"],
-      language: ["eng"],
-      last_modified_i: 1304059545,
-      id_librarything: ["3309205"],
-      cover_edition_key: "OL8033048M",
-      publish_year: [2002],
-      first_publish_year: 2002
-    },
-    {
-      title_suggest: "The Lord of the Rings 2002 Calendar",
-      publisher: ["Meadwestvaco"],
-      isbn: ["9780768839449", "0768839440"],
-      has_fulltext: false,
-      language: ["eng"],
-      edition_count: 1,
-      edition_key: ["OL10959148M"],
-      last_modified_i: 1419577434,
-      title: "The Lord of the Rings 2002 Calendar",
-      seed: [
-        "/books/OL10959148M",
-        "/works/OL10959148M",
-        "/subjects/non-classifiable",
-        "/subjects/calendar"
-      ],
-      first_publish_year: 2001,
-      publish_year: [2001],
-      key: "/works/OL10959148M",
-      text: [
-        "OL10959148M",
-        "9780768839449",
-        "0768839440",
-        "The Fellowship of the Ring",
-        "The Lord of the Rings 2002 Calendar",
-        "Calendar",
-        "Non-Classifiable",
-        "/works/OL10959148M",
-        "Meadwestvaco"
-      ],
-      publish_date: ["June 2001"],
-      subject: ["Calendar", "Non-Classifiable"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: 'The "Lord of the Rings" Oracle',
-      edition_key: ["OL8922919M"],
-      cover_i: 888162,
-      isbn: ["1841811394", "9781841811390"],
-      has_fulltext: false,
-      text: [
-        "OL8922919M",
-        "1841811394",
-        "9781841811390",
-        "Terry Donaldson",
-        "OL343371A",
-        'The "Lord of the Rings" Oracle',
-        "/works/OL2466712W",
-        "Godsfield Press Ltd"
-      ],
-      author_name: ["Terry Donaldson"],
-      seed: ["/books/OL8922919M", "/works/OL2466712W", "/authors/OL343371A"],
-      author_key: ["OL343371A"],
-      title: 'The "Lord of the Rings" Oracle',
-      publish_date: ["October 1, 2001"],
-      type: "work",
-      ebook_count_i: 0,
-      edition_count: 1,
-      key: "/works/OL2466712W",
-      id_goodreads: ["795090"],
-      publisher: ["Godsfield Press Ltd"],
-      last_modified_i: 1281444153,
-      id_librarything: ["349463"],
-      cover_edition_key: "OL8922919M",
-      publish_year: [2001],
-      first_publish_year: 2001
-    },
-    {
-      title_suggest: "The Lord of the Rings Online",
-      edition_key: ["OL8018623M"],
-      cover_i: 511007,
-      subtitle: "Shadows of Angmar (Prima Official Game Guide)",
-      has_fulltext: false,
-      text: [
-        "OL8018623M",
-        "Shadows of Angmar (Prima Official Game Guide)",
-        "Mike Searle",
-        "9780761553304",
-        "0761553304",
-        "OL2838743A",
-        "The Lord of the Rings Online",
-        "/works/OL8496176W",
-        "Prima Games"
-      ],
-      author_name: ["Mike Searle"],
-      seed: ["/books/OL8018623M", "/works/OL8496176W", "/authors/OL2838743A"],
-      isbn: ["9780761553304", "0761553304"],
-      author_key: ["OL2838743A"],
-      title: "The Lord of the Rings Online",
-      publish_date: ["April 24, 2007"],
-      type: "work",
-      ebook_count_i: 0,
-      edition_count: 1,
-      key: "/works/OL8496176W",
-      id_goodreads: ["15288"],
-      publisher: ["Prima Games"],
-      language: ["eng"],
-      last_modified_i: 1281130307,
-      id_librarything: ["2697719"],
-      cover_edition_key: "OL8018623M",
-      publish_year: [2007],
-      first_publish_year: 2007
-    },
-    {
-      title_suggest: "The Lord of the Rings Journal (Green)",
-      edition_key: ["OL8065479M"],
-      cover_i: 528852,
-      isbn: ["0768325811", "9780768325812"],
-      has_fulltext: false,
-      text: [
-        "OL8065479M",
-        "0768325811",
-        "9780768325812",
-        "Cedco Publishing",
-        "OL2853379A",
-        "The Lord of the Rings Journal (Green)",
-        "/works/OL8527358W",
-        "Cedco Publishing Company"
-      ],
-      author_name: ["Cedco Publishing"],
-      seed: ["/books/OL8065479M", "/works/OL8527358W", "/authors/OL2853379A"],
-      author_key: ["OL2853379A"],
-      title: "The Lord of the Rings Journal (Green)",
-      publish_date: ["August 2002"],
-      type: "work",
-      ebook_count_i: 0,
-      edition_count: 1,
-      key: "/works/OL8527358W",
-      id_goodreads: ["15324"],
-      publisher: ["Cedco Publishing Company"],
-      language: ["eng"],
-      last_modified_i: 1281133295,
-      id_librarything: ["789492"],
-      cover_edition_key: "OL8065479M",
-      publish_year: [2002],
-      first_publish_year: 2002
-    },
-    {
-      title_suggest: "The Lord of the Rings Journal (Black)",
-      edition_key: ["OL9396967M"],
-      cover_i: 1454698,
-      isbn: ["0768325803", "9780768325805"],
-      has_fulltext: false,
-      text: [
-        "OL9396967M",
-        "0768325803",
-        "9780768325805",
-        "Cedco Publishing",
-        "OL2853379A",
-        "The Lord of the Rings Journal (Black)",
-        "/works/OL8527357W",
-        "Cedco Publishing Company"
-      ],
-      author_name: ["Cedco Publishing"],
-      seed: ["/books/OL9396967M", "/works/OL8527357W", "/authors/OL2853379A"],
-      author_key: ["OL2853379A"],
-      title: "The Lord of the Rings Journal (Black)",
-      publish_date: ["August 2002"],
-      type: "work",
-      ebook_count_i: 0,
-      edition_count: 1,
-      key: "/works/OL8527357W",
-      id_goodreads: ["2864303"],
-      publisher: ["Cedco Publishing Company"],
-      language: ["eng"],
-      last_modified_i: 1272447847,
-      cover_edition_key: "OL9396967M",
-      publish_year: [2002],
-      first_publish_year: 2002
-    },
-    {
-      title_suggest: "The Lord of the Rings Journal",
-      edition_key: ["OL8065478M"],
-      cover_i: 1454697,
-      isbn: ["9780768325799", "076832579X"],
-      has_fulltext: false,
-      text: [
-        "OL8065478M",
-        "9780768325799",
-        "076832579X",
-        "Cedco Publishing",
-        "OL2853379A",
-        "The Lord of the Rings Journal",
-        "/works/OL8527356W",
-        "Cedco Publishing Company"
-      ],
-      author_name: ["Cedco Publishing"],
-      seed: ["/books/OL8065478M", "/works/OL8527356W", "/authors/OL2853379A"],
-      author_key: ["OL2853379A"],
-      title: "The Lord of the Rings Journal",
-      publish_date: ["August 2002"],
-      type: "work",
-      ebook_count_i: 0,
-      edition_count: 1,
-      key: "/works/OL8527356W",
-      id_goodreads: ["1662976"],
-      publisher: ["Cedco Publishing Company"],
-      language: ["eng"],
-      last_modified_i: 1281133349,
-      id_librarything: ["789492"],
-      cover_edition_key: "OL8065478M",
-      publish_year: [2002],
-      first_publish_year: 2002
-    },
-    {
-      title_suggest: "The Lord Of The Rings' Metaphors",
-      edition_key: ["OL8726702M"],
-      cover_i: 2101735,
-      isbn: ["1897046340", "9781897046340"],
-      has_fulltext: false,
-      text: [
-        "OL8726702M",
-        "1897046340",
-        "9781897046340",
-        "Rolf A. F. Witzsche",
-        "OL3076798A",
-        "The Lord Of The Rings' Metaphors",
-        "/works/OL8915767W",
-        "Cygni Communications",
-        "J.R.R. Tolkien created a fictional saga of a mythical age, staged in an imaginary land called Middle Earth."
-      ],
-      author_name: ["Rolf A. F. Witzsche"],
-      seed: ["/books/OL8726702M", "/works/OL8915767W", "/authors/OL3076798A"],
-      author_key: ["OL3076798A"],
-      title: "The Lord Of The Rings' Metaphors",
-      publish_date: ["January 31, 2004"],
-      type: "work",
-      ebook_count_i: 0,
-      edition_count: 1,
-      key: "/works/OL8915767W",
-      id_goodreads: ["15372"],
-      publisher: ["Cygni Communications"],
-      language: ["eng"],
-      last_modified_i: 1281428913,
-      id_librarything: ["8856773"],
-      cover_edition_key: "OL8726702M",
-      first_sentence: [
-        "J.R.R. Tolkien created a fictional saga of a mythical age, staged in an imaginary land called Middle Earth."
-      ],
-      publish_year: [2004],
-      first_publish_year: 2004
-    },
-    {
-      title_suggest: "Lord of the Rings the Film Book",
-      publisher: ["Ballantine Books"],
-      isbn: ["0345381394", "9780345381392"],
-      has_fulltext: false,
-      edition_count: 1,
-      edition_key: ["OL10685695M"],
-      last_modified_i: 1282016757,
-      title: "Lord of the Rings the Film Book",
-      author_name: ["J R R Tolken"],
-      seed: ["/books/OL10685695M", "/works/OL9466595W", "/authors/OL3485759A"],
-      id_librarything: ["3162570"],
-      key: "/works/OL9466595W",
-      text: [
-        "OL10685695M",
-        "0345381394",
-        "9780345381392",
-        "J R R Tolken",
-        "OL3485759A",
-        "Lord of the Rings the Film Book",
-        "/works/OL9466595W",
-        "Ballantine Books"
-      ],
-      id_goodreads: ["242782"],
-      author_key: ["OL3485759A"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "Understanding The Lord of the Rings",
-      edition_key: ["OL7605193M"],
-      isbn: ["9780618422531", "0618422536"],
-      has_fulltext: false,
-      text: [
-        "OL7605193M",
-        "9780618422531",
-        "0618422536",
-        "Rose A Zimbardo (Editor)",
-        "Neil D Isaacs (Editor)",
-        "144556898",
-        "The Best of Tolkien Criticism",
-        "Understanding The Lord of the Rings",
-        "/works/OL7605193M",
-        "Houghton Mifflin",
-        "IT IS ALMOST forty-three years since Rose Zimbardo pointed me toward Middle-earth."
-      ],
-      seed: ["/books/OL7605193M", "/works/OL7605193M"],
-      oclc: ["144556898"],
-      contributor: ["Rose A Zimbardo (Editor)", "Neil D Isaacs (Editor)"],
-      title: "Understanding The Lord of the Rings",
-      publish_date: ["May 12, 2005"],
-      type: "work",
-      ebook_count_i: 0,
-      edition_count: 1,
-      key: "/works/OL7605193M",
-      id_goodreads: ["23640"],
-      publisher: ["Houghton Mifflin"],
-      language: ["eng"],
-      last_modified_i: 1419574915,
-      id_librarything: ["44333"],
-      cover_edition_key: "OL7605193M",
-      first_sentence: [
-        "IT IS ALMOST forty-three years since Rose Zimbardo pointed me toward Middle-earth."
-      ],
-      publish_year: [2005],
-      first_publish_year: 2005
-    },
-    {
-      title_suggest: "Watching the Lord of the rings",
-      edition_key: ["OL17991485M"],
-      isbn: ["0820463973", "9780820463971", "9780820463964", "0820463965"],
-      has_fulltext: false,
-      text: [
-        "OL17991485M",
-        "0820463973",
-        "9780820463971",
-        "9780820463964",
-        "0820463965",
-        "Martin Barker",
-        "OL70705A",
-        "Tolkien's world audiences",
-        "Watching the Lord of the rings",
-        "Martin Barker.",
-        "Lord of the Rings films -- History and criticism",
-        "Tolkien, J. R. R. -- 1892-1973",
-        "/works/OL17991485M",
+      "has_fulltext": true,
+      "text": [
+        "OL22871897M",
+        "OL3281407M",
+        "OL15327135M",
+        "OL15325650M",
+        "OL6968116M",
+        "OL6663085M",
+        "OL14592252M",
+        "OL17692396M",
+        "OL17158603M",
+        "OL17738676M",
+        "OL17197694M",
+        "OL17158606M",
+        "OL17738442M",
+        "OL17738383M",
+        "OL17158609M",
+        "OL301993M",
+        "OL16919685M",
+        "OL17738374M",
+        "OL17738384M",
+        "OL17158611M",
+        "OL17158613M",
+        "OL17738375M",
+        "OL17158622M",
+        "OL17738376M",
+        "OL17738377M",
+        "OL17738385M",
+        "OL289257M",
+        "OL17167175M",
+        "OL14592371M",
+        "OL17692406M",
+        "OL17167179M",
+        "OL17736829M",
+        "OL17738378M",
+        "OL17692407M",
+        "OL17167177M",
+        "OL6972660M",
+        "OL17167181M",
+        "OL17738379M",
+        "OL17694291M",
+        "OL14604296M",
+        "OL17737708M",
+        "OL17692470M",
+        "OL14592870M",
+        "OL17167184M",
+        "OL17694292M",
+        "OL17738380M",
+        "OL14592376M",
+        "OL17692408M",
+        "OL17738386M",
+        "OL17167187M",
+        "OL17197967M",
+        "OL17167189M",
+        "OL17738381M",
+        "OL17716028M",
+        "OL17713682M",
+        "OL15044987M",
+        "OL17711407M",
+        "OL15044869M",
+        "OL15052686M",
+        "OL24166469M",
+        "OL15045021M",
+        "OL17714188M",
+        "OL15094599M",
+        "OL17715226M",
+        "OL15046735M",
+        "OL16915638M",
+        "OL17712470M",
+        "OL17707983M",
+        "OL15046804M",
+        "OL17712299M",
+        "OL15046765M",
+        "OL17708655M",
+        "OL15083622M",
+        "OL17714751M",
+        "OL17710840M",
+        "OL15106031M",
+        "OL16900310M",
+        "OL17712967M",
+        "OL15083710M",
+        "OL17704927M",
+        "OL17707919M",
+        "OL16900302M",
+        "OL17711676M",
+        "OL17713200M",
+        "OL15073047M",
+        "OL15090309M",
+        "OL17707646M",
+        "OL15073086M",
+        "OL6457521M",
+        "OL17239594M",
+        "OL16910051M",
+        "OL6375314M",
+        "OL5532611M",
+        "OL23250596M",
+        "OL2117647M",
+        "OL7942373M",
+        "OL2979289M",
+        "OL22553121M",
+        "OL16237061M",
+        "9780806603247",
+        "9783631453780",
+        "9789171021397",
+        "0806603240",
+        "9171021396",
+        "3631453787",
+        "Martin Luther",
+        "Collijn, Isak Gustaf Alfred, 1875-1949, ed.",
+        "Campanius Holm, Johan, 1601-1683, tr.",
+        "Martin Luther Collection (Library of Congress)",
+        "Einspruch, Henry, 1892-",
+        "Panzer, Baldur.",
+        "Yoh\u0101nes Mangsta\u02be\u0101b.",
+        "Neander, Michael, 1525-1595.",
+        "Oporinus, Joannes, 1507-1568, printer.",
+        "Campanius Holm, Johan, 1601-1683.",
+        "Charles XI, King of Sweden, 1655-1697, associated name.",
+        "Matson, Kate Walborg, signer.",
+        "American Imprint Collection (Library of Congress)",
+        "Giertz, Bo, 1905-",
+        "Frenckellin, J. C., publisher.",
+        "Marian S. Carson Collection (Library of Congress)",
+        "Zinzendorf, Nicolaus Ludwig, Graf von, 1700-1760.",
+        "Zinzendorf, Nicolaus Ludwig, Graf von, 1700-1760, ed.",
+        "Lysius, Heinrich, 1670-1731.",
+        "D\u00fcrer, Albrecht, 1471-1528.",
+        "3801352",
+        "3181877",
+        "2196996",
+        "231229201",
+        "luthericatechism01luth",
+        "derkleinecatechi00inluth",
+        "nybc205052",
+        "OL66601A",
+        "Swedish",
+        "Lithuanian",
+        "Mohawk language",
+        "Finnish",
+        "Prayers",
+        "German",
+        "Tigrinya",
+        "Accessible book",
+        "Delaware",
+        "Hymns",
+        "Indian linguistics",
+        "Glossaries, vocabularies",
+        "Texts",
+        "Early works to 1800",
+        "Delaware language",
+        "English",
+        "Catechisms and creeds",
+        "Doctrinal Theology",
+        "Lutheran Church",
+        "Catechisms",
+        "Fathers of the church",
+        "nebst den gew\u00f6hnlichen morgen-, tisch- und abend-gebeten : welchem die Ordnung des heils, in einem liede, in kurzen s\u00e4tzen, in frag und antwort, und in einer tabelle : wie auch eine zergliederung des Catechismus, das W\u00fcrtemb\u00fcrgische kurze kinder-examen, die confirmation und beichte beygef\u00fcget : und etliche lieder, Freylinghausens Ordnung des heils, das G\u00fcldene A, B, C, der kinder, und die sieben buss-psalmen, angeh\u00e4nget sind : zum gebrauch der jungen und alten",
+        "worin die f\u00fcnf Hauptst\u00fccke zergliedert und in kurzen Fragen gestellt sind, dass der Junhalt leichter kann gelernt und besser begriffen werden : nebst andern Fragst\u00fccken, wie auch erbauliche Morgen- Tisch- und Abend-gebaten, und Liedern, und was sonst n\u00f6thig ist",
+        "nebst den gew\u00f6hnlichen morgen-, tisch- und abend-gebeten : welchem die Ordnung des heils, in einem liede, in kurzen s\u00e4tzen, in frag und antwort, und in einer tabelle : wie auch eine zergliederung des Catechismus, das W\u00fcrtemburgische kurze kinder-examen, die confirmation und beichte beygef\u00fcget : und etliche lieder, Freylinghausens Ordnung des heils, das G\u00fcldene A.B.C. der kinder, und die sieben buss-psalmen, angeh\u00e4nget sind : zum gebrauch der jungen und alten",
+        "nebst den gew\u00f6hnlichen morgen-, tisch- und abend-gebeten : welchem die Ordnung des heils, in einem liede, in kurzen s\u00e4tzen, in frag und antwort, und in einer tabelle : wie auch eine zergliederung des Catechismus, das W\u00fcrtemburgische kurze kinder-examen, die confirmation und beichte beygef\u00fcget : und etliche lieder, Freylinghausens Ordnung des heils, das G\u00fcldene A, B, C, der kinder, und die sieben buss-psalmen, angeh\u00e4nget sind : zum gebrauch der jungen und alten.",
+        "nebst den gew\u00f6hnlichen Morgen- Tisch- und Abend-Gebethern. Welchem die Ordnung des Heils, in einem Liede, in kurzen S\u00e4tzen, in Frag und Antwort, und in einer Tabelle; wie auch das W\u00fcrtembergische kurze Kinder-Examen, die Confirmation, Beicht, Communion-Gebether, Lieder u. beygef\u00fcget; und die unge\u00e4nderte Augspurgische Confession, imgleichen das g\u00fcldene A.B.C. der Kinder, angeh\u00e4nget ist. : Zum Gebrauch der Jugend und Alten.",
+        "nebst den gew\u00f6hnlichen morgen-, tisch- und abend-gebeten : welchem die Ordnung des heils, in einem liede, in kurzen s\u00e4tzen, in frag und antwort, und in einer tabelle : wie auch eine zergliederung des Catechismus, das W\u00fcrtemb\u00fcrgische kurze kinder-examen, die confirmation und beichte beygef\u00fcget : und etliche lieder, Freylinghausens Ordnung des heils, das G\u00fcldene A, B, C, der kinder, und die sieben buss-psalmen, angeh\u00e4nget sind : zum gebrauch der jungen und alten.",
+        "nebst den gew\u00f6hnlichen Morgen- Tisch- und Abend-Gebetern. : Wobey die Ordnung des Heils, in einem Liede, in kurzen S\u00e4tzen, in Frage und Antwort, und in einer Tabelle, wie auch der Inhalt der Heiligen Schrift in Versen, hinzugef\u00fcget. : Zum Gebrauch der Jugend. : Nebst einem Anhang der sieben Buss-Psalmen, einem geistlichen Lied und das Einmal Eins",
+        "Nebst den gew\u00f6hnlichen Morgen- Tisch- und Abend-Geb\u0308ten. Welchem die Ordnung des Heils, in einem Liede, in kurzen S\u00e4tzen, in Frag und Antwort, und in einer Tabelle; wie auch eine Zergliederung des Catechismus, das W\u00fcrtembergische kurze Kinder-Examen, die Confirmation und Beichte, beygef\u00fcget; und etliche Lieder, Freylinghausens Ordnung des Heils, das g\u00fcldene A, B, C, der Kinder, und die sieben Buss-Psalmen, angeh\u00e4nget sind. : Zum Gebrauch der Jungen und Alten.",
+        "Nebst den gew\u00f6hnlichen Morgen- Tisch- und Abend-Ge\u00e8bten. Welchem die Ordnung des Heils, in einem Liede, in kurzen S\u00e4tzen, in Frag und Antwort, und in einer Tabelle; wie auch eine Zergliederung des Catechismus, das W\u00fcrtemb\u00fcrgische kurze Kinder-Examen, die Confirmation und Beichte, beygef\u00fcget; und etliche Lieder, Freylinghausens Ordnung des Heils, das g\u00fcldene A, B, C, der Kinder, und die sieben Buss-Psalmen, angeh\u00e4nget sind. : Zum Gebrauch der Jungen und Alten",
+        "nebst den gew\u00f6hnlichen Morgen- Tisch- und Abend-Geb\u00e4tern, wobey die Ordnung des Heils in einem Liede, in kurzen S\u00e4tzen, in Frag und Antwort, und in einer Tabelle, wie auch der Inhalt der Heiligen Schrift in Versen, hinzugef\u00fcget : zum Gebrauch der Jugend : nebst einem Anhang der sieben Buss-Plalmen [sic], einem geistlichen Lied, und das Einmal Eins.",
+        "loy\u1e6d Mar\u1e6din Lu\u1e6dher's \u1e32leynem \u1e33a\u1e6dekhizm",
+        "Nebst den gew\u00f6hnlichen Morgen- Tisch- und Abend-Gebeten. Welchem die Ordnung des Heils, in einem Liede, in kurzen S\u00e4tzen, in Frag und Antwort, und in einer Tabelle; wie auch eine Zergliederung des Catechismus; das W\u00fcrtembergische kurze Kinder-Examen, die Confirmation und Beichte, beygef\u00fcget; und etliche Lieder, Freylinghausens Ordnung des Heils, das G\u00fcldne A, B, C, der Kinder, und die sieben Buss Psalmen, angeh\u00e4nget sind. : Zum Gebrauch der Jungen und Alten",
+        "Nebst den gew\u00f6hnlichen Morgen- Tisch- und Abend-Geb\u0308ten. Welchem die Ordnung des Heils, in einem Liede, in kurzen S\u00e4tzen, in Frag und Antwort, und in einer Tabelle; wie auch eine Zergliederung des Catechismus. : Das W\u00fcrtembergische kurze Kinder-Examen die Confirmation und Beichte beygef\u00fcget; und etliche Lieder, Freylinghausens Ordnung des Heils, das g\u00fcldene A, B, C, der Kinder, und die sieben Buss-Psalmen, angeh\u00e4nget sind. : Zum Gebrauch der Jugend.",
+        "nebst den gew\u00f6hnlichen Morgen-, Tisch- und Abend-gebeten ... wie auch eine Zergliederung des Catechismus, das W\u00fcrtemburgische kurze Kinder-examen, die Confirmation und beichte beygef\u00fcget ...",
+        "nebst den gew\u00f6hnlichen Morgen- Tisch- und Abend-Geb\u00e4tern. : Wobey die Ordnung des Heils in einem Liede, in kurzen S\u00e4tzen, in Frag und Antwort, und in einer Tabelle, wie auch der Inhalt der Heiligen Schrift in Versen, hinzugef\u00fcgt. : Zum Gebrauch der Jugend. : Nebst einem Anhang der sieben Buss-Psalmen, einem geistlichen Lied und das Einmal Eins.",
+        "nebst den gew\u00f6hnlichen Morgen- Tisch- und Abend-Geb\u00e4tern. : Wobey die Ordnung des Heils in einem Liede, in kurzen S\u00e4tzen, in Frag und Antwort, und in einer Tabelle, wie auch der Inhalt der Heiligen Schrift in Versen, hinzugef\u00fcgt. : Zum Gebrauch der Jugend. : Nebst einem Anhang der sieben Buss-Psalmen, einem geistlichen Lied und das Einmal Eins",
+        "Nebst den gew\u00f6hnlichen Morgen- Tisch- und Abend-Gebeten. : Welchem die Ordnung des Heils, in einem Liede, in kurzen S\u00e4tzen, in Frag und Antwort, und in einer Tabelle; wie auch eine Zergliederung des Catechismus, das W\u00fcrtembergische kurze Kinder-Examen, die Confirmation und Beichte beygef\u00fcget; und etliche Lieder, Freylinghausens Ordnung des Heils, das g\u00fcldene A, B, C, der Kinder, und die sieben Buss-Psalmen, angeh\u00e4nget sind. : Zum Gebrauch der Jungen und Alten.",
+        "Catechesis Martini Lutheri parua, Gre\u031ccolatina, postrem\u00f9m recognita. Ad eam uer\u00f2 accesseru[n]t Sente[n]tie\u031c aliquot Patru[m] selectiores Gre\u031ccolatinae: Narrationes item Apocryphae de Christo, Maria, &c. cognatione ac familia Christi, extra Biblia: sed tamen apud ueteres probatos autores, Patres, Historicos, Philologos, & multos alios Scriptores Graecos repertae. His adiecimus nunc prim\u00f9m Prochori (qui unus ex Septum ministris fuit, Stephani protomartyris consobrinus) de Ioanne theologo & euangelista historiam, nunquam hactenus in lucem editam. Omnia Graecolatina, descripta, exposita & edita studio & opera",
+        "nebst den gew\u00f6hnlichen Morgen- Tisch- und Abend-Gebetern. : Wobey die Ordnung des Heils, in einem Liede, in kurzen S\u00e4tzen, in Frage und Antwort, und in einer Tabelle, wie auch der Inhalt der Heiligen Schrift in Versen, hinzugef\u00fcget. : Zum Gebrauch der Jugend. : Nebst einem Anhang der sieben Buss-Psalmen, einem geistlichen Lied und das Einmal Eins.",
+        "Nebst den gewo hnlichen Morgen- Tisch- und Abend-Geb ten. Welchem die Ordnung des Heils, in einem Liede, in kurzen Sa tzen, in Frag und Antwort, und in einer Tabelle; wie auch eine Zergliederung des Catechismus, das Wu rtembergische kurze Kinder-Examen, die Confirmation und Beichte, beygefu get; und etliche Lieder, Freylinghausens Ordnung des Heils, das gu ldene A, B, C, der Kinder, und die sieben Buss-Psalmen, angeha nget sind. : Zum Gebrauch der Jungen und Alten.",
+        "nebst den gew\u00f6hnlichen Morgen- Tisch- und Abend-Gebetern. : Wobey die Ordnung des Heils, in einem Liede, in kurzen S\u00e4tzen, in Fragen und Antwort, und in einer Tabelle, wie auch der Inhalt der Heiligen Schrift in Versen, hinzugef\u00fcget. : Zum Gebrauch der Jugend. : Nebst einem Anhang der sieben Buss-Psalmen, einem geistlichen Lied und das Einmal Eins",
+        "nebst den gew\u00f6hnlichen Morgen-, Tisch- und Abend-gebeten ... wie auch eine Zergliederung des Catechismus, das W\u00fcrtemburgische kurze Kinder-examen, die Confirmation und beichte beygef\u00fcget ..",
+        "nebst den gew\u00f6hnlichen Morgen-, Abend- und Tisch-gebeten ... wie auch eine Zergliederung des Catechismus, das W\u00fcrtemburgische kurze Kinder-examen, die Confirmation und beichte beygef\u00fcgt [sic] ...",
+        "nebst den gew\u00f6hnlichen Morgen, Tisch, und Abend-Gebeten, welchem die Ordnung des Heils, in einem Liede, in kurzen S\u00e4tzen in Frag und Antwort, und in einer Tabelle; wie auch eine Zergliederung des Catechismus, das W\u00fctembergische kurze Kinder-Examen die Confirmation und Beichte beygef\u00fcget; und etliche Lieder, Freylinghausens Ordnung des Heils, das g\u00fcldene A, B, C, der Kinder, und die sieben Buss-Psalmen, angeh\u00e4nget sind.",
+        "M\u00e1z\u00e1s katgismas D. Mertino Lutteraus : deutscher und litauischer Text nach der Handschrift Ms. Slav. Quart. 4 (Berlin/Krakau) besorgt von Henrich Lysius, Tillsitt, 1719",
+        "with the customary family prayers",
+        "Nebst den gewo hnlichen Morgen- Tisch- und Abend-Geb ten. Welchem die Ordnung des Heils, in einem Liede, in kurzen Sa tzen, in Frag und Antwort, und in einer Tabelle; wie auch eine Zergliederung des Catechismus. : Das Wu rtembergische kurze Kinder-Examen die Confirmation und Beichte beygefu get; und etliche Lieder, Freylinghausens Ordnung des Heils, das gu ldene A, B, C, der Kinder, und die sieben Buss-Psalmen, angeha nget sind. : Zum Gebrauch der Jugend.",
+        "Mit Erl\u00e4uterungen herausgegeben zum Gebrauch der lutherische Gemeinen in Pennsylvanien.",
+        "nebst den gew\u00f6hnlichen Morgen- Tisch und Abend-Geb\u00e4tern. : Wobey die Ordnung des Heils, in einem Liede, in kurzen S\u00e4tzen, in Frage und Antwort, und in einer Tabelle, wie auch der Inhalt der Heiligen Schrift in Versen, hinzugef\u00fcget. : Zum Gebrauch der Jugend. : Nebst einem Anhang der sieben Buss-Psalmen einem geistlichen Lied und das Einmal Eins.",
+        "nebst den gew\u00f6hnlichen morgen-, tisch- und abend-gebeten : welchem die Ordnung des heils, in einem liede, in kurzen s\u00e4tzen, in frag und antwort, und in einer tabelle : wie auch eine zergliederung des Catechismus, das W\u00fcrtemburgische kurze kinder-examen, die confirmation und beichte beygef\u00fcget : und etliche lieder, Freylinghausens Ordnung des heils, das G\u00fcldene A, B, C, der kinder, und die sieben buss-psalmen, angeh\u00e4nget sind : zum gebrauch der jungen und alten",
+        "nebst den gew\u00f6hnlichen Morgen-, Tisch- und Abend-gebeten ... wie auch eine Zergliederung des Catechismus, das W\u00fcrtemburgische kurze Kinder-examen, die Confirmation und Beichte beygef\u00fcget ...",
+        "nebst den gew\u00f6hnlichen Morgen- Abend- und Tisch- Gebeten",
+        "nebst den gew\u00f6hnlichen Morgen- Tisch und Abend-Ge\u00e8btern. Wobey die Ordnung des Heils, in einem Liede, in kurzen S\u00e4tzen, in Frage und Antwort, und in einer Tabelle, wie auch der Inhalt der heiligen Schrift in Versen, hizugef\u00fcget. : Zum Gebrauch der Jugend. : Nebst einem Anhang der sieben Buss-Psalmen einem geistlichen Lied und das Einmal Eins",
+        "nebst den gew\u00f6hnlichen Morgen- Tisch- und Abend-Gebethern : welchem die Ordnung des Heils, in einem Liede, in kurzen S\u00e4tzen, in Frag und Antwort, und in einer Tabelle: wie auch das W\u00fcrtembergische kurze Kinder-Examen, die Confirmation, Beicht, Communion-Gebether, Lieder u. beygef\u00fcget : und die unge\u00e4nderte Augspurgische Confession, imgleichen das g\u00fcldene A.B.C. der Kinder, angeh\u00e4nget ist : zum Gebrauch der Jugend und Alten.",
+        "Nebst den gew\u00f6hnlichen Morgen- Tisch- und Abend-Gebeten. : Welchem die Ordnung des Heils, in einem Liede, in kurzen S\u00e4tzen, in Frag und Antwort, und in einer Tabelle; wie auch eine Zergliederung des Catechismus; das W\u00fcrtemb\u00fcrgische kurze Kinder-Examen, die Confirmation und Beichte beygef\u00fcget; und etliche Lieder, Freylinghausens Ordnung des Heils, das g\u00fcldene A, B, C, der Kinder, und die sieben Buss Psalmen, angeh\u00e4nget sind. : Zum Gebrauch der Jungen und Alten",
+        "Nebst den gew\u00f6hnlichen Morgen- Tisch- und Abend-Ge\u00e8bten. Welchem die Ordnung des Heils, in einem Liede, in kurzen S\u00e4tzen, in Frag und Antwort, und in einer Tabelle; wie auch eine Zergliederung des Catechismus, das W\u00fcrtembergische kurze Kinder-Examen, die Confirmation und Beichte beygef\u00fcget; und etliche Lieder, Freylinghausens Ordnung des Heils, das g\u00fcldene A, B, C, der Kinder, und die sieben Buss-Psalmen, angeh\u00e4nget sind. : Zum Gebrauch der Jungen und Alten",
+        "nebst den gew\u00f6hnlichen Morgen-, Tisch- und Abend-gebeten ... wie auch eine Zergliederung des Catechismus, das W\u00fcrtemburgische kurze Kinder-examen, die Confirmation und Beichte beygef\u00fcget ..",
+        "Nebst den gew\u00f6hnlichen Morgen- Tisch- und Abend-Geb\u0308ten. Welchem die Ordnung des Heils, in einem Liede, in kurzen S\u00e4tzen, in Frag und Antwort, und in einer Tabelle; wie auch eine Zergliederung des Catechismus, das W\u00fcrtemb\u00fcrgische kurze Kinder-Examen die Confirmation und Beichte beygef\u00fcget; und etliche Lieder, Freylinghausens Ordnung des Heils, das g\u00fcldene A, B, C, der Kinder, und die sieben Buss-Psalmen, angeh\u00e4nget sind. : Zum Gebrauch der Jungen und Alten.",
+        "nebst den gew\u00f6hnlichen Morgen- Tisch- und Abend-Gebetern. : Wobey die Ordnung des Heils, in einem Liede, in kurzen S\u00e4tzen, in Fragen und Antwort, und in einer Tabelle, wie auch der Inhalt der Heiligen Schrift in Versen, hinzugef\u00fcget. : Zum Gebrauch der Jugend. : Nebst einem Anhang der sieben Buss-Psalmen, einem geistlichen Lied und das Einmal Eins.",
+        "Nebst den gew\u00f6hnlichen Morgen- Tisch- und Abend-Geb\u0308ten. Welchem die Ordnung des Heils, in einem Liede, in kurzen S\u00e4tzen, in Frag und Antwort, und in einer Tabelle; wie auch eine Zergliederung des Catechismus, das W\u00fcrtemb\u00fcrgische kurze Kinder-Examen, die Confirmation und Beichte, beygef\u00fcget; und etliche Lieder, Freylinghausens Ordnung des Heils, das g\u00fcldene A, B, C, der Kinder, und die sieben Buss-Psalmen, angeh\u00e4nget sind. : Zum Gebrauch der Jungen und Alten.",
+        "Nebst den gewo hnlichen Morgen- Tisch- und Abend-Gebeten. : Welchem die Ordnung des Heils, in einem Liede, in kurzen Sa tzen, in Frag und Antwort, und in einer Tabelle; wie auch eine Zergliederung des Catechismus, das Wu rtembergische kurze Kinder-Examen, die Confirmation und Beichte beygefu get; und etliche Lieder, Freylinghausens Ordnung des Heils, das gu ldene A, B, C, der Kinder, und die sieben Buss-Psalmen, angeha nget sind. : Zum Gebrauch der Jungen und Alten.",
+        "nebst den gew\u00f6hnlichen Morgen- Tisch- und Abend-Geb\u00e4tern. : Wobey die Ordnung des Heils, in einem Liede, in kurzen S\u00e4tzen, in Frag und Antwort, und in einer Tabelle, wie auch der Inhalt der Heiligen Schrift in Versen, hinzugef\u00fcget. : Zum Gebrauch der Jugend. : Nebst einem Anhang der sieben Buss-Psalmen, einem geistlichen Lied und das Einmal Eins.",
+        "nebst den gew\u00f6hnlichen Morgen- Tisch- und Abend-Geb\u00e4tern. : Wobey die Ordnung des Heils, in einem Liede, in kurzen S\u00e4tzen, in Frag und Antwort, und in einer Tabelle, wie auch der Inhalt der Heiligen Schrift in Versen, hinzugef\u00fcget. : Zum Gebrauch der Jugend. : Nebst einem Anhang der sieben Buss-Psalmen, einem geistlichen Lied und das Einmal Eins",
+        "mostly translated from the German.",
+        "nebst andern Fragst\u00fccken : wie auch erbauliche Morgen- Tisch- und Abend geb\u00e4ten und Liedern ..",
+        "Nebst den gew\u00f6hnlichen Morgen- Tisch- und Abend-Geb\u0308ten welchem die Ordnung des Heils, in einem Liede, in kurzen S\u00e4tzen, in Frag und Antwort, und in einer Tabelle; wie auch eine Zergliederung des Catechismus; das W\u00fcrtemb\u00fcrgische kurze Kinder-Examen, die Confirmation und Beichte, beygef\u00fcget; und etliche Lieder, Freylinghausens Ordnung des Heils, das g\u00fcldene A, B, C, der Kinder, und die sieben Buss Psalmen, angeh\u00e4nget sind. : Zum Gebrauch der Jungen und Alten.",
+        "nebst den gew\u00f6hnlichen Morgen- Tisch und Abend-Geb\u0308tern. Wobey die Ordnung des Heils, in einem Liede, in kurzen S\u00e4tzen, in Frage und Antwort, und in einer Tabelle, wie auch der Inhalt der heiligen Schrift in Versen, hizugef\u00fcget. : Zum Gebrauch der Jugend. : Nebst einem Anhang der sieben Buss-Psalmen einem geistlichen Lied und das Einmal Eins.",
+        "Nebst den gew\u00f6hnlichen Morgen- Tisch- und Abend-Gebeten. : Welchem die Ordnung des Heils, in einem Liede, in kurzen S\u00e4tzen, in Frag und Antwort, und in einer Tabelle; wie auch eine Zergliederung des Catechismus; das W\u00fcrtemb\u00fcrgische kurze Kinder-Examen, die Confirmation und Beichte beygef\u00fcget; und etliche Lieder, Freylinghausens Ordnung des Heils, das g\u00fcldene A, B, C, der Kinder, und die sieben Buss Psalmen, angeh\u00e4nget sind. : Zum Gebrauch der Jungen und Alten.",
+        "mostly translated from the German",
+        "nebst den gew\u00f6hnlichen Morgen- Tisch und Abend-Geb\u00e4tern. : Wobey die Ordnung des Heils, in einem Liede, in kurzen S\u00e4tzen, in Frage und Antwort, und in einer Tabelle, wie auch der Inhalt der Heiligen Schrift in Versen, hinzugef\u00fcget. : Zum Gebrauch der Jugend. : Nebst einem Anhang der sieben Buss-Psalmen einem geistlichen Lied und das Einmal Eins",
+        "of Dr. Martin Luther, translated from the Latin into English by a clergyman ... and now published together with the German, for the use of the school belonging to St. George's German Lutheran Chapel, ... By Gustavus Anthony Wachsel, ...",
+        "nebst den gew\u00f6hnlichen Morgen-, Abend- und Tisch-gebeten ... wie auch eine Zergliederung des Catechismus, das W\u00fcrtemburgische kurze Kinder-examen, die Confirmation und beichte beygef\u00fcget ...",
+        "Nebst den gew\u00f6hnlichen Morgen- Tisch- und Abend-Ge\u00e8bten welchem die Ordnung des Heils, in einem Liede, in kurzen S\u00e4tzen, in Frag und Antwort, und in einer Tabelle; wie auch eine Zergliederung des Catechismus; das W\u00fcrtemb\u00fcrgische kurze Kinder-Examen, die Confirmation und Beichte, beygef\u00fcget; und etliche Lieder, Freylinghausens Ordnung des Heils, das g\u00fcldene A, B, C, der Kinder, und die sieben Buss Psalmen, angeh\u00e4nget sind. : Zum Gebrauch der Jungen und Alten",
+        "Nebst den gew\u00f6hnlichen Morgen- Tisch- und Abend-Geb\u0308ten. Welchem die Ordnung des Heils, in einem Liede, in kurzen S\u00e4tzen, in Frag und Antwort, und in einer Tabelle; wie auch eine Zergliederung des Catechismus; das W\u00fcrtemb\u00fcrgische kurze Kinder-Examen, die Confirmation und Beichte, beygef\u00fcget; und etliche Lieder, Freylinghausens Ordnung des Heils, das g\u00fcldene A, B, C, der Kinder, und die sieben Buss Psalmen, angeh\u00e4nget sind. : Zum Gebrauch der Jungen und Alten.",
+        "Nebst den gew\u00f6hnlichen morgen-, abend und tisch-gebeten.  Welchem die Ordnung des heils, in einem liede, in kurzen s\u00e4tzen, in frag und antwort, und in einer tabelle; wie auch eine zergliederung des Catechismus, das W\u00fcrtembergische kurze kinder-examen, die confirmation und beichte, beygef\u00fcgt, und etliche lieder,Freylinghausens Ordnung des heils, das Goldne ABC der kinder, und die sieben buss-psalmen angeh\u00e4ngt sind.  Zum gebrauch der jungen und alten.",
+        "Mit Erla uterungen herausgegeben zum Gebrauch der lutherische Gemeinen in Pennsylvanien.",
+        "nebst den gew\u00f6hnlichen Morgen-, Abend- und Tisch-Gebeten : welchem beygef\u00fcgt ist, die Ordnung des Heils, in einem Liede, in kurzen S\u00e4tzen, in Frag und Antwort, und in einer Tabelle : wie auch eine Zergliederung des Catechismus, das w\u00fcrtembergische kurze Kinder-Examen, die Confirmation und Beichte : dem auch etliche Lieder, Freylinghausens Ordnung des Heils, das goldne ABC der Kinder, und die sieben Buss-Psalmen angeh\u00e4ngt sind : zum Gebrauch der Jungen und Alten",
+        "mit Erl\u00e4uterungen",
+        "to which are added, An evangelical and familiar catechism, Fundamental questions, The true way to salvation",
+        "Nebst den gew\u00f6hnlichen Morgen- Tisch- und Abend-Geb\u0308ten. Welchem die Ordnung des Heils, in einem Liede, in kurzen S\u00e4tzen, in Frag und Antwort, und in einer Tabelle; wie auch eine Zergliederung des Catechismus, das W\u00fcrtembergische kurze Kinder-Examen, die Confirmation und Beichte beygef\u00fcget; und etliche Lieder, Freylinghausens Ordnung des Heils, das g\u00fcldene A, B, C, der Kinder, und die sieben Buss-Psalmen, angeh\u00e4nget sind. : Zum Gebrauch der Jungen und Alten.",
+        "worin die f\u00fcnf Hauptst\u00fccke zergliedert und in kurzen Fragen gestellt sind, dass der Junhalt leichter kann gelernt und besser begriffen werden : nebst andern Fragst\u00fccken, wie auch erbauliche Morgen- Tisch- und Abend-gebaten, und Liedern, und was sonst n\u00f6thig ist.",
+        "nebst den gew\u00f6hnlichen Morgen- Tisch- und Abend-Geb\u0308tern. Wobey die Ordnung des Heils, in einem Liede, in kurzen S\u00e4tzen, in Frag und Antwort, und in einer Tabelle, wie auch der Inhalt der heiligen Schrift in Versen, hizugef\u00fcget. : Zum Gebrauch der Jugend. : Nebst einem Anhang der sieben Buss-Psalmen, einem geistlichen Lied, und das Einmal Eins.",
+        "nebst den gew\u00f6hnlichen Morgen-, Abend- und Tisch-gebeten ... wie auch eine Zergliederung des Catechismus, das W\u00fcrtemburgische kurze Kinder-examen, die Confirmation und beichte beygef\u00fcgt [sic] ..",
+        "Nebst den gewo hnlichen Morgen- Tisch- und Abend-Geb ten. Welchem die Ordnung des Heils, in einem Liede, in kurzen Sa tzen, in Frag und Antwort, und in einer Tabelle; wie auch eine Zergliederung des Catechismus, das Wu rtembu rgische kurze Kinder-Examen, die Confirmation und Beichte, beygefu get; und etliche Lieder, Freylinghausens Ordnung des Heils, das gu ldene A, B, C, der Kinder, und die sieben Buss-Psalmen, angeha nget sind. : Zum Gebrauch der Jungen und Alten.",
+        "nebst andern Fragst\u00fccken : wie auch erbauliche Morgen- Tisch- und Abend geb\u00e4ten und Liedern ...",
+        "nebst den gew\u00f6hnlichen Morgen-, Tisch- und Abend-gebeten : welchem die Ordnung des Heils, in einem Liede, in kurzen S\u00e4tzen, in Frag und Antwort, und in einer Tabelle : wie auch eine Zergliederung des Catechismus, das W\u00fcrtemburgische kurze Kinder-examen, die Confirmation und beichte beygef\u00fcget : und etliche Lieder, Freylinghausens Ordnung des Heils, das G\u00fcldene A, B, C, der Kinder, und die sieben Buss-psalmen, angeh\u00e4nget sind : zum Gebrauch der Jungen und Alten",
+        "nebst den gew\u00f6hnlichen Morgen-, Abend- und Tisch-gebeten ... wie auch eine Zergliederung des Catechismus, das W\u00fcrtemburgische kurze Kinder-examen, die Confirmation und beichte beygef\u00fcget ..",
+        "nebst den gew\u00f6hnlichen Morgen-, Tisch- und Abend-gebeten : welchem die Ordnung des Heils, in einem Liede, in kurzen S\u00e4tzen, in Frag und Antwort, und in einer Tabelle : wie auch eine Zergliederung des Catechismus, das W\u00fcrtemburgische kurze Kinder-examen, die Confirmation und beichte beygef\u00fcget : und etliche Lieder, Freylinghausens Ordnung des Heils, das G\u00fcldene A, B, C, der Kinder, und die sieben Buss-psalmen, angeh\u00e4nget sind : zum Gebrauch der Jungen und Alten.",
+        "Nebst den gew\u00f6hnlichen Morgen- Tisch- und Abend-Ge\u00e8bten. Welchem die Ordnung des Heils, in einem Liede, in kurzen S\u00e4tzen, in Frag und Antwort, und in einer Tabelle; wie auch eine Zergliederung des Catechismus, das W\u00fcrtemb\u00fcrgische kurze Kinder-Examen die Confirmation und Beichte beygef\u00fcget; und etliche Lieder, Freylinghausens Ordnung des Heils, das g\u00fcldene A, B, C, der Kinder, und die sieben Buss-Psalmen, angeh\u00e4nget sind. : Zum Gebrauch der Jungen und Alten",
+        "nebst den gew\u00f6hnlichen Morgen- Tisch- und Abend-Gebetern. : Wobey die Ordnung des Heils in einem Liede, in kurzen S\u00e4tzen, in Frage und Antwort, und in einer Tabelle, wie auch der Inhalt der heiligen Schrift in Versen hinzugef\u00fcget. : Zum Gebrauch der Jugend",
+        "nebst den gew\u00f6hnlichen morgen-, tisch- und abend-gebeten : welchem die Ordnung des heils, in einem liede, in kurzen s\u00e4tzen, in frag und antwort, und in einer tabelle : wie auch eine zergliederung des Catechismus, das W\u00fcrtemburgische kurze kinder-examen, die confirmation und beichte beygef\u00fcget : und etliche lieder, Freylinghausens Ordnung des heils, das G\u00fcldene A.B.C. der kinder, und die sieben buss-psalmen, angeh\u00e4nget sind : zum gebrauch der jungen und alten.",
+        "Kleine Katechismus",
+        "/works/OL795382W",
+        "herausgegeben sowie mit einem Inhaltsverzeichnis, einer Karte und einem litauisch-deutschen Wortindex versehen von Baldur Panzer.",
+        "herausgegeben zum Gebrauch der Lutherische[n] Gemeinen in Pensylvanien.",
+        "Illustrated by Gerd Wilk.",
+        "med f\u00f6rord av Bo Giertz ; [med 61 illustrationer av Albrecht D\u00fcrer ... et al.].",
+        "translated from the German",
+        "[BeYoh\u0101nes Mangsta\u02be\u0101b \u02beetatargwam].",
+        "Michaelis Neandri Sorauiensis.",
+        "Welchem die Ordnung des Heils, in einem Liede, in kurzen S\u00e4tzen, in Frag und Antwort, und in einer Tabelle; wie auch eine Zergliederung des Catechismus; das W\u00fcrtemb\u00fcrgische kurze Kinder-Examen, die Confirmation und Beichte beygef\u00fcget; und etliche Lieder, Freylinghausens Ordnung des Heils, das g\u00fcldene A, B, C, der Kinder, und die sieben Buss-Psalmen angeh\u00e4nget sind.  Zum Gebrauch der Jungen und Alten",
+        "Idish durkh \u1e24ayim Aynshprukh.",
+        "by D. Martin Luther ; to which is added, the order of salvation in nine short sections and by question and answer, &c. ; translated from the German",
+        "translated into Algonquian Indian by Johannes Campanius. Facsimile of the printed edition, Stockholm, 1696, with some notes by Isak Collijn.",
+        "Gedruckt bey Schaeffer und Maund",
+        "Gedruckt bey Leibert und Billmeyer",
+        "Gedruckt und zu haben bey Ambrosius Henkel und Comp.",
+        "Kr\u00f6ger",
+        "Gedruckt und zu haben bey Francis Bailey",
+        "Printed by Jacob Weygandt & Co.",
+        "Gedruckt und zu haben bey Ambrosius Henkel",
+        "I. Haeggstr\u00f6m",
+        "Gedruckt bey Carl Cist, in der Zweyten-Strasse, nah bey der Rehs-Strasse",
+        "Gedruckt und zu haben bey Klein und Reynolds, in Carter's-Alley, in der Zweyten-Strasse, zwischen der Chesnuss und Walnuss-Strasse.",
+        "Concordia Pub. House",
+        "Gedruckt bey G. und D. Billmeyer",
+        "[Gedruckt bey Francis, and Jacob Bailey",
+        "Gedruckt und zu finden bey Henrich Miller",
+        "Gedruckt bey Jacob Schnee",
+        "Gedruckt und zu finden bey Henrich Miller, in der Zweyten-Strasse",
+        "Per Ioannem Oporinum",
+        "Niloe",
+        "Gedruckt und zu haben bey Carl Cist, in der Zweyten-Strasse",
+        "Gedruckt bey Henrich Schweitzer, in der Rehs-Strasse, No. 85.",
+        "Gedruckt bey Jacob Meyer",
+        "Printed by Parmenter and Norton",
+        "Printed by William Bard",
+        "Gedruckt bey Henrich Schweitzer",
+        "Herausgegeben von G.W. Mentz und Sohn, Buchh\u00e4ndler ...",
+        "printed for the benefit of the poor children, belonging to the said school",
+        "The United Lutheran Church in America",
+        "Johann Balhorn the younger",
+        "Gedruckt und zu finden bey Christoph Saur, Jun. und Peter Saur",
+        "[Gedruckt bey Francis und Jacob Bailey?]",
+        "J. C. Frenckellin",
+        "Gedruckt und zu haben bey Anton Armbr\u00fcster in der R\u00e4ss-Strasse, ohnweit der Gr\u00fcnen Baum.",
+        "Gedruckt und zu haben bey Anton Armbr\u00fcster in der R\u00e4ss-Strasse, ohnweit der Gr\u00fcnen Baum.",
+        "Gedruckt bey Michael Billmeyer",
+        "Gedruckt f\u00fcr J. und R. Johnson",
+        "Gedruckt f\u00fcr William Warner",
+        "Printed by John Geyer",
+        "Gedruckt bey Christian Jacob H\u00fctter, in der K\u00f6nigstrasse.",
+        "Fortress Press",
+        "Gedruckt und zu haben bey Anton Armbr\u00fcster in Mor\u00e4vien-Ally ohnweit der Br\u00fcder Kirchen.",
+        "Gedruckt bey Christoph Saur.",
+        "Gedruckt bey Henrich Schweitzer, am Eck der Rees und Vierten-Strasse.",
+        "Gedruckt bey Christoph Saur",
+        "Gedruckt bey P. M\u00fcller und Comp.",
         "P. Lang",
-        "2007024352"
+        "Gedruckt bey C. Zentler",
+        "Gedruckt f\u00fcr J. und R. Johnston",
+        "Gedruckt bey Carl Cist, in der Zweyten-Strasse, no. 104, nahe bey der Rehs-Strasse",
+        "Gedruckt f\u00fcr J. und R. Johnston",
+        "Gedruckt und zu haben bey Klein und Reynolds ...",
+        "Gedruckt und zu haben bey Anton Armbr\u00fcster in Mor\u00e4vien-Ally ohnweit der Br\u00fcder Kirchen.",
+        "Augsburg Fortress Pub",
+        "Gedruckt und zu haben bey Christoph Saur.",
+        "Tryckt vthi thet af Kongl. Maytt. privileg. Burchardi tryckeri af J.J. Genath f.",
+        "Im Verlag bey George W. Mentz",
+        "Gedruckt bey F. Sanno",
+        "Gedruckt f\u00fcr William Warner",
+        "Dr. Martin Luther's Catechism",
+        "Lutheri Catechismus \u00f6fwersatt p\u00e5 American-Virginiske spr\u00e5ket.",
+        "Der kleine Catechismus des sel. Dr. Martin Luthers",
+        "Di Meshie\u1e25ishe emune",
+        "Catechesis Martini Lutheri parua, Gre\u031ccolatina, postrem\u00f9m recognit",
+        "Autuuden oppi lyhyk\u00e4isesti edespandu Lutheruxen catechismuxen yxinkertaisexi selityxexi.",
+        "Doktor Martin Luthers Lilla katekes, med kort utveckling av K. Maj:t stadf\u00e4st den 11 oktober 1878, i \u00f6verensst\u00e4mmelse med g\u00e4llande kyrkohandbok och senaste normalupplagor av Bibelns s\u00e5 v\u00e4l Gamla som Nya testamente",
+        "Der kleine Catechismus des sel. D. Martin Luthers",
+        "Catechismus Lutheri lingua Svecico-Americana",
+        "Luther's small catechism",
+        "Der Kleine catechismus des sel. d. Martin Luthers.",
+        "Doctor Martin Luther's shorter catechism ...",
+        "A facsimile of Luther's Small catechism, Wittenberg, 1531.",
+        "Lilla katekes.",
+        "Der kleine Catechismus des sel. d. Martin Luthers ...",
+        "Patrum theologorum Graecorum sententiae Graecolatine\u031c selectiores, de plerisq[ue] articulis doctrinae Christianae, & pre\u031ccepta de moribus.",
+        "Der kleine Catechismus des sel. d. Martin Luthers",
+        "N\u0101y Lutar ne\u02bee\u0161to temherti h\u0101ym\u0101not mes magla\u1e63i\u02be\u0101",
+        "Catechismus eller christeligh kennedom f\u00f6r ungt och eenfaldige folck gansta nyttigh. Item een liten b\u00f6nebook",
+        "Martin Luther's Little catechism",
+        "Der kleine Catechismus des seligen D. Martin Luthers",
+        "Apocrypha, hoc est, Narrationes de Christo, Maria, Ioseph, cognatione & familia Christi, extra Biblia.",
+        "The small catechism, in contemporary English.",
+        "Small Catechism in Contemporary English",
+        "Der kleine Catechismus D. Martin Luthers",
+        "Luther's Small catechism.",
+        "Der kleine catechismus des sel. d. Martin Luthers",
+        "Catechismus, eller christeligh kennedom f\u00f6r ungt och eenfaldigt folck gansta nyttigh. Item een liten b\u00eaonebock.",
+        "Der kleine Catechismus D.M. Lutheri =",
+        "The shorter catechism",
+        "Der kleine Catechismus des sel. D. Martin Luthers.",
+        "Der kleine Catechismus des seligen d. Martin Luthers",
+        "Kleine Katechismus.",
+        "M\u00e1z\u00e1s Katgismas D. Mertino Lutteraus.",
+        "Der kleine Catechismus D. Martin Luthers.",
+        "Kat\u0113ch\u0113sis Marteinou tou Louth\u0113r\u014d, h\u0113 mikr\u00e0 kal\u014dm\u00e9n\u0113, hell\u0113n\u0113kolat\u00edn\u0113 =",
+        "2003558360",
+        "43021604",
+        "84228994",
+        "2006489837",
+        "06012808",
+        "88174192",
+        "67008579",
+        "38025839",
+        "87381564",
+        "97209532",
+        "24007285",
+        "97193364",
+        "06026902",
+        "Maarten Luther",
+        "Swedish",
+        "Pennsylvania",
+        "Delaware"
       ],
-      author_name: ["Martin Barker"],
-      seed: [
-        "/books/OL17991485M",
-        "/works/OL17991485M",
-        "/subjects/tolkien_j._r._r._--_1892-1973",
-        "/subjects/lord_of_the_rings_films_--_history_and_criticism",
-        "/authors/OL70705A"
+      "author_name": [
+        "Martin Luther"
       ],
-      author_key: ["OL70705A"],
-      subject: [
-        "Lord of the Rings films -- History and criticism",
-        "Tolkien, J. R. R. -- 1892-1973"
+      "contributor": [
+        "Collijn, Isak Gustaf Alfred, 1875-1949, ed.",
+        "Campanius Holm, Johan, 1601-1683, tr.",
+        "Martin Luther Collection (Library of Congress)",
+        "Einspruch, Henry, 1892-",
+        "Panzer, Baldur.",
+        "Yoh\u0101nes Mangsta\u02be\u0101b.",
+        "Neander, Michael, 1525-1595.",
+        "Oporinus, Joannes, 1507-1568, printer.",
+        "Campanius Holm, Johan, 1601-1683.",
+        "Charles XI, King of Sweden, 1655-1697, associated name.",
+        "Matson, Kate Walborg, signer.",
+        "American Imprint Collection (Library of Congress)",
+        "Giertz, Bo, 1905-",
+        "Frenckellin, J. C., publisher.",
+        "Marian S. Carson Collection (Library of Congress)",
+        "Zinzendorf, Nicolaus Ludwig, Graf von, 1700-1760.",
+        "Zinzendorf, Nicolaus Ludwig, Graf von, 1700-1760, ed.",
+        "Lysius, Heinrich, 1670-1731.",
+        "D\u00fcrer, Albrecht, 1471-1528."
       ],
-      title: "Watching the Lord of the rings",
-      publish_date: ["2007"],
-      type: "work",
-      ebook_count_i: 0,
-      publish_place: ["New York"],
-      edition_count: 1,
-      key: "/works/OL17991485M",
-      id_goodreads: ["2298532", "2775800"],
-      publisher: ["P. Lang"],
-      language: ["eng"],
-      lccn: ["2007024352"],
-      last_modified_i: 1419575198,
-      id_librarything: ["5180018"],
-      publish_year: [2007],
-      first_publish_year: 2007
-    },
-    {
-      title_suggest: "Watching the Lord of the Rings",
-      edition_key: ["OL11397176M"],
-      isbn: ["0820463965", "9780820463964"],
-      has_fulltext: false,
-      text: [
-        "OL11397176M",
-        "0820463965",
-        "9780820463964",
-        "Martin Barker (Editor)",
-        "Ernest Mathijs (Editor)",
-        "Tolkien's World Audiences (Media and Culture)",
-        "Watching the Lord of the Rings",
-        "Performing Arts",
-        "Cinema/Film: Book",
-        "Lord of the Rings films",
-        "History and criticism",
-        "Tolkien, J. R. R.",
-        "Popular Culture - General",
-        "Film & Video - General",
-        "1892-1973.",
-        "Lord of the rings",
-        "(John Ronald Reuel),",
-        "/works/OL11397176M",
-        "Peter Lang Pub Inc"
+      "seed": [
+        "/books/OL22871897M",
+        "/books/OL3281407M",
+        "/books/OL15327135M",
+        "/books/OL15325650M",
+        "/books/OL6968116M",
+        "/books/OL6663085M",
+        "/books/OL14592252M",
+        "/books/OL17692396M",
+        "/books/OL17158603M",
+        "/books/OL17738676M",
+        "/books/OL17197694M",
+        "/books/OL17158606M",
+        "/books/OL17738442M",
+        "/books/OL17738383M",
+        "/books/OL17158609M",
+        "/books/OL301993M",
+        "/books/OL16919685M",
+        "/books/OL17738374M",
+        "/books/OL17738384M",
+        "/books/OL17158611M",
+        "/books/OL17158613M",
+        "/books/OL17738375M",
+        "/books/OL17158622M",
+        "/books/OL17738376M",
+        "/books/OL17738377M",
+        "/books/OL17738385M",
+        "/books/OL289257M",
+        "/books/OL17167175M",
+        "/books/OL14592371M",
+        "/books/OL17692406M",
+        "/books/OL17167179M",
+        "/books/OL17736829M",
+        "/books/OL17738378M",
+        "/books/OL17692407M",
+        "/books/OL17167177M",
+        "/books/OL6972660M",
+        "/books/OL17167181M",
+        "/books/OL17738379M",
+        "/books/OL17694291M",
+        "/books/OL14604296M",
+        "/books/OL17737708M",
+        "/books/OL17692470M",
+        "/books/OL14592870M",
+        "/books/OL17167184M",
+        "/books/OL17694292M",
+        "/books/OL17738380M",
+        "/books/OL14592376M",
+        "/books/OL17692408M",
+        "/books/OL17738386M",
+        "/books/OL17167187M",
+        "/books/OL17197967M",
+        "/books/OL17167189M",
+        "/books/OL17738381M",
+        "/books/OL17716028M",
+        "/books/OL17713682M",
+        "/books/OL15044987M",
+        "/books/OL17711407M",
+        "/books/OL15044869M",
+        "/books/OL15052686M",
+        "/books/OL24166469M",
+        "/books/OL15045021M",
+        "/books/OL17714188M",
+        "/books/OL15094599M",
+        "/books/OL17715226M",
+        "/books/OL15046735M",
+        "/books/OL16915638M",
+        "/books/OL17712470M",
+        "/books/OL17707983M",
+        "/books/OL15046804M",
+        "/books/OL17712299M",
+        "/books/OL15046765M",
+        "/books/OL17708655M",
+        "/books/OL15083622M",
+        "/books/OL17714751M",
+        "/books/OL17710840M",
+        "/books/OL15106031M",
+        "/books/OL16900310M",
+        "/books/OL17712967M",
+        "/books/OL15083710M",
+        "/books/OL17704927M",
+        "/books/OL17707919M",
+        "/books/OL16900302M",
+        "/books/OL17711676M",
+        "/books/OL17713200M",
+        "/books/OL15073047M",
+        "/books/OL15090309M",
+        "/books/OL17707646M",
+        "/books/OL15073086M",
+        "/books/OL6457521M",
+        "/books/OL17239594M",
+        "/books/OL16910051M",
+        "/books/OL6375314M",
+        "/books/OL5532611M",
+        "/books/OL23250596M",
+        "/books/OL2117647M",
+        "/books/OL7942373M",
+        "/books/OL2979289M",
+        "/books/OL22553121M",
+        "/books/OL16237061M",
+        "/works/OL795382W",
+        "/subjects/lutheran_church",
+        "/subjects/catechisms",
+        "/subjects/german",
+        "/subjects/catechisms_and_creeds",
+        "/subjects/delaware_language",
+        "/subjects/english",
+        "/subjects/prayers",
+        "/subjects/hymns",
+        "/subjects/glossaries_vocabularies",
+        "/subjects/texts",
+        "/subjects/early_works_to_1800",
+        "/subjects/tigrinya",
+        "/subjects/swedish",
+        "/subjects/finnish",
+        "/subjects/delaware",
+        "/subjects/fathers_of_the_church",
+        "/subjects/lithuanian",
+        "/subjects/doctrinal_theology",
+        "/subjects/accessible_book",
+        "/subjects/mohawk_language",
+        "/subjects/indian_linguistics",
+        "/subjects/place:delaware",
+        "/subjects/place:swedish",
+        "/subjects/place:pennsylvania",
+        "/authors/OL66601A"
       ],
-      seed: [
-        "/books/OL11397176M",
-        "/works/OL11397176M",
-        "/subjects/film_&_video_-_general",
-        "/subjects/popular_culture_-_general",
-        "/subjects/performing_arts",
-        "/subjects/(john_ronald_reuel)",
-        "/subjects/1892-1973.",
-        "/subjects/history_and_criticism",
-        "/subjects/lord_of_the_rings_films",
-        "/subjects/lord_of_the_rings",
-        "/subjects/tolkien_j._r._r.",
-        "/subjects/cinema/film:_book"
+      "author_alternative_name": [
+        "Maarten Luther"
       ],
-      contributor: ["Martin Barker (Editor)", "Ernest Mathijs (Editor)"],
-      subject: [
-        "Performing Arts",
-        "Cinema/Film: Book",
-        "Lord of the Rings films",
-        "History and criticism",
-        "Tolkien, J. R. R.",
-        "Popular Culture - General",
-        "Film & Video - General",
-        "1892-1973.",
-        "Lord of the rings",
-        "(John Ronald Reuel),"
+      "ia": [
+        "luthericatechism01luth",
+        "derkleinecatechi00inluth",
+        "nybc205052"
       ],
-      title: "Watching the Lord of the Rings",
-      publish_date: ["November 2007"],
-      type: "work",
-      ebook_count_i: 0,
-      edition_count: 1,
-      key: "/works/OL11397176M",
-      id_goodreads: ["2298532"],
-      publisher: ["Peter Lang Pub Inc"],
-      language: ["eng"],
-      last_modified_i: 1419576288,
-      id_librarything: ["5180018"],
-      cover_edition_key: "OL11397176M",
-      publish_year: [2007],
-      first_publish_year: 2007
-    },
-    {
-      title_suggest: "Lord of the Rings the Hobbit Boardgame",
-      edition_key: ["OL12367162M"],
-      isbn: ["9781589940536", "1589940539"],
-      has_fulltext: false,
-      text: [
-        "OL12367162M",
-        "9781589940536",
-        "1589940539",
-        "Michael Stern",
-        "Keith Meyers",
-        "Ted Nasmith (Contributor)",
-        "154694414",
-        "OL2205454A",
-        "OL3748590A",
-        "Lord of the Rings the Hobbit Boardgame",
-        "Role Playing & Fantasy - General",
-        "Games",
-        "Graphic Novels",
-        "Games/Puzzles",
-        "General",
-        "/works/OL12367162M",
-        "Fantasy Flight Games"
+      "author_key": [
+        "OL66601A"
       ],
-      author_name: ["Michael Stern", "Keith Meyers"],
-      seed: [
-        "/books/OL12367162M",
-        "/works/OL12367162M",
-        "/subjects/general",
-        "/subjects/role_playing_&_fantasy_-_general",
-        "/subjects/games",
-        "/subjects/graphic_novels",
-        "/subjects/games/puzzles",
-        "/authors/OL2205454A",
-        "/authors/OL3748590A"
-      ],
-      oclc: ["154694414"],
-      contributor: ["Ted Nasmith (Contributor)"],
-      author_key: ["OL2205454A", "OL3748590A"],
-      subject: [
-        "Role Playing & Fantasy - General",
-        "Games",
-        "Graphic Novels",
-        "Games/Puzzles",
-        "General"
-      ],
-      title: "Lord of the Rings the Hobbit Boardgame",
-      publish_date: ["November 2003"],
-      type: "work",
-      ebook_count_i: 0,
-      edition_count: 1,
-      key: "/works/OL12367162M",
-      id_goodreads: ["2833847"],
-      publisher: ["Fantasy Flight Games"],
-      language: ["eng"],
-      last_modified_i: 1419576298,
-      id_librarything: ["3206242"],
-      publish_year: [2003],
-      first_publish_year: 2003
-    },
-    {
-      title_suggest: "Understanding The Lord of the Rings",
-      edition_key: ["OL7605192M"],
-      isbn: ["061842251X", "9780618422517"],
-      has_fulltext: false,
-      text: [
-        "OL7605192M",
-        "061842251X",
-        "9780618422517",
-        "Rose A Zimbardo (Editor)",
-        "Neil D Isaacs (Editor)",
-        "The Best of Tolkien Criticism",
-        "Understanding The Lord of the Rings",
-        "/works/OL7605192M",
-        "Houghton Mifflin",
-        "IT IS ALMOST forty-three years since Rose Zimbardo pointed me toward Middle-earth."
-      ],
-      seed: ["/books/OL7605192M", "/works/OL7605192M"],
-      contributor: ["Rose A Zimbardo (Editor)", "Neil D Isaacs (Editor)"],
-      title: "Understanding The Lord of the Rings",
-      publish_date: ["May 24, 2004"],
-      type: "work",
-      ebook_count_i: 0,
-      edition_count: 1,
-      key: "/works/OL7605192M",
-      id_goodreads: ["899751"],
-      publisher: ["Houghton Mifflin"],
-      language: ["eng"],
-      last_modified_i: 1419576114,
-      id_librarything: ["44333"],
-      cover_edition_key: "OL7605192M",
-      first_sentence: [
-        "IT IS ALMOST forty-three years since Rose Zimbardo pointed me toward Middle-earth."
-      ],
-      publish_year: [2004],
-      first_publish_year: 2004
-    },
-    {
-      title_suggest: "The Lord of the Rings 2005 Calendar",
-      publisher: ["Meadwestvaco"],
-      isbn: ["0768861926", "9780768861921"],
-      has_fulltext: false,
-      language: ["eng"],
-      edition_count: 1,
-      edition_key: ["OL8065988M"],
-      last_modified_i: 1419576341,
-      title: "The Lord of the Rings 2005 Calendar",
-      cover_edition_key: "OL8065988M",
-      seed: [
-        "/books/OL8065988M",
-        "/works/OL8065988M",
-        "/subjects/non-classifiable",
-        "/subjects/calendar"
-      ],
-      first_publish_year: 2004,
-      publish_year: [2004],
-      key: "/works/OL8065988M",
-      text: [
-        "OL8065988M",
-        "0768861926",
-        "9780768861921",
-        "The Lord of the Rings 2005 Calendar",
-        "Calendar",
-        "Non-Classifiable",
-        "/works/OL8065988M",
-        "Meadwestvaco"
-      ],
-      publish_date: ["September 15, 2004"],
-      subject: ["Calendar", "Non-Classifiable"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "The Lord of the Rings Journal",
-      publisher: ["Cedco Publishing Company"],
-      isbn: ["9780768325256", "0768325250"],
-      has_fulltext: false,
-      language: ["eng"],
-      edition_count: 1,
-      edition_key: ["OL8065475M"],
-      last_modified_i: 1419576352,
-      title: "The Lord of the Rings Journal",
-      id_librarything: ["1807582"],
-      cover_edition_key: "OL8065475M",
-      seed: [
-        "/books/OL8065475M",
-        "/works/OL8065475M",
-        "/subjects/non",
-        "/subjects/non000000",
-        "/subjects/non-classifiable",
-        "/subjects/blank_books_/_diaries_/_memory_books",
-        "/subjects/blank_books/journals"
-      ],
-      first_publish_year: 2001,
-      publish_year: [2001],
-      key: "/works/OL8065475M",
-      text: [
-        "OL8065475M",
-        "9780768325256",
-        "0768325250",
-        "The Lord of the Rings Journal",
-        "NON000000",
-        "Blank Books / Diaries / Memory Books",
-        "NON",
-        "Blank Books/Journals",
-        "Non-Classifiable",
-        "/works/OL8065475M",
-        "Cedco Publishing Company"
-      ],
-      id_goodreads: ["899799"],
-      publish_date: ["October 2001"],
-      subject: [
-        "NON000000",
-        "Blank Books / Diaries / Memory Books",
-        "NON",
-        "Blank Books/Journals",
-        "Non-Classifiable"
-      ],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "The Lord of the Rings 2006 Calendar",
-      publisher: ["Meadwestvaco"],
-      isbn: ["0768870267", "9780768870268"],
-      has_fulltext: false,
-      language: ["eng"],
-      edition_count: 1,
-      edition_key: ["OL10959717M"],
-      last_modified_i: 1419576362,
-      title: "The Lord of the Rings 2006 Calendar",
-      cover_edition_key: "OL10959717M",
-      seed: [
-        "/books/OL10959717M",
-        "/works/OL10959717M",
-        "/subjects/non-classifiable",
-        "/subjects/calendar"
-      ],
-      first_publish_year: 2005,
-      publish_year: [2005],
-      key: "/works/OL10959717M",
-      text: [
-        "OL10959717M",
-        "0768870267",
-        "9780768870268",
-        "The Lord of the Rings 2006 Calendar",
-        "Calendar",
-        "Non-Classifiable",
-        "/works/OL10959717M",
-        "Meadwestvaco"
-      ],
-      publish_date: ["August 2005"],
-      subject: ["Calendar", "Non-Classifiable"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "The Lord of the Rings 2006 Calendar",
-      publisher: ["Meadwestvaco"],
-      isbn: ["0768868718", "9780768868715"],
-      has_fulltext: false,
-      language: ["eng"],
-      edition_count: 1,
-      edition_key: ["OL8066000M"],
-      last_modified_i: 1419576384,
-      title: "The Lord of the Rings 2006 Calendar",
-      id_librarything: ["677584"],
-      cover_edition_key: "OL8066000M",
-      seed: [
-        "/books/OL8066000M",
-        "/works/OL8066000M",
-        "/subjects/non-classifiable",
-        "/subjects/calendar"
-      ],
-      first_publish_year: 2005,
-      publish_year: [2005],
-      key: "/works/OL8066000M",
-      text: [
-        "OL8066000M",
-        "0768868718",
-        "9780768868715",
-        "The Lord of the Rings 2006 Calendar",
-        "Calendar",
-        "Non-Classifiable",
-        "/works/OL8066000M",
-        "Meadwestvaco"
-      ],
-      publish_date: ["August 2005"],
-      subject: ["Calendar", "Non-Classifiable"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "The Realm of the Ring Lords",
-      publisher: ["MediaQuest"],
-      isbn: ["1903773091", "9781903773093"],
-      has_fulltext: false,
-      edition_count: 1,
-      edition_key: ["OL12268326M"],
-      last_modified_i: 1419576722,
-      title: "The Realm of the Ring Lords",
-      subject: ["Religion: general"],
-      author_name: ["Laurence Gardner", "Adrian Wagner"],
-      cover_edition_key: "OL12268326M",
-      seed: [
-        "/books/OL12268326M",
-        "/works/OL12268326M",
-        "/subjects/religion:_general",
-        "/authors/OL50039A",
-        "/authors/OL3684075A"
-      ],
-      first_publish_year: 2001,
-      publish_year: [2001],
-      key: "/works/OL12268326M",
-      text: [
-        "OL12268326M",
-        "1903773091",
-        "9781903773093",
-        "Laurence Gardner",
-        "Adrian Wagner",
-        "OL50039A",
-        "OL3684075A",
-        "Beyond the Portal of the Twilight World",
-        "The Realm of the Ring Lords",
-        "Religion: general",
-        "/works/OL12268326M",
-        "MediaQuest"
-      ],
-      id_goodreads: ["3619845"],
-      publish_date: ["April 9, 2001"],
-      author_key: ["OL50039A", "OL3684075A"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "The Lord of the Rings 2007 Calendar",
-      publisher: ["Meadwestvaco"],
-      isbn: ["0768879256", "9780768879254"],
-      has_fulltext: false,
-      language: ["eng"],
-      edition_count: 1,
-      edition_key: ["OL9476843M"],
-      last_modified_i: 1419575498,
-      title: "The Lord of the Rings 2007 Calendar",
-      seed: [
-        "/books/OL9476843M",
-        "/works/OL9476843M",
-        "/subjects/non-classifiable",
-        "/subjects/calendar"
-      ],
-      first_publish_year: 2006,
-      publish_year: [2006],
-      key: "/works/OL9476843M",
-      text: [
-        "OL9476843M",
-        "0768879256",
-        "9780768879254",
-        "The Lord of the Rings 2007 Calendar",
-        "Calendar",
-        "Non-Classifiable",
-        "/works/OL9476843M",
-        "Meadwestvaco"
-      ],
-      publish_date: ["June 30, 2006"],
-      subject: ["Calendar", "Non-Classifiable"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "The Lord of the Rings 2007 Calendar",
-      publisher: ["Meadwestvaco"],
-      isbn: ["0768877857", "9780768877854"],
-      has_fulltext: false,
-      language: ["eng"],
-      edition_count: 1,
-      edition_key: ["OL8066043M"],
-      last_modified_i: 1419577187,
-      title: "The Lord of the Rings 2007 Calendar",
-      cover_edition_key: "OL8066043M",
-      seed: [
-        "/books/OL8066043M",
-        "/works/OL8066043M",
-        "/subjects/non-classifiable",
-        "/subjects/calendar"
-      ],
-      first_publish_year: 2006,
-      publish_year: [2006],
-      key: "/works/OL8066043M",
-      text: [
-        "OL8066043M",
-        "0768877857",
-        "9780768877854",
-        "The Lord of the Rings 2007 Calendar",
-        "Calendar",
-        "Non-Classifiable",
-        "/works/OL8066043M",
-        "Meadwestvaco"
-      ],
-      publish_date: ["June 30, 2006"],
-      subject: ["Calendar", "Non-Classifiable"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "The Lord of the Rings 2007 Calendar",
-      publisher: ["Meadwestvaco"],
-      isbn: ["0768879264", "9780768879261"],
-      has_fulltext: false,
-      language: ["eng"],
-      edition_count: 1,
-      edition_key: ["OL9415494M"],
-      last_modified_i: 1419577207,
-      title: "The Lord of the Rings 2007 Calendar",
-      cover_edition_key: "OL9415494M",
-      seed: [
-        "/books/OL9415494M",
-        "/works/OL9415494M",
-        "/subjects/non-classifiable",
-        "/subjects/calendar"
-      ],
-      first_publish_year: 2006,
-      publish_year: [2006],
-      key: "/works/OL9415494M",
-      text: [
-        "OL9415494M",
-        "0768879264",
-        "9780768879261",
-        "The Lord of the Rings 2007 Calendar",
-        "Calendar",
-        "Non-Classifiable",
-        "/works/OL9415494M",
-        "Meadwestvaco"
-      ],
-      publish_date: ["June 30, 2006"],
-      subject: ["Calendar", "Non-Classifiable"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "The Lord of the Rings Jounal",
-      publisher: ["Cedco Publishing Company"],
-      isbn: ["0768325269", "9780768325263"],
-      has_fulltext: false,
-      language: ["eng"],
-      edition_count: 1,
-      edition_key: ["OL8065476M"],
-      last_modified_i: 1419577268,
-      title: "The Lord of the Rings Jounal",
-      id_librarything: ["1807582"],
-      cover_edition_key: "OL8065476M",
-      seed: [
-        "/books/OL8065476M",
-        "/works/OL8065476M",
-        "/subjects/non-classifiable",
-        "/subjects/blank_books_/_diaries_/_memory_books",
-        "/subjects/blank_books/journals"
-      ],
-      first_publish_year: 2001,
-      publish_year: [2001],
-      key: "/works/OL8065476M",
-      text: [
-        "OL8065476M",
-        "0768325269",
-        "9780768325263",
-        "The Lord of the Rings Jounal",
-        "Blank Books / Diaries / Memory Books",
-        "Blank Books/Journals",
-        "Non-Classifiable",
-        "/works/OL8065476M",
-        "Cedco Publishing Company"
-      ],
-      id_goodreads: ["899753"],
-      publish_date: ["October 2001"],
-      subject: [
-        "Blank Books / Diaries / Memory Books",
-        "Blank Books/Journals",
-        "Non-Classifiable"
-      ],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "The Official Lord of the Rings Calendar",
-      publisher: ["Danilo"],
-      isbn: ["9781843352075", "1843352079"],
-      has_fulltext: false,
-      edition_count: 1,
-      edition_key: ["OL11904409M"],
-      last_modified_i: 1419577316,
-      title: "The Official Lord of the Rings Calendar",
-      seed: [
-        "/books/OL11904409M",
-        "/works/OL11904409M",
-        "/subjects/stationery_items"
-      ],
-      first_publish_year: 2003,
-      publish_year: [2003],
-      key: "/works/OL11904409M",
-      text: [
-        "OL11904409M",
-        "9781843352075",
-        "1843352079",
-        "The Official Lord of the Rings Calendar",
-        "Stationery items",
-        "/works/OL11904409M",
-        "Danilo"
-      ],
-      publish_date: ["September 9, 2003"],
-      subject: ["Stationery items"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "The Lord of the Rings Oracle",
-      publisher: ["Sterling Pub Co Inc"],
-      isbn: ["0641506821", "9780641506826"],
-      has_fulltext: false,
-      language: ["eng"],
-      edition_count: 1,
-      edition_key: ["OL11025026M"],
-      last_modified_i: 1419575880,
-      title: "The Lord of the Rings Oracle",
-      seed: ["/books/OL11025026M", "/works/OL11025026M"],
-      first_publish_year: 1998,
-      publish_year: [1998],
-      key: "/works/OL11025026M",
-      text: [
-        "OL11025026M",
-        "0641506821",
-        "9780641506826",
-        "The Lord of the Rings Oracle",
-        "/works/OL11025026M",
-        "Sterling Pub Co Inc"
-      ],
-      id_goodreads: ["15340"],
-      publish_date: ["1998"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "The Lord of the Rings Sketchbook",
-      edition_key: ["OL7606029M"],
-      cover_i: 395068,
-      isbn: ["0618640142", "9780618640140"],
-      has_fulltext: true,
-      text: [
-        "OL7606029M",
-        "0618640142",
-        "9780618640140",
-        "Alan Lee",
-        "lordringssketchb00leea",
-        "OL1188302A",
-        "The Lord of the Rings Sketchbook",
-        "Illustrations",
-        "Notebooks, sketchbooks",
+      "subject": [
+        "Swedish",
+        "Lithuanian",
+        "Mohawk language",
+        "Finnish",
+        "Prayers",
+        "German",
+        "Tigrinya",
         "Accessible book",
-        "Protected DAISY",
-        "/works/OL5256894W",
-        "Houghton Mifflin"
+        "Delaware",
+        "Hymns",
+        "Indian linguistics",
+        "Glossaries, vocabularies",
+        "Texts",
+        "Early works to 1800",
+        "Delaware language",
+        "English",
+        "Catechisms and creeds",
+        "Doctrinal Theology",
+        "Lutheran Church",
+        "Catechisms",
+        "Fathers of the church"
       ],
-      author_name: ["Alan Lee"],
-      seed: [
-        "/books/OL7606029M",
-        "/works/OL5256894W",
-        "/subjects/illustrations",
-        "/subjects/notebooks_sketchbooks",
-        "/authors/OL1188302A"
+      "title": "Kleine Katechismus",
+      "ia_collection_s": "university_pittsburgh;jcbgerman;americana;JohnCarterBrownLibrary;nationalyiddishbookcenter;jcbindigenous",
+      "publish_date": [
+        "1818",
+        "1782",
+        "1784",
+        "1785",
+        "1786",
+        "1787",
+        "September 1980",
+        "1814",
+        "1815",
+        "1588",
+        "1817",
+        "1810",
+        "1770",
+        "1812",
+        "1967",
+        "1586",
+        "1778",
+        "1696",
+        "1752",
+        "1567",
+        "1799",
+        "1798",
+        "1793",
+        "1993",
+        "1791",
+        "2005",
+        "1777",
+        "1795",
+        "19uu",
+        "1937",
+        "1983",
+        "1836",
+        "1882",
+        "1811",
+        "1807",
+        "1805",
+        "1804",
+        "1802",
+        "1979",
+        "1800",
+        "1809",
+        "1808",
+        "1828",
+        "1744",
+        "1819",
+        "1761",
+        "1766",
+        "1764"
       ],
-      ia: ["lordringssketchb00leea"],
-      author_key: ["OL1188302A"],
-      subject: [
-        "Illustrations",
-        "Notebooks, sketchbooks",
-        "Accessible book",
-        "Protected DAISY"
+      "type": "work",
+      "ebook_count_i": 3,
+      "publish_place": [
+        "Helsingiss\u00e4",
+        "Basileae",
+        "Philadelphia und Lancaster",
+        "Philadelphia",
+        "Carlisle [Pa.]",
+        "und Lancaster",
+        "Easton [Pa.]",
+        "Neu-Market, Va",
+        "[Stockholm",
+        "New York",
+        "L\u00fcbeck",
+        "[s.l.]",
+        "Bardstown [Ky.]",
+        "Frankfurt am Main",
+        "Baltimore [Md.]",
+        "Stockholm",
+        "Germanton",
+        "St. Louis, MO",
+        "Neumarket, Schenandoah County, Va",
+        "Germantown [Pa.]",
+        "Lancaster [Pa.]",
+        "Libanon [Pa.]",
+        "Germanton [Pa.]",
+        "Boston",
+        "Germantaun [Pa.]",
+        "[S.l.]",
+        "Uddevalla",
+        "London"
       ],
-      title: "The Lord of the Rings Sketchbook",
-      ia_collection_s: "printdisabled;librarygenesis",
-      first_publish_year: 2005,
-      type: "work",
-      ebook_count_i: 1,
-      printdisabled_s: "OL7606029M",
-      edition_count: 1,
-      key: "/works/OL5256894W",
-      id_goodreads: ["25790"],
-      public_scan_b: false,
-      publisher: ["Houghton Mifflin"],
-      language: ["eng"],
-      last_modified_i: 1406663187,
-      id_librarything: ["250376"],
-      cover_edition_key: "OL7606029M",
-      publish_year: [2005],
-      publish_date: ["October 19, 2005"]
+      "edition_count": 99,
+      "key": "/works/OL795382W",
+      "id_goodreads": [
+        "6201692"
+      ],
+      "public_scan_b": true,
+      "publisher": [
+        "Gedruckt bey Schaeffer und Maund",
+        "Gedruckt bey Leibert und Billmeyer",
+        "Gedruckt und zu haben bey Ambrosius Henkel und Comp.",
+        "Kr\u00f6ger",
+        "Gedruckt und zu haben bey Francis Bailey",
+        "Printed by Jacob Weygandt & Co.",
+        "Gedruckt und zu haben bey Ambrosius Henkel",
+        "I. Haeggstr\u00f6m",
+        "Gedruckt bey Carl Cist, in der Zweyten-Strasse, nah bey der Rehs-Strasse",
+        "Gedruckt und zu haben bey Klein und Reynolds, in Carter's-Alley, in der Zweyten-Strasse, zwischen der Chesnuss und Walnuss-Strasse.",
+        "Concordia Pub. House",
+        "Gedruckt bey G. und D. Billmeyer",
+        "[Gedruckt bey Francis, and Jacob Bailey",
+        "Gedruckt und zu finden bey Henrich Miller",
+        "Gedruckt bey Jacob Schnee",
+        "Gedruckt und zu finden bey Henrich Miller, in der Zweyten-Strasse",
+        "Per Ioannem Oporinum",
+        "Niloe",
+        "Gedruckt und zu haben bey Carl Cist, in der Zweyten-Strasse",
+        "Gedruckt bey Henrich Schweitzer, in der Rehs-Strasse, No. 85.",
+        "Gedruckt bey Jacob Meyer",
+        "Printed by Parmenter and Norton",
+        "Printed by William Bard",
+        "Gedruckt bey Henrich Schweitzer",
+        "Herausgegeben von G.W. Mentz und Sohn, Buchh\u00e4ndler ...",
+        "printed for the benefit of the poor children, belonging to the said school",
+        "The United Lutheran Church in America",
+        "Johann Balhorn the younger",
+        "Gedruckt und zu finden bey Christoph Saur, Jun. und Peter Saur",
+        "[Gedruckt bey Francis und Jacob Bailey?]",
+        "J. C. Frenckellin",
+        "Gedruckt und zu haben bey Anton Armbr\u00fcster in der R\u00e4ss-Strasse, ohnweit der Gr\u00fcnen Baum.",
+        "Gedruckt und zu haben bey Anton Armbr\u00fcster in der R\u00e4ss-Strasse, ohnweit der Gr\u00fcnen Baum.",
+        "Gedruckt bey Michael Billmeyer",
+        "Gedruckt f\u00fcr J. und R. Johnson",
+        "Gedruckt f\u00fcr William Warner",
+        "Printed by John Geyer",
+        "Gedruckt bey Christian Jacob H\u00fctter, in der K\u00f6nigstrasse.",
+        "Fortress Press",
+        "Gedruckt und zu haben bey Anton Armbr\u00fcster in Mor\u00e4vien-Ally ohnweit der Br\u00fcder Kirchen.",
+        "Gedruckt bey Christoph Saur.",
+        "Gedruckt bey Henrich Schweitzer, am Eck der Rees und Vierten-Strasse.",
+        "Gedruckt bey Christoph Saur",
+        "Gedruckt bey P. M\u00fcller und Comp.",
+        "P. Lang",
+        "Gedruckt bey C. Zentler",
+        "Gedruckt f\u00fcr J. und R. Johnston",
+        "Gedruckt bey Carl Cist, in der Zweyten-Strasse, no. 104, nahe bey der Rehs-Strasse",
+        "Gedruckt f\u00fcr J. und R. Johnston",
+        "Gedruckt und zu haben bey Klein und Reynolds ...",
+        "Gedruckt und zu haben bey Anton Armbr\u00fcster in Mor\u00e4vien-Ally ohnweit der Br\u00fcder Kirchen.",
+        "Augsburg Fortress Pub",
+        "Gedruckt und zu haben bey Christoph Saur.",
+        "Tryckt vthi thet af Kongl. Maytt. privileg. Burchardi tryckeri af J.J. Genath f.",
+        "Im Verlag bey George W. Mentz",
+        "Gedruckt bey F. Sanno",
+        "Gedruckt f\u00fcr William Warner"
+      ],
+      "language": [
+        "yid",
+        "ger",
+        "eng",
+        "swe",
+        "tir",
+        "del",
+        "grc",
+        "fin"
+      ],
+      "lccn": [
+        "2003558360",
+        "43021604",
+        "84228994",
+        "2006489837",
+        "06012808",
+        "88174192",
+        "67008579",
+        "38025839",
+        "87381564",
+        "97209532",
+        "24007285",
+        "97193364",
+        "06026902"
+      ],
+      "last_modified_i": 1536432910,
+      "id_librarything": [
+        "17126"
+      ],
+      "cover_edition_key": "OL6968116M",
+      "publish_year": [
+        1586,
+        1782,
+        1784,
+        1785,
+        1786,
+        1787,
+        1802,
+        1814,
+        1815,
+        1588,
+        1817,
+        1810,
+        1770,
+        1980,
+        1967,
+        1818,
+        1778,
+        1811,
+        1696,
+        1752,
+        1567,
+        1805,
+        1799,
+        1798,
+        1793,
+        1791,
+        1777,
+        1795,
+        1761,
+        1937,
+        1836,
+        1882,
+        1983,
+        1807,
+        1993,
+        1804,
+        1812,
+        1979,
+        1800,
+        1809,
+        1808,
+        2005,
+        1744,
+        1819,
+        1828,
+        1766,
+        1764
+      ],
+      "first_publish_year": 1567,
+      "place": [
+        "Swedish",
+        "Pennsylvania",
+        "Delaware"
+      ],
+      "oclc": [
+        "3801352",
+        "3181877",
+        "2196996",
+        "231229201"
+      ]
     },
     {
-      title_suggest: "Who is the Lord of the Ring?",
-      edition_key: ["OL8178268M"],
-      cover_i: 680313,
-      isbn: ["9780882708928", "0882708929"],
-      has_fulltext: false,
-      text: [
-        "OL8178268M",
-        "9780882708928",
-        "0882708929",
-        "Ray Comfort",
-        "Kirk Cameron (Foreword)",
-        "52204305",
-        "OL36294A",
-        "Who is the Lord of the Ring?",
-        "/works/OL519900W",
-        "Bridge-Logos Publishers"
+      "title_suggest": "Goethe an uns",
+      "edition_key": [
+        "OL22056873M",
+        "OL14642237M",
+        "OL13567470M",
+        "OL191030M"
       ],
-      author_name: ["Ray Comfort"],
-      seed: ["/books/OL8178268M", "/works/OL519900W", "/authors/OL36294A"],
-      oclc: ["52204305"],
-      contributor: ["Kirk Cameron (Foreword)"],
-      author_key: ["OL36294A"],
-      title: "Who is the Lord of the Ring?",
-      publish_date: ["June 2002"],
-      type: "work",
-      ebook_count_i: 0,
-      edition_count: 1,
-      key: "/works/OL519900W",
-      id_goodreads: ["1431085"],
-      publisher: ["Bridge-Logos Publishers"],
-      language: ["eng"],
-      last_modified_i: 1304011984,
-      id_librarything: ["2213779"],
-      cover_edition_key: "OL8178268M",
-      publish_year: [2002],
-      first_publish_year: 2002
+      "subtitle": "ewige gedanken des grossen Deutschen.",
+      "has_fulltext": false,
+      "text": [
+        "OL22056873M",
+        "OL14642237M",
+        "OL13567470M",
+        "OL191030M",
+        "ewige gedanken des grossen Deutschen.",
+        "Johann Wolfgang von Goethe",
+        "Kaufmann, G\u00fcnter.",
+        "Schirach, Baldur von, 1907-",
+        "Kaufmann, G\u00fcnter, ed.",
+        "Schirach, Baldur von, 1907-1974",
+        "Kaufmann, G\u00fcnter",
+        "Schirach, Baldur von, 1907-1974.",
+        "3622979",
+        "6886721",
+        "OL13193A",
+        "ewige Gedanken des grossen Deutschen.",
+        "ewige gedanken des grossen Deutschen",
+        "Goethe an uns",
+        "Einegeleitet durch eine Rede Baldur von Schirachs.",
+        "Eingeleitet durch eine rede Baldur von Schirachs.",
+        "Eingeleitet durch eine Rede Baldur von Schirachs",
+        "/works/OL52585W",
+        "F. Eher nachf.",
+        "F. Eher Nachf.",
+        "a  47000269",
+        "JOHANN WOLFGANG VON GOETHE"
+      ],
+      "author_name": [
+        "Johann Wolfgang von Goethe"
+      ],
+      "seed": [
+        "/books/OL22056873M",
+        "/books/OL14642237M",
+        "/books/OL13567470M",
+        "/books/OL191030M",
+        "/works/OL52585W",
+        "/authors/OL13193A"
+      ],
+      "oclc": [
+        "3622979",
+        "6886721"
+      ],
+      "contributor": [
+        "Kaufmann, G\u00fcnter.",
+        "Schirach, Baldur von, 1907-",
+        "Kaufmann, G\u00fcnter, ed.",
+        "Schirach, Baldur von, 1907-1974",
+        "Kaufmann, G\u00fcnter",
+        "Schirach, Baldur von, 1907-1974."
+      ],
+      "author_key": [
+        "OL13193A"
+      ],
+      "title": "Goethe an uns",
+      "publish_date": [
+        "1942",
+        "1943",
+        "1938",
+        "1944"
+      ],
+      "type": "work",
+      "ebook_count_i": 0,
+      "publish_place": [
+        "Berlin"
+      ],
+      "edition_count": 4,
+      "key": "/works/OL52585W",
+      "publisher": [
+        "F. Eher nachf.",
+        "F. Eher Nachf."
+      ],
+      "language": [
+        "ger"
+      ],
+      "lccn": [
+        "a  47000269"
+      ],
+      "last_modified_i": 1285263699,
+      "author_alternative_name": [
+        "JOHANN WOLFGANG VON GOETHE"
+      ],
+      "publish_year": [
+        1942,
+        1943,
+        1938,
+        1944
+      ],
+      "first_publish_year": 1938
     },
     {
-      title_suggest: "The Lord of the rings location guidebook",
-      edition_key: ["OL21992239M"],
-      isbn: ["1869504526", "9781869504526"],
-      has_fulltext: false,
-      text: [
-        "OL21992239M",
-        "1869504526",
-        "9781869504526",
-        "Ian Brodie",
-        "56197159",
-        "OL5676501A",
-        "The Lord of the rings location guidebook",
-        "/works/OL12693815W",
-        "HarperCollins",
-        "The Lord of the rings location guidebook."
+      "title_suggest": "Stefnum\u00f3t vi\u00f0 Gunnar Dal",
+      "edition_key": [
+        "OL6868872M"
       ],
-      author_name: ["Ian Brodie"],
-      seed: ["/books/OL21992239M", "/works/OL12693815W", "/authors/OL5676501A"],
-      oclc: ["56197159"],
-      author_key: ["OL5676501A"],
-      title: "The Lord of the rings location guidebook",
-      publish_date: ["2002"],
-      type: "work",
-      ebook_count_i: 0,
-      publish_place: ["Auckland"],
-      edition_count: 1,
-      key: "/works/OL12693815W",
-      publisher: ["HarperCollins"],
-      language: ["eng"],
-      last_modified_i: 1303790101,
-      id_librarything: ["241932"],
-      publish_year: [2002],
-      first_publish_year: 2002
+      "isbn": [
+        "9789979670339",
+        "9979670339"
+      ],
+      "has_fulltext": false,
+      "text": [
+        "OL6868872M",
+        "9789979670339",
+        "9979670339",
+        "Gunnar Dal",
+        "Baldur \u00d3skarsson, 1940-",
+        "45066452",
+        "OL263943A",
+        "samtal Baldurs \u00d3skarssonar vi\u00f0 Gunnar Dal.",
+        "Stefnum\u00f3t vi\u00f0 Gunnar Dal",
+        "Interviews",
+        "/works/OL2121168W",
+        "I\u00f0n\u00fa",
+        "Baldur \u00d3skarsson r\u00e6\u00f0ir vi\u00f0 sk\u00e1ldi\u00f0",
+        "00395049",
+        "Gunnar Dal (1924-)"
+      ],
+      "author_name": [
+        "Gunnar Dal"
+      ],
+      "seed": [
+        "/books/OL6868872M",
+        "/works/OL2121168W",
+        "/subjects/interviews",
+        "/subjects/person:gunnar_dal_(1924-)",
+        "/authors/OL263943A"
+      ],
+      "oclc": [
+        "45066452"
+      ],
+      "contributor": [
+        "Baldur \u00d3skarsson, 1940-"
+      ],
+      "author_key": [
+        "OL263943A"
+      ],
+      "subject": [
+        "Interviews"
+      ],
+      "title": "Stefnum\u00f3t vi\u00f0 Gunnar Dal",
+      "publish_date": [
+        "1999"
+      ],
+      "type": "work",
+      "ebook_count_i": 0,
+      "publish_place": [
+        "Reykjav\u00edk"
+      ],
+      "edition_count": 1,
+      "key": "/works/OL2121168W",
+      "id_goodreads": [
+        "4110267"
+      ],
+      "publisher": [
+        "I\u00f0n\u00fa"
+      ],
+      "language": [
+        "ice"
+      ],
+      "lccn": [
+        "00395049"
+      ],
+      "last_modified_i": 1304100382,
+      "person": [
+        "Gunnar Dal (1924-)"
+      ],
+      "publish_year": [
+        1999
+      ],
+      "first_publish_year": 1999
     },
     {
-      title_suggest: 'The "Lord of the Rings" Sketchbook',
-      edition_key: ["OL9516476M"],
-      cover_i: 149310,
-      isbn: ["0261103830", "9780261103832"],
-      has_fulltext: false,
-      text: [
-        "OL9516476M",
-        "0261103830",
-        "9780261103832",
-        "J. R. R. Tolkien",
-        "Alan Lee (Illustrator)",
-        "60793953",
-        "OL26320A",
-        'The "Lord of the Rings" Sketchbook',
-        "/works/OL14933437W",
-        "HarperCollins Publishers Ltd",
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
+      "title_suggest": "Das Antlitz des F\u00fchrers",
+      "edition_key": [
+        "OL15378807M",
+        "OL19909163M"
       ],
-      author_name: ["J. R. R. Tolkien"],
-      seed: ["/books/OL9516476M", "/works/OL14933437W", "/authors/OL26320A"],
-      author_alternative_name: [
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
+      "has_fulltext": false,
+      "text": [
+        "OL15378807M",
+        "OL19909163M",
+        "Heinrich Hoffmann",
+        "Schirach, Baldur von, 1907-1974",
+        "OL134743A",
+        "Das Antlitz des F\u00fchrers",
+        "Herausgeber, Heinrich Hoffmann ; Geleitwort, Baldur von Schirach",
+        "Herausgeber Professor Heinrich Hoffman ; Geleitwort Baldur von Schirach.",
+        "Portraits",
+        "/works/OL1322559W",
+        "Zeitgeschichte-Verlag",
+        "Adolf Hitler (1889-1945)"
       ],
-      contributor: ["Alan Lee (Illustrator)"],
-      author_key: ["OL26320A"],
-      title: 'The "Lord of the Rings" Sketchbook',
-      publish_date: ["September 5, 2005"],
-      type: "work",
-      ebook_count_i: 0,
-      edition_count: 1,
-      key: "/works/OL14933437W",
-      id_goodreads: ["534001"],
-      publisher: ["HarperCollins Publishers Ltd"],
-      last_modified_i: 1304098947,
-      id_librarything: ["250376"],
-      cover_edition_key: "OL9516476M",
-      publish_year: [2005],
-      first_publish_year: 2005,
-      oclc: ["60793953"]
+      "author_name": [
+        "Heinrich Hoffmann"
+      ],
+      "seed": [
+        "/books/OL15378807M",
+        "/books/OL19909163M",
+        "/works/OL1322559W",
+        "/subjects/portraits",
+        "/subjects/person:adolf_hitler_(1889-1945)",
+        "/authors/OL134743A"
+      ],
+      "contributor": [
+        "Schirach, Baldur von, 1907-1974"
+      ],
+      "author_key": [
+        "OL134743A"
+      ],
+      "subject": [
+        "Portraits"
+      ],
+      "title": "Das Antlitz des F\u00fchrers",
+      "publish_date": [
+        "1939"
+      ],
+      "type": "work",
+      "ebook_count_i": 0,
+      "publish_place": [
+        "Berlin"
+      ],
+      "edition_count": 2,
+      "key": "/works/OL1322559W",
+      "publisher": [
+        "Zeitgeschichte-Verlag"
+      ],
+      "language": [
+        "ger"
+      ],
+      "last_modified_i": 1264546196,
+      "person": [
+        "Adolf Hitler (1889-1945)"
+      ],
+      "publish_year": [
+        1939
+      ],
+      "first_publish_year": 1939
     },
     {
-      title_suggest: "The Lord of the rings online",
-      publish_place: ["Roseville, Calif"],
-      edition_key: ["OL24539982M"],
-      isbn: ["9780761553304", "0761553304", "050694161266"],
-      has_fulltext: false,
-      language: ["eng"],
-      edition_count: 1,
-      lccn: ["2010290787"],
-      last_modified_i: 1292460084,
-      title: "The Lord of the rings online",
-      publisher: ["Prima Publ."],
-      author_name: ["Michael Searle"],
-      seed: ["/books/OL24539982M", "/works/OL15588685W", "/authors/OL1395883A"],
-      first_publish_year: 2007,
-      publish_year: [2007],
-      key: "/works/OL15588685W",
-      text: [
-        "OL24539982M",
-        "9780761553304",
-        "0761553304",
-        "050694161266",
-        "Michael Searle",
-        "OL1395883A",
-        "shadows of Angmar",
-        "The Lord of the rings online",
-        "written by Michael Searle",
-        "/works/OL15588685W",
-        "Prima Publ.",
-        "2010290787"
+      "title_suggest": "Hakon Jarl hiin Rige",
+      "publish_place": [
+        "K\u00f8benhavn"
       ],
-      publish_date: ["2007"],
-      author_key: ["OL1395883A"],
-      type: "work",
-      ebook_count_i: 0
+      "edition_key": [
+        "OL17433831M"
+      ],
+      "has_fulltext": false,
+      "language": [
+        "dan"
+      ],
+      "edition_count": 1,
+      "oclc": [
+        "32439666"
+      ],
+      "last_modified_i": 1260850508,
+      "title": "Hakon Jarl hiin Rige",
+      "publisher": [
+        "Det nordiske forlag"
+      ],
+      "author_name": [
+        "Adam Gottlob Oehlenschl\u00e4ger"
+      ],
+      "seed": [
+        "/books/OL17433831M",
+        "/works/OL4525364W",
+        "/authors/OL909371A"
+      ],
+      "first_publish_year": 1896,
+      "publish_year": [
+        1896
+      ],
+      "key": "/works/OL4525364W",
+      "text": [
+        "OL17433831M",
+        "Adam Gottlob Oehlenschl\u00e4ger",
+        "Boysen, A.",
+        "Liebenberg, F. L.",
+        "32439666",
+        "OL909371A",
+        "Baldur hiin gode; Palnatoke.",
+        "Hakon Jarl hiin Rige",
+        "Liebenbergs udgave; bes\u00f8rget af A. Boysen.",
+        "/works/OL4525364W",
+        "Det nordiske forlag",
+        "Baldur hiin gode.",
+        "Palnatoke."
+      ],
+      "contributor": [
+        "Boysen, A.",
+        "Liebenberg, F. L."
+      ],
+      "publish_date": [
+        "1896"
+      ],
+      "author_key": [
+        "OL909371A"
+      ],
+      "type": "work",
+      "ebook_count_i": 0
     },
     {
-      title_suggest: "The Lord of the rings tarot",
-      edition_key: ["OL689458M"],
-      cover_i: 3788574,
-      isbn: ["9781572810549", "1572810548"],
-      has_fulltext: false,
-      text: [
-        "OL689458M",
-        "9781572810549",
-        "1572810548",
-        "Terry Donaldson",
-        "OL343371A",
-        "The Lord of the rings tarot",
-        "by Terry Donaldson.",
-        "Tarot",
-        "/works/OL2466714W",
-        "U.S. Games Systems",
-        "97036503",
-        "J. R. R. Tolkien (1892-1973)"
+      "title_suggest": "K\u00e4mpfende wissenschaft",
+      "edition_key": [
+        "OL6427399M"
       ],
-      author_name: ["Terry Donaldson"],
-      seed: [
-        "/books/OL689458M",
-        "/works/OL2466714W",
-        "/subjects/tarot",
-        "/subjects/person:j._r._r._tolkien_(1892-1973)",
-        "/authors/OL343371A"
+      "has_fulltext": false,
+      "text": [
+        "OL6427399M",
+        "Walter Frank",
+        "Schirach, Baldur von, 1907-",
+        "702637",
+        "OL2313120A",
+        "Mit einer vor-rede des reichsjugendf\u00fchrers Baldur von Schirach.",
+        "K\u00e4mpfende wissenschaft",
+        "/works/OL7557713W",
+        "Hanseatische verlagsanstalt",
+        "K\u00e4mpfende wissenschaft.",
+        "41035573",
+        "Heinrich Gotthard von Treitschke (1834-1896)"
       ],
-      author_key: ["OL343371A"],
-      subject: ["Tarot"],
-      title: "The Lord of the rings tarot",
-      publish_date: ["1997"],
-      type: "work",
-      ebook_count_i: 0,
-      publish_place: ["Stamford, CT, U.S.A"],
-      edition_count: 1,
-      key: "/works/OL2466714W",
-      id_goodreads: ["15337"],
-      publisher: ["U.S. Games Systems"],
-      language: ["eng"],
-      lccn: ["97036503"],
-      last_modified_i: 1280520580,
-      id_librarything: ["842764"],
-      cover_edition_key: "OL689458M",
-      person: ["J. R. R. Tolkien (1892-1973)"],
-      publish_year: [1997],
-      first_publish_year: 1997
+      "author_name": [
+        "Walter Frank"
+      ],
+      "seed": [
+        "/books/OL6427399M",
+        "/works/OL7557713W",
+        "/subjects/person:heinrich_gotthard_von_treitschke_(1834-1896)",
+        "/authors/OL2313120A"
+      ],
+      "oclc": [
+        "702637"
+      ],
+      "contributor": [
+        "Schirach, Baldur von, 1907-"
+      ],
+      "author_key": [
+        "OL2313120A"
+      ],
+      "title": "K\u00e4mpfende wissenschaft",
+      "publish_date": [
+        "1934"
+      ],
+      "type": "work",
+      "ebook_count_i": 0,
+      "publish_place": [
+        "Hamburg"
+      ],
+      "edition_count": 1,
+      "key": "/works/OL7557713W",
+      "publisher": [
+        "Hanseatische verlagsanstalt"
+      ],
+      "language": [
+        "ger"
+      ],
+      "lccn": [
+        "41035573"
+      ],
+      "last_modified_i": 1291612604,
+      "person": [
+        "Heinrich Gotthard von Treitschke (1834-1896)"
+      ],
+      "publish_year": [
+        1934
+      ],
+      "first_publish_year": 1934
     },
     {
-      title_suggest: "The Lord of the Rings. Appendix",
-      edition_key: ["OL25175082M"],
-      isbn: ["842269283X", "9788422692836"],
-      has_fulltext: false,
-      text: [
-        "OL25175082M",
-        "842269283X",
-        "9788422692836",
-        "J. R. R. Tolkien",
-        "OL26320A",
-        "The Lord of the Rings. Appendix",
-        "/works/OL16466869W",
-        "Circulo de Lectores",
-        "El Se\u00f1or de los Anillos. Ap\u00e9ndices",
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
+      "title_suggest": "Gesprochene Sprache--transdisziplin\u00e4r",
+      "publish_place": [
+        "New York",
+        "Frankfurt am Main"
       ],
-      author_name: ["J. R. R. Tolkien"],
-      seed: ["/books/OL25175082M", "/works/OL16466869W", "/authors/OL26320A"],
-      author_key: ["OL26320A"],
-      title: "The Lord of the Rings. Appendix",
-      publish_date: ["2002"],
-      type: "work",
-      ebook_count_i: 0,
-      publish_place: ["Barcelona, Spain"],
-      edition_count: 1,
-      key: "/works/OL16466869W",
-      publisher: ["Circulo de Lectores"],
-      language: ["spa"],
-      last_modified_i: 1327516586,
-      author_alternative_name: [
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
+      "isbn": [
+        "3631377304",
+        "9783631377307"
       ],
-      cover_edition_key: "OL25175082M",
-      publish_year: [2002],
-      first_publish_year: 2002
+      "has_fulltext": false,
+      "id_goodreads": [
+        "4363551"
+      ],
+      "edition_count": 1,
+      "edition_key": [
+        "OL22592948M"
+      ],
+      "last_modified_i": 1419576124,
+      "title": "Gesprochene Sprache--transdisziplin\u00e4r",
+      "publisher": [
+        "P. Lang"
+      ],
+      "language": [
+        "ger"
+      ],
+      "seed": [
+        "/books/OL22592948M",
+        "/works/OL22592948M",
+        "/subjects/speech."
+      ],
+      "first_publish_year": 2001,
+      "publish_year": [
+        2001
+      ],
+      "key": "/works/OL22592948M",
+      "text": [
+        "OL22592948M",
+        "3631377304",
+        "9783631377307",
+        "Br\u00e4unlich, Margret.",
+        "Neuber, Baldur, 1962-",
+        "Meinhold, Gottfried.",
+        "Rues, Beate.",
+        "Festschrift zum 65. Geburtstag von Gottfried Meinhold",
+        "Gesprochene Sprache--transdisziplin\u00e4r",
+        "Margret Br\u00e4unlich, Baldur Neuber, Beate Rues (Hrsg.).",
+        "Speech.",
+        "/works/OL22592948M",
+        "P. Lang"
+      ],
+      "contributor": [
+        "Br\u00e4unlich, Margret.",
+        "Neuber, Baldur, 1962-",
+        "Meinhold, Gottfried.",
+        "Rues, Beate."
+      ],
+      "publish_date": [
+        "2001"
+      ],
+      "subject": [
+        "Speech."
+      ],
+      "type": "work",
+      "ebook_count_i": 0
     },
     {
-      title_suggest: "The Lord of the rings location guidebook",
-      edition_key: ["OL24849786M"],
-      cover_i: 6859025,
-      isbn: ["1869504917", "9781869504915"],
-      has_fulltext: true,
-      text: [
-        "OL24849786M",
-        "1869504917",
-        "9781869504915",
-        "Ian Brodie",
-        "Tolkien, J. R. R. (John Ronald Reuel), 1892-1973",
-        "54087891",
-        "lordofringslocat00brod",
-        "OL1529345A",
-        "Guidebooks",
-        "Lord of the rings films",
-        "Lord of the rings, the fellowship of the ring (Motion picture)",
-        "Accessible book",
-        "The lord of the rings",
-        "Lord of the rings, the two towers (Motion picture)",
-        "Drehort",
-        "Protected DAISY",
-        "Motion picture locations",
-        "Lord of the rings, the return of the king (Motion picture)",
-        "The Lord of the rings location guidebook",
-        "/works/OL15943721W",
-        "Ian Brodie",
-        "HarperCollins",
-        "New Zealand"
+      "title_suggest": "Fellamannab\u00f3k",
+      "publish_place": [
+        "Fellab\u00e6"
       ],
-      author_name: ["Ian Brodie"],
-      contributor: ["Tolkien, J. R. R. (John Ronald Reuel), 1892-1973"],
-      seed: [
-        "/books/OL24849786M",
-        "/works/OL15943721W",
-        "/subjects/guidebooks",
-        "/subjects/lord_of_the_rings_films",
-        "/subjects/lord_of_the_rings_the_fellowship_of_the_ring_(motion_picture)",
-        "/subjects/the_lord_of_the_rings",
-        "/subjects/lord_of_the_rings_the_two_towers_(motion_picture)",
-        "/subjects/drehort",
-        "/subjects/motion_picture_locations",
-        "/subjects/lord_of_the_rings_the_return_of_the_king_(motion_picture)",
-        "/subjects/protected_daisy",
-        "/subjects/place:new_zealand",
-        "/authors/OL1529345A"
+      "edition_key": [
+        "OL6868869M"
       ],
-      oclc: ["54087891"],
-      ia: ["lordofringslocat00brod"],
-      author_key: ["OL1529345A"],
-      subject: [
-        "Guidebooks",
-        "Lord of the rings films",
-        "Lord of the rings, the fellowship of the ring (Motion picture)",
-        "Accessible book",
-        "The lord of the rings",
-        "Lord of the rings, the two towers (Motion picture)",
-        "Drehort",
-        "Protected DAISY",
-        "Motion picture locations",
-        "Lord of the rings, the return of the king (Motion picture)"
+      "has_fulltext": false,
+      "language": [
+        "ice"
       ],
-      title: "The Lord of the rings location guidebook",
-      ia_collection_s: "printdisabled;china;internetarchivebooks",
-      printdisabled_s: "OL24849786M",
-      type: "work",
-      ebook_count_i: 1,
-      publish_place: ["Auckland [N.Z.]"],
-      ia_box_id: ["IA131001"],
-      edition_count: 1,
-      key: "/works/OL15943721W",
-      public_scan_b: false,
-      publisher: ["HarperCollins"],
-      language: ["eng"],
-      last_modified_i: 1313119026,
-      first_publish_year: 2003,
-      cover_edition_key: "OL24849786M",
-      publish_year: [2003],
-      publish_date: ["2003"],
-      place: ["New Zealand"]
+      "edition_count": 1,
+      "lccn": [
+        "00395033"
+      ],
+      "last_modified_i": 1419577166,
+      "title": "Fellamannab\u00f3k",
+      "publisher": [
+        "Fellahreppur"
+      ],
+      "seed": [
+        "/books/OL6868869M",
+        "/works/OL6868869M",
+        "/subjects/registers_of_births_etc._--_iceland_--_fellahreppur.",
+        "/subjects/fellahreppur_(iceland)_--_genealogy."
+      ],
+      "first_publish_year": 1991,
+      "publish_year": [
+        1991
+      ],
+      "key": "/works/OL6868869M",
+      "text": [
+        "OL6868869M",
+        "Baldur Gr\u00e9tarsson.",
+        "Helgi Hallgr\u00edmsson.",
+        "Fellamannab\u00f3k",
+        "[ritstj\u00f3ri, Helgi Hallgr\u00edmsson ; ritnefnd, Baldur Gr\u00e9tarsson ... et al.].",
+        "Registers of  births, etc. -- Iceland -- Fellahreppur.",
+        "Fellahreppur (Iceland) -- Genealogy.",
+        "/works/OL6868869M",
+        "Fellahreppur",
+        "00395033"
+      ],
+      "contributor": [
+        "Baldur Gr\u00e9tarsson.",
+        "Helgi Hallgr\u00edmsson."
+      ],
+      "publish_date": [
+        "1991"
+      ],
+      "subject": [
+        "Registers of  births, etc. -- Iceland -- Fellahreppur.",
+        "Fellahreppur (Iceland) -- Genealogy."
+      ],
+      "type": "work",
+      "ebook_count_i": 0
     },
     {
-      title_suggest: "The Lord of the Rings Big Note",
-      publisher: ["Alfred Publishing Co., Inc."],
-      cover_i: 7595063,
-      isbn: ["0739062751", "9780739062753"],
-      has_fulltext: false,
-      title: "The Lord of the Rings Big Note",
-      edition_key: ["OL26030582M"],
-      last_modified_i: 1476434229,
-      edition_count: 1,
-      author_name: ["Carol Matz"],
-      cover_edition_key: "OL26030582M",
-      seed: ["/books/OL26030582M", "/works/OL17446403W", "/authors/OL3065246A"],
-      first_publish_year: 2010,
-      publish_year: [2010],
-      key: "/works/OL17446403W",
-      text: [
-        "OL26030582M",
-        "0739062751",
-        "9780739062753",
-        "Carol Matz",
-        "OL3065246A",
-        "The Lord of the Rings Big Note",
-        "/works/OL17446403W",
-        "Alfred Publishing Co., Inc."
+      "title_suggest": "Hei\u00f0in minni",
+      "publish_place": [
+        "Reykjav\u00edk"
       ],
-      publish_date: ["2010"],
-      author_key: ["OL3065246A"],
-      type: "work",
-      ebook_count_i: 0
+      "isbn": [
+        "9789979318446",
+        "9979318449"
+      ],
+      "has_fulltext": false,
+      "language": [
+        "ice"
+      ],
+      "edition_count": 1,
+      "edition_key": [
+        "OL21694036M"
+      ],
+      "last_modified_i": 1419577247,
+      "title": "Hei\u00f0in minni",
+      "publisher": [
+        "Heimskringla"
+      ],
+      "seed": [
+        "/books/OL21694036M",
+        "/works/OL21694036M",
+        "/subjects/old_norse_literature_--_history_and_criticism.",
+        "/subjects/paganism_in_literature."
+      ],
+      "first_publish_year": 1999,
+      "publish_year": [
+        1999
+      ],
+      "key": "/works/OL21694036M",
+      "text": [
+        "OL21694036M",
+        "9789979318446",
+        "9979318449",
+        "Bessason, Haraldur, 1931-",
+        "Baldur Hafsta\u00f0.",
+        "greinar um fornar b\u00f3kmenntir",
+        "Hei\u00f0in minni",
+        "ristj\u00f3rar Haraldur Bessason og Baldur Hafsta\u00f0.",
+        "Paganism in literature.",
+        "Old Norse literature -- History and criticism.",
+        "/works/OL21694036M",
+        "Heimskringla"
+      ],
+      "contributor": [
+        "Bessason, Haraldur, 1931-",
+        "Baldur Hafsta\u00f0."
+      ],
+      "publish_date": [
+        "1999"
+      ],
+      "subject": [
+        "Paganism in literature.",
+        "Old Norse literature -- History and criticism."
+      ],
+      "type": "work",
+      "ebook_count_i": 0
     },
     {
-      title_suggest: "The Lord of the rings and philosophy",
-      edition_key: ["OL8019100M"],
-      isbn: ["0812695453", "9780812695458"],
-      has_fulltext: true,
-      text: [
-        "OL8019100M",
-        "0812695453",
-        "9780812695458",
-        "Gregory Bassham (Editor)",
-        "Eric Bronson (Editor)",
-        "lordofringsand00bass",
-        "English Fantasy fiction",
-        "In library",
-        "Philosophy in literature",
-        "Middle Earth (Imaginary place)",
-        "Accessible book",
-        "Philosophy",
-        "History and criticism",
-        "Protected DAISY",
-        "One Book to Rule Them All (Popular Culture and Philosophy)",
-        "The Lord of the rings and philosophy",
-        "/works/OL16456308W",
-        "Open Court",
-        "The Lord of the Rings and Philosophy",
-        "If a mortal being-a human or a hobbit, for example-possesses a Ring of Power, would he choose a moral life?"
+      "title_suggest": "\u00cdslensk m\u00e1lnefnd 1964-1989",
+      "edition_key": [
+        "OL582714M"
       ],
-      contributor: ["Gregory Bassham (Editor)", "Eric Bronson (Editor)"],
-      seed: [
-        "/books/OL8019100M",
-        "/works/OL16456308W",
-        "/subjects/english_fantasy_fiction",
-        "/subjects/in_library",
-        "/subjects/philosophy_in_literature",
-        "/subjects/middle_earth_(imaginary_place)",
-        "/subjects/philosophy",
-        "/subjects/history_and_criticism",
-        "/subjects/protected_daisy"
+      "isbn": [
+        "9979842121",
+        "9789979842125"
       ],
-      ia: ["lordofringsand00bass"],
-      subject: [
-        "English Fantasy fiction",
-        "In library",
-        "Philosophy in literature",
-        "Middle Earth (Imaginary place)",
-        "Accessible book",
-        "Philosophy",
-        "History and criticism",
-        "Protected DAISY"
+      "has_fulltext": false,
+      "text": [
+        "OL582714M",
+        "9979842121",
+        "9789979842125",
+        "Halld\u00f3r Halld\u00f3rsson.",
+        "Baldur J\u00f3nsson.",
+        "OL254674A",
+        "afm\u00e6lisrit",
+        "\u00cdslensk m\u00e1lnefnd 1964-1989",
+        "Halld\u00f3r Halld\u00f3rsson, Baldur J\u00f3nsson.",
+        "Icelandic philology",
+        "\u00cdslensk m\u00e1lnefnd",
+        "History",
+        "/works/OL2077377W",
+        "\u00cdslensk m\u00e1lnefnd",
+        "96172042"
       ],
-      title: "The Lord of the rings and philosophy",
-      lending_identifier_s: "lordofringsand00bass",
-      ia_collection_s:
-        "printdisabled;browserlending;china;inlibrary;internetarchivebooks",
-      printdisabled_s: "OL8019100M",
-      type: "work",
-      ebook_count_i: 1,
-      ia_box_id: ["IA152101"],
-      edition_count: 1,
-      first_publish_year: 2003,
-      key: "/works/OL16456308W",
-      id_goodreads: ["25811"],
-      public_scan_b: false,
-      publisher: ["Open Court"],
-      language: ["eng"],
-      last_modified_i: 1500685644,
-      lending_edition_s: "OL8019100M",
-      id_librarything: ["6007"],
-      cover_edition_key: "OL8019100M",
-      first_sentence: [
-        "If a mortal being-a human or a hobbit, for example-possesses a Ring of Power, would he choose a moral life?"
+      "author_name": [
+        "Halld\u00f3r Halld\u00f3rsson."
       ],
-      publish_year: [2003],
-      publish_date: ["August 4, 2003"]
+      "seed": [
+        "/books/OL582714M",
+        "/works/OL2077377W",
+        "/subjects/history",
+        "/subjects/icelandic_philology",
+        "/subjects/\u00edslensk_m\u00e1lnefnd",
+        "/authors/OL254674A"
+      ],
+      "contributor": [
+        "Baldur J\u00f3nsson."
+      ],
+      "author_key": [
+        "OL254674A"
+      ],
+      "subject": [
+        "Icelandic philology",
+        "\u00cdslensk m\u00e1lnefnd",
+        "History"
+      ],
+      "title": "\u00cdslensk m\u00e1lnefnd 1964-1989",
+      "publish_date": [
+        "1993"
+      ],
+      "type": "work",
+      "ebook_count_i": 0,
+      "publish_place": [
+        "Reykjav\u00edk"
+      ],
+      "edition_count": 1,
+      "key": "/works/OL2077377W",
+      "id_goodreads": [
+        "3866970"
+      ],
+      "publisher": [
+        "\u00cdslensk m\u00e1lnefnd"
+      ],
+      "language": [
+        "ice"
+      ],
+      "lccn": [
+        "96172042"
+      ],
+      "last_modified_i": 1291455003,
+      "publish_year": [
+        1993
+      ],
+      "first_publish_year": 1993
     },
     {
-      title_suggest: "The Lord of the Rings location guidebook",
-      edition_key: ["OL26645000M"],
-      cover_i: 8332180,
-      isbn: ["1869505301", "9781869505301"],
-      has_fulltext: true,
-      text: [
-        "OL26645000M",
-        "1869505301",
-        "9781869505301",
-        "Ian Brodie",
-        "57659434",
-        "isbn_9781869505301",
-        "OL1529345A",
-        "Description and travel",
-        "Lord of the rings, the fellowship of the ring (Motion picture)",
-        "Travel",
-        "Lord of the rings, the two towers (Motion picture)",
-        "Lord of the rings, the return of the king (Motion picture)",
-        "Protected DAISY",
-        "Motion picture locations",
-        "Accessible book",
-        "The Lord of the Rings location guidebook",
-        "/works/OL18169571W",
-        "Ian Brodie",
-        "HarperCollins",
-        "New Zealand"
+      "title_suggest": "J\u00f3n Engilberts",
+      "edition_key": [
+        "OL412544M"
       ],
-      author_name: ["Ian Brodie"],
-      seed: [
-        "/books/OL26645000M",
-        "/works/OL18169571W",
-        "/subjects/description_and_travel",
-        "/subjects/lord_of_the_rings_the_fellowship_of_the_ring_(motion_picture)",
-        "/subjects/travel",
-        "/subjects/lord_of_the_rings_the_two_towers_(motion_picture)",
-        "/subjects/lord_of_the_rings_the_return_of_the_king_(motion_picture)",
-        "/subjects/motion_picture_locations",
-        "/subjects/place:new_zealand",
-        "/authors/OL1529345A"
-      ],
-      oclc: ["57659434"],
-      ia: ["isbn_9781869505301"],
-      author_key: ["OL1529345A"],
-      subject: [
-        "Description and travel",
-        "Lord of the rings, the fellowship of the ring (Motion picture)",
-        "Travel",
-        "Lord of the rings, the two towers (Motion picture)",
-        "Lord of the rings, the return of the king (Motion picture)",
-        "Protected DAISY",
-        "Motion picture locations",
-        "Accessible book"
-      ],
-      title: "The Lord of the Rings location guidebook",
-      lending_identifier_s: "isbn_9781869505301",
-      ia_collection_s: "printdisabled;inlibrary;china;internetarchivebooks",
-      printdisabled_s: "OL26645000M",
-      type: "work",
-      ebook_count_i: 1,
-      publish_place: ["Auckland, NZ"],
-      ia_box_id: ["IA176701"],
-      edition_count: 1,
-      first_publish_year: 2004,
-      key: "/works/OL18169571W",
-      public_scan_b: false,
-      publisher: ["HarperCollins"],
-      language: ["eng"],
-      last_modified_i: 1547172218,
-      lending_edition_s: "OL26645000M",
-      cover_edition_key: "OL26645000M",
-      publish_year: [2004],
-      publish_date: ["2004"],
-      place: ["New Zealand"]
-    },
-    {
-      title_suggest: "Understanding The lord of the rings",
-      edition_key: ["OL3304645M"],
-      cover_i: 394453,
-      isbn: ["061842251X", "9780618422517"],
-      has_fulltext: true,
-      text: [
-        "OL3304645M",
-        "061842251X",
-        "9780618422517",
-        "Zimbardo, Rose A.",
-        "Neil David Isaacs",
-        "Zimbardo, Rose A.",
-        "Isaacs, Neil David, 1931-",
-        "isbn_9780618422517",
-        "OL399786A",
-        "OL19674A",
-        "English Fantasy fiction",
-        "Accessible book",
-        "History and criticism",
-        "Middle Earth (Imaginary place)",
-        "Protected DAISY",
-        "the best of Tolkien criticism",
-        "Understanding The lord of the rings",
-        "/works/OL17810871W",
-        "edited by Rose A. Zimbardo and Neil D. Isaacs.",
-        "Houghton Mifflin",
-        "2004047274"
-      ],
-      author_name: ["Zimbardo, Rose A.", "Neil David Isaacs"],
-      contributor: ["Zimbardo, Rose A.", "Isaacs, Neil David, 1931-"],
-      seed: [
-        "/books/OL3304645M",
-        "/works/OL17810871W",
-        "/subjects/english_fantasy_fiction",
-        "/subjects/history_and_criticism",
-        "/subjects/middle_earth_(imaginary_place)",
-        "/authors/OL399786A",
-        "/authors/OL19674A"
-      ],
-      ia: ["isbn_9780618422517"],
-      author_key: ["OL399786A", "OL19674A"],
-      subject: [
-        "English Fantasy fiction",
-        "Accessible book",
-        "History and criticism",
-        "Middle Earth (Imaginary place)",
-        "Protected DAISY"
-      ],
-      title: "Understanding The lord of the rings",
-      lending_identifier_s: "isbn_9780618422517",
-      ia_collection_s: "printdisabled;inlibrary;china;internetarchivebooks",
-      printdisabled_s: "OL3304645M",
-      type: "work",
-      ebook_count_i: 1,
-      publish_place: ["Boston"],
-      ia_box_id: ["IA1159913"],
-      edition_count: 1,
-      first_publish_year: 2004,
-      key: "/works/OL17810871W",
-      id_goodreads: ["899751"],
-      public_scan_b: false,
-      publisher: ["Houghton Mifflin"],
-      language: ["eng"],
-      lccn: ["2004047274"],
-      last_modified_i: 1549590954,
-      lending_edition_s: "OL3304645M",
-      id_librarything: ["44333"],
-      cover_edition_key: "OL3304645M",
-      publish_year: [2004],
-      publish_date: ["2004"]
-    },
-    {
-      title_suggest: "The Lord of the Rings: Two Towers",
-      publisher: ["TURNER HOME ENTERTAINMENT"],
-      cover_i: 8456497,
-      isbn: ["9780780644045", "0780644042"],
-      has_fulltext: false,
-      title: "The Lord of the Rings: Two Towers",
-      edition_key: ["OL26800141M"],
-      last_modified_i: 1553161125,
-      edition_count: 1,
-      cover_edition_key: "OL26800141M",
-      seed: ["/books/OL26800141M", "/works/OL19342825W"],
-      first_publish_year: 2004,
-      publish_year: [2004],
-      key: "/works/OL19342825W",
-      text: [
-        "OL26800141M",
-        "9780780644045",
-        "0780644042",
-        "The Lord of the Rings: Two Towers",
-        "/works/OL19342825W",
-        "TURNER HOME ENTERTAINMENT"
-      ],
-      publish_date: ["Feb 29, 2004"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "Understanding The lord of the rings",
-      edition_key: ["OL3556154M"],
-      cover_i: 1968698,
-      isbn: ["9781590182345", "1590182340"],
-      has_fulltext: true,
-      text: [
-        "OL3556154M",
-        "9781590182345",
-        "1590182340",
-        "Ted Hodges",
-        "understandinglor0000hodg",
-        "OL1477038A",
-        "English Fantasy fiction",
-        "History and criticism",
-        "Middle Earth (Imaginary place)",
-        "Lord of the rings (Tolkien, J.R.R.)",
-        "English literature",
-        "Protected DAISY",
-        "Juvenile literature",
-        "Accessible book",
-        "Internet Archive Wishlist",
-        "Understanding The lord of the rings",
-        "/works/OL5954913W",
-        "by Ted Hodges.",
-        "Lucent Books",
-        "2002013087",
-        "J. R. R. Tolkien (1892-1973)"
-      ],
-      author_name: ["Ted Hodges"],
-      seed: [
-        "/books/OL3556154M",
-        "/works/OL5954913W",
-        "/subjects/english_fantasy_fiction",
-        "/subjects/history_and_criticism",
-        "/subjects/middle_earth_(imaginary_place)",
-        "/subjects/english_literature",
-        "/subjects/juvenile_literature",
-        "/subjects/internet_archive_wishlist",
-        "/subjects/lord_of_the_rings_(tolkien_j.r.r.)",
-        "/subjects/person:j._r._r._tolkien_(1892-1973)",
-        "/authors/OL1477038A"
-      ],
-      ia: ["understandinglor0000hodg"],
-      author_key: ["OL1477038A"],
-      subject: [
-        "English Fantasy fiction",
-        "History and criticism",
-        "Middle Earth (Imaginary place)",
-        "Lord of the rings (Tolkien, J.R.R.)",
-        "English literature",
-        "Protected DAISY",
-        "Juvenile literature",
-        "Accessible book",
-        "Internet Archive Wishlist"
-      ],
-      title: "Understanding The lord of the rings",
-      ia_collection_s: "printdisabled;china;internetarchivebooks",
-      printdisabled_s: "OL3556154M",
-      type: "work",
-      ebook_count_i: 1,
-      publish_place: ["San Diego"],
-      edition_count: 1,
-      key: "/works/OL5954913W",
-      id_goodreads: ["899769"],
-      public_scan_b: false,
-      publisher: ["Lucent Books"],
-      language: ["eng"],
-      lccn: ["2002013087"],
-      last_modified_i: 1529817429,
-      first_publish_year: 2003,
-      id_librarything: ["6757639"],
-      cover_edition_key: "OL3556154M",
-      person: ["J. R. R. Tolkien (1892-1973)"],
-      publish_year: [2003],
-      publish_date: ["2003"]
-    },
-    {
-      title_suggest: "The Lord of the Rings Deluxe Edition",
-      publisher: ["Houghton Mifflin Harcourt"],
-      cover_i: 8650047,
-      isbn: ["0544273443", "9780544273443"],
-      has_fulltext: false,
-      title: "The Lord of the Rings Deluxe Edition",
-      edition_key: ["OL27039300M"],
-      last_modified_i: 1561898867,
-      edition_count: 1,
-      cover_edition_key: "OL27039300M",
-      seed: ["/books/OL27039300M", "/works/OL19850645W"],
-      first_publish_year: 2013,
-      publish_year: [2013],
-      key: "/works/OL19850645W",
-      text: [
-        "OL27039300M",
-        "0544273443",
-        "9780544273443",
-        "The Lord of the Rings Deluxe Edition",
-        "/works/OL19850645W",
-        "Houghton Mifflin Harcourt"
-      ],
-      publish_date: ["Oct 29, 2013"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "The Lord of the Rings: One Volume",
-      publisher: ["Houghton Mifflin Harcourt"],
-      cover_i: 8653332,
-      isbn: ["0547951949", "9780547951942"],
-      has_fulltext: false,
-      title: "The Lord of the Rings: One Volume",
-      edition_key: ["OL27040883M"],
-      last_modified_i: 1561919137,
-      edition_count: 1,
-      author_name: ["J.R.R. Tolkien"],
-      cover_edition_key: "OL27040883M",
-      seed: ["/books/OL27040883M", "/works/OL19852426W", "/authors/OL7510348A"],
-      first_publish_year: 2012,
-      publish_year: [2012],
-      key: "/works/OL19852426W",
-      text: [
-        "OL27040883M",
-        "0547951949",
-        "9780547951942",
-        "J.R.R. Tolkien",
-        "OL7510348A",
-        "The Lord of the Rings: One Volume",
-        "/works/OL19852426W",
-        "Houghton Mifflin Harcourt"
-      ],
-      publish_date: ["Feb 15, 2012"],
-      author_key: ["OL7510348A"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "The Lord of the Rings: Boxed Set",
-      publisher: ["HarperCollins"],
-      cover_i: 8651993,
-      isbn: ["000748836X", "9780007488360"],
-      has_fulltext: false,
-      title: "The Lord of the Rings: Boxed Set",
-      edition_key: ["OL27040235M"],
-      last_modified_i: 1561910464,
-      edition_count: 1,
-      author_name: ["J. R. R. TOLKIEN"],
-      cover_edition_key: "OL27040235M",
-      seed: ["/books/OL27040235M", "/works/OL19851693W", "/authors/OL7561637A"],
-      first_publish_year: 2012,
-      publish_year: [2012],
-      key: "/works/OL19851693W",
-      text: [
-        "OL27040235M",
-        "000748836X",
-        "9780007488360",
-        "J. R. R. TOLKIEN",
-        "OL7561637A",
-        "The Lord of the Rings: Boxed Set",
-        "/works/OL19851693W",
-        "HarperCollins"
-      ],
-      publish_date: ["Jun 30, 2012"],
-      author_key: ["OL7561637A"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "The Lord of the rings and philosophy",
-      edition_key: ["OL3676912M"],
-      cover_i: 604836,
-      isbn: ["0812695453", "9780812695458"],
-      has_fulltext: false,
-      text: [
-        "OL3676912M",
-        "0812695453",
-        "9780812695458",
-        "Gregory Bassham",
-        "Eric Bronson",
-        "Bassham, Gregory, 1959-",
-        "Bronson, Eric, 1971-",
-        "OL773723A",
-        "OL6988287A",
-        "English Fantasy fiction",
-        "Philosophy",
-        "Philosophy in literature",
-        "Middle Earth (Imaginary place)",
-        "History and criticism",
-        "one book to rule them all",
-        "The Lord of the rings and philosophy",
-        "/works/OL18933489W",
-        "edited by Gregory Bassham and Eric Bronson.",
-        "Open Court",
-        "Distributed by Publishers Group West",
-        "2003015450"
-      ],
-      author_name: ["Gregory Bassham", "Eric Bronson"],
-      seed: [
-        "/books/OL3676912M",
-        "/works/OL18933489W",
-        "/subjects/english_fantasy_fiction",
-        "/subjects/philosophy",
-        "/subjects/philosophy_in_literature",
-        "/subjects/middle_earth_(imaginary_place)",
-        "/subjects/history_and_criticism",
-        "/authors/OL773723A",
-        "/authors/OL6988287A"
-      ],
-      contributor: ["Bassham, Gregory, 1959-", "Bronson, Eric, 1971-"],
-      author_key: ["OL773723A", "OL6988287A"],
-      subject: [
-        "English Fantasy fiction",
-        "Philosophy",
-        "Philosophy in literature",
-        "Middle Earth (Imaginary place)",
-        "History and criticism"
-      ],
-      title: "The Lord of the rings and philosophy",
-      publish_date: ["2003"],
-      type: "work",
-      ebook_count_i: 0,
-      publish_place: ["[Berkeley, Calif.]", "Chicago"],
-      edition_count: 1,
-      key: "/works/OL18933489W",
-      id_goodreads: ["25811"],
-      publisher: ["Open Court", "Distributed by Publishers Group West"],
-      language: ["eng"],
-      lccn: ["2003015450"],
-      last_modified_i: 1554213932,
-      id_librarything: ["6007"],
-      cover_edition_key: "OL3676912M",
-      publish_year: [2003],
-      first_publish_year: 2003
-    },
-    {
-      title_suggest: "Reading The lord of the rings",
-      edition_key: ["OL3403521M"],
-      cover_i: 1573220,
-      isbn: ["082648459X", "9780826484598", "9780826484604", "0826484603"],
-      has_fulltext: false,
-      text: [
-        "OL3403521M",
-        "082648459X",
-        "9780826484598",
-        "9780826484604",
-        "0826484603",
-        "Robert Eaglestone",
-        "Eaglestone, Robert, 1968-",
-        "OL26751A",
-        "English Fantasy fiction",
-        "History and criticism",
-        "Middle Earth (Imaginary place)",
-        "new writings on Tolkien's trilogy",
-        "Reading The lord of the rings",
-        "/works/OL18322098W",
-        "edited by Robert Eaglestone.",
-        "Continuum",
-        "2005018695",
-        "J. R. R. Tolkien (1892-1973)"
-      ],
-      author_name: ["Robert Eaglestone"],
-      seed: [
-        "/books/OL3403521M",
-        "/works/OL18322098W",
-        "/subjects/english_fantasy_fiction",
-        "/subjects/history_and_criticism",
-        "/subjects/middle_earth_(imaginary_place)",
-        "/subjects/person:j._r._r._tolkien_(1892-1973)",
-        "/authors/OL26751A"
-      ],
-      contributor: ["Eaglestone, Robert, 1968-"],
-      author_key: ["OL26751A"],
-      subject: [
-        "English Fantasy fiction",
-        "History and criticism",
-        "Middle Earth (Imaginary place)"
-      ],
-      title: "Reading The lord of the rings",
-      publish_date: ["2006"],
-      type: "work",
-      ebook_count_i: 0,
-      publish_place: ["New York", "London"],
-      edition_count: 1,
-      key: "/works/OL18322098W",
-      id_goodreads: ["1280719", "214164"],
-      publisher: ["Continuum"],
-      language: ["eng"],
-      lccn: ["2005018695"],
-      last_modified_i: 1554335221,
-      id_librarything: ["9447545"],
-      cover_edition_key: "OL3403521M",
-      person: ["J. R. R. Tolkien (1892-1973)"],
-      publish_year: [2006],
-      first_publish_year: 2006
-    },
-    {
-      title_suggest: "Watching the Lord of the rings",
-      edition_key: ["OL11397177M"],
-      cover_i: 2653033,
-      isbn: ["0820463973", "9780820463971"],
-      has_fulltext: true,
-      text: [
-        "OL11397177M",
-        "0820463973",
-        "9780820463971",
-        "Martin Barker",
-        "Ernest Mathijs",
-        "Martin Barker (Editor)",
-        "Ernest Mathijs (Editor)",
-        "watchinglordofri0000unse",
-        "OL70705A",
-        "OL3091153A",
-        "Accessible book",
-        "History and criticism",
-        "Lord of the Rings films",
-        "Protected DAISY",
-        "Tolkien's World Audiences (Media and Culture)",
-        "Watching the Lord of the rings",
-        "/works/OL17995090W",
-        "Peter Lang Pub Inc",
-        "Watching the Lord of the Rings",
-        "J. R. R. Tolkien (1892-1973)"
-      ],
-      author_name: ["Martin Barker", "Ernest Mathijs"],
-      contributor: ["Martin Barker (Editor)", "Ernest Mathijs (Editor)"],
-      seed: [
-        "/books/OL11397177M",
-        "/works/OL17995090W",
-        "/subjects/history_and_criticism",
-        "/subjects/lord_of_the_rings_films",
-        "/subjects/person:j._r._r._tolkien_(1892-1973)",
-        "/authors/OL70705A",
-        "/authors/OL3091153A"
-      ],
-      ia: ["watchinglordofri0000unse"],
-      author_key: ["OL70705A", "OL3091153A"],
-      subject: [
-        "Accessible book",
-        "History and criticism",
-        "Lord of the Rings films",
-        "Protected DAISY"
-      ],
-      title: "Watching the Lord of the rings",
-      lending_identifier_s: "watchinglordofri0000unse",
-      ia_collection_s:
-        "printdisabled;trent_university;inlibrary;internetarchivebooks",
-      printdisabled_s: "OL11397177M",
-      type: "work",
-      ebook_count_i: 1,
-      ia_box_id: ["IA1241204"],
-      edition_count: 1,
-      first_publish_year: 2007,
-      key: "/works/OL17995090W",
-      id_goodreads: ["2775800"],
-      public_scan_b: false,
-      publisher: ["Peter Lang Pub Inc"],
-      language: ["eng"],
-      last_modified_i: 1559885031,
-      lending_edition_s: "OL11397177M",
-      id_librarything: ["5180018"],
-      cover_edition_key: "OL11397177M",
-      person: ["J. R. R. Tolkien (1892-1973)"],
-      publish_year: [2007],
-      publish_date: ["November 2007"]
-    },
-    {
-      title_suggest: "The Lord of the rings, 1954-2004",
-      edition_key: ["OL8084971M"],
-      cover_i: 665973,
-      isbn: ["9780874620184", "087462018X"],
-      has_fulltext: true,
-      text: [
-        "OL8084971M",
-        "9780874620184",
-        "087462018X",
-        "Richard E. Blackwelder",
-        "Wayne G. Hammond",
-        "Christina Scull",
-        "Wayne G. Hammond (Editor)",
-        "Christina Scull (Editor)",
-        "lordringsscholar00hamm_553",
-        "OL889773A",
-        "OL39015A",
-        "OL2623691A",
-        "English Fantasy fiction",
-        "Middle Earth (Imaginary place)",
-        "Accessible book",
-        "History and criticism",
+      "has_fulltext": false,
+      "text": [
+        "OL412544M",
+        "\u00d3lafur Kvaran.",
+        "Baldur \u00d3skarsson, 1932-",
+        "OL255210A",
+        "J\u00f3n Engilberts",
+        "\u00d3lafur Kvaran, Baldur \u00d3skarsson.",
         "Criticism and interpretation",
-        "Appreciation",
-        "Congresses",
-        "Protected DAISY",
-        "Scholarship in Honor of Richard E. Blackwelder",
-        "The Lord of the rings, 1954-2004",
-        "/works/OL16950823W",
-        "Marquette University Press",
-        "The Lord of the Rings 1954-2004"
+        "/works/OL2079984W",
+        "L\u00f6gberg",
+        "Listasafn AS\u00cd",
+        "98114780",
+        "J\u00f3n Engilberts (1908-)"
       ],
-      author_name: [
-        "Richard E. Blackwelder",
-        "Wayne G. Hammond",
-        "Christina Scull"
+      "author_name": [
+        "\u00d3lafur Kvaran."
       ],
-      contributor: ["Wayne G. Hammond (Editor)", "Christina Scull (Editor)"],
-      seed: [
-        "/books/OL8084971M",
-        "/works/OL16950823W",
-        "/subjects/english_fantasy_fiction",
-        "/subjects/congresses",
-        "/subjects/middle_earth_(imaginary_place)",
-        "/subjects/appreciation",
-        "/subjects/history_and_criticism",
+      "seed": [
+        "/books/OL412544M",
+        "/works/OL2079984W",
         "/subjects/criticism_and_interpretation",
-        "/authors/OL889773A",
-        "/authors/OL39015A",
-        "/authors/OL2623691A"
+        "/subjects/person:j\u00f3n_engilberts_(1908-)",
+        "/authors/OL255210A"
       ],
-      ia: ["lordringsscholar00hamm_553"],
-      author_key: ["OL889773A", "OL39015A", "OL2623691A"],
-      subject: [
-        "English Fantasy fiction",
-        "Middle Earth (Imaginary place)",
-        "Accessible book",
-        "History and criticism",
-        "Criticism and interpretation",
-        "Appreciation",
+      "contributor": [
+        "Baldur \u00d3skarsson, 1932-"
+      ],
+      "author_key": [
+        "OL255210A"
+      ],
+      "subject": [
+        "Criticism and interpretation"
+      ],
+      "title": "J\u00f3n Engilberts",
+      "publish_date": [
+        "1988"
+      ],
+      "type": "work",
+      "ebook_count_i": 0,
+      "publish_place": [
+        "Reykjav\u00edk"
+      ],
+      "edition_count": 1,
+      "key": "/works/OL2079984W",
+      "publisher": [
+        "L\u00f6gberg",
+        "Listasafn AS\u00cd"
+      ],
+      "language": [
+        "ice"
+      ],
+      "lccn": [
+        "98114780"
+      ],
+      "last_modified_i": 1265167581,
+      "person": [
+        "J\u00f3n Engilberts (1908-)"
+      ],
+      "publish_year": [
+        1988
+      ],
+      "first_publish_year": 1988
+    },
+    {
+      "title_suggest": "Hl\u00fdvindi",
+      "edition_key": [
+        "OL25031301M"
+      ],
+      "isbn": [
+        "9935400271",
+        "9789935400277"
+      ],
+      "has_fulltext": false,
+      "text": [
+        "OL25031301M",
+        "9935400271",
+        "9789935400277",
+        "Stephan G. Stephansson",
+        "Baldur Hafsta\u00f0",
+        "OL1569997A",
+        "lj\u00f3\u00f0 og laust m\u00e1l",
+        "Hl\u00fdvindi",
+        "eftir Stephan G. Stephansson ; inngangur og athugasemdir, Baldur Hafsta\u00f0",
+        "/works/OL16149997W",
+        "Sk\u00f3lavefurinn",
+        "2010457369"
+      ],
+      "author_name": [
+        "Stephan G. Stephansson"
+      ],
+      "seed": [
+        "/books/OL25031301M",
+        "/works/OL16149997W",
+        "/authors/OL1569997A"
+      ],
+      "contributor": [
+        "Baldur Hafsta\u00f0"
+      ],
+      "author_key": [
+        "OL1569997A"
+      ],
+      "title": "Hl\u00fdvindi",
+      "publish_date": [
+        "2009"
+      ],
+      "type": "work",
+      "ebook_count_i": 0,
+      "publish_place": [
+        "[Reykjav\u00edk]"
+      ],
+      "edition_count": 1,
+      "key": "/works/OL16149997W",
+      "publisher": [
+        "Sk\u00f3lavefurinn"
+      ],
+      "language": [
+        "ice"
+      ],
+      "lccn": [
+        "2010457369"
+      ],
+      "last_modified_i": 1319272334,
+      "publish_year": [
+        2009
+      ],
+      "first_publish_year": 2009
+    },
+    {
+      "title_suggest": "Iceland and European integration",
+      "edition_key": [
+        "OL3678885M"
+      ],
+      "cover_i": 1213926,
+      "isbn": [
+        "0415282527",
+        "9780415282529"
+      ],
+      "has_fulltext": false,
+      "text": [
+        "OL3678885M",
+        "0415282527",
+        "9780415282529",
+        "Baldur Thorhallsson.",
+        "Politics and government",
+        "European Union",
+        "Foreign relations",
+        "on the edge",
+        "Iceland and European integration",
+        "/works/OL18352057W",
+        "edited by Baldur Thorhallsson.",
+        "Routledge",
+        "2003020219",
+        "Europe",
+        "Iceland",
+        "20th century"
+      ],
+      "seed": [
+        "/books/OL3678885M",
+        "/works/OL18352057W",
+        "/subjects/politics_and_government",
+        "/subjects/european_union",
+        "/subjects/foreign_relations",
+        "/subjects/place:europe",
+        "/subjects/place:iceland",
+        "/subjects/time:20th_century"
+      ],
+      "contributor": [
+        "Baldur Thorhallsson."
+      ],
+      "subject": [
+        "Politics and government",
+        "European Union",
+        "Foreign relations"
+      ],
+      "title": "Iceland and European integration",
+      "publish_date": [
+        "2004"
+      ],
+      "type": "work",
+      "ebook_count_i": 0,
+      "publish_place": [
+        "New York"
+      ],
+      "edition_count": 1,
+      "key": "/works/OL18352057W",
+      "id_goodreads": [
+        "4121842"
+      ],
+      "publisher": [
+        "Routledge"
+      ],
+      "language": [
+        "eng"
+      ],
+      "lccn": [
+        "2003020219"
+      ],
+      "last_modified_i": 1550505876,
+      "id_librarything": [
+        "5368923"
+      ],
+      "cover_edition_key": "OL3678885M",
+      "publish_year": [
+        2004
+      ],
+      "first_publish_year": 2004,
+      "place": [
+        "Europe",
+        "Iceland"
+      ],
+      "time": [
+        "20th century"
+      ]
+    },
+    {
+      "title_suggest": "T\u00f6frum l\u00edkast",
+      "edition_key": [
+        "OL23967040M"
+      ],
+      "isbn": [
+        "9979797568",
+        "9789979797562"
+      ],
+      "has_fulltext": false,
+      "text": [
+        "OL23967040M",
+        "9979797568",
+        "9789979797562",
+        "Gunnar Kr. Sigurj\u00f3nsson",
+        "477336642",
+        "OL6768501A",
+        "Magicians",
+        "Biography",
+        "saga Baldurs Brj\u00e1nssonar t\u00f6framanns",
+        "T\u00f6frum l\u00edkast",
+        "/works/OL18763293W",
+        "Gunnar Kr. Sigurj\u00f3nsson.",
+        "H\u00f3lar",
+        "2009472182",
+        "Baldur Brj\u00e1nsson (1948-)",
+        "Iceland"
+      ],
+      "author_name": [
+        "Gunnar Kr. Sigurj\u00f3nsson"
+      ],
+      "seed": [
+        "/books/OL23967040M",
+        "/works/OL18763293W",
+        "/subjects/magicians",
+        "/subjects/biography",
+        "/subjects/person:baldur_brj\u00e1nsson_(1948-)",
+        "/subjects/place:iceland",
+        "/authors/OL6768501A"
+      ],
+      "oclc": [
+        "477336642"
+      ],
+      "author_key": [
+        "OL6768501A"
+      ],
+      "subject": [
+        "Magicians",
+        "Biography"
+      ],
+      "title": "T\u00f6frum l\u00edkast",
+      "publish_date": [
+        "2008"
+      ],
+      "type": "work",
+      "ebook_count_i": 0,
+      "publish_place": [
+        "Reykjav\u00edk"
+      ],
+      "edition_count": 1,
+      "key": "/works/OL18763293W",
+      "publisher": [
+        "H\u00f3lar"
+      ],
+      "language": [
+        "ice"
+      ],
+      "lccn": [
+        "2009472182"
+      ],
+      "last_modified_i": 1550012495,
+      "person": [
+        "Baldur Brj\u00e1nsson (1948-)"
+      ],
+      "publish_year": [
+        2008
+      ],
+      "first_publish_year": 2008,
+      "place": [
+        "Iceland"
+      ]
+    },
+    {
+      "title_suggest": "Ann\u00e4herungen--Christen j\u00fcdischer Herkunft unter dem Nationalsozialismus",
+      "publish_place": [
+        "Essen"
+      ],
+      "edition_key": [
+        "OL306251M"
+      ],
+      "has_fulltext": false,
+      "language": [
+        "ger"
+      ],
+      "edition_count": 1,
+      "lccn": [
+        "97215024"
+      ],
+      "last_modified_i": 1419575799,
+      "title": "Ann\u00e4herungen--Christen j\u00fcdischer Herkunft unter dem Nationalsozialismus",
+      "publisher": [
+        "Bistum Essen, Dezernat f\u00fcr Gesellschaftliche und Weltkirchliche Aufgaben"
+      ],
+      "seed": [
+        "/books/OL306251M",
+        "/works/OL306251M",
+        "/subjects/jewish_christians_--_nazi_persecution_--_congresses."
+      ],
+      "first_publish_year": 1996,
+      "publish_year": [
+        1996
+      ],
+      "key": "/works/OL306251M",
+      "text": [
+        "OL306251M",
+        "Hermans, Baldur.",
+        "Grossjung, Horst.",
+        "Dokumentation zweier historischer Fachtagungen 1995 und 1996",
+        "Ann\u00e4herungen--Christen j\u00fcdischer Herkunft unter dem Nationalsozialismus",
+        "[Schriftleitung, Baldur Hermans ; Redaktion, Horst Grossjung, Baldur Hermans].",
+        "Jewish Christians -- Nazi persecution -- Congresses.",
+        "/works/OL306251M",
+        "Bistum Essen, Dezernat f\u00fcr Gesellschaftliche und Weltkirchliche Aufgaben",
+        "97215024"
+      ],
+      "contributor": [
+        "Hermans, Baldur.",
+        "Grossjung, Horst."
+      ],
+      "publish_date": [
+        "1996"
+      ],
+      "subject": [
+        "Jewish Christians -- Nazi persecution -- Congresses."
+      ],
+      "type": "work",
+      "ebook_count_i": 0
+    },
+    {
+      "title_suggest": "Hitler wie ihn keiner kennt",
+      "edition_key": [
+        "OL3664033M",
+        "OL16880955M",
+        "OL6508443M"
+      ],
+      "has_fulltext": false,
+      "text": [
+        "OL3664033M",
+        "OL16880955M",
+        "OL6508443M",
+        "Heinrich Hoffmann",
+        "Schirach, Baldur von, 1907-",
+        "Hitler, Adolf, 1889-1945, former owner.",
+        "Third Reich Collection (Library of Congress)",
+        "10389847",
+        "OL134743A",
+        "100 Bild-Dokumente aus dem Leben des F\u00fchrers",
+        "100 Bilddokumente aus dem Leben des F\u00fchrers.",
+        "Hitler wie ihn keiner kennt",
+        "Herausgeber, Heinrich Hoffmann.",
+        "Herausgeber, Prof. Heinrich Hoffmann... Geleitwort:  Baldur von Schirach.",
+        "herausgegeben von Heinrich Hoffmann ; Geleitwort und Unterschriften Baldur von Schirach.",
+        "Portraits",
+        "/works/OL1322565W",
+        "Zeitgeschichte-Verlag",
+        "\"Zeitgeschichte\" Verlag und Vertriebs-Gesellschaft",
+        "Hitler wie ihn keiner Kennt",
+        "2002553533",
+        "46039383",
+        "Adolf Hitler (1889-1945)"
+      ],
+      "author_name": [
+        "Heinrich Hoffmann"
+      ],
+      "seed": [
+        "/books/OL3664033M",
+        "/books/OL16880955M",
+        "/books/OL6508443M",
+        "/works/OL1322565W",
+        "/subjects/portraits",
+        "/subjects/person:adolf_hitler_(1889-1945)",
+        "/authors/OL134743A"
+      ],
+      "oclc": [
+        "10389847"
+      ],
+      "contributor": [
+        "Schirach, Baldur von, 1907-",
+        "Hitler, Adolf, 1889-1945, former owner.",
+        "Third Reich Collection (Library of Congress)"
+      ],
+      "author_key": [
+        "OL134743A"
+      ],
+      "subject": [
+        "Portraits"
+      ],
+      "title": "Hitler wie ihn keiner kennt",
+      "publish_date": [
+        "1933",
+        "1935",
+        "1934"
+      ],
+      "type": "work",
+      "ebook_count_i": 0,
+      "publish_place": [
+        "Berlin"
+      ],
+      "edition_count": 3,
+      "key": "/works/OL1322565W",
+      "publisher": [
+        "Zeitgeschichte-Verlag",
+        "\"Zeitgeschichte\" Verlag und Vertriebs-Gesellschaft"
+      ],
+      "language": [
+        "ger"
+      ],
+      "lccn": [
+        "2002553533",
+        "46039383"
+      ],
+      "last_modified_i": 1293899682,
+      "person": [
+        "Adolf Hitler (1889-1945)"
+      ],
+      "publish_year": [
+        1933,
+        1935,
+        1934
+      ],
+      "first_publish_year": 1933
+    },
+    {
+      "title_suggest": "Das Bauerntum als Lebensquell der nordischen Rasse",
+      "edition_key": [
+        "OL6734824M",
+        "OL6478689M",
+        "OL4985679M",
+        "OL6490821M"
+      ],
+      "cover_i": 7313469,
+      "has_fulltext": false,
+      "text": [
+        "OL6734824M",
+        "OL6478689M",
+        "OL4985679M",
+        "OL6490821M",
+        "Richard Walther Darr\u00e9",
+        "Hitler, Adolf, 1889-1945, former owner.",
+        "Darr\u00e9, Richard Walther, 1895-1953, inscriber.",
+        "Schirach, Baldur von, 1907- former owner.",
+        "Schwarz, Franz Xaver, b. 1875, former owner.",
+        "Lehmann, J. F. 1864-1935, inscriber.",
+        "Third Reich Collection (Library of Congress)",
+        "Schirach, Baldur von, 1907-, former owner.",
+        "OL150299A",
+        "Peasantry",
+        "Teutonic race",
+        "Das Bauerntum als Lebensquell der nordischen Rasse",
+        "/works/OL1437851W",
+        "von R. Walther Darr\u00e9.",
+        "J.F. Lehmanns Verlag",
+        "J.F. Lehmann",
+        "29024846",
+        "76476783",
+        "44049416",
+        "45031529",
+        "Fritz Kern (1884-1950)"
+      ],
+      "author_name": [
+        "Richard Walther Darr\u00e9"
+      ],
+      "seed": [
+        "/books/OL6734824M",
+        "/books/OL6478689M",
+        "/books/OL4985679M",
+        "/books/OL6490821M",
+        "/works/OL1437851W",
+        "/subjects/peasantry",
+        "/subjects/teutonic_race",
+        "/subjects/person:fritz_kern_(1884-1950)",
+        "/authors/OL150299A"
+      ],
+      "contributor": [
+        "Hitler, Adolf, 1889-1945, former owner.",
+        "Darr\u00e9, Richard Walther, 1895-1953, inscriber.",
+        "Schirach, Baldur von, 1907- former owner.",
+        "Schwarz, Franz Xaver, b. 1875, former owner.",
+        "Lehmann, J. F. 1864-1935, inscriber.",
+        "Third Reich Collection (Library of Congress)",
+        "Schirach, Baldur von, 1907-, former owner."
+      ],
+      "author_key": [
+        "OL150299A"
+      ],
+      "subject": [
+        "Peasantry",
+        "Teutonic race"
+      ],
+      "title": "Das Bauerntum als Lebensquell der nordischen Rasse",
+      "publish_date": [
+        "1929",
+        "1940",
+        "1937",
+        "1934"
+      ],
+      "type": "work",
+      "ebook_count_i": 0,
+      "publish_place": [
+        "M\u00fcnchen"
+      ],
+      "edition_count": 4,
+      "key": "/works/OL1437851W",
+      "publisher": [
+        "J.F. Lehmanns Verlag",
+        "J.F. Lehmann"
+      ],
+      "language": [
+        "ger"
+      ],
+      "lccn": [
+        "29024846",
+        "76476783",
+        "44049416",
+        "45031529"
+      ],
+      "last_modified_i": 1415834787,
+      "person": [
+        "Fritz Kern (1884-1950)"
+      ],
+      "publish_year": [
+        1929,
+        1940,
+        1937,
+        1934
+      ],
+      "first_publish_year": 1929
+    },
+    {
+      "title_suggest": "El tero kaj etero",
+      "publish_place": [
+        "La Laguna"
+      ],
+      "edition_key": [
+        "OL4047831M"
+      ],
+      "has_fulltext": false,
+      "language": [
+        "esp"
+      ],
+      "edition_count": 1,
+      "lccn": [
+        "79395284"
+      ],
+      "last_modified_i": 1265495546,
+      "title": "El tero kaj etero",
+      "publisher": [
+        "J. R\u00e9gulo"
+      ],
+      "author_name": [
+        "Julia Pi\u00f3ro"
+      ],
+      "seed": [
+        "/books/OL4047831M",
+        "/works/OL2857416W",
+        "/authors/OL430360A"
+      ],
+      "first_publish_year": 1964,
+      "publish_year": [
+        1964
+      ],
+      "key": "/works/OL2857416W",
+      "text": [
+        "OL4047831M",
+        "Julia Pi\u00f3ro",
+        "OL430360A",
+        "El tero kaj etero",
+        "Julia Pi\u00f3ro ; redakto kaj prezento de Baldur Ragnarsson.",
+        "/works/OL2857416W",
+        "J. R\u00e9gulo",
+        "79395284"
+      ],
+      "publish_date": [
+        "1964"
+      ],
+      "author_key": [
+        "OL430360A"
+      ],
+      "type": "work",
+      "ebook_count_i": 0
+    },
+    {
+      "title_suggest": "Das Antlitz des F\u00fchrers",
+      "publish_place": [
+        "Berlin"
+      ],
+      "has_fulltext": false,
+      "language": [
+        "ger"
+      ],
+      "edition_count": 1,
+      "edition_key": [
+        "OL20791259M"
+      ],
+      "last_modified_i": 1419575284,
+      "title": "Das Antlitz des F\u00fchrers",
+      "publisher": [
+        "Zeitgeschichte-Verlag"
+      ],
+      "cover_edition_key": "OL20791259M",
+      "seed": [
+        "/books/OL20791259M",
+        "/works/OL20791259M",
+        "/subjects/hitler_adolf_--_1889-1945."
+      ],
+      "first_publish_year": 1939,
+      "publish_year": [
+        1939
+      ],
+      "key": "/works/OL20791259M",
+      "text": [
+        "OL20791259M",
+        "Hoffmann, Heinrich, 1885-1957.",
+        "Das Antlitz des F\u00fchrers",
+        "herausgeber Heinrich Hoffmann; Geleitwort Baldur von Schirach.",
+        "Hitler, Adolf, -- 1889-1945.",
+        "/works/OL20791259M",
+        "Zeitgeschichte-Verlag"
+      ],
+      "contributor": [
+        "Hoffmann, Heinrich, 1885-1957."
+      ],
+      "publish_date": [
+        "1939"
+      ],
+      "subject": [
+        "Hitler, Adolf, -- 1889-1945."
+      ],
+      "type": "work",
+      "ebook_count_i": 0
+    },
+    {
+      "title_suggest": "A stroll in old Iffley",
+      "publish_place": [
+        "Iffley"
+      ],
+      "isbn": [
+        "9780951803806",
+        "0951803808"
+      ],
+      "has_fulltext": false,
+      "language": [
+        "eng"
+      ],
+      "edition_count": 1,
+      "edition_key": [
+        "OL21925530M"
+      ],
+      "last_modified_i": 1260862555,
+      "title": "A stroll in old Iffley",
+      "publisher": [
+        "Baldur Press"
+      ],
+      "author_name": [
+        "Patrick Reynolds"
+      ],
+      "seed": [
+        "/books/OL21925530M",
+        "/works/OL4642755W",
+        "/authors/OL953651A"
+      ],
+      "first_publish_year": 1991,
+      "publish_year": [
+        1991
+      ],
+      "key": "/works/OL4642755W",
+      "text": [
+        "OL21925530M",
+        "9780951803806",
+        "0951803808",
+        "Patrick Reynolds",
+        "OL953651A",
+        "A stroll in old Iffley",
+        "/works/OL4642755W",
+        "Baldur Press",
+        "A stroll in old Iffley."
+      ],
+      "publish_date": [
+        "1991"
+      ],
+      "author_key": [
+        "OL953651A"
+      ],
+      "type": "work",
+      "ebook_count_i": 0
+    },
+    {
+      "title_suggest": "El tero kaj etero",
+      "publish_place": [
+        "La Laguna"
+      ],
+      "has_fulltext": false,
+      "language": [
+        "esp"
+      ],
+      "edition_count": 1,
+      "edition_key": [
+        "OL18886697M"
+      ],
+      "last_modified_i": 1264291401,
+      "title": "El tero kaj etero",
+      "publisher": [
+        "J. R\u00e9gulo"
+      ],
+      "author_name": [
+        "Julia Pi\u00f3ro"
+      ],
+      "seed": [
+        "/books/OL18886697M",
+        "/works/OL12565889W",
+        "/authors/OL5582931A"
+      ],
+      "first_publish_year": 1964,
+      "publish_year": [
+        1964
+      ],
+      "key": "/works/OL12565889W",
+      "text": [
+        "OL18886697M",
+        "Julia Pi\u00f3ro",
+        "OL5582931A",
+        "El tero kaj etero",
+        "Julia Pi\u00f3ro  redakto kaj prezento de Baldur Ragnarsson.",
+        "/works/OL12565889W",
+        "J. R\u00e9gulo"
+      ],
+      "publish_date": [
+        "1964"
+      ],
+      "author_key": [
+        "OL5582931A"
+      ],
+      "type": "work",
+      "ebook_count_i": 0
+    },
+    {
+      "title_suggest": "Groundwater and subsurface remediation",
+      "edition_key": [
+        "OL975774M"
+      ],
+      "isbn": [
+        "3540609164",
+        "9783540609162"
+      ],
+      "has_fulltext": false,
+      "text": [
+        "OL975774M",
+        "3540609164",
+        "9783540609162",
+        "Koschitzky, Hans-Peter, 1953-",
+        "Barczewski, Baldur, 1943-",
+        "Kobus, Helmut.",
+        "research strategies for in-situ technologies",
+        "Groundwater and subsurface remediation",
+        "Helmut Kobus, Baldur Barczewski, Hans-Peter Koschitzky (Hrsg.).",
+        "Soil remediation.",
+        "In situ remediation.",
+        "Groundwater -- Purification.",
+        "/works/OL975774M",
+        "Springer",
+        "96012856"
+      ],
+      "seed": [
+        "/books/OL975774M",
+        "/works/OL975774M",
+        "/subjects/groundwater_--_purification.",
+        "/subjects/soil_remediation.",
+        "/subjects/in_situ_remediation."
+      ],
+      "contributor": [
+        "Koschitzky, Hans-Peter, 1953-",
+        "Barczewski, Baldur, 1943-",
+        "Kobus, Helmut."
+      ],
+      "subject": [
+        "Soil remediation.",
+        "In situ remediation.",
+        "Groundwater -- Purification."
+      ],
+      "title": "Groundwater and subsurface remediation",
+      "publish_date": [
+        "1996"
+      ],
+      "type": "work",
+      "ebook_count_i": 0,
+      "publish_place": [
+        "Berlin",
+        "New York"
+      ],
+      "edition_count": 1,
+      "key": "/works/OL975774M",
+      "id_goodreads": [
+        "3788033"
+      ],
+      "publisher": [
+        "Springer"
+      ],
+      "language": [
+        "eng"
+      ],
+      "lccn": [
+        "96012856"
+      ],
+      "last_modified_i": 1419577705,
+      "cover_edition_key": "OL975774M",
+      "publish_year": [
+        1996
+      ],
+      "first_publish_year": 1996
+    },
+    {
+      "title_suggest": "Zwang und Zuwendung",
+      "publish_place": [
+        "Bochum"
+      ],
+      "isbn": [
+        "3897092042",
+        "9783897092044"
+      ],
+      "has_fulltext": false,
+      "language": [
+        "ger"
+      ],
+      "edition_count": 1,
+      "edition_key": [
+        "OL21783688M"
+      ],
+      "last_modified_i": 1419577891,
+      "title": "Zwang und Zuwendung",
+      "publisher": [
+        "Kamp"
+      ],
+      "seed": [
+        "/books/OL21783688M",
+        "/works/OL21783688M",
+        "/subjects/catholic_church_--_germany_--_history_--_1933-1945_--_congresses.",
+        "/subjects/forced_labor_--_germany_--_ruhr_(region)_--_congresses.",
+        "/subjects/labor_--_religious_aspects_--_christianity_--_germany_--_ruhr_(region)_--_congresses.",
+        "/subjects/alien_labor_--_religious_life_--_germany_--_ruhr_(region)_--_congresses.",
+        "/subjects/catholics_--_nazi_persecution_--_germany_--_ruhr_(region)_--_congresses."
+      ],
+      "first_publish_year": 2003,
+      "publish_year": [
+        2003
+      ],
+      "key": "/works/OL21783688M",
+      "text": [
+        "OL21783688M",
+        "3897092042",
+        "9783897092044",
+        "Hermans, Baldur.",
+        "katholische Kirche und Zwangsarbeit im Ruhrgebiet",
+        "Zwang und Zuwendung",
+        "herausgegeben von Baldur Hermans.",
+        "Catholics -- Nazi persecution -- Germany -- Ruhr (Region) -- Congresses.",
+        "Labor -- Religious aspects -- Christianity -- Germany -- Ruhr (Region) -- Congresses.",
+        "Catholic Church -- Germany -- History -- 1933-1945 -- Congresses.",
+        "Alien labor -- Religious life -- Germany -- Ruhr (Region) -- Congresses.",
+        "Forced labor -- Germany -- Ruhr (Region) -- Congresses.",
+        "/works/OL21783688M",
+        "Kamp"
+      ],
+      "contributor": [
+        "Hermans, Baldur."
+      ],
+      "publish_date": [
+        "2003"
+      ],
+      "subject": [
+        "Catholics -- Nazi persecution -- Germany -- Ruhr (Region) -- Congresses.",
+        "Labor -- Religious aspects -- Christianity -- Germany -- Ruhr (Region) -- Congresses.",
+        "Catholic Church -- Germany -- History -- 1933-1945 -- Congresses.",
+        "Alien labor -- Religious life -- Germany -- Ruhr (Region) -- Congresses.",
+        "Forced labor -- Germany -- Ruhr (Region) -- Congresses."
+      ],
+      "type": "work",
+      "ebook_count_i": 0
+    },
+    {
+      "title_suggest": "Adventist missions facing the 21st century",
+      "edition_key": [
+        "OL1625630M"
+      ],
+      "isbn": [
+        "363142387X",
+        "9783631423875"
+      ],
+      "has_fulltext": false,
+      "text": [
+        "OL1625630M",
+        "363142387X",
+        "9783631423875",
+        "Dunton, Hugh I.",
+        "Schantz, Borge, 1931-",
+        "Pfeiffer, Baldur Ed., 1937-",
+        "a reader",
+        "Adventist missions facing the 21st century",
+        "Hugh I. Dunton, Baldur Ed. Pfeiffer, Borge Schantz (eds.).",
+        "Seventh-Day Adventists -- Missions -- Congresses.",
+        "Adventists -- Missions -- Congresses.",
+        "/works/OL1625630M",
+        "P. Lang",
+        "Adventist missions 21st century.",
+        "91172132"
+      ],
+      "seed": [
+        "/books/OL1625630M",
+        "/works/OL1625630M",
+        "/subjects/seventh-day_adventists_--_missions_--_congresses.",
+        "/subjects/adventists_--_missions_--_congresses."
+      ],
+      "contributor": [
+        "Dunton, Hugh I.",
+        "Schantz, Borge, 1931-",
+        "Pfeiffer, Baldur Ed., 1937-"
+      ],
+      "subject": [
+        "Seventh-Day Adventists -- Missions -- Congresses.",
+        "Adventists -- Missions -- Congresses."
+      ],
+      "title": "Adventist missions facing the 21st century",
+      "publish_date": [
+        "1990"
+      ],
+      "type": "work",
+      "ebook_count_i": 0,
+      "publish_place": [
+        "New York",
+        "Frankfurt am Main"
+      ],
+      "edition_count": 1,
+      "key": "/works/OL1625630M",
+      "id_goodreads": [
+        "3844241"
+      ],
+      "publisher": [
+        "P. Lang"
+      ],
+      "language": [
+        "eng"
+      ],
+      "lccn": [
+        "91172132"
+      ],
+      "last_modified_i": 1419574315,
+      "publish_year": [
+        1990
+      ],
+      "first_publish_year": 1990
+    },
+    {
+      "title_suggest": "Pharmazeutische Gesetzeskunde",
+      "edition_key": [
+        "OL2777083M"
+      ],
+      "isbn": [
+        "3769208927",
+        "9783769208924"
+      ],
+      "has_fulltext": false,
+      "text": [
+        "OL2777083M",
+        "3769208927",
+        "9783769208924",
+        "Fischer, J\u00fcrgen, Rechtsanwalt.",
+        "Kohm, Baldur.",
+        "H\u00fcgel, Herbert, 1905-",
+        "14413657",
+        "Einf\u00fchrung in die Rechtsgebiete und Textsammlung f\u00fcr Studium und Praxis",
+        "Pharmazeutische Gesetzeskunde",
+        "herausgegeben von Herbert H\u00fcgel, J\u00fcrgen Fischer, Baldur Kohm.",
+        "Pharmacy -- Law and legislation -- Germany (West)",
+        "/works/OL2777083M",
+        "Deutscher Apotheker Verlag",
+        "86140065"
+      ],
+      "seed": [
+        "/books/OL2777083M",
+        "/works/OL2777083M",
+        "/subjects/pharmacy_--_law_and_legislation_--_germany_(west)"
+      ],
+      "oclc": [
+        "14413657"
+      ],
+      "contributor": [
+        "Fischer, J\u00fcrgen, Rechtsanwalt.",
+        "Kohm, Baldur.",
+        "H\u00fcgel, Herbert, 1905-"
+      ],
+      "subject": [
+        "Pharmacy -- Law and legislation -- Germany (West)"
+      ],
+      "title": "Pharmazeutische Gesetzeskunde",
+      "publish_date": [
+        "1985"
+      ],
+      "type": "work",
+      "ebook_count_i": 0,
+      "publish_place": [
+        "Stuttgart"
+      ],
+      "edition_count": 1,
+      "key": "/works/OL2777083M",
+      "publisher": [
+        "Deutscher Apotheker Verlag"
+      ],
+      "language": [
+        "ger"
+      ],
+      "lccn": [
+        "86140065"
+      ],
+      "last_modified_i": 1419576384,
+      "publish_year": [
+        1985
+      ],
+      "first_publish_year": 1985
+    },
+    {
+      "title_suggest": "Zwang und Zuwendung",
+      "publish_place": [
+        "Bochum"
+      ],
+      "isbn": [
+        "3897092042",
+        "9783897092044"
+      ],
+      "has_fulltext": false,
+      "language": [
+        "ger"
+      ],
+      "edition_count": 1,
+      "edition_key": [
+        "OL20577035M"
+      ],
+      "last_modified_i": 1419576001,
+      "title": "Zwang und Zuwendung",
+      "publisher": [
+        "Kamp"
+      ],
+      "seed": [
+        "/books/OL20577035M",
+        "/works/OL20577035M",
+        "/subjects/catholic_church_--_germany_--_history_--_1933-1945_--_congresses.",
+        "/subjects/forced_labor_--_germany_--_ruhr_(region)_--_congresses.",
+        "/subjects/church_and_labor_--_germany_--_ruhr_(region)_--_congresses.",
+        "/subjects/alien_labor_--_religious_life_--_germany_--_ruhr_(region)_--_congresses.",
+        "/subjects/catholics_--_nazi_persecution_--_germany_--_ruhr_(region)_--_congresses."
+      ],
+      "first_publish_year": 2003,
+      "publish_year": [
+        2003
+      ],
+      "key": "/works/OL20577035M",
+      "text": [
+        "OL20577035M",
+        "3897092042",
+        "9783897092044",
+        "Hermans, Baldur.",
+        "katholische Kirche und Zwangsarbeit im Ruhrgebiet",
+        "Zwang und Zuwendung",
+        "herausgegeben von Baldur Hermans.",
+        "Church and labor -- Germany -- Ruhr (Region) -- Congresses.",
+        "Catholics -- Nazi persecution -- Germany -- Ruhr (Region) -- Congresses.",
+        "Alien labor -- Religious life -- Germany -- Ruhr (Region) -- Congresses.",
+        "Catholic Church -- Germany -- History -- 1933-1945 -- Congresses.",
+        "Forced labor -- Germany -- Ruhr (Region) -- Congresses.",
+        "/works/OL20577035M",
+        "Kamp"
+      ],
+      "contributor": [
+        "Hermans, Baldur."
+      ],
+      "publish_date": [
+        "2003"
+      ],
+      "subject": [
+        "Church and labor -- Germany -- Ruhr (Region) -- Congresses.",
+        "Catholics -- Nazi persecution -- Germany -- Ruhr (Region) -- Congresses.",
+        "Alien labor -- Religious life -- Germany -- Ruhr (Region) -- Congresses.",
+        "Catholic Church -- Germany -- History -- 1933-1945 -- Congresses.",
+        "Forced labor -- Germany -- Ruhr (Region) -- Congresses."
+      ],
+      "type": "work",
+      "ebook_count_i": 0
+    },
+    {
+      "title_suggest": "Signale in die achtziger Jahre",
+      "edition_key": [
+        "OL3899810M"
+      ],
+      "isbn": [
+        "9783789271533",
+        "3789271535"
+      ],
+      "has_fulltext": false,
+      "text": [
+        "OL3899810M",
+        "9783789271533",
+        "3789271535",
+        "Winfried Ockenfels",
+        "Wagner, Baldur, joint author.",
+        "OL1588272A",
+        "d. politische Landschaft d. Bundesrepublik Deutschland : Zahlen, Daten, Fakten, Meinungen",
+        "Signale in die achtziger Jahre",
+        "Winfried Ockenfels, Baldur Wagner.",
+        "Politics and government",
+        "/works/OL6178049W",
+        "Olzog",
+        "81461900",
+        "Germany (West)"
+      ],
+      "author_name": [
+        "Winfried Ockenfels"
+      ],
+      "seed": [
+        "/books/OL3899810M",
+        "/works/OL6178049W",
+        "/subjects/politics_and_government",
+        "/subjects/place:germany_(west)",
+        "/authors/OL1588272A"
+      ],
+      "contributor": [
+        "Wagner, Baldur, joint author."
+      ],
+      "author_key": [
+        "OL1588272A"
+      ],
+      "subject": [
+        "Politics and government"
+      ],
+      "title": "Signale in die achtziger Jahre",
+      "publish_date": [
+        "1980"
+      ],
+      "type": "work",
+      "ebook_count_i": 0,
+      "publish_place": [
+        "M\u00fcnchen",
+        "Wien"
+      ],
+      "edition_count": 1,
+      "key": "/works/OL6178049W",
+      "id_goodreads": [
+        "4987627"
+      ],
+      "publisher": [
+        "Olzog"
+      ],
+      "language": [
+        "ger"
+      ],
+      "lccn": [
+        "81461900"
+      ],
+      "last_modified_i": 1291518703,
+      "publish_year": [
+        1980
+      ],
+      "first_publish_year": 1980,
+      "place": [
+        "Germany (West)"
+      ]
+    },
+    {
+      "title_suggest": "Characteristics of self-aerated free-surface flows",
+      "publish_place": [
+        "M\u00fcnchen",
+        "Berlin",
+        "Bielefeld"
+      ],
+      "edition_key": [
+        "OL4333085M"
+      ],
+      "isbn": [
+        "9783503013173",
+        "3503013172"
+      ],
+      "has_fulltext": false,
+      "language": [
+        "eng"
+      ],
+      "edition_count": 1,
+      "lccn": [
+        "78373956"
+      ],
+      "last_modified_i": 1325054204,
+      "title": "Characteristics of self-aerated free-surface flows",
+      "publisher": [
+        "E. Schmidt"
+      ],
+      "seed": [
+        "/books/OL4333085M",
+        "/works/OL16348169W",
+        "/subjects/water",
+        "/subjects/air_entrainment"
+      ],
+      "first_publish_year": 1975,
+      "publish_year": [
+        1975
+      ],
+      "key": "/works/OL16348169W",
+      "text": [
+        "OL4333085M",
+        "9783503013173",
+        "3503013172",
+        "Barczewski, Baldur, 1943-",
+        "Kobus, Helmut.",
+        "Rao, Nagar S. Lakshmana.",
+        "Characteristics of self-aerated free-surface flows",
+        "Nagar S. Lakshmana Rao and Helmut E. Kobus, ed. ; with contributions by Baldur H. Barczewski ... [et al.].",
+        "Water",
+        "Air entrainment",
+        "/works/OL16348169W",
+        "E. Schmidt",
+        "78373956"
+      ],
+      "contributor": [
+        "Barczewski, Baldur, 1943-",
+        "Kobus, Helmut.",
+        "Rao, Nagar S. Lakshmana."
+      ],
+      "publish_date": [
+        "1975"
+      ],
+      "subject": [
+        "Water",
+        "Air entrainment"
+      ],
+      "type": "work",
+      "ebook_count_i": 0
+    },
+    {
+      "title_suggest": "Icelandic whales, past and present",
+      "edition_key": [
+        "OL409836M"
+      ],
+      "isbn": [
+        "9789979533085",
+        "9979533080"
+      ],
+      "has_fulltext": false,
+      "text": [
+        "OL409836M",
+        "9789979533085",
+        "9979533080",
+        "Sigur\u00f0ur \u00c6gisson.",
+        "J\u00f3n \u00c1sgeir \u00ed A\u00f0aldal.",
+        "J\u00f3n Baldur Hl\u00ed\u00f0berg.",
+        "OL253662A",
+        "Icelandic whales, past and present",
+        "Sigur\u00f0ur \u00c6gisson, J\u00f3n \u00c1sgeir \u00ed A\u00f0aldal, J\u00f3n Baldur Hl\u00ed\u00f0berg ; preface by Mark Carwardine ; English translation by Daniel Teague.",
+        "Cetacea",
+        "/works/OL2071601W",
+        "Forlagi\u00f0",
+        "98111304",
+        "Iceland"
+      ],
+      "author_name": [
+        "Sigur\u00f0ur \u00c6gisson."
+      ],
+      "seed": [
+        "/books/OL409836M",
+        "/works/OL2071601W",
+        "/subjects/cetacea",
+        "/subjects/place:iceland",
+        "/authors/OL253662A"
+      ],
+      "contributor": [
+        "J\u00f3n \u00c1sgeir \u00ed A\u00f0aldal.",
+        "J\u00f3n Baldur Hl\u00ed\u00f0berg."
+      ],
+      "author_key": [
+        "OL253662A"
+      ],
+      "subject": [
+        "Cetacea"
+      ],
+      "title": "Icelandic whales, past and present",
+      "publish_date": [
+        "1997"
+      ],
+      "type": "work",
+      "ebook_count_i": 0,
+      "publish_place": [
+        "Reykjav\u00edk"
+      ],
+      "edition_count": 1,
+      "key": "/works/OL2071601W",
+      "publisher": [
+        "Forlagi\u00f0"
+      ],
+      "language": [
+        "eng"
+      ],
+      "lccn": [
+        "98111304"
+      ],
+      "last_modified_i": 1265162954,
+      "publish_year": [
+        1997
+      ],
+      "first_publish_year": 1997,
+      "place": [
+        "Iceland"
+      ]
+    },
+    {
+      "title_suggest": "Gegengewichte",
+      "edition_key": [
+        "OL20349327M"
+      ],
+      "isbn": [
+        "3928342576",
+        "9783928342575"
+      ],
+      "has_fulltext": false,
+      "text": [
+        "OL20349327M",
+        "3928342576",
+        "9783928342575",
+        "Lucius Grisebach",
+        "Eva Meyer-Hermann",
+        "Grisebach, Lucius.",
+        "Kl\u00f6tzer, Bernd, 1941-",
+        "Meyer-Hermann, Eva.",
+        "Bienenstein, Baldur.",
+        "Kunsthalle N\u00fcrnberg.",
+        "OL597970A",
+        "OL3158203A",
+        "German Art",
+        "Exhibitions",
+        "Baldur Bienenstein ... [et al.]",
+        "Gegengewichte",
+        "/works/OL19250983W",
+        "[Ausstellung und Katalog, Bernd Kl\u00f6tzer ; in Zusammenarbeit mit Lucius Grisebach und Eva Meyer-Hermann].",
+        "Verlag f\u00fcr moderne Kunst",
+        "Kunsthalle N\u00fcrnberg",
+        "20th century"
+      ],
+      "author_name": [
+        "Lucius Grisebach",
+        "Eva Meyer-Hermann"
+      ],
+      "seed": [
+        "/books/OL20349327M",
+        "/works/OL19250983W",
+        "/subjects/german_art",
+        "/subjects/exhibitions",
+        "/subjects/time:20th_century",
+        "/authors/OL597970A",
+        "/authors/OL3158203A"
+      ],
+      "contributor": [
+        "Grisebach, Lucius.",
+        "Kl\u00f6tzer, Bernd, 1941-",
+        "Meyer-Hermann, Eva.",
+        "Bienenstein, Baldur.",
+        "Kunsthalle N\u00fcrnberg."
+      ],
+      "author_key": [
+        "OL597970A",
+        "OL3158203A"
+      ],
+      "subject": [
+        "German Art",
+        "Exhibitions"
+      ],
+      "title": "Gegengewichte",
+      "publish_date": [
+        "1995"
+      ],
+      "type": "work",
+      "ebook_count_i": 0,
+      "publish_place": [
+        "N\u00fcrnberg"
+      ],
+      "edition_count": 1,
+      "key": "/works/OL19250983W",
+      "publisher": [
+        "Verlag f\u00fcr moderne Kunst"
+      ],
+      "language": [
+        "ger"
+      ],
+      "last_modified_i": 1552387253,
+      "publish_year": [
+        1995
+      ],
+      "first_publish_year": 1995,
+      "time": [
+        "20th century"
+      ]
+    },
+    {
+      "title_suggest": "Die S akularisation im Ruhrgebiet: ein gewaltt atiges Friedensgesch aft; Vorgeschichte und Folgen",
+      "publish_place": [
+        "Mulheim an der Ruhr"
+      ],
+      "isbn": [
+        "9783888670497",
+        "3888670497"
+      ],
+      "has_fulltext": false,
+      "language": [
+        "ger"
+      ],
+      "edition_count": 1,
+      "edition_key": [
+        "OL19146327M"
+      ],
+      "last_modified_i": 1554817455,
+      "title": "Die S akularisation im Ruhrgebiet: ein gewaltt atiges Friedensgesch aft; Vorgeschichte und Folgen",
+      "publisher": [
+        "Edition Werry"
+      ],
+      "seed": [
+        "/books/OL19146327M",
+        "/works/OL18856697W",
+        "/subjects/our_brockhaus_selection",
+        "/subjects/christianity_theology",
+        "/subjects/history",
+        "/subjects/catholic_church",
+        "/subjects/church_history"
+      ],
+      "first_publish_year": 2004,
+      "publish_year": [
+        2004
+      ],
+      "key": "/works/OL18856697W",
+      "text": [
+        "OL19146327M",
+        "9783888670497",
+        "3888670497",
+        "Hermans, Baldur.",
+        "Church history",
+        "History",
+        "OUR Brockhaus selection",
+        "Catholic Church",
+        "Christianity Theology",
+        "ein gewalttatiges Friedensgeschaft : Vorgeschichte und Folgen",
+        "Die S akularisation im Ruhrgebiet: ein gewaltt atiges Friedensgesch aft; Vorgeschichte und Folgen",
+        "/works/OL18856697W",
+        "herausgegeben von Baldur Hermans ; [Bischofliches Generalvikariat Essen, Dezernat fur gesellschaftliche und weltkirchliche Aufgaben].",
+        "Edition Werry",
+        "Die Sakularisation im Ruhrgebiet"
+      ],
+      "contributor": [
+        "Hermans, Baldur."
+      ],
+      "publish_date": [
+        "2004"
+      ],
+      "subject": [
+        "Church history",
+        "History",
+        "OUR Brockhaus selection",
+        "Catholic Church",
+        "Christianity Theology"
+      ],
+      "type": "work",
+      "ebook_count_i": 0
+    },
+    {
+      "title_suggest": "Kreuzungen: christliche Existenz im Diskurs. Festschrift f ur Bischof Dr. Hubert Luthe zur Vollendung seines 75. Lebensjahres",
+      "publish_place": [
+        "M ulheim an der Ruhr"
+      ],
+      "isbn": [
+        "9783888670442",
+        "3888670446"
+      ],
+      "has_fulltext": false,
+      "language": [
+        "ger"
+      ],
+      "edition_count": 1,
+      "edition_key": [
+        "OL19534555M"
+      ],
+      "last_modified_i": 1419577722,
+      "title": "Kreuzungen: christliche Existenz im Diskurs. Festschrift f ur Bischof Dr. Hubert Luthe zur Vollendung seines 75. Lebensjahres",
+      "publisher": [
+        "Edition Werry Verlagsgesellschaft mbH"
+      ],
+      "seed": [
+        "/books/OL19534555M",
+        "/works/OL19534555M",
+        "/subjects/theology_christianity",
+        "/subjects/sel_library_selection"
+      ],
+      "key": "/works/OL19534555M",
+      "text": [
+        "OL19534555M",
+        "9783888670442",
+        "3888670446",
+        "Hrsg.: Hermans, Baldur",
+        "Kreuzungen: christliche Existenz im Diskurs. Festschrift f ur Bischof Dr. Hubert Luthe zur Vollendung seines 75. Lebensjahres",
+        "SEL Library selection",
+        "Theology, Christianity",
+        "/works/OL19534555M",
+        "Edition Werry Verlagsgesellschaft mbH"
+      ],
+      "contributor": [
+        "Hrsg.: Hermans, Baldur"
+      ],
+      "subject": [
+        "SEL Library selection",
+        "Theology, Christianity"
+      ],
+      "type": "work",
+      "ebook_count_i": 0
+    },
+    {
+      "title_suggest": "Die S akularisation im Ruhrgebiet: ein gewaltt atiges Friedensgesch aft; Vorgeschichte und Folgen",
+      "publish_place": [
+        "M ulheim an der Ruhr"
+      ],
+      "isbn": [
+        "9783888670497",
+        "3888670497"
+      ],
+      "has_fulltext": false,
+      "language": [
+        "ger"
+      ],
+      "edition_count": 1,
+      "edition_key": [
+        "OL21405316M"
+      ],
+      "last_modified_i": 1419574779,
+      "title": "Die S akularisation im Ruhrgebiet: ein gewaltt atiges Friedensgesch aft; Vorgeschichte und Folgen",
+      "publisher": [
+        "Edition Werry Verlagsgesellschaft mbH"
+      ],
+      "seed": [
+        "/books/OL21405316M",
+        "/works/OL21405316M",
+        "/subjects/theology_christianity",
+        "/subjects/our_brockhaus_selection"
+      ],
+      "key": "/works/OL21405316M",
+      "text": [
+        "OL21405316M",
+        "9783888670497",
+        "3888670497",
+        "Hrsg.: Hermans, Baldur",
+        "Die S akularisation im Ruhrgebiet: ein gewaltt atiges Friedensgesch aft; Vorgeschichte und Folgen",
+        "OUR Brockhaus selection",
+        "Theology, Christianity",
+        "/works/OL21405316M",
+        "Edition Werry Verlagsgesellschaft mbH"
+      ],
+      "contributor": [
+        "Hrsg.: Hermans, Baldur"
+      ],
+      "subject": [
+        "OUR Brockhaus selection",
+        "Theology, Christianity"
+      ],
+      "type": "work",
+      "ebook_count_i": 0
+    },
+    {
+      "title_suggest": "The Construction of the Viewer",
+      "edition_key": [
+        "OL9171621M"
+      ],
+      "cover_i": 4923539,
+      "isbn": [
+        "8789825063",
+        "9788789825069"
+      ],
+      "has_fulltext": false,
+      "text": [
+        "OL9171621M",
+        "8789825063",
+        "9788789825069",
+        "Peter Ian Crawford",
+        "Sigurjon Baldur Hafsteinsson (Editor)",
+        "OL3219011A",
+        "Media Ethnography and the Anthropology of Audiences (Nafa 3)",
+        "The Construction of the Viewer",
+        "/works/OL9135416W",
+        "Smyrna Pr"
+      ],
+      "author_name": [
+        "Peter Ian Crawford"
+      ],
+      "seed": [
+        "/books/OL9171621M",
+        "/works/OL9135416W",
+        "/authors/OL3219011A"
+      ],
+      "contributor": [
+        "Sigurjon Baldur Hafsteinsson (Editor)"
+      ],
+      "author_key": [
+        "OL3219011A"
+      ],
+      "title": "The Construction of the Viewer",
+      "publish_date": [
+        "May 1994"
+      ],
+      "type": "work",
+      "ebook_count_i": 0,
+      "edition_count": 1,
+      "key": "/works/OL9135416W",
+      "id_goodreads": [
+        "2054612"
+      ],
+      "publisher": [
+        "Smyrna Pr"
+      ],
+      "language": [
+        "eng"
+      ],
+      "last_modified_i": 1281575172,
+      "id_librarything": [
+        "327898"
+      ],
+      "cover_edition_key": "OL9171621M",
+      "publish_year": [
+        1994
+      ],
+      "first_publish_year": 1994
+    },
+    {
+      "title_suggest": "Schirach, Marx und Moralisten",
+      "edition_key": [
+        "OL2938364M"
+      ],
+      "isbn": [
+        "9783882580747",
+        "3882580747"
+      ],
+      "has_fulltext": false,
+      "text": [
+        "OL2938364M",
+        "9783882580747",
+        "3882580747",
+        "Ludwig Liebs",
+        "OL1265897A",
+        "Berichte und Polemiken eines alten B\u00fcndischen",
+        "Schirach, Marx und Moralisten",
+        "Ludwig Liebs.",
+        "Youth movement",
+        "/works/OL5416864W",
+        "S\u00fcdmarkverlag Fritsch",
+        "84176219",
+        "Baldur von Schirach (1907-)",
+        "Karl Marx (1818-1883)",
+        "Germany"
+      ],
+      "author_name": [
+        "Ludwig Liebs"
+      ],
+      "seed": [
+        "/books/OL2938364M",
+        "/works/OL5416864W",
+        "/subjects/youth_movement",
+        "/subjects/person:baldur_von_schirach_(1907-)",
+        "/subjects/person:karl_marx_(1818-1883)",
+        "/subjects/place:germany",
+        "/authors/OL1265897A"
+      ],
+      "author_key": [
+        "OL1265897A"
+      ],
+      "subject": [
+        "Youth movement"
+      ],
+      "title": "Schirach, Marx und Moralisten",
+      "publish_date": [
+        "1983"
+      ],
+      "type": "work",
+      "ebook_count_i": 0,
+      "publish_place": [
+        "Heidenheim an der Brenz"
+      ],
+      "edition_count": 1,
+      "key": "/works/OL5416864W",
+      "id_goodreads": [
+        "6260160"
+      ],
+      "publisher": [
+        "S\u00fcdmarkverlag Fritsch"
+      ],
+      "language": [
+        "ger"
+      ],
+      "lccn": [
+        "84176219"
+      ],
+      "last_modified_i": 1291501423,
+      "person": [
+        "Baldur von Schirach (1907-)",
+        "Karl Marx (1818-1883)"
+      ],
+      "publish_year": [
+        1983
+      ],
+      "first_publish_year": 1983,
+      "place": [
+        "Germany"
+      ]
+    },
+    {
+      "title_suggest": "\u00cdslandsfer\u00f0 1858",
+      "edition_key": [
+        "OL411395M"
+      ],
+      "has_fulltext": false,
+      "text": [
+        "OL411395M",
+        "Konrad von Maurer",
+        "Fer\u00f0af\u00e9lag \u00cdslands.",
+        "OL254563A",
+        "\u00cdslandsfer\u00f0 1858",
+        "Konrad Mauerer ; \u00fe\u00fd\u00f0andi Baldur Hafsta\u00f0.",
+        "Travel",
+        "Description and travel",
+        "/works/OL2076837W",
+        "Fer\u00f0af\u00e9lag \u00cdslands",
+        "98113292",
+        "Konrad von Maurer (1823-1902)",
+        "Iceland"
+      ],
+      "author_name": [
+        "Konrad von Maurer"
+      ],
+      "seed": [
+        "/books/OL411395M",
+        "/works/OL2076837W",
+        "/subjects/travel",
+        "/subjects/description_and_travel",
+        "/subjects/person:konrad_von_maurer_(1823-1902)",
+        "/subjects/place:iceland",
+        "/authors/OL254563A"
+      ],
+      "contributor": [
+        "Fer\u00f0af\u00e9lag \u00cdslands."
+      ],
+      "author_key": [
+        "OL254563A"
+      ],
+      "subject": [
+        "Travel",
+        "Description and travel"
+      ],
+      "title": "\u00cdslandsfer\u00f0 1858",
+      "publish_date": [
+        "1997"
+      ],
+      "type": "work",
+      "ebook_count_i": 0,
+      "publish_place": [
+        "Reykjav\u00edk"
+      ],
+      "edition_count": 1,
+      "key": "/works/OL2076837W",
+      "publisher": [
+        "Fer\u00f0af\u00e9lag \u00cdslands"
+      ],
+      "language": [
+        "ice"
+      ],
+      "lccn": [
+        "98113292"
+      ],
+      "last_modified_i": 1265165911,
+      "person": [
+        "Konrad von Maurer (1823-1902)"
+      ],
+      "publish_year": [
+        1997
+      ],
+      "first_publish_year": 1997,
+      "place": [
+        "Iceland"
+      ]
+    },
+    {
+      "title_suggest": "Ausbauhandbuch",
+      "edition_key": [
+        "OL4044087M"
+      ],
+      "isbn": [
+        "9783782814324",
+        "3782814320"
+      ],
+      "has_fulltext": false,
+      "text": [
+        "OL4044087M",
+        "9783782814324",
+        "3782814320",
+        "Weber, Helmut",
+        "OL1633289A",
+        "Ausbauhandbuch",
+        "Helmut Weber, [Mitarbeiter, Heinz Hullmann, Baldur Schmidt, Hans-Werner Strunck].",
+        "Building",
+        "Handbooks, manuals",
+        "/works/OL6267518W",
+        "Kr\u00e4mer",
+        "79391340"
+      ],
+      "author_name": [
+        "Weber, Helmut"
+      ],
+      "seed": [
+        "/books/OL4044087M",
+        "/works/OL6267518W",
+        "/subjects/building",
+        "/subjects/handbooks_manuals",
+        "/authors/OL1633289A"
+      ],
+      "author_key": [
+        "OL1633289A"
+      ],
+      "subject": [
+        "Building",
+        "Handbooks, manuals"
+      ],
+      "title": "Ausbauhandbuch",
+      "publish_date": [
+        "1976"
+      ],
+      "type": "work",
+      "ebook_count_i": 0,
+      "publish_place": [
+        "Stuttgart"
+      ],
+      "edition_count": 1,
+      "key": "/works/OL6267518W",
+      "publisher": [
+        "Kr\u00e4mer"
+      ],
+      "language": [
+        "ger"
+      ],
+      "lccn": [
+        "79391340"
+      ],
+      "last_modified_i": 1291521878,
+      "publish_year": [
+        1976
+      ],
+      "first_publish_year": 1976
+    },
+    {
+      "title_suggest": "Schirach, Marx und Moralisten",
+      "publish_place": [
+        "Heidenheim"
+      ],
+      "isbn": [
+        "3882480747"
+      ],
+      "has_fulltext": false,
+      "language": [
+        "ger"
+      ],
+      "edition_count": 1,
+      "edition_key": [
+        "OL14736445M"
+      ],
+      "last_modified_i": 1263937270,
+      "title": "Schirach, Marx und Moralisten",
+      "publisher": [
+        "S\u00fcdmarkverlag"
+      ],
+      "author_name": [
+        "Ludwig.* Liebs"
+      ],
+      "person": [
+        "Baldur von Schirach (1907-*)",
+        "Karl Marx (1818-1883)"
+      ],
+      "seed": [
+        "/books/OL14736445M",
+        "/works/OL11199230W",
+        "/subjects/person:baldur_von_schirach_(1907-*)",
+        "/subjects/person:karl_marx_(1818-1883)",
+        "/authors/OL4680970A"
+      ],
+      "first_publish_year": 1983,
+      "publish_year": [
+        1983
+      ],
+      "key": "/works/OL11199230W",
+      "text": [
+        "OL14736445M",
+        "3882480747",
+        "Ludwig.* Liebs",
+        "OL4680970A",
+        "Schirach, Marx und Moralisten",
+        "/works/OL11199230W",
+        "S\u00fcdmarkverlag",
+        "Schirach, Marx und Moralisten.",
+        "Baldur von Schirach (1907-*)",
+        "Karl Marx (1818-1883)"
+      ],
+      "publish_date": [
+        "1983"
+      ],
+      "author_key": [
+        "OL4680970A"
+      ],
+      "type": "work",
+      "ebook_count_i": 0
+    },
+    {
+      "title_suggest": "A Stroll in Old Iffley. Illustrated by Diana Heeks,",
+      "publisher": [
+        "The Baldur Press 1991."
+      ],
+      "isbn": [
+        "9780951803806",
+        "0951803808"
+      ],
+      "has_fulltext": false,
+      "edition_count": 1,
+      "edition_key": [
+        "OL11583998M"
+      ],
+      "last_modified_i": 1260839271,
+      "title": "A Stroll in Old Iffley. Illustrated by Diana Heeks,",
+      "author_name": [
+        "Patrick Reynolds"
+      ],
+      "seed": [
+        "/books/OL11583998M",
+        "/works/OL4642756W",
+        "/authors/OL953651A"
+      ],
+      "first_publish_year": 1991,
+      "publish_year": [
+        1991
+      ],
+      "key": "/works/OL4642756W",
+      "text": [
+        "OL11583998M",
+        "9780951803806",
+        "0951803808",
+        "Patrick Reynolds",
+        "OL953651A",
+        "A Stroll in Old Iffley. Illustrated by Diana Heeks,",
+        "/works/OL4642756W",
+        "The Baldur Press 1991.",
+        "A Stroll in Old Iffley. Illustrated by Diana Heeks,."
+      ],
+      "publish_date": [
+        "1991"
+      ],
+      "author_key": [
+        "OL953651A"
+      ],
+      "type": "work",
+      "ebook_count_i": 0
+    },
+    {
+      "title_suggest": "Sendependaj homoj (romantraduko en Esperanto)",
+      "edition_key": [
+        "OL12439644M"
+      ],
+      "cover_i": 2965523,
+      "isbn": [
+        "9781595690562",
+        "1595690565"
+      ],
+      "has_fulltext": false,
+      "text": [
+        "OL12439644M",
+        "9781595690562",
+        "1595690565",
+        "Halld\u00f3r Laxness",
+        "Baldur Ragnarsson (Translator)",
+        "176871947",
+        "OL62102A",
+        "Sendependaj homoj (romantraduko en Esperanto)",
+        "/works/OL7922782W",
+        "Mondial",
+        "Halldor Kiljan Laxness",
+        "Halldor Laxness"
+      ],
+      "author_name": [
+        "Halld\u00f3r Laxness"
+      ],
+      "seed": [
+        "/books/OL12439644M",
+        "/works/OL7922782W",
+        "/authors/OL62102A"
+      ],
+      "author_alternative_name": [
+        "Halldor Kiljan Laxness",
+        "Halldor Laxness"
+      ],
+      "contributor": [
+        "Baldur Ragnarsson (Translator)"
+      ],
+      "author_key": [
+        "OL62102A"
+      ],
+      "title": "Sendependaj homoj (romantraduko en Esperanto)",
+      "publish_date": [
+        "September 11, 2007"
+      ],
+      "type": "work",
+      "ebook_count_i": 0,
+      "edition_count": 1,
+      "key": "/works/OL7922782W",
+      "id_goodreads": [
+        "2298662"
+      ],
+      "publisher": [
+        "Mondial"
+      ],
+      "language": [
+        "esp"
+      ],
+      "last_modified_i": 1494846466,
+      "id_librarything": [
+        "56853"
+      ],
+      "cover_edition_key": "OL12439644M",
+      "publish_year": [
+        2007
+      ],
+      "first_publish_year": 2007,
+      "oclc": [
+        "176871947"
+      ]
+    },
+    {
+      "title_suggest": "Der Schatten meines Vaters",
+      "edition_key": [
+        "OL16299158M"
+      ],
+      "cover_i": 8390120,
+      "isbn": [
+        "3446206698",
+        "9783446206694"
+      ],
+      "has_fulltext": false,
+      "text": [
+        "OL16299158M",
+        "3446206698",
+        "9783446206694",
+        "Richard von Schirach",
+        "OL4979813A",
+        "Politics and government",
+        "Children of Nazis",
+        "Biography",
+        "Der Schatten meines Vaters",
+        "/works/OL11728331W",
+        "Richard von Schirach.",
+        "Hanser",
+        "2005474158",
+        "Baldur von Schirach (1907-1974)",
+        "Germany",
+        "20th century"
+      ],
+      "author_name": [
+        "Richard von Schirach"
+      ],
+      "seed": [
+        "/books/OL16299158M",
+        "/works/OL11728331W",
+        "/subjects/politics_and_government",
+        "/subjects/children_of_nazis",
+        "/subjects/biography",
+        "/subjects/person:baldur_von_schirach_(1907-1974)",
+        "/subjects/place:germany",
+        "/subjects/time:20th_century",
+        "/authors/OL4979813A"
+      ],
+      "author_key": [
+        "OL4979813A"
+      ],
+      "subject": [
+        "Politics and government",
+        "Children of Nazis",
+        "Biography"
+      ],
+      "title": "Der Schatten meines Vaters",
+      "publish_date": [
+        "2005"
+      ],
+      "type": "work",
+      "ebook_count_i": 0,
+      "publish_place": [
+        "M\u00fcnchen"
+      ],
+      "edition_count": 1,
+      "key": "/works/OL11728331W",
+      "id_goodreads": [
+        "3286952"
+      ],
+      "publisher": [
+        "Hanser"
+      ],
+      "language": [
+        "ger"
+      ],
+      "lccn": [
+        "2005474158"
+      ],
+      "last_modified_i": 1551013346,
+      "id_librarything": [
+        "7616144"
+      ],
+      "cover_edition_key": "OL16299158M",
+      "person": [
+        "Baldur von Schirach (1907-1974)"
+      ],
+      "publish_year": [
+        2005
+      ],
+      "first_publish_year": 2005,
+      "place": [
+        "Germany"
+      ],
+      "time": [
+        "20th century"
+      ]
+    },
+    {
+      "title_suggest": "Neuadel aus Blut und Boden",
+      "edition_key": [
+        "OL6491327M",
+        "OL16005442M",
+        "OL3282582M",
+        "OL6419848M"
+      ],
+      "has_fulltext": false,
+      "text": [
+        "OL6491327M",
+        "OL16005442M",
+        "OL3282582M",
+        "OL6419848M",
+        "Richard Walther Darr\u00e9",
+        "Schwarz, Franz Xaver, b. 1875, former owner.",
+        "Hitler, Adolf, 1889-1945, former owner.",
+        "Schirach, Baldur von, 1907-, former owner.",
+        "Third Reich Collection (Library of Congress)",
+        "Darr\u00e9, Richard Walther, 1895-1953, inscriber.",
+        "OL150299A",
+        "Neuadel aus Blut und Boden",
+        "von R. Walther Darr\u00e9.",
+        "Law and legislation",
+        "National characteristics, German",
+        "Land tenure",
+        "German National characteristics",
+        "Nationality",
+        "Peasantry",
+        "Law",
+        "Eugenics",
+        "Nobility",
+        "/works/OL1437852W",
+        "J. F. Lehmann",
+        "J.F. Lehmann",
+        "J.F. Lehmanns Verlag",
+        "Neuadel aus blut und boden",
+        "2003577241",
+        "41013915",
+        "45033769",
+        "Law and legislation",
+        "Germany"
+      ],
+      "author_name": [
+        "Richard Walther Darr\u00e9"
+      ],
+      "seed": [
+        "/books/OL6491327M",
+        "/books/OL16005442M",
+        "/books/OL3282582M",
+        "/books/OL6419848M",
+        "/works/OL1437852W",
+        "/subjects/eugenics",
+        "/subjects/german_national_characteristics",
+        "/subjects/land_tenure",
+        "/subjects/law",
+        "/subjects/law_and_legislation",
+        "/subjects/national_characteristics_german",
+        "/subjects/nationality",
+        "/subjects/nobility",
+        "/subjects/peasantry",
+        "/subjects/place:germany",
+        "/subjects/place:law_and_legislation",
+        "/authors/OL150299A"
+      ],
+      "contributor": [
+        "Schwarz, Franz Xaver, b. 1875, former owner.",
+        "Hitler, Adolf, 1889-1945, former owner.",
+        "Schirach, Baldur von, 1907-, former owner.",
+        "Third Reich Collection (Library of Congress)",
+        "Darr\u00e9, Richard Walther, 1895-1953, inscriber."
+      ],
+      "author_key": [
+        "OL150299A"
+      ],
+      "subject": [
+        "Law and legislation",
+        "National characteristics, German",
+        "Land tenure",
+        "German National characteristics",
+        "Nationality",
+        "Peasantry",
+        "Law",
+        "Eugenics",
+        "Nobility"
+      ],
+      "title": "Neuadel aus Blut und Boden",
+      "publish_date": [
+        "1939",
+        "1930",
+        "1937"
+      ],
+      "type": "work",
+      "ebook_count_i": 0,
+      "publish_place": [
+        "M\u00fcnchen",
+        "M\u00fcnchen",
+        "Germany"
+      ],
+      "edition_count": 4,
+      "key": "/works/OL1437852W",
+      "publisher": [
+        "J. F. Lehmann",
+        "J.F. Lehmann",
+        "J.F. Lehmanns Verlag"
+      ],
+      "language": [
+        "ger",
+        "eng"
+      ],
+      "lccn": [
+        "2003577241",
+        "41013915",
+        "45033769"
+      ],
+      "last_modified_i": 1415835054,
+      "cover_edition_key": "OL6491327M",
+      "publish_year": [
+        1939,
+        1930,
+        1937
+      ],
+      "first_publish_year": 1930,
+      "place": [
+        "Law and legislation",
+        "Germany"
+      ]
+    },
+    {
+      "title_suggest": "Greenhouse gas control technologies",
+      "edition_key": [
+        "OL18136663M"
+      ],
+      "isbn": [
+        "008043018X",
+        "9780080430188"
+      ],
+      "has_fulltext": false,
+      "text": [
+        "OL18136663M",
+        "008043018X",
+        "9780080430188",
+        "International Conference on Greenhouse Gas Control Technologies (4th 1998 Interlaken, Switzerland)",
+        "Eliasson, Baldur.",
+        "Riemer, Pierce.",
+        "Wokaun, Alexander.",
+        "OL279071A",
+        "proceedings of the 4th International Conference on Greenhouse Gas Control Technologies, 30 August-2 September 1998, Interlaken, Switzerland",
+        "Greenhouse gas control technologies",
+        "edited by Baldur Eliasson, Pierce Riemer, Alexander Wokaun.",
+        "Technological innovations",
+        "Environmental aspects",
+        "Greenhouse gases",
+        "Purification",
         "Congresses",
+        "Environmental aspects of Greenhouse gases",
+        "Air",
+        "/works/OL2192627W",
+        "Pergamon",
+        "99014523"
+      ],
+      "author_name": [
+        "International Conference on Greenhouse Gas Control Technologies (4th 1998 Interlaken, Switzerland)"
+      ],
+      "seed": [
+        "/books/OL18136663M",
+        "/works/OL2192627W",
+        "/subjects/air",
+        "/subjects/congresses",
+        "/subjects/environmental_aspects",
+        "/subjects/environmental_aspects_of_greenhouse_gases",
+        "/subjects/greenhouse_gases",
+        "/subjects/purification",
+        "/subjects/technological_innovations",
+        "/authors/OL279071A"
+      ],
+      "contributor": [
+        "Eliasson, Baldur.",
+        "Riemer, Pierce.",
+        "Wokaun, Alexander."
+      ],
+      "author_key": [
+        "OL279071A"
+      ],
+      "subject": [
+        "Technological innovations",
+        "Environmental aspects",
+        "Greenhouse gases",
+        "Purification",
+        "Congresses",
+        "Environmental aspects of Greenhouse gases",
+        "Air"
+      ],
+      "title": "Greenhouse gas control technologies",
+      "publish_date": [
+        "1999"
+      ],
+      "type": "work",
+      "ebook_count_i": 0,
+      "publish_place": [
+        "Amsterdam",
+        "New York"
+      ],
+      "edition_count": 1,
+      "key": "/works/OL2192627W",
+      "id_goodreads": [
+        "4922928"
+      ],
+      "publisher": [
+        "Pergamon"
+      ],
+      "language": [
+        "eng"
+      ],
+      "lccn": [
+        "99014523"
+      ],
+      "last_modified_i": 1291404655,
+      "publish_year": [
+        1999
+      ],
+      "first_publish_year": 1999
+    },
+    {
+      "title_suggest": "Kreuzungen: christliche Existenz im Diskurs. Festschrift f ur Bischof Dr. Hubert Luthe zur Vollendung seines 75. Lebensjahres",
+      "publish_place": [
+        "M\u00fclheim an der Ruhr"
+      ],
+      "isbn": [
+        "9783888670442",
+        "3888670446"
+      ],
+      "has_fulltext": false,
+      "language": [
+        "ger"
+      ],
+      "edition_count": 1,
+      "edition_key": [
+        "OL19087117M"
+      ],
+      "last_modified_i": 1550576765,
+      "title": "Kreuzungen: christliche Existenz im Diskurs. Festschrift f ur Bischof Dr. Hubert Luthe zur Vollendung seines 75. Lebensjahres",
+      "publisher": [
+        "Edition Werry"
+      ],
+      "seed": [
+        "/books/OL19087117M",
+        "/works/OL19048357W",
+        "/subjects/sel_library_selection",
+        "/subjects/christianity_theology"
+      ],
+      "first_publish_year": 2002,
+      "publish_year": [
+        2002
+      ],
+      "key": "/works/OL19048357W",
+      "text": [
+        "OL19087117M",
+        "9783888670442",
+        "3888670446",
+        "Luthe, Hubert.",
+        "Berghaus, G\u00fcnter.",
+        "Hermans, Baldur.",
+        "SEL Library selection",
+        "Christianity Theology",
+        "christliche Existenz im Diskurs : Festschrift f\u00fcr Bischof Dr. Hubert Luthe zur Vollendung seines 75. Lebensjahres",
+        "Kreuzungen: christliche Existenz im Diskurs. Festschrift f ur Bischof Dr. Hubert Luthe zur Vollendung seines 75. Lebensjahres",
+        "/works/OL19048357W",
+        "im Auftrag des Domkapitels zu Essen herausgegeben von Baldur Hermans und G\u00fcnter Berghaus.",
+        "Edition Werry",
+        "Kreuzungen"
+      ],
+      "contributor": [
+        "Luthe, Hubert.",
+        "Berghaus, G\u00fcnter.",
+        "Hermans, Baldur."
+      ],
+      "publish_date": [
+        "2002"
+      ],
+      "subject": [
+        "SEL Library selection",
+        "Christianity Theology"
+      ],
+      "type": "work",
+      "ebook_count_i": 0
+    },
+    {
+      "title_suggest": "Construction of the viewer",
+      "edition_key": [
+        "OL20888063M"
+      ],
+      "cover_i": 4923540,
+      "isbn": [
+        "8789825063",
+        "9788789825069"
+      ],
+      "has_fulltext": false,
+      "text": [
+        "OL20888063M",
+        "8789825063",
+        "9788789825069",
+        "Peter Ian Crawford",
+        "Nordic Anthropological Film Association. Conference 1993 :",
+        "Crawford, Peter Ian.",
+        "Sigurjon Baldur Hafsteinsson.",
+        "OL3219011A",
+        "Visual anthropology",
+        "Motion pictures in ethnology",
+        "Congresses",
+        "media ethnography and the anthropology of audiences",
+        "Construction of the viewer",
+        "/works/OL19055446W",
+        "edited by Peter I. Crawford and Sigurjon Baldur Hafsteinsson.",
+        "Intervention Press in association with the Nordic Anthropological Film Association",
+        "NAFA 3",
+        "Media ethnography and the anthropology of audiences",
+        "Nordic Anthropological Film Association 3"
+      ],
+      "author_name": [
+        "Peter Ian Crawford"
+      ],
+      "seed": [
+        "/books/OL20888063M",
+        "/works/OL19055446W",
+        "/subjects/motion_pictures_in_ethnology",
+        "/subjects/visual_anthropology",
+        "/subjects/congresses",
+        "/authors/OL3219011A"
+      ],
+      "contributor": [
+        "Nordic Anthropological Film Association. Conference 1993 :",
+        "Crawford, Peter Ian.",
+        "Sigurjon Baldur Hafsteinsson."
+      ],
+      "author_key": [
+        "OL3219011A"
+      ],
+      "subject": [
+        "Visual anthropology",
+        "Motion pictures in ethnology",
+        "Congresses"
+      ],
+      "title": "Construction of the viewer",
+      "publish_date": [
+        "1996"
+      ],
+      "type": "work",
+      "ebook_count_i": 0,
+      "publish_place": [
+        "Denmark"
+      ],
+      "edition_count": 1,
+      "key": "/works/OL19055446W",
+      "id_goodreads": [
+        "2054612"
+      ],
+      "publisher": [
+        "Intervention Press in association with the Nordic Anthropological Film Association"
+      ],
+      "language": [
+        "eng"
+      ],
+      "last_modified_i": 1550584667,
+      "id_librarything": [
+        "327898"
+      ],
+      "cover_edition_key": "OL20888063M",
+      "publish_year": [
+        1996
+      ],
+      "first_publish_year": 1996
+    },
+    {
+      "title_suggest": "Integrated assessment of sustainable energy systems in China",
+      "edition_key": [
+        "OL21801874M"
+      ],
+      "isbn": [
+        "9781402011986",
+        "1402011989"
+      ],
+      "has_fulltext": false,
+      "text": [
+        "OL21801874M",
+        "9781402011986",
+        "1402011989",
+        "Eliasson, Baldur.",
+        "China Energy Technology Program.",
+        "Lee, Yam Yee.",
+        "China Energy Technology Program",
+        "Electric power production",
+        "Sustainable development",
+        "the China Energy Technology Program : a framework for decision support in the electric sector of Shandong Province",
+        "Integrated assessment of sustainable energy systems in China",
+        "/works/OL19114765W",
+        "edited by Baldur Eliasson and Yam Y. Lee.",
+        "Kluwer Academic Publishers",
+        "2003044613",
+        "China",
+        "Shandong Sheng"
+      ],
+      "seed": [
+        "/books/OL21801874M",
+        "/works/OL19114765W",
+        "/subjects/china_energy_technology_program",
+        "/subjects/electric_power_production",
+        "/subjects/sustainable_development",
+        "/subjects/place:china",
+        "/subjects/place:shandong_sheng"
+      ],
+      "contributor": [
+        "Eliasson, Baldur.",
+        "China Energy Technology Program.",
+        "Lee, Yam Yee."
+      ],
+      "subject": [
+        "China Energy Technology Program",
+        "Electric power production",
+        "Sustainable development"
+      ],
+      "title": "Integrated assessment of sustainable energy systems in China",
+      "first_publish_year": 2003,
+      "type": "work",
+      "ebook_count_i": 0,
+      "publish_place": [
+        "Dordrecht",
+        "Boston"
+      ],
+      "edition_count": 1,
+      "key": "/works/OL19114765W",
+      "publisher": [
+        "Kluwer Academic Publishers"
+      ],
+      "language": [
+        "eng"
+      ],
+      "lccn": [
+        "2003044613"
+      ],
+      "last_modified_i": 1552203138,
+      "publish_year": [
+        2003
+      ],
+      "place": [
+        "China",
+        "Shandong Sheng"
+      ],
+      "publish_date": [
+        "2003"
+      ]
+    },
+    {
+      "title_suggest": "Eitt sinn skal hver deyja",
+      "edition_key": [
+        "OL745980M"
+      ],
+      "isbn": [
+        "9979602171",
+        "9789979602170"
+      ],
+      "has_fulltext": false,
+      "text": [
+        "OL745980M",
+        "9979602171",
+        "9789979602170",
+        "Andres Serrano",
+        "Hannes Sigur\u00f0sson.",
+        "Serrano, Andres, 1950-",
+        "\u00dej\u00f3\u00f0minjasafn \u00cdslands.",
+        "Sigurj\u00f3n Baldur Hafsteinsson.",
+        "37457993",
+        "OL492624A",
+        "Social life and customs",
+        "Death",
+        "Funeral rites and ceremonies",
+        "Exhibitions",
+        "dau\u00f0inn \u00ed \u00edslenskum veruleika, samstarfsverkefni Mokka og myndadeildar \u00dej\u00f3\u00f0minjasafns \u00cdslands, Mokka-kaffi, 3.-30. j\u00fan\u00ed 1996 : \u00dar l\u00edkh\u00fasi, Andres Serrano/morgue series, Sj\u00f3narh\u00f3ll, 3.-30. j\u00fan\u00ed 1996",
+        "Eitt sinn skal hver deyja",
+        "/works/OL19225278W",
+        "s\u00fdningarstj\u00f3ri & framlei\u00f0andi, Hannes Sigur\u00f0sson ; ritstj\u00f3ri, Sigurj\u00f3n Baldur Hafsteinsson.",
+        "Mokka",
+        "97139069",
+        "Iceland"
+      ],
+      "author_name": [
+        "Andres Serrano"
+      ],
+      "seed": [
+        "/books/OL745980M",
+        "/works/OL19225278W",
+        "/subjects/social_life_and_customs",
+        "/subjects/death",
+        "/subjects/funeral_rites_and_ceremonies",
+        "/subjects/exhibitions",
+        "/subjects/place:iceland",
+        "/authors/OL492624A"
+      ],
+      "oclc": [
+        "37457993"
+      ],
+      "contributor": [
+        "Hannes Sigur\u00f0sson.",
+        "Serrano, Andres, 1950-",
+        "\u00dej\u00f3\u00f0minjasafn \u00cdslands.",
+        "Sigurj\u00f3n Baldur Hafsteinsson."
+      ],
+      "author_key": [
+        "OL492624A"
+      ],
+      "subject": [
+        "Social life and customs",
+        "Death",
+        "Funeral rites and ceremonies",
+        "Exhibitions"
+      ],
+      "title": "Eitt sinn skal hver deyja",
+      "publish_date": [
+        "1996"
+      ],
+      "type": "work",
+      "ebook_count_i": 0,
+      "publish_place": [
+        "[Reykjav\u00edk]"
+      ],
+      "edition_count": 1,
+      "key": "/works/OL19225278W",
+      "publisher": [
+        "Mokka"
+      ],
+      "language": [
+        "ice"
+      ],
+      "lccn": [
+        "97139069"
+      ],
+      "last_modified_i": 1552350557,
+      "publish_year": [
+        1996
+      ],
+      "first_publish_year": 1996,
+      "place": [
+        "Iceland"
+      ]
+    },
+    {
+      "title_suggest": "Zuwanderer, Mitb\u00fcrger, Verfolgte",
+      "edition_key": [
+        "OL296312M"
+      ],
+      "has_fulltext": false,
+      "text": [
+        "OL296312M",
+        "Vera B\u00fccker",
+        "B\u00fccker, Vera.",
+        "Hermans, Baldur.",
+        "Grossjung, Horst.",
+        "OL5724284A",
+        "Polish people",
+        "Nazi persecution",
+        "Ethnic relations",
+        "Poles",
+        "Romanies",
+        "History",
+        "Beitr\u00e4ge zur Geschichte der Ruhrpolen im 19. Jahrhundert u. in d. Weimarer Republik u. d. Zigeuner in d. NS-Zeit",
+        "Zuwanderer, Mitb\u00fcrger, Verfolgte",
+        "/works/OL18296052W",
+        "[Schriftleitung: Baldur Hermans ; Redaktion: Vera B\u00fccker, Horst Grossjung].",
+        "Dezernat f\u00fcr Gesellschaftliche und Weltkirchliche Aufgaben, Bisch\u00f6fliches Generalvikariat",
+        "Zuwanderer, Mitb\u00fcrger, Verfolgte",
+        "97202473",
+        "Germany",
+        "Ruhr (Region)",
+        "20th century",
+        "19th century"
+      ],
+      "author_name": [
+        "Vera B\u00fccker"
+      ],
+      "seed": [
+        "/books/OL296312M",
+        "/works/OL18296052W",
+        "/subjects/romanies",
+        "/subjects/nazi_persecution",
+        "/subjects/poles",
+        "/subjects/ethnic_relations",
+        "/subjects/history",
+        "/subjects/polish_people",
+        "/subjects/place:germany",
+        "/subjects/place:ruhr_(region)",
+        "/subjects/time:20th_century",
+        "/subjects/time:19th_century",
+        "/authors/OL5724284A"
+      ],
+      "contributor": [
+        "B\u00fccker, Vera.",
+        "Hermans, Baldur.",
+        "Grossjung, Horst."
+      ],
+      "author_key": [
+        "OL5724284A"
+      ],
+      "subject": [
+        "Polish people",
+        "Nazi persecution",
+        "Ethnic relations",
+        "Poles",
+        "Romanies",
+        "History"
+      ],
+      "title": "Zuwanderer, Mitb\u00fcrger, Verfolgte",
+      "publish_date": [
+        "1996"
+      ],
+      "type": "work",
+      "ebook_count_i": 0,
+      "publish_place": [
+        "Essen"
+      ],
+      "edition_count": 1,
+      "key": "/works/OL18296052W",
+      "publisher": [
+        "Dezernat f\u00fcr Gesellschaftliche und Weltkirchliche Aufgaben, Bisch\u00f6fliches Generalvikariat"
+      ],
+      "language": [
+        "ger"
+      ],
+      "lccn": [
+        "97202473"
+      ],
+      "last_modified_i": 1549903970,
+      "publish_year": [
+        1996
+      ],
+      "first_publish_year": 1996,
+      "place": [
+        "Germany",
+        "Ruhr (Region)"
+      ],
+      "time": [
+        "20th century",
+        "19th century"
+      ]
+    },
+    {
+      "title_suggest": "Groundwater and Subsurface Remediation",
+      "publisher": [
+        "Springer Verlag"
+      ],
+      "isbn": [
+        "0387609164",
+        "9780387609164"
+      ],
+      "has_fulltext": false,
+      "id_goodreads": [
+        "6153219"
+      ],
+      "edition_count": 1,
+      "edition_key": [
+        "OL9438109M"
+      ],
+      "last_modified_i": 1419576611,
+      "title": "Groundwater and Subsurface Remediation",
+      "seed": [
+        "/books/OL9438109M",
+        "/works/OL9438109M",
+        "/subjects/engineering_-_environmental",
+        "/subjects/groundwater_pollution",
+        "/subjects/water_purification",
+        "/subjects/technology",
+        "/subjects/groundwater",
+        "/subjects/in_situ_remediation",
+        "/subjects/purification",
+        "/subjects/soil_remediation",
+        "/subjects/science/mathematics"
+      ],
+      "first_publish_year": 1996,
+      "publish_year": [
+        1996
+      ],
+      "key": "/works/OL9438109M",
+      "text": [
+        "OL9438109M",
+        "0387609164",
+        "9780387609164",
+        "Helmut Kobus (Editor)",
+        "Baldur Barczewski (Editor)",
+        "Hans-Peter Koschitzky (Editor)",
+        "Research Strategies for In-Situ Technologies (Environmental Engineering (Berlin, Germany).)",
+        "Groundwater and Subsurface Remediation",
+        "Soil remediation",
+        "Groundwater Pollution",
+        "Water Purification",
+        "Purification",
+        "Engineering - Environmental",
+        "Groundwater",
+        "In situ remediation",
+        "Technology",
+        "Science/Mathematics",
+        "/works/OL9438109M",
+        "Springer Verlag"
+      ],
+      "contributor": [
+        "Helmut Kobus (Editor)",
+        "Baldur Barczewski (Editor)",
+        "Hans-Peter Koschitzky (Editor)"
+      ],
+      "publish_date": [
+        "June 1996"
+      ],
+      "subject": [
+        "Soil remediation",
+        "Groundwater Pollution",
+        "Water Purification",
+        "Purification",
+        "Engineering - Environmental",
+        "Groundwater",
+        "In situ remediation",
+        "Technology",
+        "Science/Mathematics"
+      ],
+      "type": "work",
+      "ebook_count_i": 0
+    },
+    {
+      "title_suggest": "Groundwater and Subsurface Remediation",
+      "publisher": [
+        "Springer-Verlag Telos"
+      ],
+      "isbn": [
+        "3540609164",
+        "9783540609162"
+      ],
+      "has_fulltext": false,
+      "id_goodreads": [
+        "3788033"
+      ],
+      "edition_count": 1,
+      "edition_key": [
+        "OL9061773M"
+      ],
+      "last_modified_i": 1419576722,
+      "title": "Groundwater and Subsurface Remediation",
+      "cover_edition_key": "OL9061773M",
+      "language": [
+        "eng"
+      ],
+      "seed": [
+        "/books/OL9061773M",
+        "/works/OL9061773M",
+        "/subjects/geology_&_the_lithosphere",
+        "/subjects/sanitary_&_municipal_engineering",
+        "/subjects/environmental_science",
+        "/subjects/purification",
+        "/subjects/water_purification",
+        "/subjects/technology_&_industrial_arts",
+        "/subjects/science/mathematics",
+        "/subjects/environmental_engineering_&_technology",
+        "/subjects/groundwater",
+        "/subjects/in_situ_remediation",
+        "/subjects/soil_remediation"
+      ],
+      "first_publish_year": 1996,
+      "publish_year": [
+        1996
+      ],
+      "key": "/works/OL9061773M",
+      "text": [
+        "OL9061773M",
+        "3540609164",
+        "9783540609162",
+        "Helmut Kobus (Editor)",
+        "Baldur Barczewski (Editor)",
+        "Hans-Peter Koschitzky (Editor)",
+        "Research Strategies for In-Situ Technologies (Environmental Engineering)",
+        "Groundwater and Subsurface Remediation",
+        "Soil remediation",
+        "Geology & the lithosphere",
+        "Environmental Science",
+        "Water Purification",
+        "Purification",
+        "Groundwater",
+        "Technology & Industrial Arts",
+        "Science/Mathematics",
+        "In situ remediation",
+        "Sanitary & municipal engineering",
+        "Environmental Engineering & Technology",
+        "/works/OL9061773M",
+        "Springer-Verlag Telos"
+      ],
+      "contributor": [
+        "Helmut Kobus (Editor)",
+        "Baldur Barczewski (Editor)",
+        "Hans-Peter Koschitzky (Editor)"
+      ],
+      "publish_date": [
+        "June 1996"
+      ],
+      "subject": [
+        "Soil remediation",
+        "Geology & the lithosphere",
+        "Environmental Science",
+        "Water Purification",
+        "Purification",
+        "Groundwater",
+        "Technology & Industrial Arts",
+        "Science/Mathematics",
+        "In situ remediation",
+        "Sanitary & municipal engineering",
+        "Environmental Engineering & Technology"
+      ],
+      "type": "work",
+      "ebook_count_i": 0
+    },
+    {
+      "title_suggest": "Ich h\u00f6rte die Farbe Blau",
+      "publish_place": [
+        "Bremerhaven"
+      ],
+      "isbn": [
+        "389429180"
+      ],
+      "has_fulltext": false,
+      "language": [
+        "ger"
+      ],
+      "edition_count": 1,
+      "edition_key": [
+        "OL16428423M"
+      ],
+      "last_modified_i": 1419575446,
+      "title": "Ich h\u00f6rte die Farbe Blau",
+      "publisher": [
+        "Wirtschaftsverlag NW Verlag f\u00fcr neue Wissenschaft"
+      ],
+      "seed": [
+        "/books/OL16428423M",
+        "/works/OL16428423M"
+      ],
+      "first_publish_year": 1992,
+      "publish_year": [
+        1992
+      ],
+      "key": "/works/OL16428423M",
+      "text": [
+        "OL16428423M",
+        "389429180",
+        "Schiffer, Wolfgang, 1946-",
+        "Laschen, Gregor, 1941-",
+        "Poesie aus Island : Hannes Sigf\u00fasson, Baldur \u00d3skarsson, Linda Vilhj\u00e1lmsd\u00f3ttir, Gyr\u0111ir El\u00edasson, Ingibj\u00f6rg Haraldsd\u00f3ttir, Matth\u00edas Johannessen",
+        "Ich h\u00f6rte die Farbe Blau",
+        "Gregor Laschen, Wolfgang Schiffer (Hrsg.) ; Nachdichtungen von Barbara K\u00f6hler ... [et al.] ; mit acht Bildern von Dorothea Reese-Heim.",
+        "/works/OL16428423M",
+        "Wirtschaftsverlag NW Verlag f\u00fcr neue Wissenschaft"
+      ],
+      "contributor": [
+        "Schiffer, Wolfgang, 1946-",
+        "Laschen, Gregor, 1941-"
+      ],
+      "publish_date": [
+        "1992"
+      ],
+      "type": "work",
+      "ebook_count_i": 0
+    },
+    {
+      "title_suggest": "Kunstauffassungen und Kulturpolitik im Nationalsozialismus",
+      "edition_key": [
+        "OL458562M"
+      ],
+      "isbn": [
+        "3930735679",
+        "9783930735679"
+      ],
+      "has_fulltext": false,
+      "text": [
+        "OL458562M",
+        "3930735679",
+        "9783930735679",
+        "Thomas Mathieu",
+        "37922107",
+        "OL280979A",
+        "Studien zu Adolf Hitler, Joseph Goebbels, Alfred Rosenberg, Baldur von Schirach, Heinrich Himmler, Albert Speer, Wilhelm Frick",
+        "Kunstauffassungen und Kulturpolitik im Nationalsozialismus",
+        "Thomas Mathieu.",
+        "Arts, German",
+        "Art and state",
+        "Cultural policy",
+        "German Arts",
+        "National socialism and art",
+        "/works/OL2200147W",
+        "PFAU",
+        "98175902",
+        "Germany"
+      ],
+      "author_name": [
+        "Thomas Mathieu"
+      ],
+      "seed": [
+        "/books/OL458562M",
+        "/works/OL2200147W",
+        "/subjects/art_and_state",
+        "/subjects/arts_german",
+        "/subjects/cultural_policy",
+        "/subjects/german_arts",
+        "/subjects/national_socialism_and_art",
+        "/subjects/place:germany",
+        "/authors/OL280979A"
+      ],
+      "oclc": [
+        "37922107"
+      ],
+      "author_key": [
+        "OL280979A"
+      ],
+      "subject": [
+        "Arts, German",
+        "Art and state",
+        "Cultural policy",
+        "German Arts",
+        "National socialism and art"
+      ],
+      "title": "Kunstauffassungen und Kulturpolitik im Nationalsozialismus",
+      "publish_date": [
+        "1997"
+      ],
+      "type": "work",
+      "ebook_count_i": 0,
+      "publish_place": [
+        "Saarbr\u00fccken"
+      ],
+      "edition_count": 1,
+      "key": "/works/OL2200147W",
+      "id_goodreads": [
+        "65487"
+      ],
+      "publisher": [
+        "PFAU"
+      ],
+      "language": [
+        "ger"
+      ],
+      "lccn": [
+        "98175902"
+      ],
+      "last_modified_i": 1291454177,
+      "publish_year": [
+        1997
+      ],
+      "first_publish_year": 1997,
+      "place": [
+        "Germany"
+      ]
+    },
+    {
+      "title_suggest": "Hochlandlager",
+      "edition_key": [
+        "OL3385840M"
+      ],
+      "has_fulltext": false,
+      "text": [
+        "OL3385840M",
+        "Gerhard Pantel",
+        "Pantel, Gerhard, inscriber.",
+        "Schirach, Baldur von, 1907-, former owner.",
+        "Third Reich Collection (Library of Congress)",
+        "OL1422807A",
+        "die grosse Schule des Gebietes Hochland",
+        "Hochlandlager",
+        "von Gerhard Pantel.",
+        "Hitler-Jugend. Gebiet Hochland",
+        "National socialism and youth",
+        "Hitler-Jugend",
+        "Pictorial works",
+        "History",
+        "/works/OL5805016W",
+        "Kress & Hornung",
+        "Hochland-Lager",
+        "2004572794"
+      ],
+      "author_name": [
+        "Gerhard Pantel"
+      ],
+      "seed": [
+        "/books/OL3385840M",
+        "/works/OL5805016W",
+        "/subjects/history",
+        "/subjects/hitler-jugend",
+        "/subjects/hitler-jugend._gebiet_hochland",
+        "/subjects/national_socialism_and_youth",
+        "/subjects/pictorial_works",
+        "/authors/OL1422807A"
+      ],
+      "contributor": [
+        "Pantel, Gerhard, inscriber.",
+        "Schirach, Baldur von, 1907-, former owner.",
+        "Third Reich Collection (Library of Congress)"
+      ],
+      "author_key": [
+        "OL1422807A"
+      ],
+      "subject": [
+        "Hitler-Jugend. Gebiet Hochland",
+        "National socialism and youth",
+        "Hitler-Jugend",
+        "Pictorial works",
+        "History"
+      ],
+      "title": "Hochlandlager",
+      "publish_date": [
+        "1935"
+      ],
+      "type": "work",
+      "ebook_count_i": 0,
+      "publish_place": [
+        "[M\u00fcnchen"
+      ],
+      "edition_count": 1,
+      "key": "/works/OL5805016W",
+      "publisher": [
+        "Kress & Hornung"
+      ],
+      "language": [
+        "ger"
+      ],
+      "lccn": [
+        "2004572794"
+      ],
+      "last_modified_i": 1291508838,
+      "publish_year": [
+        1935
+      ],
+      "first_publish_year": 1935
+    },
+    {
+      "title_suggest": "Glaube und Sch\u00f6nheit",
+      "publish_place": [
+        "M\u00fcnchen"
+      ],
+      "edition_key": [
+        "OL17070081M"
+      ],
+      "has_fulltext": false,
+      "language": [
+        "ger"
+      ],
+      "edition_count": 1,
+      "lccn": [
+        "46033688"
+      ],
+      "last_modified_i": 1291397223,
+      "title": "Glaube und Sch\u00f6nheit",
+      "subject": [
+        "Bund Deutscher M\u00e4del"
+      ],
+      "author_name": [
+        "Castell-R\u00fcdenhausen, Clementine gr\u00e4fen zu"
+      ],
+      "seed": [
+        "/books/OL17070081M",
+        "/works/OL12035680W",
+        "/subjects/bund_deutscher_m\u00e4del",
+        "/authors/OL5199114A"
+      ],
+      "first_publish_year": 1940,
+      "publish_year": [
+        1940
+      ],
+      "key": "/works/OL12035680W",
+      "text": [
+        "OL17070081M",
+        "Castell-R\u00fcdenhausen, Clementine gr\u00e4fen zu",
+        "OL5199114A",
+        "ein Bildbuch von den 17-21 j\u00e4hrigen M\u00e4deln",
+        "Glaube und Sch\u00f6nheit",
+        "herausgegeben von Clementine zu Castell. Mit einem Geleitwort des Reichsjugendf\u00fchrers Baldur von Schirach",
+        "Bund Deutscher M\u00e4del",
+        "/works/OL12035680W",
+        "F. Eher nachf.",
+        "46033688"
+      ],
+      "publisher": [
+        "F. Eher nachf."
+      ],
+      "publish_date": [
+        "1940"
+      ],
+      "author_key": [
+        "OL5199114A"
+      ],
+      "type": "work",
+      "ebook_count_i": 0
+    },
+    {
+      "title_suggest": "Jugendschussgesetz",
+      "edition_key": [
+        "OL6423468M"
+      ],
+      "subtitle": "Gesetz \u00fcber Kinderarbeit und \u00fcber die Arbeitszeit der Jugendlichen vom 30. April 1938.",
+      "has_fulltext": false,
+      "text": [
+        "OL6423468M",
+        "Gesetz \u00fcber Kinderarbeit und \u00fcber die Arbeitszeit der Jugendlichen vom 30. April 1938.",
+        "Germany",
+        "Siebert, Wolfgang, 1905-1959.",
+        "9540891",
+        "OL4595930A",
+        "Child labor",
+        "Hours of labor",
+        "Children",
+        "Legal status, laws",
+        "Jugendschussgesetz",
+        "/works/OL15223936W",
+        "Erl\u00e4utert von Wolfgang Siebert. Mit Geleitworten von Hans Frank und Baldur v. Schirach.",
+        "W. Kohlhammer",
+        "Jugendschussgesetz.",
+        "41021787",
+        "Moritz J. Bonn",
+        "Germany.",
+        "Germany"
+      ],
+      "author_name": [
+        "Germany"
+      ],
+      "seed": [
+        "/books/OL6423468M",
+        "/works/OL15223936W",
+        "/subjects/child_labor",
+        "/subjects/hours_of_labor",
+        "/subjects/children",
+        "/subjects/legal_status_laws",
+        "/subjects/place:germany",
+        "/authors/OL4595930A"
+      ],
+      "oclc": [
+        "9540891"
+      ],
+      "contributor": [
+        "Siebert, Wolfgang, 1905-1959."
+      ],
+      "author_key": [
+        "OL4595930A"
+      ],
+      "subject": [
+        "Child labor",
+        "Hours of labor",
+        "Children",
+        "Legal status, laws"
+      ],
+      "title": "Jugendschussgesetz",
+      "publish_date": [
+        "1938"
+      ],
+      "type": "work",
+      "ebook_count_i": 0,
+      "publish_place": [
+        "Stuttgart und Berlin"
+      ],
+      "edition_count": 1,
+      "key": "/works/OL15223936W",
+      "publisher": [
+        "W. Kohlhammer"
+      ],
+      "language": [
+        "ger"
+      ],
+      "lccn": [
+        "41021787"
+      ],
+      "last_modified_i": 1293912187,
+      "author_alternative_name": [
+        "Moritz J. Bonn",
+        "Germany."
+      ],
+      "publish_year": [
+        1938
+      ],
+      "first_publish_year": 1938,
+      "place": [
+        "Germany"
+      ]
+    },
+    {
+      "title_suggest": "Zwang und Zuwendung",
+      "publish_place": [
+        "Bochum"
+      ],
+      "isbn": [
+        "3897092042",
+        "9783897092044"
+      ],
+      "has_fulltext": false,
+      "language": [
+        "ger"
+      ],
+      "edition_count": 1,
+      "edition_key": [
+        "OL20127088M"
+      ],
+      "last_modified_i": 1554340799,
+      "title": "Zwang und Zuwendung",
+      "publisher": [
+        "Kamp GmbH Verlag und Druckkontor"
+      ],
+      "seed": [
+        "/books/OL20127088M",
+        "/works/OL18943668W",
+        "/subjects/alien_labor",
+        "/subjects/catholics",
+        "/subjects/nazi_persecution",
+        "/subjects/forced_labor",
+        "/subjects/religious_life",
+        "/subjects/church_and_labor",
+        "/subjects/congresses",
+        "/subjects/catholic_church",
+        "/subjects/history",
+        "/subjects/christianity",
+        "/subjects/labor",
+        "/subjects/our_brockhaus_selection",
+        "/subjects/christentum_christliche_dogmatik",
+        "/subjects/place:germany",
+        "/subjects/place:ruhr_(region)",
+        "/subjects/time:1933-1945"
+      ],
+      "text": [
+        "OL20127088M",
+        "3897092042",
+        "9783897092044",
+        "Hrsg.: Hermans, Baldur",
+        "Alien labor",
+        "Catholics",
+        "OUR Brockhaus selection",
+        "Nazi persecution",
+        "Forced labor",
+        "Christianity",
+        "Religious life",
+        "Church and labor",
+        "Christentum, christliche Dogmatik",
+        "Congresses",
+        "Labor",
+        "Catholic Church",
+        "History",
+        "Zwang und Zuwendung",
+        "/works/OL18943668W",
+        "Kamp GmbH Verlag und Druckkontor",
+        "Zwang und Zuwendung: katholische Kirche und Zwangsarbeit im Ruhrgebiet",
+        "Germany",
+        "Ruhr (Region)",
+        "1933-1945"
+      ],
+      "key": "/works/OL18943668W",
+      "time": [
+        "1933-1945"
+      ],
+      "contributor": [
+        "Hrsg.: Hermans, Baldur"
+      ],
+      "place": [
+        "Germany",
+        "Ruhr (Region)"
+      ],
+      "subject": [
+        "Alien labor",
+        "Catholics",
+        "OUR Brockhaus selection",
+        "Nazi persecution",
+        "Forced labor",
+        "Christianity",
+        "Religious life",
+        "Church and labor",
+        "Christentum, christliche Dogmatik",
+        "Congresses",
+        "Labor",
+        "Catholic Church",
+        "History"
+      ],
+      "type": "work",
+      "ebook_count_i": 0
+    },
+    {
+      "title_suggest": "Concertos",
+      "edition_key": [
+        "OL26924369M"
+      ],
+      "has_fulltext": false,
+      "edition_count": 1,
+      "oclc": [
+        "967503926"
+      ],
+      "last_modified_i": 1558644834,
+      "title": "Concertos",
+      "subject": [
+        "Concertos (Cello)",
+        "Orchestral music",
+        "Concertos (Instrumental ensemble)",
+        "Concertos (Piano)"
+      ],
+      "author_name": [
+        "Gy\u00f6rgy Ligeti"
+      ],
+      "seed": [
+        "/books/OL26924369M",
+        "/works/OL19711227W",
+        "/subjects/concertos_(cello)",
+        "/subjects/orchestral_music",
+        "/subjects/concertos_(instrumental_ensemble)",
+        "/subjects/concertos_(piano)",
+        "/authors/OL749420A"
+      ],
+      "first_publish_year": 2016,
+      "publish_year": [
+        2016
+      ],
+      "key": "/works/OL19711227W",
+      "text": [
+        "OL26924369M",
+        "Gy\u00f6rgy Ligeti",
+        "Polt\u00e9ra, Christian, 1977- instrumentalist",
+        "Ligeti, Gy\u00f6rgy, 1923-2006",
+        "Ahonen, Joonas, instrumentalist",
+        "BIT 20 Ensemble",
+        "Br\u00f6nnimann, Baldur, conductor",
+        "967503926",
+        "OL749420A",
+        "Concertos (Cello)",
+        "Orchestral music",
+        "Concertos (Instrumental ensemble)",
+        "Concertos (Piano)",
+        "Concertos",
+        "/works/OL19711227W",
+        "Ligeti",
+        "Instrumental music"
+      ],
+      "contributor": [
+        "Polt\u00e9ra, Christian, 1977- instrumentalist",
+        "Ligeti, Gy\u00f6rgy, 1923-2006",
+        "Ahonen, Joonas, instrumentalist",
+        "BIT 20 Ensemble",
+        "Br\u00f6nnimann, Baldur, conductor"
+      ],
+      "publish_date": [
+        "2016"
+      ],
+      "author_key": [
+        "OL749420A"
+      ],
+      "type": "work",
+      "ebook_count_i": 0
+    },
+    {
+      "title_suggest": "Der f\u00fchrer",
+      "edition_key": [
+        "OL26568991M"
+      ],
+      "has_fulltext": true,
+      "text": [
+        "OL26568991M",
+        "Eberhard Wolfgang M\u00f6ller",
+        "Schirach, Baldur von, 1907-",
+        "derfuhrerdasweih0000moll",
+        "OL153742A",
+        "Accessible book",
+        "Protected DAISY",
+        "das weihnachtsbuch der deutschen jugend",
+        "Der f\u00fchrer",
+        "/works/OL17981755W",
+        "Zentralverlag der NSDAP, F. Eher nachf.",
+        "39033548",
+        "Adolf Hilter (1889-)"
+      ],
+      "author_name": [
+        "Eberhard Wolfgang M\u00f6ller"
+      ],
+      "contributor": [
+        "Schirach, Baldur von, 1907-"
+      ],
+      "seed": [
+        "/books/OL26568991M",
+        "/works/OL17981755W",
+        "/subjects/person:adolf_hilter_(1889-)",
+        "/authors/OL153742A"
+      ],
+      "ia": [
+        "derfuhrerdasweih0000moll"
+      ],
+      "author_key": [
+        "OL153742A"
+      ],
+      "subject": [
+        "Accessible book",
         "Protected DAISY"
       ],
-      title: "The Lord of the rings, 1954-2004",
-      ia_collection_s: "printdisabled;librarygenesis",
-      printdisabled_s: "OL8084971M",
-      type: "work",
-      ebook_count_i: 1,
-      edition_count: 1,
-      key: "/works/OL16950823W",
-      id_goodreads: ["54699"],
-      public_scan_b: false,
-      publisher: ["Marquette University Press"],
-      language: ["eng"],
-      last_modified_i: 1562301792,
-      first_publish_year: 2006,
-      id_librarything: ["1187471"],
-      cover_edition_key: "OL8084971M",
-      publish_year: [2006],
-      publish_date: ["March 31, 2006"]
+      "title": "Der f\u00fchrer",
+      "lending_identifier_s": "derfuhrerdasweih0000moll",
+      "ia_collection_s": "printdisabled;trent_university;inlibrary;internetarchivebooks",
+      "printdisabled_s": "OL26568991M",
+      "type": "work",
+      "ebook_count_i": 1,
+      "publish_place": [
+        "M\u00fcnchen"
+      ],
+      "ia_box_id": [
+        "IA1256022"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 1938,
+      "key": "/works/OL17981755W",
+      "public_scan_b": false,
+      "publisher": [
+        "Zentralverlag der NSDAP, F. Eher nachf."
+      ],
+      "language": [
+        "ger"
+      ],
+      "lccn": [
+        "39033548"
+      ],
+      "last_modified_i": 1560848835,
+      "lending_edition_s": "OL26568991M",
+      "person": [
+        "Adolf Hilter (1889-)"
+      ],
+      "publish_year": [
+        1938
+      ],
+      "publish_date": [
+        "1938"
+      ]
     },
     {
-      title_suggest: "Lord of the Rings Instrumental Solos",
-      edition_key: [
-        "OL10872493M",
-        "OL8005591M",
-        "OL10872192M",
-        "OL8005590M",
-        "OL8005696M"
+      "title_suggest": "Austro-German relations in the Anschluss era",
+      "edition_key": [
+        "OL5061146M"
       ],
-      cover_i: 1416148,
-      isbn: [
-        "0757923259",
-        "9780757923258",
-        "9780757916595",
-        "9780757923241",
-        "0757923240",
-        "0757916597",
-        "0757916589",
-        "9780757916571",
-        "9780757916588",
-        "0757916570"
+      "isbn": [
+        "9780691075686",
+        "0691075689"
       ],
-      has_fulltext: false,
-      text: [
-        "OL10872493M",
-        "OL8005591M",
-        "OL10872192M",
-        "OL8005590M",
-        "OL8005696M",
-        "0757923259",
-        "9780757923258",
-        "9780757916595",
-        "9780757923241",
-        "0757923240",
-        "0757916597",
-        "0757916589",
-        "9780757916571",
-        "9780757916588",
-        "0757916570",
-        "Howard Shore",
-        "58959932",
-        "58961329",
-        "OL2834626A",
-        "Tenor Sax (Book & CD)",
-        "Flute (Book & CD) (The Lord of the Rings; the Motion Picture Trilogy)",
-        "Trumpet (Book & CD)",
-        "Clarinet (Book & CD)",
-        "Alto Sax (Book & CD)",
-        "Lord of the Rings Instrumental Solos",
-        "/works/OL8488048W",
-        "Warner Bros. Publications",
-        "THE LORD OF THE RINGS"
+      "has_fulltext": true,
+      "text": [
+        "OL5061146M",
+        "9780691075686",
+        "0691075689",
+        "Radom\u00edr Lu\u017ea",
+        "austrogermanrela0000luza",
+        "OL1345968A",
+        "Politics and government",
+        "Accessible book",
+        "Protected DAISY",
+        "Anschluss movement, 1918-1938",
+        "Internet Archive Wishlist",
+        "Nationalism",
+        "History",
+        "Austro-German relations in the Anschluss era",
+        "/works/OL5592836W",
+        "Radom\u00edr Lu\u017ea.",
+        "Princeton University Press",
+        "74025619",
+        "Baldur von Schirach (1907-)",
+        "Austria",
+        "Germany",
+        "1938-1945",
+        "1918-1938",
+        "Anschluss, 1938"
       ],
-      author_name: ["Howard Shore"],
-      seed: [
-        "/books/OL10872493M",
-        "/books/OL8005591M",
-        "/books/OL10872192M",
-        "/books/OL8005590M",
-        "/books/OL8005696M",
-        "/works/OL8488048W",
-        "/authors/OL2834626A"
+      "author_name": [
+        "Radom\u00edr Lu\u017ea"
       ],
-      oclc: ["58959932", "58961329"],
-      author_key: ["OL2834626A"],
-      title: "Lord of the Rings Instrumental Solos",
-      publish_date: ["August 2004"],
-      type: "work",
-      ebook_count_i: 0,
-      edition_count: 5,
-      key: "/works/OL8488048W",
-      id_goodreads: ["7026123", "15234", "580011", "1133774", "15334"],
-      publisher: ["Warner Bros. Publications"],
-      language: ["eng"],
-      last_modified_i: 1307505105,
-      id_librarything: ["534128"],
-      cover_edition_key: "OL8005590M",
-      first_sentence: ["THE LORD OF THE RINGS"],
-      publish_year: [2004],
-      first_publish_year: 2004
+      "seed": [
+        "/books/OL5061146M",
+        "/works/OL5592836W",
+        "/subjects/politics_and_government",
+        "/subjects/internet_archive_wishlist",
+        "/subjects/nationalism",
+        "/subjects/history",
+        "/subjects/anschluss_movement_1918-1938",
+        "/subjects/person:baldur_von_schirach_(1907-)",
+        "/subjects/place:austria",
+        "/subjects/place:germany",
+        "/subjects/time:1918-1938",
+        "/subjects/time:1938-1945",
+        "/subjects/time:anschluss_1938",
+        "/authors/OL1345968A"
+      ],
+      "ia": [
+        "austrogermanrela0000luza"
+      ],
+      "author_key": [
+        "OL1345968A"
+      ],
+      "subject": [
+        "Politics and government",
+        "Accessible book",
+        "Protected DAISY",
+        "Anschluss movement, 1918-1938",
+        "Internet Archive Wishlist",
+        "Nationalism",
+        "History"
+      ],
+      "title": "Austro-German relations in the Anschluss era",
+      "lending_identifier_s": "austrogermanrela0000luza",
+      "ia_collection_s": "printdisabled;trent_university;inlibrary;internetarchivebooks",
+      "printdisabled_s": "OL5061146M",
+      "type": "work",
+      "ebook_count_i": 1,
+      "publish_place": [
+        "Princeton, N.J"
+      ],
+      "ia_box_id": [
+        "IA1647316"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 1975,
+      "key": "/works/OL5592836W",
+      "id_goodreads": [
+        "3949696"
+      ],
+      "public_scan_b": false,
+      "publisher": [
+        "Princeton University Press"
+      ],
+      "language": [
+        "eng"
+      ],
+      "lccn": [
+        "74025619"
+      ],
+      "last_modified_i": 1559335901,
+      "lending_edition_s": "OL5061146M",
+      "person": [
+        "Baldur von Schirach (1907-)"
+      ],
+      "publish_year": [
+        1975
+      ],
+      "publish_date": [
+        "1975"
+      ],
+      "place": [
+        "Austria",
+        "Germany"
+      ],
+      "time": [
+        "1938-1945",
+        "1918-1938",
+        "Anschluss, 1938"
+      ]
     },
     {
-      title_suggest: "Lord of the Rings Poster Collection 2",
-      edition_key: ["OL9217140M", "OL7262425M"],
-      cover_i: 1058843,
-      isbn: ["9780007149100", "0007149107"],
-      has_fulltext: false,
-      text: [
-        "OL9217140M",
-        "OL7262425M",
-        "9780007149100",
-        "0007149107",
-        "Alan Lee",
-        "OL1188302A",
-        "Lord of the Rings Poster Collection 2",
-        "/works/OL5256898W",
-        "HarperSport"
+      "title_suggest": "Hjartasteinn",
+      "edition_key": [
+        "OL26945637M"
       ],
-      author_name: ["Alan Lee"],
-      seed: [
-        "/books/OL9217140M",
-        "/books/OL7262425M",
-        "/works/OL5256898W",
-        "/authors/OL1188302A"
+      "place": [
+        "Iceland"
       ],
-      author_key: ["OL1188302A"],
-      title: "Lord of the Rings Poster Collection 2",
-      publish_date: ["September 1, 2002"],
-      type: "work",
-      ebook_count_i: 0,
-      edition_count: 2,
-      key: "/works/OL5256898W",
-      id_goodreads: ["15299"],
-      publisher: ["HarperSport"],
-      language: ["eng"],
-      last_modified_i: 1281577706,
-      id_librarything: ["948670"],
-      cover_edition_key: "OL7262425M",
-      publish_year: [2002],
-      first_publish_year: 2002
-    },
-    {
-      title_suggest: "Watching the Lord of the rings",
-      has_fulltext: false,
-      edition_count: 0,
-      last_modified_i: 1260335274,
-      title: "Watching the Lord of the rings",
-      author_name: ["Martin Barker"],
-      seed: ["/works/OL829451W", "/authors/OL70705A"],
-      key: "/works/OL829451W",
-      text: [
-        "Martin Barker",
-        "OL70705A",
-        "Watching the Lord of the rings",
-        "/works/OL829451W"
+      "has_fulltext": false,
+      "language": [
+        "ice"
       ],
-      author_key: ["OL70705A"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: 'Poems from the "Lord of the Rings"',
-      has_fulltext: false,
-      edition_count: 0,
-      last_modified_i: 1320437671,
-      title: 'Poems from the "Lord of the Rings"',
-      author_alternative_name: [
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
+      "edition_count": 1,
+      "oclc": [
+        "1006646229"
       ],
-      seed: ["/works/OL16245371W", "/authors/OL26320A"],
-      author_name: ["J. R. R. Tolkien"],
-      key: "/works/OL16245371W",
-      text: [
-        "J. R. R. Tolkien",
-        "OL26320A",
-        'Poems from the "Lord of the Rings"',
-        "/works/OL16245371W",
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
+      "last_modified_i": 1558669552,
+      "title": "Hjartasteinn",
+      "subject": [
+        "Drama",
+        "Gay youth",
+        "Films for the hearing impaired",
+        "Friendship",
+        "Coming of age"
       ],
-      author_key: ["OL26320A"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: 'Poems from the "Lord of the Rings"',
-      has_fulltext: false,
-      edition_count: 0,
-      last_modified_i: 1321923901,
-      title: 'Poems from the "Lord of the Rings"',
-      author_alternative_name: [
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
+      "author_name": [
+        "Gu\u00f0mundur Arnar Gu\u00f0mundsson",
+        "Anton M\u00e1ni Svansson"
       ],
-      seed: ["/works/OL16290352W", "/authors/OL26320A"],
-      author_name: ["J. R. R. Tolkien"],
-      key: "/works/OL16290352W",
-      text: [
-        "J. R. R. Tolkien",
-        "OL26320A",
-        'Poems from the "Lord of the Rings"',
-        "/works/OL16290352W",
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
+      "seed": [
+        "/books/OL26945637M",
+        "/works/OL19732541W",
+        "/subjects/drama",
+        "/subjects/gay_youth",
+        "/subjects/films_for_the_hearing_impaired",
+        "/subjects/friendship",
+        "/subjects/coming_of_age",
+        "/subjects/place:iceland",
+        "/authors/OL7531505A",
+        "/authors/OL7531506A"
       ],
-      author_key: ["OL26320A"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest:
-        'The Art of the "Lord of the Rings" Trilogy ("Lord of the Rings")',
-      edition_key: ["OL9218391M", "OL7263676M"],
-      cover_i: 12822,
-      isbn: ["0007191928", "9780007191925"],
-      has_fulltext: false,
-      text: [
-        "OL9218391M",
-        "OL7263676M",
-        "0007191928",
-        "9780007191925",
-        "Gary Russell",
-        "OL1401384A",
-        'The Art of the "Lord of the Rings" Trilogy ("Lord of the Rings")',
-        "/works/OL5758761W",
-        "HarperCollins Publishers Ltd"
+      "first_publish_year": 2017,
+      "publish_year": [
+        2017
       ],
-      author_name: ["Gary Russell"],
-      seed: [
-        "/books/OL9218391M",
-        "/books/OL7263676M",
-        "/works/OL5758761W",
-        "/authors/OL1401384A"
+      "key": "/works/OL19732541W",
+      "text": [
+        "OL26945637M",
+        "Gu\u00f0mundur Arnar Gu\u00f0mundsson",
+        "Anton M\u00e1ni Svansson",
+        "Bl\u00e6r Hinriksson, actor",
+        "Breaking Glass Pictures (Firm)",
+        "Katla Nj\u00e1lsd\u00f3ttir, actor",
+        "Andersen, Kristian Eidnes, composer (expression)",
+        "Baldur Einarsson, 2002- actor",
+        "Dilj\u00e1 Valsd\u00f3ttir, actor",
+        "Gr\u00f8vlen, Sturla Brandth, 1980- director of photography",
+        "1006646229",
+        "OL7531505A",
+        "OL7531506A",
+        "Drama",
+        "Gay youth",
+        "Films for the hearing impaired",
+        "Friendship",
+        "Coming of age",
+        "Heartstone",
+        "Hjartasteinn",
+        "/works/OL19732541W",
+        "SF Studios Production & Join Machine Pictures kynna ; mynd eftir Gu\u00f0mund Arnar Gu\u00f0mundsson ; framlei\u00f0endur, Anton M\u00e1ni Svansson, Lise Orheim Stender, Jesper Morthorst, Gu\u00f0mund Arnar Gu\u00f0mundsson",
+        "Heartstone",
+        "Iceland"
       ],
-      author_key: ["OL1401384A"],
-      title: 'The Art of the "Lord of the Rings" Trilogy ("Lord of the Rings")',
-      publish_date: ["November 1, 2004"],
-      type: "work",
-      ebook_count_i: 0,
-      edition_count: 2,
-      key: "/works/OL5758761W",
-      id_goodreads: ["15300"],
-      publisher: ["HarperCollins Publishers Ltd"],
-      last_modified_i: 1354101075,
-      id_librarything: ["244839"],
-      cover_edition_key: "OL9218391M",
-      publish_year: [2004],
-      first_publish_year: 2004
-    },
-    {
-      title_suggest: "Ring Goes East Book Lord of the Rings",
-      publisher: ["Houghton Mifflin Co"],
-      isbn: ["0618042237", "9780618042234"],
-      has_fulltext: false,
-      id_librarything: ["3203350"],
-      edition_count: 1,
-      edition_key: ["OL7603338M"],
-      last_modified_i: 1281063017,
-      title: "Ring Goes East Book Lord of the Rings",
-      author_alternative_name: [
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
+      "contributor": [
+        "Bl\u00e6r Hinriksson, actor",
+        "Breaking Glass Pictures (Firm)",
+        "Katla Nj\u00e1lsd\u00f3ttir, actor",
+        "Andersen, Kristian Eidnes, composer (expression)",
+        "Baldur Einarsson, 2002- actor",
+        "Dilj\u00e1 Valsd\u00f3ttir, actor",
+        "Gr\u00f8vlen, Sturla Brandth, 1980- director of photography"
       ],
-      seed: ["/books/OL7603338M", "/works/OL14933487W", "/authors/OL26320A"],
-      author_name: ["J. R. R. Tolkien"],
-      key: "/works/OL14933487W",
-      text: [
-        "OL7603338M",
-        "0618042237",
-        "9780618042234",
-        "J. R. R. Tolkien",
-        "OL26320A",
-        "Ring Goes East Book Lord of the Rings",
-        "/works/OL14933487W",
-        "Houghton Mifflin Co",
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
+      "publish_date": [
+        "2017"
       ],
-      id_goodreads: ["1233422"],
-      author_key: ["OL26320A"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "Ring Goes South Book Lord of the Rings",
-      publisher: ["Houghton Mifflin Co"],
-      isbn: ["0618042210", "9780618042210"],
-      has_fulltext: false,
-      id_librarything: ["3213461"],
-      edition_count: 1,
-      edition_key: ["OL7603336M"],
-      last_modified_i: 1281063017,
-      title: "Ring Goes South Book Lord of the Rings",
-      author_alternative_name: [
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
+      "author_key": [
+        "OL7531505A",
+        "OL7531506A"
       ],
-      seed: ["/books/OL7603336M", "/works/OL14933488W", "/authors/OL26320A"],
-      author_name: ["J. R. R. Tolkien"],
-      key: "/works/OL14933488W",
-      text: [
-        "OL7603336M",
-        "0618042210",
-        "9780618042210",
-        "J. R. R. Tolkien",
-        "OL26320A",
-        "Ring Goes South Book Lord of the Rings",
-        "/works/OL14933488W",
-        "Houghton Mifflin Co",
-        "J. R. R. Tolkein",
-        "John Ronald Reuel Tolkien",
-        "J.R.R. Tolkein"
-      ],
-      id_goodreads: ["1233420"],
-      author_key: ["OL26320A"],
-      type: "work",
-      ebook_count_i: 0
-    },
-    {
-      title_suggest: "Der Herr der Ringe / Lord of the Rings",
-      publisher: ["Klett-Cotta"],
-      cover_i: 8647092,
-      isbn: ["9783608952117", "360895211X"],
-      has_fulltext: false,
-      title: "Der Herr der Ringe / Lord of the Rings",
-      edition_key: ["OL27037515M"],
-      last_modified_i: 1561881698,
-      edition_count: 1,
-      author_name: ["J. R. R. Tolkien"],
-      cover_edition_key: "OL27037515M",
-      seed: ["/books/OL27037515M", "/works/OL19848729W", "/authors/OL7554659A"],
-      first_publish_year: 1979,
-      publish_year: [1979],
-      key: "/works/OL19848729W",
-      text: [
-        "OL27037515M",
-        "9783608952117",
-        "360895211X",
-        "J. R. R. Tolkien",
-        "OL7554659A",
-        "Der Herr der Ringe / Lord of the Rings",
-        "/works/OL19848729W",
-        "Klett-Cotta"
-      ],
-      publish_date: ["Jan 01, 1979"],
-      author_key: ["OL7554659A"],
-      type: "work",
-      ebook_count_i: 0
+      "type": "work",
+      "ebook_count_i": 0
     }
   ]
 };

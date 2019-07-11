@@ -132,14 +132,12 @@ export default class MyTodo extends HTMLElement {
     buttonRight.addEventListener(
       "click",
       _throttle(async () => {
-        if (this.selectedIndex < this._list.length - 1) {
-          this.selectedIndex++;
-          this.toggleItem(this.selectedIndex);
-          if (this._content) {
-            this._list = (await this._content.next(this.selectedIndex)).value;
-          }
-          this._render();
+        this.selectedIndex++;
+        this.toggleItem(this.selectedIndex);
+        if (this._content) {
+          this._list = (await this._content.next(this.selectedIndex)).value;
         }
+        this._render();
       }, throttleClickTime)
     );
 

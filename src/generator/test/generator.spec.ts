@@ -23,7 +23,7 @@ global["Image"] = function() {
 const initialUrl = "http://__fakeurl__/search.json?q=test";
 
 fetchMock.get(initialUrl, response);
-fetchMock.get(`${initialUrl}$page=2`, response_page2);
+fetchMock.get(`${initialUrl}&page=2`, response_page2);
 
 let content: AsyncIterableIterator<ListItem[]>;
 
@@ -98,37 +98,59 @@ describe("Testing generator basics", () => {
       expect(batchMapped).to.deep.equal(expectedSliced);
     }
   });
+});
 
-  //TO-DO: Adjust and move to next descirbe section
-  it(`${batchLength} items before total end and after should return left ${batchLength} 
-    items + last items on right`, async () => {
+describe("Testing generator with multiple documents", () => {
+  beforeEach(() => {
+    content = getContent(initialUrl);
+  });
+
+  it(`${batchLength} items before end of first page should get the next and return
+    corresponded last items from first page and first from second`, async () => {
     const justBeforeEnd = docsWithCoverImagePage1.length - batchLength;
+    for (let i = 0; i < justBeforeEnd; i++) {
+      await content.next(i);
+    }
+
+    const mergedDocs = [...docsWithCoverImagePage1, ...docsWithCoverImagePage2];
+
+    const additionalItems = 7;
+
+    for (let i = justBeforeEnd; i < justBeforeEnd + additionalItems; i++) {
+      const batch: ListItem[] = (await content.next(i)).value;
+      const batchMapped = batch.map(mapBook);
+
+      const books = getSliceOfBooks(
+        i - batchLength,
+        i + batchLength,
+        mergedDocs
+      );
+
+      expect(batchMapped).to.deep.equal(books);
+    }
+  });
+
+  it(`${batchLength} items before total end (last page) should return  ${batchLength}
+    items on the left + last items on right`, async () => {
+    const mergedDocs = [...docsWithCoverImagePage1, ...docsWithCoverImagePage2];
+
+    const justBeforeEnd = mergedDocs.length - batchLength - 1;
     for (let i = 0; i < justBeforeEnd; i++) {
       await content.next(i);
     }
 
     const itemsAfterEnd = 5;
 
-    for (
-      let i = justBeforeEnd;
-      i < docsWithCoverImagePage1.length + itemsAfterEnd;
-      i++
-    ) {
+    for (let i = justBeforeEnd; i < mergedDocs.length + itemsAfterEnd; i++) {
       const batch: ListItem[] = (await content.next(i)).value;
       const batchMapped = batch.map(mapBook);
       const lastBooks = getSliceOfBooks(
         i - batchLength,
-        justBeforeEnd + batchLength,
-        docsWithCoverImagePage1
+        i + batchLength,
+        mergedDocs
       );
 
       expect(batchMapped).to.deep.equal(lastBooks);
     }
-  });
-});
-
-describe("Testing generator with multiple documents", () => {
-  beforeEach(() => {
-    content = getContent(initialUrl);
   });
 });

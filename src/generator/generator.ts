@@ -23,39 +23,44 @@ interface CrreateImageUrl {
 const createImageUrl: CrreateImageUrl = (id: coverI, size: ImageSize) =>
   `https://covers.openlibrary.org/b/id/${id}-${size}.jpg`;
 
+//TO-DO maybe clean cache after some MB?
+const ImageCache = [];
+
 const preloadImage = (url: string) => {
   return new Promise(resolve => {
     const img = new Image();
     img.onload = () => resolve(url);
     img.src = url;
+    ImageCache.push(img);
   });
 };
 
 export async function* getContent(url: string) {
   let nextUrl = "";
   let cache: ListItem[] = [];
-  let page = 0;
+  let page = 1;
   let currentIndex = 0;
+  let lastPage = false;
 
   const offsetItems = 6;
   let docsInBatch: Partial<Book>[] = [];
 
   while (true) {
-    nextUrl = nextUrl || url;
-
     if (
-      docsInBatch.length === 0
-      // ||
-      // currentIndex >= docsInBatch.length - offsetItems
+      !lastPage &&
+      (docsInBatch.length === 0 ||
+        currentIndex >= docsInBatch.length - offsetItems)
     ) {
+      nextUrl = nextUrl || url;
+
       const response: SearchResponse = await fetch(nextUrl)
         .then(response => response.json())
         .catch(error => error);
 
-      docsInBatch = response.docs;
+      lastPage = response.numFound - response.start < 100;
 
       //only books with cover image
-      docsInBatch = docsInBatch
+      const docs = response.docs
         .filter(book => book.cover_i)
         .map(
           ({
@@ -73,11 +78,13 @@ export async function* getContent(url: string) {
           })
         );
 
+      docsInBatch = [...docsInBatch, ...docs];
+
       if (docsInBatch.length === 0) {
         return;
       }
 
-      nextUrl = `${url}&page=${page++}`;
+      nextUrl = `${url}&page=${++page}`;
     }
 
     const ratio = Math.floor(currentIndex / offsetItems);
