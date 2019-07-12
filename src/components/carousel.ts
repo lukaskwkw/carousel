@@ -155,17 +155,14 @@ export default class MyTodo extends HTMLElement {
     }, time);
   }
 
-  startCarousel() {
-    return new Promise(async resolve => {
-      const swipe = this.swipeRight();
-      this.carouselRun = true;
+  async startCarousel() {
+    const swipe = this.swipeRight();
+    this.carouselRun = true;
 
-      while (this.carouselRun) {
-        await delay(2000);
-        swipe();
-      }
-      resolve();
-    });
+    while (this.carouselRun) {
+      await delay(2000);
+      swipe();
+    }
   }
 
   //TO-DO Sometime When second search is performed carousel is rotated wrong way
