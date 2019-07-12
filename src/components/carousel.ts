@@ -46,8 +46,8 @@ const style = css`
     padding: 0 var(--buttons-padding);
     transition: all ease-in-out 1s;
 
-    width: var(--carousel-size);
-    height: var(--carousel-size);
+    width: var(--carousel-width);
+    height: var(--carousel-height);
     transform-origin: 50% 50% var(--cricle-radius);
 
     /* firefox fix for parent is blocking child elements */
@@ -56,13 +56,50 @@ const style = css`
 
   .carousel-container > carousel-item {
     position: absolute;
+    top: 0px;
     pointer-events: auto;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
     transition: all ease-in-out 1s;
     cursor: pointer;
-    width: var(--carousel-size);
-    height: var(--carousel-size);
+    width: var(--carousel-width);
+    height: var(--carousel-height);
     transform-origin: 50% 50% var(--cricle-radius);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  li.item {
+    font-size: 24px;
+    transition: all ease-in-out 0.5s;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  li.item.selected {
+    /* background: #f6f6f6; */
+  }
+
+  carousel-item:not(.selected):hover {
+    top: -10px;
+    background: #f6f6f6;
+  }
+
+  li.item label {
+    white-space: pre;
+    word-break: break-word;
+    padding: 15px 5px 15px 15px;
+    display: block;
+    line-height: 1.2;
+    transition: color 0.4s;
+    display: none;
+  }
+
+  li.item img {
+    max-width: var(--carousel-width);
+    max-height: var(--carousel-height);
   }
 `;
 
@@ -125,9 +162,9 @@ export default class MyTodo extends HTMLElement {
     this.throttledRender = _throttle(() => this._render(), 250);
     this.throttledRender = this.throttledRender.bind(this);
     this.startCarousel = this.startCarousel.bind(this);
+    this.stopCarousel = this.stopCarousel.bind(this);
     this.swipeLeft = this.swipeLeft.bind(this);
     this.swipeRight = this.swipeRight.bind(this);
-    this.stopCarousel = this.stopCarousel.bind(this);
   }
 
   connectedCallback() {
@@ -146,28 +183,25 @@ export default class MyTodo extends HTMLElement {
   }
 
   swipeLeft(time: number = minimalSwipeTime) {
-    return _throttle(async () => {
+    return _throttle(() => {
       if (this.selectedIndex > 0) {
-        this.selectedIndex--;
-        this.toggleItem(this.selectedIndex);
+        this.stopCarousel();
+        this.toggleItem(this.selectedIndex - 1);
       }
     }, time);
   }
 
   swipeRight(time: number = minimalSwipeTime) {
-    return _throttle(async () => {
+    return _throttle(() => {
       if (!this._list) {
         return;
       }
 
-      // unescapez = "ss";
       const item = this._list.find(
         item => item.index === this.selectedIndex + 1
       );
       if (item) {
-        this.selectedIndex++;
-        this.toggleItem(this.selectedIndex);
-
+        this.toggleItem(this.selectedIndex + 1);
         this.startCarousel();
       }
     }, time);
@@ -222,26 +256,28 @@ export default class MyTodo extends HTMLElement {
     }
   }
 
-  toggleItem(itemIndex: number) {
+  toggleItem(newSelectedIndex: number) {
     const prevIndex = this.selectedIndex;
-    const prevItem = this._list[prevIndex];
-
-    this._list[prevIndex] = { ...prevItem, selected: false };
-
-    const newSelectedIndex = itemIndex;
-
-    const item = this._list[newSelectedIndex];
-    this._list[newSelectedIndex] = { ...item, selected: true };
-
     this.selectedIndex = newSelectedIndex;
 
-    if (this._content) {
-      this._content.next(this.selectedIndex).then(iterator => {
+    if (this._content && newSelectedIndex !== prevIndex) {
+      this._content.next(newSelectedIndex).then(iterator => {
         this._list = iterator.value;
+
+        this._list = this._list.map(item => {
+          if (item.index === prevIndex) {
+            return { ...item, selected: false };
+          }
+          if (item.index === newSelectedIndex) {
+            return { ...item, selected: true };
+          }
+          return item;
+        });
+
         this.throttledRender();
       });
+      this.throttledRender();
     }
-    this.throttledRender();
   }
 
   onCoverSelect(event: CustomEvent) {

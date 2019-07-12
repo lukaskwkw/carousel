@@ -3,8 +3,12 @@ $breakpoint-medium: 968px;
 $breakpoint-large: 1296px;
 
 :root {
+  --image-ratio: 1.5;
   --perspective-distance: 700px;
   --carousel-size: 500px;
+  --carousel-width: var(--carousel-size);
+  //ratio 1 : 1.5
+  --carousel-height: calc(var(--carousel-size) * var(--image-ratio));
   --cricle-radius: -1759px;
   --buttons-padding: 500px;
   // --cricle-radius: -559px;
@@ -27,6 +31,8 @@ $breakpoint-large: 1296px;
   :root {
     --header-size: 32px;
     --carousel-size: 400px;
+    --carousel-width: var(--carousel-size);
+    --carousel-height: calc(var(--carousel-size) * var(--image-ratio));
     --cricle-radius: -1559px;
     --buttons-padding: 300px;
   }

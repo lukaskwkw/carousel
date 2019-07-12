@@ -1,45 +1,8 @@
-import { css } from "../utils/helpers";
 import { Book, coverI } from "../model";
 
 const templateTodoItem = document.createElement("template");
 
-const style = css`
-  li.item {
-    top: 0px;
-    font-size: 24px;
-    transition: all ease-in-out 0.5s;
-    display: block;
-    position: absolute;
-    background: white;
-    width: inherit;
-    height: inherit;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-  }
-
-  li.item.selected {
-    /* background: #f6f6f6; */
-  }
-
-  li.item:not(.selected):hover {
-    top: -10px;
-    background: #f6f6f6;
-  }
-
-  li.item label {
-    white-space: pre;
-    word-break: break-word;
-    padding: 15px 5px 15px 15px;
-    display: block;
-    line-height: 1.2;
-    transition: color 0.4s;
-  }
-`;
-
 templateTodoItem.innerHTML = /* template */ `
-    <style>
-      ${style}
-    </style>
     <li class="item">
         <label></label>
         <img />
@@ -61,7 +24,6 @@ const createImageUrl: CrreateImageUrl = (id: coverI, size: ImageSize) =>
 
 export default class CarouselItem extends HTMLElement {
   _selected: boolean;
-  _root: ShadowRoot;
   _index: number;
   _book: Book;
   title: string;
@@ -72,16 +34,15 @@ export default class CarouselItem extends HTMLElement {
 
   constructor() {
     super();
-    this._root = this.attachShadow({ mode: "open" });
   }
 
   connectedCallback() {
-    this._root.appendChild(templateTodoItem.content.cloneNode(true));
-    this.$item = this._root.querySelector(".item");
-    this.$title = this._root.querySelector("label");
-    this.$img = this._root.querySelector("img");
+    this.appendChild(templateTodoItem.content.cloneNode(true));
+    this.$item = this.querySelector(".item");
+    this.$title = this.querySelector("label");
+    this.$img = this.querySelector("img");
 
-    this.$item.addEventListener("click", e => {
+    this.addEventListener("click", e => {
       e.preventDefault();
       this.dispatchEvent(
         new CustomEvent("onCoverSelect", { detail: this.index })
@@ -127,18 +88,16 @@ export default class CarouselItem extends HTMLElement {
   }
 
   _render() {
-    if (!this.$item) return;
-
-    this.$title.textContent = this.title;
+    // this.$title.textContent = this.title;
 
     if (this.src) {
       this.$img.setAttribute("src", this.src);
     }
 
     if (this._selected) {
-      this.$item.classList.add("selected");
+      this.classList.add("selected");
     } else {
-      this.$item.classList.remove("selected");
+      this.classList.remove("selected");
     }
   }
 }
