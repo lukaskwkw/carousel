@@ -49,6 +49,20 @@ const style = css`
     width: var(--carousel-size);
     height: var(--carousel-size);
     transform-origin: 50% 50% var(--cricle-radius);
+
+    /* firefox fix for parent is blocking child elements */
+    pointer-events: none;
+  }
+
+  .carousel-container > carousel-item {
+    position: absolute;
+    pointer-events: auto;
+    display: block;
+    transition: all ease-in-out 1s;
+    cursor: pointer;
+    width: var(--carousel-size);
+    height: var(--carousel-size);
+    transform-origin: 50% 50% var(--cricle-radius);
   }
 `;
 
@@ -113,6 +127,7 @@ export default class MyTodo extends HTMLElement {
     this.startCarousel = this.startCarousel.bind(this);
     this.swipeLeft = this.swipeLeft.bind(this);
     this.swipeRight = this.swipeRight.bind(this);
+    this.stopCarousel = this.stopCarousel.bind(this);
   }
 
   connectedCallback() {
@@ -145,44 +160,65 @@ export default class MyTodo extends HTMLElement {
         return;
       }
 
+      // unescapez = "ss";
       const item = this._list.find(
         item => item.index === this.selectedIndex + 1
       );
       if (item) {
         this.selectedIndex++;
         this.toggleItem(this.selectedIndex);
+
+        this.startCarousel();
       }
     }, time);
   }
 
-  async startCarousel() {
-    const swipe = this.swipeRight();
-    this.carouselRun = true;
+  startCarousel() {
+    if (this.carouselPromise) {
+      return;
+    }
 
-    while (this.carouselRun) {
-      await delay(2000);
-      swipe();
+    this.carouselPromise = (async () => {
+      const swipe = this.swipeRight();
+      this.carouselRun = true;
+
+      while (this.carouselRun) {
+        await delay(2000);
+        if (this.carouselRun) {
+          swipe();
+        }
+      }
+    })();
+  }
+
+  async stopCarousel() {
+    this.carouselRun = false;
+    if (this.carouselPromise) {
+      await this.carouselPromise;
+      this.carouselPromise = null;
     }
   }
 
-  //TO-DO Sometime When second search is performed carousel is rotated wrong way
   async search(event: CustomEvent) {
-    this.carouselRun = false;
+    this._list = [];
     const searchUrl = createSearchUrl(event.detail);
     this._content = getContent(searchUrl);
-    this._list = (await this._content.next()).value;
 
-    if (this._list && this._list.length > 0) {
+    const llistWithDelayedImages = (await this._content.next()).value;
+
+    if (llistWithDelayedImages && llistWithDelayedImages.length > 0) {
       this.selectedIndex = 0;
 
-      for (let i = 0; i < this._list.length; i++) {
-        this._list[i].delayedImage.then(() => this.throttledRender());
-      }
+      llistWithDelayedImages.forEach(item => {
+        item.delayedImage.then(() => {
+          this._list.push(item);
+          this.throttledRender();
+        });
+      });
 
-      if (this.carouselPromise) {
-        await this.carouselPromise;
-      }
-      this.carouselPromise = this.startCarousel();
+      await this.stopCarousel();
+      await delay(2000);
+      this.startCarousel();
     }
   }
 
@@ -209,6 +245,7 @@ export default class MyTodo extends HTMLElement {
   }
 
   onCoverSelect(event: CustomEvent) {
+    this.stopCarousel();
     this.toggleItem(event.detail);
   }
 

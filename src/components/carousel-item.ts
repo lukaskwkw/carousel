@@ -4,19 +4,6 @@ import { Book, coverI } from "../model";
 const templateTodoItem = document.createElement("template");
 
 const style = css`
-  :host {
-    position: absolute;
-    display: block;
-    transition: all ease-in-out 1s;
-    cursor: pointer;
-    width: var(--carousel-size);
-    height: var(--carousel-size);
-    transform-origin: 50% 50% var(--cricle-radius);
-    /* padding: 0 60px; */
-    /* top: 0;
-    left: 0; */
-  }
-
   li.item {
     top: 0px;
     font-size: 24px;
@@ -116,6 +103,10 @@ export default class CarouselItem extends HTMLElement {
     this._index = value;
   }
 
+  get index() {
+    return this._index;
+  }
+
   set book(bookString: string) {
     const book: Book = JSON.parse(bookString);
     if (book.title) {
@@ -125,10 +116,6 @@ export default class CarouselItem extends HTMLElement {
       this.src = createImageUrl(book.cover_i, ImageSize.LARGE);
     }
     this._book = book;
-  }
-
-  get index() {
-    return this._index;
   }
 
   set selected(value) {

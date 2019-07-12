@@ -67,7 +67,7 @@ export async function* getContent(url: string) {
 
       //only books with cover image
       const docs = response.docs
-        .filter(book => book.cover_i)
+        .filter(({ cover_i }) => cover_i && cover_i > 0)
         .map(
           ({
             last_modified_i,
