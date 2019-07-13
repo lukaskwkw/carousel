@@ -1,40 +1,83 @@
-$breakpoint-small: 600px;
+$breakpoint-small: 500px;
 $breakpoint-medium: 968px;
 $breakpoint-large: 1296px;
 
 :root {
   --image-ratio: 1.5;
   --perspective-distance: 700px;
-  --carousel-size: 500px;
+  --carousel-size: 400px;
   --carousel-width: var(--carousel-size);
   //ratio 1 : 1.5
   --carousel-height: calc(var(--carousel-size) * var(--image-ratio));
-  --cricle-radius: -1759px;
-  --buttons-padding: 500px;
-  // --cricle-radius: -559px;
-  // --cricle-radius: -259px;
+  --circle-radius: -1459px;
+  --buttons-padding: 400px;
+}
+
+@media screen and (max-width: $breakpoint-large) {
+  :root {
+    --carousel-size: 300px;
+    --carousel-width: var(--carousel-size);
+    --carousel-height: calc(var(--carousel-size) * var(--image-ratio));
+    --circle-radius: -1259px;
+    --buttons-padding: 375px;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  :root {
+    --carousel-size: 250px;
+    --carousel-width: var(--carousel-size);
+    --carousel-height: calc(var(--carousel-size) * var(--image-ratio));
+    --circle-radius: -1200px;
+    --buttons-padding: 325px;
+  }
 }
 
 @media screen and (max-width: $breakpoint-medium) {
   :root {
+    --perspective-distance: 700px;
     --header-size: 64px;
+    --carousel-size: 225px;
+    --carousel-width: var(--carousel-size);
+    --carousel-height: calc(var(--carousel-size) * var(--image-ratio));
+    --circle-radius: -900px;
+    --buttons-padding: 255px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  :root {
+    --perspective-distance: 700px;
+    --header-size: 32px;
+    --carousel-size: 200px;
+    --carousel-width: var(--carousel-size);
+    --carousel-height: calc(var(--carousel-size) * var(--image-ratio));
+    --circle-radius: -600px;
+    --buttons-padding: 120px;
   }
 }
 
 @media screen and (max-width: $breakpoint-small) {
   :root {
+    --perspective-distance: 700px;
     --header-size: 32px;
+    --carousel-size: 200px;
+    --carousel-width: var(--carousel-size);
+    --carousel-height: calc(var(--carousel-size) * var(--image-ratio));
+    --circle-radius: -450px;
+    --buttons-padding: 20px;
   }
 }
 
-@media screen and (max-width: $breakpoint-large) {
+@media screen and (max-width: 400px) {
   :root {
+    --perspective-distance: 700px;
     --header-size: 32px;
-    --carousel-size: 400px;
+    --carousel-size: 200px;
     --carousel-width: var(--carousel-size);
     --carousel-height: calc(var(--carousel-size) * var(--image-ratio));
-    --cricle-radius: -1559px;
-    --buttons-padding: 300px;
+    --circle-radius: -300px;
+    --buttons-padding: 20px;
   }
 }
 

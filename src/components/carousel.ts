@@ -27,11 +27,18 @@ const style = css`
 
   .title {
     font-size: 24px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 0;
   }
 
   .carousel {
     display: flex;
     perspective: var(--perspective-distance);
+    align-items: center;
   }
 
   .carousel button {
@@ -48,7 +55,7 @@ const style = css`
 
     width: var(--carousel-width);
     height: var(--carousel-height);
-    transform-origin: 50% 50% var(--cricle-radius);
+    transform-origin: 50% 50% var(--circle-radius);
 
     /* firefox fix for parent is blocking child elements */
     pointer-events: none;
@@ -66,7 +73,8 @@ const style = css`
     cursor: pointer;
     width: var(--carousel-width);
     height: var(--carousel-height);
-    transform-origin: 50% 50% var(--cricle-radius);
+
+    transform-origin: 50% 50% var(--circle-radius);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
   }
 
@@ -101,22 +109,28 @@ const style = css`
     max-width: var(--carousel-width);
     max-height: var(--carousel-height);
   }
+
+  .control {
+    height: 32px;
+  }
 `;
 
 templateTodo.innerHTML = /* template */ `
     <style>
       ${style}
     </style>
-    <h1>Carousel of Books</h1>
-    <section>
-        <carousel-searchbox></carousel-searchbox>
-        <p class="title"></p>
-        <div class="carousel">
-          <button id="left"><<</button>
-          <ul class="carousel-container"></ul>
-          <button id="right">>></button>
-        </div>
-    </section>
+    <div>
+      <h1>Carousel of Books</h1>
+      <section>
+          <carousel-searchbox></carousel-searchbox>
+          <p class="title"></p>
+          <div class="carousel">
+            <button class="control" id="left"><<</button>
+            <ul class="carousel-container"></ul>
+            <button class="control" id="right">>></button>
+          </div>
+      </section>
+    </div>
 `;
 
 export interface ListItem extends Partial<Book> {
