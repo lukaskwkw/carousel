@@ -17,6 +17,18 @@ const style = css`
     color: rgba(175, 47, 47, 0.15);
   }
 
+  @keyframes slideUpDown {
+    0% {
+      top: 0px;
+    }
+    50% {
+      top: -50px;
+    }
+    100% {
+      top: 0px;
+    }
+  }
+
   section {
     margin: 30px 0 40px 0;
     position: relative;
@@ -288,9 +300,10 @@ export default class MyTodo extends HTMLElement {
           return item;
         });
 
-        this.throttledRender();
+        //changed from throttledRender for animation improvement
+        this._render();
       });
-      this.throttledRender();
+      this._render();
     }
   }
 

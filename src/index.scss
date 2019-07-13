@@ -9,7 +9,9 @@ $breakpoint-large: 1296px;
   --carousel-width: var(--carousel-size);
   //ratio 1 : 1.5
   --carousel-height: calc(var(--carousel-size) * var(--image-ratio));
-  --circle-radius: -1459px;
+
+  //to-do: make it scalable, try not to use media query
+  --circle-radius: -4459px;
   --buttons-padding: 400px;
 }
 
@@ -82,5 +84,5 @@ $breakpoint-large: 1296px;
 }
 
 body {
-  background-color: #eee;
+  background-color: white;
 }
