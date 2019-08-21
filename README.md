@@ -28,7 +28,7 @@ Type some keywords of a book/s you want to search for i.e. "Lord of the rings"
 
 * Error handling
 * Add busy spinner indicator
-* Give button batter look
+* Give buttons batter look
 * Try use flex instead of media
 * Fix 3D Transform for ios devices
 * Add polyfill for older borwsers that aren't sporrting the webcomopnents.
