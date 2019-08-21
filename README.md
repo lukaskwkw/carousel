@@ -26,8 +26,8 @@ Type some keywords of a book/s you want to search for i.e. "Lord of the rings"
 
 ## TODO:
 
-Give button batter look
-Try use flex instead of media
-Fix 3D Transform for ios devices
-Add polyfill for older borwsers that aren't sporrting the webcomopnents.
+* Give button batter look
+* Try use flex instead of media
+* Fix 3D Transform for ios devices
+* Add polyfill for older borwsers that aren't sporrting the webcomopnents.
 
