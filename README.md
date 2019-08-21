@@ -1,6 +1,6 @@
 # Carousel
 
-3D Carousel of cover books with infinite loop. Backend api is using a async generator for fetching new content. Frontend side is just a WebComponent
+3D Carousel of cover books with infinite loop. Carousel is using a async generator for fetching new content, all components are WebComponents. Images are cached between searches so if user search the same query images are restored from cache.
 
 ## Prerequisites:
 
@@ -26,9 +26,12 @@ Type some keywords of a book/s you want to search for i.e. "Lord of the rings"
 
 ## TODO:
 
+* Error handling
+* Add busy spinner indicator
 * Give button batter look
 * Try use flex instead of media
 * Fix 3D Transform for ios devices
 * Add polyfill for older borwsers that aren't sporrting the webcomopnents.
 * Optional: Implement search by voice
+* Optiona: Cache size handling
 
