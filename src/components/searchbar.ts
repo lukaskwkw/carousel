@@ -22,7 +22,7 @@ templateTodoInput.innerHTML = /* template */ `
         }
     </style>
     <form>
-        <input class="searchbox" type="text" placeholder="Say search for..." />
+        <input class="searchbox" type="text" placeholder="Search for..." />
     </form>
 `;
 

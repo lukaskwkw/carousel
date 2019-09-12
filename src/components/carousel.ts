@@ -161,17 +161,17 @@ export default class MyTodo extends HTMLElement {
   $carouselContainer: HTMLElement;
   $bookTitle: HTMLElement;
   selectedIndex: number;
-  itemOffset: number = 6;
+  itemOffset = 6;
   theta: number;
   throttledRender: Function;
-  carouselRun: boolean = false;
+  carouselRun = false;
   carouselPromise: Promise<any>;
 
   constructor() {
     super();
     this._root = this.attachShadow({ mode: "open" });
     this._list = [
-      { index: 0, selected: false, title: "Pomarancze" },
+      { index: 0, selected: false, title: "" },
       { index: 1, selected: false },
       { index: 2, selected: false },
       { index: 3, selected: false },
@@ -282,7 +282,7 @@ export default class MyTodo extends HTMLElement {
     }
   }
 
-  toggleItem(newSelectedIndex: number) {
+  toggleItem(newSelectedIndex: number | any) {
     const prevIndex = this.selectedIndex;
     this.selectedIndex = newSelectedIndex;
 
@@ -317,7 +317,7 @@ export default class MyTodo extends HTMLElement {
   _render() {
     if (!this.$carouselContainer) return;
     this.$carouselContainer.innerHTML = "";
-    let { _list, selectedIndex } = this;
+    const { _list, selectedIndex } = this;
     const { length } = _list;
 
     this.$carouselContainer.style["transform"] = `rotateY(${selectedIndex *
@@ -331,7 +331,7 @@ export default class MyTodo extends HTMLElement {
 
     _list.forEach(item => {
       const { index } = item;
-      let $item = document.createElement("carousel-item") as CarouselItem;
+      const $item = document.createElement("carousel-item") as CarouselItem;
       $item.setAttribute("book", JSON.stringify(item));
 
       animateItem(
